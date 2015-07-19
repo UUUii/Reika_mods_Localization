@@ -423,7 +423,7 @@ label.fuel=剩余染料
 
 message.drowning=引擎进水!
 message.fod=引擎被动物损坏!
-message.choke=引擎通风口被顺坏!
+message.choke=引擎通风口被损坏!
 message.minpower=功率不足!
 message.mintorque=扭矩不足!
 message.minspeed=速率不足!
