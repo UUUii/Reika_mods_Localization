@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0"?>
 <categories>
 	<misc>
-		Some important information on operating some machines and some essential tools.
+		机器操作和一些基础工具的重要信息.
 	</misc>
 	<engine>
-		Perhaps the most crucial of all the machines, engines are used to supply power. Each has their own torque and speed characteristic, but they all generally are high speed and low torque. Each engine also has its own requirements in terms of energy supply, and some engines have their own special quirks that it is wise to know.
+		对于所有机器来说这或许是最重要的存在,引擎用于提供能量. 它们都有着各种不同的扭矩及转速特性,但普遍都是转速高而扭矩小. 满足其所需条件引擎才能提供能量,一些引擎的特殊之处最好了解一下.
 	</engine>
 	<trans>
-		The possibilities would be rather limited if power produced by the engines had to be consumed at the source. Fortunately, it is simple and easy to transport this power, almost losslessly, across any distance you care to. One important thing to note about many of these is that they are directional - they transmit power in only one direction. Machines will render a green cage around their input block(s) and a red one around their output block(s).
+		如果在源头就不得不用掉引擎所产生的能量,所能做到的相当有限. 所幸传输这种能量十分简易,并且几乎无损,你可以传输任意距离.需要注意的一点就是能量传输具方向性-它们只能在一个方向上传输. 机器会在输入端渲染出绿色框,而输出端则是红色框.
 	</trans>
 	<procmachine>
-		These machines are used to process materials, either creating new materials, increasing yields, or converting items between mods.
+		这些机器用于加工处理各种材料,来制作新材料,增加产量,或在模组之间转化物品.
 	</procmachine>
 	<utilmachine>
-		These are machines which fill specific purposes not easily categorized into the other groups.
+		这些机器不属于其他分类,用于满足特殊的需求.
 	</utilmachine>
 	<prodmachine>
-		These are machines used to produce basic resources, either directly from mining or from raw ingredients.
+		这些机器利用采矿和其他途径获取的原材料生产基础资源.
 	</prodmachine>
 	<survmachine>
-		These machines are used to evaluate your surroundings, to become more aware of potential dangers or items of value.
+		这些机器用于评估你所在的环境,警惕潜在的危险或是寻找那些有价值的东西.
 	</survmachine>
 	<wepmachine>
-		Weaponry- and Protection-type machines are used to attack opponents - either mobs or players - and defend yourself from their attacks.
+		攻防型机器用于攻击敌人,如怪物或玩家,让你能抵御他们的攻击.
 	</wepmachine>
 	<farmmachine>
-		These machines are designed to be used to either replace or enhance traditional farms.
+		这些机器用于代替或增强传统的农场.
 	</farmmachine>
 	<cosmachine>
-		Cosmetic machines provide little to no utilitarian bonus, but provide visual or acoustic appeal.
+		装饰型机器不能产生什么实际性的作用,但可以提供视觉和听觉的效果.
 	</cosmachine>
 	<accmachine>
-		Not terribly useful alone, these machines are designed to work with others to enhance their functionality.
+		单独来看不太有用的一类,这些机器用于配合其他机器,以增强它们的功能.
 	</accmachine>
 	<tool>
-		These are the tools powered by wound-up coils. Their coil depletes slightly with each use. To recharge them, craft them with a new coil and you will get the old coil back, which can be used again.
+		这些是用卷线弹簧供能的工具.卷线弹簧会在每次使用后耗尽能量.充能时只需将工具和一个新的弹簧合成即可,旧的弹簧会返还以供继续使用.
 	</tool>
 	<resource>
-		These are the resource-type items, used for various purposes.
+		这些是资源物品,用于各种用途.
 	</resource>
 </categories>
