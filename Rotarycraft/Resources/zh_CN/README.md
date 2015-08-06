@@ -6,5 +6,5 @@
 * [ ] machines
 * [x] misc
 * [ ] resource
-* [ ] thaum
+* [x] thaum
 * [ ] trans
