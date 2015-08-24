@@ -5,6 +5,6 @@
 * [x] info
 * [x] machines
 * [x] misc
-* [ ] resource
+* [x] resource
 * [x] thaum
-* [ ] trans
+* [x] trans
