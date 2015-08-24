@@ -1,68 +1,68 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <machines>
 	<bedrockbreaker>
 		<desc>
-			The bedrock breaker will, when sufficiently powered, gradually grind away at the bedrock blocks in front of it and move on to the next block. When each block is consumed, it will expel some bedrock dust, which can be used to make the highest tier of tools or shafts and gears - bedrock. This machine's operational speed goes up as the input speed does. This machine will NOT break the bedrock at layer 0.
+			在有足够能量的前提下,基岩破坏器会一点一点的破坏前方的基岩方块并转移到下一个方块的位置.每个基岩方块被完全破坏时,破坏器会排出一些基岩粉, 用于制作更高级的工具,轴以及齿轮.这台机器的运作速度会随着输入的转速的增大而增大.同时它不会破坏第0层的基岩.
 		</desc>
 		<note>
-			Required Power: %dW
-			Required Torque: %d Nm
-			Power Input: Back
+			需求功率: %dW
+			需求扭矩: %d Nm
+			动力输入: 后侧
 		</note>
 	</bedrockbreaker>
 	<fermenter>
 		<desc>
-			The fermenter is how you produce the ethanol for the engines that require it. To make yeast, place sugar in the top slot, and dirt on the bottom. To make sludge, put yeast on top and plant matter on the bottom. Put that in a furnace, and you will get crystals of ethanol. This machine's operational speed rises as the input speed does. This machine is temperature-sensitive, and very low or high temperatures will slow it down or even kill the yeast. To automate this machine, use redstone to choose the target production item (displayed at the top-right of the GUI). The middle GUI slot is in fact a water gauge, not an item slot.
+			发酵机能制作引擎运作所需要的乙醇.若要制作酵母,需要在顶部的槽位放入糖,底部槽位放入泥土. 若要制造烂泥,则需要在顶部槽位放入酵母,底部槽位放入植物物质. 把加工好的发酵泥放入熔炉内烧制即可得到乙醇晶体.这台机器的运作速度会随着输入的转速增大而增大.这台机器对外界温度极其敏感,过高或是过低的温度都将可能减少或杀死酵母.可以通过红石信号来切换机器目标产物 (显示在gui的右上方). gui里,中间槽位用于缓存水而不是物品.
 		</desc>
 		<note>
-			Required Power: %dW
-			Required Speed: %d rad/s
-			Power Input: Back
+			需求功率: %dW
+			需求扭矩: %d rad/s
+			动力输入: 后侧
 		</note>
 	</fermenter>
 	<grinder>
 		<desc>
-			The grinder does exactly what its name suggests - it grinds things. Stone to cobblestone, cobble to gravel, gravel to sand, that sort of thing. It also plays a critical role in the lubrication of gearboxes - it grinds the canola seeds into an oil usable as lubricant. This machine's operational speed goes up as the input speed does.
+			研磨机的功能就如图它名字那样- 用来研磨材料. 石头加工成圆石,圆石加工成砂砾,砂砾加工成沙子,等等.它对变速箱的润滑至关重要 - 它能把油菜籽加工成用于润滑的油.这台机器的运作速度会随着输入的转速的增大而增大.
 		</desc>
 		<note>
-			Required Power: %dW
-			Required Torque: %d Nm
-			Power Input: Back
+			需求功率: %dW
+			需求扭矩: %d Nm
+			动力输入: 后侧
 		</note>
 	</grinder>
 	<floodlight>
 		<desc>
-			The floodlight creates a beam of light that illuminates everything in its path until blocked by an opaque, solid block. Perfect for lighting up large spaces where point-source light sources like torches will simply not cut it.
+			探照灯能发出一道照亮一切的光束,直到光束被不透明方块所阻挡. 适用于给火把这类光源所不能照明的大范围区域.
 		</desc>
 		<note>
-			Required Power: %dW
-			Power Input: Back
+			需求功率: %dW
+			动力输入: Back
 		</note>
 	</floodlight>
 	<heatray>
 		<desc>
-			One of the most powerful and expensive of the machines, the heat ray creates a beam of fiery death and destruction for as long as its range allows. While it is hard to supply enough power to turn the thing on, let alone unlock some of its more powerful capabilities, it, fully powered, is capable of burning down a biome kilometers away if you let it. Extra power to this machine, in addition to increasing range, also increases the range and strength of its ability to melt rock, light TNT...
+			这是其中一个最昂贵且强大的机器,热能射线会发射出一道极具破坏性的超高温热射线.在还没给足足够的功力前,不会激发那些未曾展现的能力, ,输入足够的动力后,它能烧毁千里之外的一个生物群系. 额外的动力会增加它的范围,也能增大它熔化岩石或者点燃TNT的范围
 		</desc>
 		<note>
-			Required Power: %dW
-			Range = 8+(Power-%d)W/%d m
-			Power Input: Back
+			需求功率: %dW
+			范围 = 8+(Power-%d)W/%d m
+			动力输入: Back
 		</note>
 	</heatray>
 	<borer>
 		<desc>
-			The boring machine is rather interesting. It will dig tunnels in the direction it is facing for as long as you like. With the GUI, you can control the tunnel shape, and control the item drops. Harder materials require more power and torque to dig - %dW per hardness points of the blocks in front of it, and up to %d Nm of torque per block to cut through the harder materials. The borer will ensure that the tunnel roof does not collapse by replacing sand and gravel. Rumor has it that certain underground mazes found in a mythical forest are easily conquered with this machine, though the hard stone makes for a high torque requirement.
+			钻机是非常有趣的设备. 它会根据你所选择的方向挖掘出一套隧道.在gui里,你可以控制隧道的挖掘形状以及掉落的物品. 坚硬的方块需要更高的功率以及扭矩才能开采-每点硬度的方块需要功率%dW ,更硬的方块需要%dNm的扭矩才能开采 . 为预防隧道崩塌钻机会自动替换其顶部沙子和砂砾.传言这台机器可以帮你轻松征服一个神秘森林的地下迷宫,尽管你需要更高的扭矩才能破坏它
 		</desc>
 		<note>
-			Required Power: Varies
-			Required Torque: Varies
-			Power Input: Back
-			Can harvest the imitation-bedrock used to protect the lower floor of certain mazes if given enough torque and power
+			需求功率: 任意
+			需求扭矩: 任意
+			动力输入: 后侧
+			如果提供足够的扭矩和功率,它也能破坏用于保护某些迷宫低层的人造基岩类方块
 		</note>
 	</borer>
 	<piledriver>
 		<desc>
-			The pile driver repeatedly impacts the ground to break it apart, digging a deep, narrow shaft. This shaft will go through any liquids in its path, and will go through everything but bedrock. Multiple impacts are required to break some harder materials, and the vibration will dislodge things like paintings, uproot saplings, and disorient players. Beware: Being in the path of the mining pile will end exactly as you may imagine. This machine's power requirements go up the deeper it digs - %dW per meter depth.
+			打桩机会反复锤击地面将其破坏,一点点深入挖掘,产生一个狭窄的竖井.它会贯穿沿途除了基岩外的方块以及流体. 破坏一些较硬的材料需要更大的冲击力,冲击会震落壁画,使树苗脱落以及眩晕玩家. 注意:你可以想象你站在它运作路径上会发生什么事.这台机器所需要的功率会随着挖掘的深度而增加 - 每米%dW.
 		</desc>
 		<note>
 			Required Power: %dW per meter
@@ -72,7 +72,7 @@
 	</piledriver>
 	<aerosolizer>
 		<desc>
-			The potion aerosolizer has nine internal tanks which can store up to 64 bottles of potion each. These effects are dispersed through the entire room the machine is in, and applied to all entities within. Filling more than one slot with the same potion type will result in upgraded effects.
+			药水雾化器内置九个储罐,每个储罐最多能够储存64瓶药水.药水的效果会弥漫在机器所处的空间内,并施加在其中的所有生物. 用同种药水填充多个槽可以提升药水的效果.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -81,7 +81,7 @@
 	</aerosolizer>
 	<lightbridge>
 		<desc>
-			This machine will, when its enormous power requirement is satisfied, emit a beam of solid, tangible light which can be walked upon and will support any mass placed on it. Nothing can destroy this beam, but it will be blocked by any non-air block. Note that it requires bright light above it - or a view of the sky - in order to be able to make the beam.
+			这台机器在满足了极大的功率需求后,会产生一条能让生物在上面行走或者能够放置各种物体的固体光桥.尽管光桥无坚不摧,但其会被任意非空气所阻挡. 注意的是机器上方需要有亮光 - 亦或是直视天空 - 才能制造出光桥.
 		</desc>
 		<note>
 			Required Power: %dW for full range, or %dW per meter
@@ -90,24 +90,24 @@
 	</lightbridge>
 	<extractor>
 		<desc>
-			The extractor is used to get more material out of ore. First, it grinds ore to dust, then mixes it with water to form a slurry, then presses that slurry through a filter to obtain a liquid solution, then burns the result to obtain ore flakes. These flakes can be smelted in a furnace to obtain a unit of the ore's material. Each stage in the extractor has at least a 50%% chance of doubling the output. The machine's requirements are complex and vary from stage to stage, but a supply of water and %d Nm of torque at %d rad/s will run all four stages.
+			提取机能从原矿中得到更多的副产物. 首先,它将矿物磨为粉末,再与水混合产生矿浆,将矿浆通过滤网压出矿液,之后烘烤获得矿屑.矿屑放入熔炉冶炼能获得原矿对应的产物. 每个阶段至少有50%%的几率实现双倍增产.提取机对动力的要求非常复杂,每个阶段各有不同, 但持续供水并提供%d Nm的扭矩和%drad/s的转速就能让四个步骤同时运作.
 		</desc>
 		<note>
-			Stage 1 Power: %dW
-			Stage 2 Power: %dW
-			Stage 3 Power: %dW
-			Stage 4 Power: %dW
-			Stage 1 Torque: %dNm
-			Stage 4 Torque: %dNm
-			Stage 2 Speed: %drad/s
-			Stage 3 Speed: %drad/s
-			Power Input: Bottom
-			Notes: Stages 2 and 3 require a water supply
+			阶段1功率: %dW
+			阶段2功率: %dW
+			阶段3功率: %dW
+			阶段4功率: %dW
+			阶段1扭矩: %dNm
+			阶段4扭矩: %dNm
+			阶段2速度: %drad/s
+			阶段3速度: %drad/s
+			动力输入: 底面
+			提示: 阶段2和3均需要水的供应
 		</note>
 	</extractor>
 	<pulsejet>
 		<desc>
-			The pulse jet is a powerful furnace. While it will not smelt the ordinary recipes, it will melt obsidian into glass that is immune to TNT, melt armor and tools back into ingots, and make steel more efficiently than a standard furnace. It will get VERY hot, and will ignite nearby flammable materials - keeping it cooled with water is a necessity. While there is no minimum power requirement, the jet requires high shaft speeds. The pulse jet consumes jet fuel to operate, and a rather large amount of it. This machine receives power from below.
+			发动机燃炉是一台强力的炉子.然而它并不能进行原版的合成,但却可以把黑曜石熔为可以抵御TNT的玻璃,能将盔甲和工具重熔成锭,以及更高效率的生产钢.他它运作时会产生极高的温度,以至于点燃周围的可燃物-这也有了需要用水冷却的必要.尽管没有最小的功率要求,但需要极大的转速. 发动机燃炉运作时还需要提供航空燃油,并且会大量的消耗.而动力需要从它的底部输入.
 		</desc>
 		<note>
 			Required Speed: %d rad/s
@@ -117,7 +117,7 @@
 	</pulsejet>
 	<pump>
 		<desc>
-			The pump will, when provided with power, will suck up liquids from the surrounding area and pump them into pipes, for transport to a machine that can use it. Water is often used as coolant, while lava is more often pumped to a reservoir for convenient access or as fuel to some engines.
+			泵在动力充足时会从周围的环境中吸取流体,将它们泵入管道中.水常被作为冷却剂,多数情况下用于抽取岩浆输入到流体池,用于作为某些引擎的燃料.
 		</desc>
 		<note>
 			Required Power: %d W
@@ -127,7 +127,7 @@
 	</pump>
 	<reservoir>
 		<desc>
-			The reservoir is simply a tank for storing any liquid, with a maximum capacity of %d cubic meters (buckets). It can be right-clicked with a bucket to add or remove liquid, and if it is full of water, glass bottles can be filled from it. Additionally, they can be linked horizontally to form large vats.
+			流体池用于装载各种流体,最多可以装载%d立方米(桶).用桶右击可以存入或取出流体,如果里面装满水,也可用玻璃瓶装水.此外,在水平面上相连可以形成一个更大的容器.
 		</desc>
 		<note>
 			Capacity: %d m^3 per block
@@ -135,33 +135,33 @@
 	</reservoir>
 	<fan>
 		<desc>
-			The fan emits a stream of air that will push entities around. With greater input power, heavier entities can be moved, and all entities will accelerate faster. A minimum of %dW of power is required, and power levels greater than %dW of power will have no increased effect due to airflow limitations. The fan, at higher speeds, can also be used to uproot crops to harvest them, and to put out - or spread - fires.
+			风扇会制造出能够吹走实体的气流.输入的功率够大的话可以吹走更重的实体,并且所有的实体都会加速得更快.需要最小功率为%d,由于气流的受限在功率没有强于%dW时不会有提升任何效果.风扇在高速运作时能够收割作物,扑灭-或转播-火势.
 		</desc>
 		<note>
-			Required Power: %dW
-			Range = 8+(Power-MINPOWER*2)/%d m
-			Power Input: Back
-			Harvesting Speed: %d rad/s
-			Fire Extinguish Speed: %d rad/s
+			需求功率: %dW
+			范围 = 8+(功率-最小功率*2)/%d m
+			动力输入: 后侧
+			收割转速: %d rad/s
+			灭火转速: %d rad/s
 		</note>
 	</fan>
 	<compactor>
 		<desc>
-			The compactor is capable of compressing coal until it becomes anthracite, then prismane, then lonsdaleite, then diamond. Each stage will require four of the input items per unit output. All steps require enormous pressures of %dkPa and temperatures of greater than %dC to take place. The compactor will gradually heat or cool depending on its surroundings, and pressure is built up by applying high torques.
+			压缩机能将煤炭依次压缩为无烟煤,棱晶烷,蓝丝黛尔石,钻石.每阶段都需要4单位的原料输入. 全阶段需要高达 %dkPa的压强和以及高于%dC的温度才能进行.压缩机会因环境不同而渐渐升温或降温,而压强是由巨大的输入扭矩产生的.
 		</desc>
 		<note>
-			Required Power: %dW
-			Required Torque: %d Nm
-			Required Pressure: %dkPa
-			Required Temperature: %dC
-			Max Pressure: %dkPa
-			Max Temperature: %dC
-			Power Input: Back
+			需求功率: %dW
+			需求扭矩: %d Nm
+			需求压强: %dkPa
+			需求温度: %dC
+			最大压强: %dkPa
+			最高温度: %dC
+			动力输入: Back
 		</note>
 	</compactor>
 	<autobreeder>
 		<desc>
-			The auto-breeder will lure in animals, and when they get close, feed them until they feel like breeding. With this machine, you can quickly amass large herds. Each animal has its own desired food item; without that item, the machine will fail to attract or feed the animal. Wolves, for example, particularly like raw pork. The food item will be consumed when the animal enters breeding mode.
+			自动饲养机会引诱动物,当它们靠近时会开始喂养直至动物们开始繁殖.依靠这台机器,你可以快速集聚兽群.每种动物均有它们想要的食物;如果没有,机器无法引诱或喂养动物.比如,狼喜欢猪肉.当动物进入繁殖模式时,食物会被消耗掉.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -171,7 +171,7 @@
 	</autobreeder>
 	<baitbox>
 		<desc>
-			The bait box will attract or repel mobs of all kinds, provided it contains the appropriate items to do so. For example, Endermen are attracted by grass blocks and the opportunity to take them, but are repelled by the faces on soul sand staring back at them. These items are not consumed.
+			引诱盒可以引诱或者驱赶怪物,只需放入合适的物品即可.例如,末影人会被草方块所吸引,靠近并企图带走它,但会被灵魂沙上那恐怖的哭脸所吓跑.用于吸引的物品不会被消耗.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -181,7 +181,7 @@
 	</baitbox>
 	<firework>
 		<desc>
-			The firework machine will, when given the appropriate ingredients with which to make fireworks, craft random fireworks out of the possible recipes and launch them automatically. When given pre-made firework stars, it will use those preferentially. With excess power input, the machine is capable of conserving ingredients and thus getting far more than one firework out of the same amount of ingredients.
+			烟火发射器会在得到足够的动力后开始随机制作烟火并自动发射.如果提供的是烟火之星,机器会优先使用它.提供更多的动力可以让机器在原本同等耗材的基础上制作更多的烟火.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -191,7 +191,7 @@
 	</firework>
 	<fractionator>
 		<desc>
-			The fractionator distills various items and refines them into jet fuel for use in some of the engines and machines. Jet fuel requires tar, netherrack dust, coal, blaze powder, ethanol, and magma cream. Additionally, ghast tears are used as a solvent, but are not consumed like the other items. Fuel lines connect only to the top of this machine.
+			分馏器会蒸馏原料并精炼成用于一些引擎以及机器的航空燃油.精炼航空燃油需要沥青砂,下界石粉,煤炭,烈焰粉,乙醇以及岩浆膏.此外,恶魂之泪只作为加工的催化剂,并不会像其他材料那样被消耗掉. 航空然后只能从机器的顶部输出.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -201,7 +201,7 @@
 	</fractionator>
 	<gpr>
 		<desc>
-			The Ground-Penetrating Radar is capable of reading the densities and other properties of the blocks below it, and from that determining what blocks lie below. This allows it to draw a cross-sectional map of caves, underground structures, and other materials. Larger power inputs will give it a wider field of view, topping out at 82 blocks wide.
+			探地雷达能读取其下方各岩层的密度,性质间的差异,从而判断下方的方块.这使得它能够描绘出地洞,地下构造以及各方块材质的横截图. 提供更多的动力可以获得更广的探测视野,最大可达82格.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -211,7 +211,7 @@
 	</gpr>	
 	<heater>
 		<desc>
-			Tired of blowing up your compactors and other machines by overheating them? The heater will heat itself to a temperature you specify, and when placed below a machine, will warm it to a temperature near its own. The heater will consume any fuel that the standard furnace can, with stronger fuels providing more heat, up to 800C from one lava bucket.
+			总是因为把握不好温度而弄爆你的压缩机或是其他机器?当加热器被放置在一个机器的下方时,它会把自身温度维持在你所设定的温度值.它会消耗原版熔炉所能消耗的一切燃料,能量越好提供的温度越多, 比如岩浆桶可以让其升温至800C.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -221,7 +221,7 @@
 	</heater>
 	<obsidian>
 		<desc>
-			The obsidian factory will mix piped-in water and lava to produce obsidian. Be careful; if the machine is left full of only lava too long, it will start to overheat and will eventually melt.
+			黑曜石工厂会将泵入的水跟岩浆做成黑曜石.注意;如果机器仅残存岩浆过长时间,最终会因过而把机器熔毁.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -233,7 +233,7 @@
 	</obsidian>
 	<playerdetector>
 		<desc>
-			The player detector does exactly what its name implies - when a player comes within its configurable range, it will emit a redstone signal. The maximum range is determined by the power input, and the reaction time of the detector - the delay between a player entering a range and the signal output - is dependent on the speed input.
+			玩家探测器功能如它的名字那样 - 当玩家进入其检测范围时,它会输出红石信号. 最大检测范围由输入的功率大小决定,同时机器的反应时间 - 玩家进入范围到信号输出之间的延迟 - 取决于转速的大小.
 		</desc>
 		<note>
 			Range = (Power)/%d m
@@ -243,7 +243,7 @@
 	</playerdetector>
 	<spawnercontroller>
 		<desc>
-			The spawner controller hacks into the functioning of a monster spawner, allowing you to either shut it down completely, or to adjust the spawn rate as you see fit. The minimum allowable spawn rate is determined by the speed input.
+			刷怪笼控制器能让你入侵刷怪笼的运作系统,让你能完全关闭它或按照你的需要调整刷怪频率.最小的刷怪速度由输入的转速决定.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -253,7 +253,7 @@
 	</spawnercontroller>
 	<sprinkler>
 		<desc>
-			The sprinkler will, when supplied with water, spray it out on the blocks below, watering crops and speeding up their growth, hydrating farmland, and extinguishing fires. Higher water pressures - created by larger power inputs to the pumps - result in increased range.
+			洒水器在提供水后,会将其喷射至下方的方块上,浇灌作物加快其生长,湿润土地以及扑灭火焰. 更高的水压 - 由导入泵内的功率决定 - 这会使得洒水器的作用范围更大.
 		</desc>
 		<note>
 			Range: Water Pressure/80
@@ -261,7 +261,7 @@
 	</sprinkler>
 	<vacuum>
 		<desc>
-			The item vacuum draws items and XP orbs towards it, and will absorb them into its internal storage when they get close. To extract the stored XP, right-click it with a screwdriver while sneaking. The item vacuum can also suck items from inventories horizontally adjacent to it (except other vacuums).
+			物品吸尘器会把物品以及经验吸向自己,并存入自身内部的储存空间里. 若要提取经验,只需手持螺丝刀潜行模式下右击即可.物品吸尘器会吸取与它水平面临近的容器(除了其他物品吸尘器).
 		</desc>
 		<note>
 			Required Power: %dW
@@ -271,7 +271,7 @@
 	</vacuum>
 	<woodcutter>
 		<desc>
-			The woodcutter will cut away at the trunk of a tree, causing the rest of the tree to collapse, possibly replanting the tree if it dropped saplings. If enchanted with infinity, it will always replant the tree.
+			伐木机会砍伐树木的树干,使其的剩余部分掉落,若有树苗掉落将会自动补种.如果附魔无限,伐木机总能补种树苗.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -281,16 +281,16 @@
 	</woodcutter>
 	<ecu>
 		<desc>
-			The engine controller can throttle down the fuel-powered engines. When throttled down, they output their usual torque, but at a fraction of the speed. The benefit of this is that they consume fuel more slowly; slower speeds have greater efficiencies than faster ones, though turbine engines do not see as large a benefit. Modes are changed by right-clicking the ECU with a screwdriver. The ECU can also accept a redstone input, which will shut the engine down entirely.
+			引擎控制单元能够控制靠燃料驱动的发动机的油门.关小油门时,保持正常模式下的扭矩输出,但速度会变小. 这样的好处是减慢燃料的消耗; 低转速比高转速更能提高燃料利用率,低速度比高速度拥有更好的效率, 为此航空引擎也不见得输出大一定是好事. 模式是通过手持螺丝刀右击ECU来切换.ECU还可以接受一个红石信号,使得它能完全关闭一个引擎.
 		</desc>
 		<note>
-			Available Modes:
+			可用模式:
 			%s
 		</note>
 	</ecu>
 	<mobradar>
 		<desc>
-			The mob radar can detect mobs in a large radius around it, and is unobstructed by blocks in the way. It will display their positions on the NSEW plane, signified with the appropriate icon. If you have a motion tracker in your inventory, the radar will also render a HUD of sorts to alert you to mob positions near you.
+			怪物探测器能够探测其范围内的生物,并且不受方块阻挡. 它会在NSEW界面里显示生物的范围并用图标标记它们.如果你携带了运动跟踪器,探测器会渲染出一个HUD,提醒你附近怪物的位置.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -300,7 +300,7 @@
 	</mobradar>
 	<winder>
 		<desc>
-			The coil winder is used to wind up coil items, to store mechanical energy for later use. It can also use previously-wound coils as an energy source, thus allowing you to transport power in item form.
+			卷线器会用于盘卷弹簧线圈,使其充入机械能方便之后的使用.它也能让预先充能好的弹簧作为动力源,这使得物品形式的能源传输成为可能.
 		</desc>
 		<note>
 			Maximum energy acheivable is proportional to torque input
@@ -308,7 +308,7 @@
 	</winder>
 	<tntcannon>
 		<desc>
-			The TNT cannon fires primed TNT either with a given velocity (specified by speed, launch angle, and compass heading), or to a specific target coordinate. It requires a continuous supply of TNT to continue operation. It requires higher torques to fire at steeper angles, more speed to fire faster projectiles, and more power to reach farther targets.
+			TNT卡农炮能进转填好的TNT以设定速度(指定的速度,发射仰角,发射方位),或一个特定的目标位置. 它需要持续提供TNT才能运作. 更斜的发射仰角需要更大的扭矩,更快的发射速度需要更大的转速, 而更远的距离则需要更大的动力输入.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -318,7 +318,7 @@
 	</tntcannon>
 	<sonicweapon>
 		<desc>
-			The sonic weapon is a ranged defense weapon designed to protect against hostile mobs and players. At higher and higher volumes (made possible by higher input torques), it can cause more and more debilitating effects on those in its effect radius, from confusion to blindness to drowning to death. This machine follows the inverse-square law, and thus the sound intensity and the severity of its effects decrease accordingly. 
+			超声波武器是一种防护设备,用于抵御那些敌对的生物以及玩家.随着音量的增大 (通过更大的扭矩输入来提到音量的上限),它会在对作用范围内造成越来越多的负面效果,从反胃到失明,眩晕甚至是死亡.这台机器遵循平方反比定律,因此声源的强度与影响效果会相应减弱.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -332,20 +332,21 @@
 	</sonicweapon>
 	<blastfurnace>
 		<desc>
-			The blast furnace is the main way to make steel. Simply supply carbon (in the form of coal or coke) at the left, gunpowder at the bottom-left, sand in the top-left, and fill any or all of the middle nine slots with iron ingots. Heat the machine to %dC to start the alloying process. The machine will operate more efficiently with coke and with more slots full of iron. The coal is not fuel - an external heat source is required. This machine is also used to make bedrock ingots. To make that, put 4 bedrock dust in the left, one steel ingot in the top-left of the grid, and heat the machine to %dC.
+			高炉是钢的主要来源. 只需要在左侧提供碳 (以煤或者焦煤的形式),左下方放入火药,左上方放入沙子,并在中间的9个槽内填满任意数量的铁锭. 加热机器到%dC即可开始运作,使用焦煤并填满用铁锭填满所有的槽位可以有更高的产出.煤炭并非是燃料 - 为此一个外部热源.这台设备也可用于制造基岩合金锭.需要在左侧放入四个基岩粉,槽位左上方放入钢锭,并加热至%dC.
 		</desc>
 		<note>
-			Steel Requirements: Coal/coke in left slot, gunpowder in bottom-left, sand in top-left, iron in middle slots
+			炼钢需求: 左侧槽位为煤/焦煤, 左下方为火药,左上方为沙子,铁锭在中间槽区.
 
-			Bonuses: Chance increases as the number of filled slots rises, max 50 percent
-			Max bonus size: Increases as the number of filled slots rises, max 100 percent
+			增产: 几率随着填满格子的数量增加而递增,最大为百分之50
+			最大增产量: 填充的格子越多越大,,最大为百分之100
 
-			XP per steel ingot: %.2f
+			每个钢锭的经验数: %.2f
 		</note>
 	</blastfurnace>
 	<forcefield>
 		<desc>
-			The force field emits a solid sphere of energy that repels all hostile mobs and projectiles. Note that it is only solid in one direction - threats may leave but cannot re-enter. However, due to the large magnetic field, arrows will be diverted even if launched from inside the sphere. This machine needs a clear view above it equal to the selected radius.
+			立场发生器发射一个球状的立场体,用于抵御一切敌对的怪物以及弹射物.注意的是它只有一个方向是固态的 - 有威胁的对象离开立场后无法重新进入. 但由于立场内部的强大磁场,会使从内部射出的箭矢发射偏移.机器上方的选定工作半径区域内,只有那些能见度良好的范围才能达到最好效果
+
 		</desc>
 		<note>
 			Required Power: %dW
@@ -355,7 +356,7 @@
 	</forcefield>
 	<musicbox>
 		<desc>
-			The music box is essentially an integrated noteblock circuit. Simply program it with music - either using one of the demo tracks or by writing your own, and give it power to run the music. A redstone pulse will cycle the music once; for looping music, use shaft power.
+			音乐盒实质上是一个集成化的音符盒电路.只需给它编辑曲目 - 使用演示曲目或由自己编写, 并提供动力即可演奏音乐.红石信号会使曲子循环一次; 提供动力则会循环播放.
 		</desc>
 		<note>
 			Activation: Redstone for one cycle, shaft power for looped music
@@ -366,7 +367,7 @@
 	</musicbox>
 	<mobharvester>
 		<desc>
-			The mob harvester is designed to kill mobs as if a player was, so that normally player-only drops (such as Blaze Rods) can be automatically farmed. The machine will deal damage to mobs directly above it, with the amount depending on the power input.
+			生物屠宰机能像玩家那样屠宰生物,使得需要玩家击杀才能掉落物品可以架设自动化成为可能.机器会对站在上方的生物造成伤害,伤害大小取决于输入的功率
 		</desc>
 		<note>
 			Required Power: %dW
@@ -376,7 +377,7 @@
 	</mobharvester>
 	<projector>
 		<desc>
-			The projector outputs an image from a slide against a wall. Note that the wall must be 7 blocks wide and 5 blocks tall, and must be opaque and unobstructed.
+			投影仪会把图像投映在墙上.注意的是墙体大小必须为7格宽5格高,并且不能被方块所阻挡.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -385,7 +386,7 @@
 	</projector>
 	<railgun>
 		<desc>
-			The railgun is a very powerful defence weapon. It uses strong magnetic fields to accelerate heavy metallic ammunition at the target, dealing very large amounts of damage. Note that more massive projectiles deal much more damage, and can destroy large areas of terrain. The railgun will automatically target the nearest visible mob; for maximum efficiency, mount it where it has a clear view of the surrounding area. You may also invert the railgun to target below itself rather than above.
+			轨道炮是极其强大的防御型设备.它依靠高强力磁场驱动重型金属弹头,给予目标巨大的伤害.注意的是炮弹越重伤害越大,对地形的破坏也随之增大.轨道炮会自动锁定最近的可见怪物;为发挥最佳效果, 可以把其放置在视野极佳的位置.你也可以把它倒置来瞄准下方而不是上方的目标.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -395,20 +396,20 @@
 	</railgun>
 	<weathercontroller>
 		<desc>
-			The silver iodide cannon is used to control the weather. It has a built-in light sensor to determine the current weather and if set to do so, will fire the appropriate chemicals into the air to alter it. Note that it has a cooldown time, and must have a clear view of the sky.
+			碘化银发射器/人工降雨机用于操纵天气. 它内置光感应装置来确定当前(所设定)的天气,会把相应的化学物质发射到天空中以改变天气.注意的是它拥有一个冷却时间,并且需要直视天空.
 		</desc>
 		<note>
 			Required Power: %dW
 			Power Input: Bottom
-			Sun: Sawdust
-			Rain: Silver Iodide
-			Thunder: Redstone+Silver Iodide
-			Superstorm: Glowstone Dust+Redstone+Silver Iodide
+			晴天: 木屑
+			雨天: 碘化银
+			雷雨: 红石+碘化银
+			风暴: 萤石粉+红石+碘化银
 		</note>
 	</weathercontroller>
 	<refresher>
 		<desc>
-			The item refresher keeps nearby items from despawning. Note that items that have been maintained for a long time will immediately despawn if the machine is destroyed or loses power.
+			物品刷新器能够保持附近的掉落物不会被清除.注意的是长时间维持存在的物品会因为机器的能源供应中断而消失.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -418,7 +419,7 @@
 	</refresher>
 	<cavescanner>
 		<desc>
-			The cave scanner functions much like a laser 3D scanner. It sends pulses into the ground and can detect the interface between air and other blocks, which it will render in the world. This allows you to map caves from the surface. Its field of view is 16 blocks by default, and can be moved around by right-clicking the block. Right-click will push it in the direction you are looking, and shift-right-clicking will push it in the opposite direction you are looking. Caves are color coded based on depth.
+			洞穴扫描仪的功能酷似三维激光扫描仪. 它会传输脉冲至地面并能检测空气与其他方块间的间痕,以便其效果呈现在世界上. 这使得你能在地面或者地底洞穴的情况. 它的侦测视野默认是16个区块, 并且可以通过右击该方块移动. 右击会让它往你所看的方向移动,而shift右击会使它往你所看的相反方向移动.洞穴的显示是以颜色的深浅呈现.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -428,7 +429,7 @@
 	</cavescanner>
 	<scalechest>
 		<desc>
-			The scaleable chest allows you to store your things in a small space. Its inventory size scales with the amount of power it receives, up to a maximum of %d stacks. If the power input drops or is lost while there are items in the now-removed slots, they will remain hidden and inaccessible until sufficient power is restored.
+			可调储物箱能让你把物品存储在一个小空间内.它的库存大小取决于其所接受的功率, 最多能储存 %d 组物品. 如果动力减少或中断会导致储存格子的减少,如果这些格子存储了物品,会被暂时隐藏直至补足足够的能量.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -439,7 +440,7 @@
 	</scalechest>
 	<spiller>
 		<desc>
-			The liquid spiller is designed to fill a depression with liquid piped into it. Each bucket worth pumped in equates to one placed liquid block. It will fill the lowest layers first.
+			液体喷射器用于把坑洼之地用液体填满. 每桶液体相当于也可液体方块. 它会从最底下一层开始补填.
 		</desc>
 		<note>
 			Requires piped liquid to operate
@@ -447,7 +448,7 @@
 	</spiller>
 	<smokedetector>
 		<desc>
-			The smoke detector will sound an alarm when it detects a nearby fire block, and will also beep occasionally when the coil powering it is running low.
+			烟雾检测器会检测附近的一个火源方块并发出警报声响,当线圈给它持续功能时,它能持续发出警报声响.
 		</desc>
 		<note>
 			Requires a charged windspring as a power source
@@ -455,18 +456,18 @@
 	</smokedetector>
 	<igniter>
 		<desc>
-			The firestarter allows you to ignite flammable materials in a large radius, and is therefore very effective at clearing areas in forests or tall grass. Due to its ability to ignite creatures, it can also serve as a powerful, if rather dangerous, form of defence.
+			点火器能让你大面积点燃一切可燃物,使得能方便清理大面积的森林与草丛.由于它能点燃生物,它也能作为一个强大且危险的防御设备
 		</desc>
 		<note>
 			Required Power: %dW
 			Range = Temperature/50 m
-			Acceptable fuels: Coal, Blaze Powder, Wood, Lava, Thermite
+			Acceptable fuels: 煤, 烈焰粉, 木头, 岩浆, 铝热剂
 			Power Input: Any side
 		</note>
 	</igniter>
 	<freezegun>
 		<desc>
-			The freeze gun is a nonlethal defence weapon. It automatically targets threats, and will freeze them in a block of ice, completely immobilizing them without causing them other harm. Ice is more effective ammunition than snowballs. Like the Railgun, this machine can be oriented upside-down and is most effective with a clear view of the surroundings. Note that frozen mobs can still attack if approached.
+			冰冻枪是一种非致命武器. 它会自动对威胁性生物,发动冷冻攻击,但并没有固定的伤害.冰块是比雪更好的弹药.类似轨道炮,它的基座能够安装在上部,能有效获得一个清晰的瞭望点. 注意的是被冰冻的怪物任然能进行近身攻击.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -476,7 +477,7 @@
 	</freezegun>
 	<magnetizer>
 		<desc>
-			The magnetizer uses a rapidly rotating shaft to create a magnetic field inside a shaft core. This is one of the critical components of an AC Electric Engine. It requires an AC redstone current and high speed.
+			磁化器使用一个快速旋转的轴使轴芯内产生出磁场.这是交流电引擎的关键部件.它需要交替的红石电流以及高转速.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -486,18 +487,18 @@
 	</magnetizer>
 	<containment>
 		<desc>
-			The containment field is complementary to the Force Field - while that keeps things out, this keeps them in. Note that hostile mobs which fire projectiles, like Skeletons and the Wither, can still hit targets outside the field without leaving it themselves. This machine needs a clear view above it equal to the selected radius.
+			牵制立场发生器与立场发生器相对 - 后者把一切排除在外, 前者则将一切困在其中. 注意的是敌对生物的火焰弹,或是骷髅,凋零依然能攻击立场外的目标.这台机器的上方需要一个良好的视野高度,取决于其所选定的半径.
 		</desc>
 		<note>
 			Required Power: %dW
 			Range = 2+(Power-%d)/%d m
 			Power Input: Any side
-			Requires %dW to restrain a Wither and %dW to restrain an EnderDragon
+			Requires %dW 能困住凋零,%dW 能困住末影龙
 		</note>
 	</containment>
 	<screen>
 		<desc>
-			The CCTV monitor is how CCTV cameras are viewed. Simply add 3 dyes as the color code - matching one of the existing CCTV cameras in the world - and shift-right-click it to use the camera.
+			CCYV监控屏能通过CCTV闭路摄像仪进行监控. 只需填入三个染料进行与存在于世界上的一个航 拍摄像仪进行颜色频道的匹配,对着监视屏按住shift右击即可使用.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -507,7 +508,7 @@
 	</screen>
 	<cctv>
 		<desc>
-			The CCTV camera allows you to see areas that you would otherwise not have safe access to visit yourself. Simply provide it a charged wind spring and three dyes as a color code, and you can view the world through its lens with the aid of a CCTV Monitor. To exit camera mode, press "\". The camera can be reoriented with a screwdriver (shift-clicking for inclination).
+			CCTV检测仪能让你随意观察是否存在你无法安全访问的区域.只需要提供一个充能好的弹簧与三个染料做出的编码,其观察镜头你可以通过CCTV监控屏来查看.要退出相机模式只需要按 "\". 该检测器可以通过螺丝刀调节(按住shift右击以倾斜).
 		</desc>
 		<note>
 			Requires a charged windspring as a power source
@@ -515,7 +516,7 @@
 	</cctv>
 	<purifier>
 		<desc>
-			The steel purifier is used to transform basic low-grade steel into pure HSLA steel for use in machines. Like the Blast Furnace, it requires gunpowder and sand and temperatures over %dC.
+			钢材精炼器能把一些低级的钢材转化为HSLA钢(高强度合金钢),就像高炉一样,它需要提供火药以及沙子,温度要求超过 %dC.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -526,7 +527,7 @@
 	</purifier>
 	<lasergun>
 		<desc>
-			The laser gun is another powerful defence or offence weapon. Like the RailGun, it targets the nearest mob or non-whitelisted player, and its beam sweeps the area, starting fires, melting rock, and generally causing havoc.
+			激光炮是另一台强大的防御或进攻武器.就像轨道炮一样,它能对离它最近的怪物或者非白名单上的玩家进行攻击,其光束所扫射的过的地方会点燃目标,熔化岩石而造成破坏
 		</desc>
 		<note>
 			Required Power: %dW
@@ -535,7 +536,7 @@
 	</lasergun>
 	<itemcannon>
 		<desc>
-			The item cannon can fire items across the map without harming them, which allows for near-instant long-distance item transport. Note that you must enter the coordinates of another item cannon to receive the items.
+			物品加农炮能在不破坏地形的前提下远距离发射物品,使得远距离的物品传输成为可能.注意的是你需要到另一个物品加农器所在的位置接收物品.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -545,7 +546,7 @@
 	</itemcannon>
 	<friction>
 		<desc>
-			The friction heater is a tool to warm up a standard furnace without fuel. Higher torques and speeds mean higher temperatures, but beware: spend too long at high temperatures and you can melt the furnace entirely. Also of note is that high temperatures can speed up the furnace operation. A hot furnace is also the only way to smelt tungsten flakes into tungsten ingots. Note that while temperature is ultimately a function of input power, matching the torque and speed will improve efficiency.
+			摩擦加热器是一个不需要燃料就能加热熔炉的设备.高扭矩高转速即可实现高温度,但要注意,长时间的高温维持会把熔炉给熔化掉,同时高温能让熔炉快速烧制物品.高温熔炉是唯一能把的钨碎片加热成钨锭的途径. 注意的是尽管温度是根据输入的功率决定,但是分配好合适的扭矩与转速能获得更好的效率.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -555,7 +556,7 @@
 	</friction>
 	<landmine>
 		<desc>
-			The land mine is a trap that can be laid up to one block underground. It requires a wind spring, and as its charge depletes, the risk of spontaneous detonation increases. Additional effects can be added by placing TNT, blaze powder, spider eyes, or glass in the right slots, and more gunpowder in the left slots increases the explosive force.
+			地雷是一种能埋在地下一格位置的陷阱.它需要弹簧线圈,线圈的损耗越多,其自爆的风险就越高. 也可以在右侧放入TNT,烈焰粉,蜘蛛眼,玻璃来产生一些额外的效果,左侧的火药越多爆炸威力越强.
 		</desc>
 		<note>
 			Requires a charged windspring as a power source
@@ -563,7 +564,7 @@
 	</landmine>
 	<bucketfiller>
 		<desc>
-			The bucket filler takes in liquid on the sides and empty buckets in the top, and automatically fills them. It can also be used in the reverse; full buckets can supply liquid.
+			桶装器会从侧面抽取流体,顶部接收空桶,然后自动填满这些桶.它也能用反其道而行;用装满的桶来提供流体.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -573,7 +574,7 @@
 	</bucketfiller>
 	<blockcannon>
 		<desc>
-			The block cannon can fire blocks as projectiles, allowing you to make a large mess of your target. To launch liquids, put in filled buckets.
+			方块加农炮能把方块以投射物的形式发射出去,让你的目标一团糟.若要发射液体,只需在里面提供空桶
 		</desc>
 		<note>
 			Required Power: %dW
@@ -583,7 +584,7 @@
 	</blockcannon>
 	<spycam>
 		<desc>
-			The aerial camera allows for you to see a large area as it would appear from high above, and therefore know the positions of exposed mobs and blocks. Like the CCTV camera, it uses a windspring and a 3-color "channel code".
+			航拍摄像仪能让你从高空观察一个大区域,以便得知怪物与方块的位置.像CCTV检测仪一样,它需要一个弹簧线圈以及三色“信号频道”.
 		</desc>
 		<note>
 			Requires a charged windspring as a power source
@@ -591,7 +592,7 @@
 	</spycam>
 	<mirror>
 		<desc>
-			Mirrors are crucial for the solar power plant to function. More mirrors means more power. Note that they require a clear view of the sky, and work at reduced efficiency if the sun is not at full brightness. Additionally, mirrors can break if heavy objects like players or slimes land on them.
+			反射镜是太阳能塔的关键部件.更多的镜子意味着有更多的效率.请注意,它们需要一个直视天空,如果太阳的亮度不是全亮的,它将会降低效率.此外,如果有重物如玩家或史莱姆在上面时,它很容易损坏.
 		</desc>
 		<note>
 			Requires a clear view of the sky
@@ -599,7 +600,7 @@
 	</mirror>
 	<selfdestruct>
 		<desc>
-			The self-destruct machine can detect when its power supply is damaged, and unleash all sorts of destruction under the assumption that the base it resides in has been damaged or destroyed.
+			自毁装置会检测一个动力源,若动力源出现变动会把所积聚的能量释放出来形成大爆炸.
 		</desc>
 		<note>
 			Detonates on power loss
@@ -608,15 +609,15 @@
 	</selfdestruct>
 	<coolingfin>
 		<desc>
-			The cooling fin draws heat away from machines to help keep them cool without the need for advanced water piping systems.
+			散热器能让机器在没有水冷却的情况下进行散热.
 		</desc>
 		<note>
-			Will deal contact damage if connected to a hot machine
+			连接一个炙热的机器会对其造成相应的伤害.
 		</note>
 	</coolingfin>
 	<worktable>
 		<desc>
-			The worktable is the crafting grid on which all machines must be crafted, with the exception of the Blast Furnace and the worktable itself. Simply use it as an ordinary crafting table. To actually craft the products, give it a redstone signal or click the item in the right hand side. The workbench is also used to recharge spring-powered tools. Simply put a new spring and the tool in the left slot, and take the products from the right. Unlike a crafting table, the workbench stores its contents.
+			工作台是除高炉或其本身以外所有机器加工出来的地方. 使用方法与原版合成台一样.给它红石信号或点击右侧物品即可.工作台也可给需要线圈的工具进行充能.只需在左侧放入工具与线圈即可,并在右侧取出.跟原版合成台不同的是,它能暂时储存物品.
 		</desc>
 		<note>
 			Required to craft any machines
@@ -624,7 +625,7 @@
 	</worktable>
 	<compressor>
 		<desc>
-			The air compressor converts shaft power into pressurized air, which can be carried out via conductive piping to BuildCraft machines. If given excessive amounts of power, it can and will explode. Violently.
+			空气压缩机能用轴来压缩空气,通过导能管道能给Buildcraft的机器供能.如果提供过量的动力,它会爆炸.
 		</desc>
 		<note>
 			Maximum pressure before detonation: %d kPa
@@ -634,7 +635,7 @@
 	</compressor>
 	<pneuengine>
 		<desc>
-			The pneumatic engine uses a turbine to convert pressurized air from BuildCraft conductive pipes into shaft power. Use its GUI to choose the speed output. Higher power outputs will require more air pressure (more MJ per tick).
+			气动引擎使用涡轮将BC导能管道的能量转为轴功率.使用它的GUI即可选择输出的转速.输出的动力越大就需要越高的气压.(每tick更多的MJ).
 		</desc>
 		<note>
 			Conductive Pipe Input: Back
@@ -642,7 +643,7 @@
 	</pneuengine>
 	<liquidconverter>
 		<desc>
-			The pressure balancer is used to safely connect pressurized hoses, pipes and fuel lines with standard liquid conduits.
+			压力平衡器用于将高压管道,管道,以及燃料管线与标准的流体管道连接在一起.
 		</desc>
 		<note>
 			Supports: Water, Lava, Lubricant, Jet Fuel
@@ -650,15 +651,15 @@
 	</liquidconverter>
 	<display>
 		<desc>
-			The display screen is used to display text on a holographic screen, for things like server welcome messages. It requires a charged windspring to function. To add text, write it in a book and then right-click the machine with the book, which will not be consumed.
+			显示屏能把文本内的信息呈现出来, 比如服务器的欢迎信息. 它需要一个充能的瘫痪才能运作.要添加的文本需要写入一本书内,然后用这本书右击机器,它不会因为右击机器而消耗掉.
 		</desc>
 		<note>
-			The machine can display format codes.
+			它能显示格式代码.
 		</note>
 	</display>
 	<lamp>
 		<desc>
-			The bright lamp will light a large area around itself, so long as it contains a charged windspring.
+			灯会照亮周围一片区域,只要其中还放着一个充能的弹簧.
 		</desc>
 		<note>
 			Maximum Range: %d m
@@ -666,17 +667,17 @@
 	</lamp>
 	<terraformer>
 		<desc>
-			The terraformer is used to convert biomes into each other. Note that it can only convert between similar biomes - so radical changes may require multiple steps - and each stage is likely to consume a great deal of liquid and items. Give this machine a diamond and it can even mimic the world-generation of the target biome.
+			地形转换器能够把生物群系进行改造,请注意,它只能构造类似的生物群系,彻底的改造需要多个步奏,每个步奏的转换都需要消耗大量的液体或物品.给这台机器一颗钻石,它甚至能模仿目标生物群系的生成.
 		</desc>
 		<note>
-			Select tiles to convert with the Tile Selection tool
-			Only tiles that are the same biome as the one the machine is in can be converted
-			Power Input: Any horizontal side
+			用Tile选择工具选择要转化的tile
+			只有与机器所在群系相同的方块才能被转化
+			动力输入: 任意水平面
 		</note>
 	</terraformer>
 	<fuelenhancer>
 		<desc>
-			The fuel enhancer can take standard petroleum fuel, like that used by Combustion Engines, and then purify and refine it further, ultimately producing jet fuel. Note that the purification process causes an fourfold decrease in fuel volume, and that the machine still needs magma cream, blaze powder, netherrack dust, and tar.
+			燃料增强器可以把石油所加工而成燃油进行进一步的精炼,直至提炼成航空燃油.请注意,净化过程会导致四倍的燃料损耗,同时机器需要岩浆膏,烈焰粉,下界石粉与沥青砂.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -686,16 +687,16 @@
 	</fuelenhancer>
 	<emp>
 		<desc>
-			The EMP, when fired, will permanently disable all nearby vulnerable machines. Things like shafts are immune due to lacking any electronic or redstone parts, nor any intelligence, but anything even remotely more complex, such as a spawner, an engine, or a battery box will be destroyed. Rumor has it that this machine's blast is so powerful that it can even upset the balance of the invisible magic "nodes" said to exist in the world.
+			电磁脉冲器在启动时会永久停止附近一切脆弱的机器.而像轴这样的则不受其影响,因为它们没有电子或红石的部件,而那些更加复杂的如刷怪笼,引擎或是电池盒则会被破坏掉.传言说它所发出的强力脉冲甚至能扰乱一种特殊存在的平衡-魔法中那名为"节点"的不可见之物.
 		</desc>
 		<note>
-			Purely mechanical blocks like shafts are immune
-			Power Input: Bottom
+			纯机械的方块如轴不受其影响
+			动力输入: 底面
 		</note>
 	</emp>
 	<linebuilder>
 		<desc>
-			The block ram will push out a line of blocks, akin to a more powerful piston. Simply supply it with building blocks and it will build until it hits an obstacle such as bedrock, a chest, spawner, or other machine, or its length reaches 512 meters. 
+			方块撞锤会推动一排的方块,好比一个增强的活塞.只要给它提供建筑方块它就会将它们推出去,直到遇到基岩,箱子,刷怪笼或机器这样的障碍物为止.它的最大上限为512米. 
 		</desc>
 		<note>
 			Power Input: Back
@@ -703,19 +704,19 @@
 	</linebuilder>
 	<arrowgun>
 		<desc>
-			The arrow gun is the evolution of the dispenser. Given power, it will detect when a mob is in front of it, and will fire upon it. Faster input speeds equate to greater rates of fire, while higher torques cause the arrow to fly faster, farther and deal more damage.
+			箭矢发射器是发射器的升级版本.只要提供动力,它就会检测前方,若有生物则会向其发射箭矢.增大输入的转速可以提高射速,而更大的扭矩则会提升箭矢的飞行速度,距离以及伤害.
 		</desc>
 		<note>
-			Required Power: %dW
-			Power Input: Back
-			Launch Velocity: 20*log_2(torque) m/s
-			Rate of Fire: 0.8-log_2(speed)/20 seconds per shot, up to 5 shots per second
-			Range: 10+2*log_2(torque) m
+			需求功率: %dW
+			动力输入: 后侧
+			发射速度: 20*log_2(扭矩) m/s
+			发射密度: 0.8-log_2(转速)/20 秒(每次射击),最多每秒5次
+			范围: 10+2*log_2(扭矩) m
 		</note>
 	</arrowgun>
 	<boiler>
 		<desc>
-			The friction boiler uses shaft power to heat water pumped into it. When boiled, the water can be drawn out the top of the boiler as steam. This machine has a warm-up period before which it will not make steam. Note that this machine can overheat and violently fail.
+			摩擦锅炉使用轴功率加热泵入其中的水.一旦沸腾,水就会变为水蒸气从锅炉顶部排出.机器在制造蒸汽前有一段预热时间.注意该机器可能会过热而损坏.
 		</desc>
 		<note>
 			Power Input: Bottom
@@ -723,7 +724,7 @@
 	</boiler>
 	<steamturbine>
 		<desc>
-			The steam turbine takes in steam from any pipe or tank behind it and generates shaft power. Use the GUI to select the power usage (and steam consumption).
+			蒸汽轮机会从后方的任何管道或储罐中获取蒸汽,利用蒸汽来驱动轴转动.使用它的GUI可以选择使用功率(以及蒸汽消耗).
 		</desc>
 		<note>
 			Steam Input: Back
@@ -731,17 +732,17 @@
 	</steamturbine>
 	<beammirror>
 		<desc>
-			The beam mirror reflects the sun's rays into a horizontal beam, thus allowing you to use natural light to illuminate long tunnels without consuming power. This also doubles as an anti-undead system, as the reflected light is still capable of lighting zombies, skeletons, and similar on fire.
+			反光镜会将太阳光反射为水平的光线,因此你就能使用自然光来照亮狭长的隧道而不需消耗能源.它也能作为不死生物的克星,反射的光仍能点燃僵尸,骷髅射手等等.
 		</desc>
 		<note>
-			Only works in the day
+			只在白天有效
 
-			Range drops as the sun sets
+			范围随太阳而变化
 		</note>
 	</beammirror>
 	<fertilizer>
 		<desc>
-			The fertilizer, when given apatite or bonemeal, can accelerate the growth of nearby crops, saplings, and other plants. To dissolve the fertilizer, this machine requires liquid water.
+			施肥机,提供磷灰石或骨粉时,会加速附近作物,树苗以及其他植物的生长.为了溶解肥料,该机器还需要液态水.
 		</desc>
 		<note>
 			Power Input: Bottom
@@ -751,7 +752,7 @@
 	</fertilizer>
 	<lavamaker>
 		<desc>
-			The rock melter uses frictional heating to melt rock into lava, which can be drawn out with pipes. Netherrack provides the most lava per block, while cobblestone provides the least.
+			岩石熔化机利用摩擦产热的方式来熔化岩石制作成岩浆.地狱岩产出的岩浆最多,圆石则最少.
 		</desc>
 		<note>
 			Power Input: Bottom
@@ -759,7 +760,7 @@
 	</lavamaker>
 	<generator>
 		<desc>
-			The electric generator takes in shaft power and produces IC2 electrical power at a rate of %.0f W/EU. The total power output as well as EU packet size scales with the amount of power going in.
+			发电机利用旋转功力产出IC2特有的电力 转化率为 %.0f W/EU.EU的电流包数与大小会随着动力的输入而变化.
 		</desc>
 		<note>
 			Power Input: Back
@@ -767,7 +768,7 @@
 	</generator>
 	<electricmotor>
 		<desc>
-			The electric motor uses IC2 electrical power to produce shaft power. Use its GUI to choose the speed output. Higher power outputs will require more electrical power and a higher supply voltage.
+			电动引擎能把IC2的电力转化为旋转功力.右击打开GUI能设定其输出转速.更高的能量输出则需要更多的电力,更强的电压.
 		</desc>
 		<note>
 			Wire Connection: Back
@@ -775,49 +776,49 @@
 	</electricmotor>
 	<hose>
 		<desc>
-			These actually carry the canola oil lubricant from the grinder to the gearboxes. The transmission is done automatically, and they will connect to any grinder or gearbox automatically as well.
+			它所能做的,就是把从研磨机里加工好的润滑油运到变速箱内.运输的过程是全自动的,它也会自动连接研磨机或变速箱.
 		</desc>
 		<note>
 		</note>
 	</hose>
 	<pipe>
 		<desc>
-			Pipes carry liquids from pumps to machines or reservoirs. A pipe can hold an unlimited amount internally, but can only store one liquid at a time, and must be emptied before changing contents. Due to corrosion concerns, pipes cannot carry jet fuel or fluorine-based fluids.
+			管道用于将流体从泵输送到机器或流体池.一节管道能无限制地容纳流体,但一次只能有一种,并且必须在流体种类变化之前清空.由于腐蚀性问题,该管道不能输送航空燃油或含氟的流体.
 		</desc>
 		<note>
 		</note>
 	</pipe>
 	<fuelline>
 		<desc>
-			Fuel lines carry ethanol or jet fuel to the engines and furnaces that require it. Once connected to a source, they will automatically start to fill themselves from it, and if connected to a target, will automatically empty themselves into it. They have an infinite capacity, so caution is recommended when breaking them, to avoid destroying large quantities of stored fuel.
+			燃料管线将乙醇或航空燃油输给需要它们的引擎和炉子中.一旦连接到了源头,它们就会开始自动抽取流体充入自身.一旦连接到了目标,也会自动将内部的流体输入其中.它们有无限的容量,所以在破坏它们的时候最好多加小心,以防流失内部大量的燃料..
 		</desc>
 		<note>
 		</note>
 	</fuelline>
 	<valve>
 		<desc>
-			The valve pipe, like other pipe types, extracts liquid from reservoirs if placed below it. However, the valve pipe remains inert until given a redstone signal.
+			阀门管道,就和其他类型的管道一样,若放在流体池下方就会抽出其中的流体.然而它在没有红石信号的时候是不工作的.
 		</desc>
 		<note>
 		</note>
 	</valve>
 	<bypass>
 		<desc>
-			The bypass pipes do not connect to each other or to machines, allowing for more compact piping.
+			旁通管不会与其他旁通管或机器连接,使你能密集布置管道线路.
 		</desc>
 		<note>
 		</note>
 	</bypass>
 	<separation>
 		<desc>
-			The separator pipe can be used to route liquids according to a redstone signal. It takes in liquid on the sides, and will output the liquid up or down, depending on whether it is receiving power. It will transmit liquids upwards when it has power.
+			分流管能用于利用红石信号控制液体流向.它会从一侧吸取流体,然后将其输送到上方或下方,方向由红石信号所决定.有信号时会向上传输.
 		</desc>
 		<note>
 		</note>
 	</separation>
 	<bedpipe>
 		<desc>
-			The bedrock pipe is identical to the steel pipe except that it is able to withstand far higher pressures and temperatures.
+			基岩管道与钢管同等但它能承受更高的液压和温度.
 		</desc>
 		<note>
 
@@ -825,7 +826,7 @@
 	</bedpipe>
 	<aggregator>
 		<desc>
-			The dew point aggregator centrifuges water vapor out of the air, collecting it and if possible, sending it into nearby piping or liquid containers. This machine even works in the Nether, though it will be slowed. It must be cooled to below ambient temperature to function. More torque means more water per cycle while more speed means faster cycles.
+			露点集雨器能从水汽中收集到水.如果可能的话,会输出到临近的容器或管道.这台机器可以被放置在下界,虽然它的速度会十分缓慢.它必须被冷却到低于环境温度的温度.更高的扭矩意味着在每一个间隔能获得更多的水,而更高的转速能缩短其间隔.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -835,7 +836,7 @@
 	</aggregator>
 	<fuelengine>
 		<desc>
-			The fuel-powered engine runs off of BuildCraft fuel to produce shaft power. It performs similarly to that mod's combustion engines in terms of power output. It requires both lubricant and water cooling, and it will decelerate as it overheats.
+			燃油引擎能够利用Buildcraft的燃油来产生旋转动力.它的运作产出方式类似其他mod的发电机.它需要润滑油以及冷切水,引擎在过热时会减速.
 		</desc>
 		<note>
 			Torque Produced: %d Nm
@@ -845,7 +846,7 @@
 	</fuelengine>
 	<airgun>
 		<desc>
-			The air pressure gun is basically a machine-mounted and upgraded Knockback Gun. It uses the input power to build air pressure, and when a mob approaches, it will send that mob flying backwards at a high velocity.
+			空气压缩炮就是一个机器版的升级震退枪.它使用输入的动力形成气压,当有生物靠近时,它就会将其以高速轰飞.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -855,7 +856,7 @@
 	</airgun>
 	<sonicborer>
 		<desc>
-			The sonic borer uses shock waves to dig tunnels. This allows it to be aimed in any direction and work more quickly than the standard borer. The only disadvantage is the sonic borer drops the blocks at their original locations, rather than transporting them to the machine for easy collection. If you supply too much power, this machine will suffer a violent failure.
+			超声钻机利用超声波来挖掘隧道.方向能自行选择并且拥有比一般钻机更快的速度.唯一的缺点是超声钻机所挖掘的方块会掉落在原位置,而不是被运输到机器附近方便收集.如果你输入的动力过大,机器会遭受一次猛烈的爆炸
 		</desc>
 		<note>
 			Required Power: %dW
@@ -865,7 +866,7 @@
 	</sonicborer>
 	<sorting>
 		<desc>
-			The sorting machine sorts dropped items into one of its three output sides (red, green, or blue). For large stacks, it transfers one item per tick (and thus a full stack takes 3 seconds to completely sort).
+			分类机会将掉落物品分至三个输出面之一(红绿蓝).对于大量物品,它每tick能传输一个物品(因此一整组需要3秒才能完全分类).
 		</desc>
 		<note>
 			Required power: %dW
@@ -873,7 +874,7 @@
 	</sorting>
 	<fillingstation>
 		<desc>
-			The filling station is used to fill the tanks of fuel-powered items like the jetpack.
+			灌装机可以给为某些物品填充燃料,比如喷气背包.
 		</desc>
 		<note>
 			Required power: %dW
@@ -882,15 +883,15 @@
 	</fillingstation>
 	<vandegraff>
 		<desc>
-			The van de graaff uses a belt to build a static charge on the upper metal sphere. If a conductive object - like a mob - comes close enough, that charge can be released into the object. The larger the charge, the longer a gap it can jump. Note that some mobs may not react as predicted to the discharge. Excessive charges may attract even larger discharges from above.
+			范德格拉夫起电机会在顶部的金属球积累大量静电荷.如果有导电的物体-比如生物-靠的足够接近的话,电流就会袭向它.充能越强,电击距离越远.注意一些生物不一定会如预计的那样反应.并且过量的充能可能会引起更强的能量释放.
 		</desc>
 		<note>
-			Water dissipates static charge
+			水会化解电击效果
 		</note>
 	</vandegraff>
 	<defoliator>
 		<desc>
-			The defoliator is used for quickly clearing large areas of plant life. Note that animal life in the vicinity is also likely to die.
+			去生物化机器用于快速清理大面积的植物.如果其运作范围内有生物也有可能导致其致死.
 		</desc>
 		<note>
 			Required power: %dW
@@ -899,7 +900,7 @@
 	</defoliator>
 	<bigfurnace>
 		<desc>
-			The lava smeltery can smelt up to 18 items at a time. However, to do this, its tanks must be full of lava, and it must be at least 400 degrees. It also requires shaft power.
+			岩浆冶炼厂能够同时进行多大18个物品的烧制.然而,其内部需要填充岩浆,至少有400度的高温,它还需要提供轴功率
 		</desc>
 		<note>
 			Required power: %dW
@@ -908,7 +909,7 @@
 	</bigfurnace>
 	<distiller>
 		<desc>
-			The distiller is used to convert one fluid type to another. Simply pump the fluid upwards through the machine.
+			液体蒸馏器用于把一种液体转化为另一种液体.只需要在机器上方提取即可
 		</desc>
 		<note>
 			Required power: %dW
@@ -920,14 +921,14 @@
 	</distiller>
 	<suction>
 		<desc>
-			The suction pipe draws fluid from other mods' tanks and machines. It is not designed to connect to other pipe systems, or to RotaryCraft machines.
+			吸力管道可从其他模组的流体储罐或机器中抽取流体.它并不能与其他管道系统相连,也不能与旋转工艺的机器连接.
 		</desc>
 		<note>
 		</note>
 	</suction>
 	<dynamo>
 		<desc>
-			The rotational dynamo converts RotaryCraft power into ThermalExpansion redstone flux. Due to the limitations imposed by the internal magnetic fields, it can take a maximum of %d Nm of torque at a maximum of %d rad/s. Any excess, while not dangerous, will be wasted.
+			旋转动力发电机能将旋转工艺的动力转化为热力膨胀的红石通量.由于磁场内部的显示, 它最多只能接受的扭矩为 %d Nm ,最大转速为 %d rad/s.多余的能量不会造成危险,但会被浪费掉.
 		</desc>
 		<note>
 			Orientation and Output: Like ThermalExpansion Dynamos
@@ -936,7 +937,7 @@
 	</dynamo>
 	<magnetic>
 		<desc>
-			The magnetostatic engine functions much like the pneumatic engine. It accepts RF provided to it, and its output speed can be selected to choose the total power output. Like all other conversion engines, it requires coolant.
+			静磁引擎的功能类似气动发电机.它能将RF转化为旋转动力,它的输出转速取决于所选择的速度大小.跟其他转换引擎一样,它需要冷却剂.
 		</desc>
 		<note>
 			Conduit Input: Back
@@ -944,7 +945,7 @@
 	</magnetic>
 	<crystallizer>
 		<desc>
-			The fluid crystallizer freezes fluids. Note that it must therefore be colder than the fluid's freezing point.
+			结晶器能将流体冻结.请注意,它必须比流体的冰点低.
 		</desc>
 		<note>
 			Power Input: Back
@@ -954,21 +955,21 @@
 	</crystallizer>
 	<particle>
 		<desc>
-			The particle display can emit a stream of any particle type you choose from its GUI. It requires a charged windspring to function.
+			粒子显示器会发射一道粒子效果,其类型可以在其内部选择.它需要一个弹簧来供能.
 		</desc>
 		<note>
 		</note>
 	</particle>
 	<lawnsprinkler>
 		<desc>
-			The ground sprinkler is a ground-mounted variety of the overheat sprinkler, and can put out fire, hydrate farmland, and increase the growth rate of crops. Due to the higher water volume it consumes, it is more effective than its ceiling variety. Note that high water pressures can be dangerous.
+			地面洒水器是一个地面版的洒水器.能够扑灭火灾,滋润田地,加快作物生长速度.由于其消耗的水量机极其巨大,使得它比天花板版本的要更好.注意,高水压时存在危险.
 		</desc>
 		<note>
 		</note>
 	</lawnsprinkler>
 	<grindstone>
 		<desc>
-			The grindstone is used to sharpen and repair tools without spending additional material. Because this reduces the amount of material in the tool, it cannot fully repair a tool, and the tool will gradually degrade until it is no longer able to be repaired.
+			磨石通过打磨的方式在不消耗任何额外材料的情况下修复工具.这会减少工具的材料量,使得它无法完全修改一个工具,并且工具耐久上限会逐渐降低,直至无法被修复.
 		</desc>
 		<note>
 			Power Input: Back
@@ -979,7 +980,7 @@
 	</grindstone>
 	<blower>
 		<desc>
-			The pneumatic item pump is used to rapidly transfer items between inventories. If an item pump has an inventory behind it, it will check in front of it for a valid receiving inventory. If it finds another pump, it follows that pump's frontal direction and repeats the process. This system allows you to transport items across any distance nearly instantly. The pump can transfer one item per tick per kW of input power; therefore, to transfer entire stacks, supply 65kW of power. More power will transfer multiple stacks, as there is no upper limit on the transfer rate.
+			气动物品泵用于在容器之间快速传输物品.如果一个物品泵的背后有容器,它就会检测前方是否有有效的容器.如果它发现了另一个泵则会照着它的正面继续进行这一过程.该系统让你能在任意距离下几乎瞬间传输物品.每kW的输入功率使它能每tick传输1个物品;因此,若要传输整组,只需提供65kW的功率.功率越大传输越多,传输速率没有上限
 		</desc>
 		<note>
 			Power Input: Any side
@@ -989,7 +990,7 @@
 	</blower>
 	<refrigerator>
 		<desc>
-			The refrigeration unit is used to dramatically cool air to the point that some components freeze or condense out of it. This is how liquid nitrogen and dry ice are produced. Note that ice is required to aid in cooling the air.
+			冷却单元用于冷却空气来使其中的某些成分分离出来,然后将其浓缩.这就是获取液氮和干冰的途径.注意它需要冰来辅助冷却.
 		</desc>
 		<note>
 			Power Input: Back
@@ -999,7 +1000,7 @@
 	</refrigerator>
 	<composter>
 		<desc>
-			The composter allows discarded food, plant matter, and other organics to be broken down into something that, while unappealing to you, is highly valued by plants and is often very conducive to their growth. This process requires yeast to facilitiate the process.
+			堆肥器会将废弃食物,植物物质,以及其他有机物分解为特别的肥料,对你来说或许难以接受,但对植物而言却是有益的.它的运行需要酵母.
 		</desc>
 		<note>
 			Required Temperature: Between %dC and %dC
@@ -1007,7 +1008,7 @@
 	</composter>
 	<gastank>
 		<desc>
-			The fluid compression chamber can store up to one million buckets of any one fluid. Higher torques allow for higher achievable pressures; if your torque is not high enough, you will not be able to pump in further fluid. Both gases and liquids can be stored, but liquids take many, many times more torque to compress.
+			流体压缩室可以储存多大一百万桶的任何流体.更高的扭矩允许更高的压力,如果你的扭矩不够高,将无法泵入更多流体.气体与液体都是可以储存的,但液体需要比储存气体更多的扭矩.
 		</desc>
 		<note>
 			Power Input: Bottom
@@ -1018,7 +1019,7 @@
 	</gastank>
 	<crafter>
 		<desc>
-			The autocrafter allows you to automate crafting of anything from the vanilla crafting table. It has two modes: In autonomous mode, it continuously crafts as long as it has ingredients to do so; in request mode, it will craft one cycle of the requested items and then sit idle. It can read any inventory above it or it can draw from an Applied Energistics network for its ingredient supply. This machine can store 18 patterns, and thus can craft 18 recipes in parallel.
+			自动合成器使你能自动化合成任何工作台或原版合成台可用的配方,它有着无限的原料容量.并且有两种模式: 自发模式下,只要原料足够就会持续合成;需求模式下.它会按照你的需求合成物品然后停止.原料可从任意面输入,产物也能从任意面输出.原料只能从底部抽出.该机器最多能储存54个合成配方.
 		</desc>
 		<note>
 			Power Input: Any Side
@@ -1027,7 +1028,7 @@
 	</crafter>
 	<antiair>
 		<desc>
-			A cheaper and more specialized version of the railgun, the antiair gun will shoot scrap at flying mobs as a form of base defence. It only deals one heart of damage per impact, but can fire over 3 rounds per second, and the ammunition is much cheaper than that of the railgun.
+			这是一个廉价版本的轨道炮,防空炮用于将废料射向飞行的怪物,作为一种基础的防御设备.造成的伤害只有一颗心,但每秒能发射至少三次,弹药也比轨道炮便宜.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -1037,7 +1038,7 @@
 	</antiair>
 	<pipepump>
 		<desc>
-			The pipe pump helps pump fluids through pipes, reducing the amount that gets stuck in pipes and increasing overall flow rate. Faster input speeds mean faster liquid pumping. Note that pumping too much liquid into a pipe will cause it to burst.
+			管道泵有助于泵入流体通过管道，减少吸入端管道的流体量,增加总流速。更快的输入速度意味着需要更快的管道泵,请注意,泵入过多的液体进入管道将导致它爆裂.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -1047,7 +1048,7 @@
 	</pipepump>
 	<centrifuge>
 		<desc>
-			The centrifuge will use large centripetal forces to separate items into constituents of different density, or to squeeze fluids of of some items. If you are into beekeeping, it can also extract propolis and other products from combs.
+			离心机利用其强大的离心力分离物品的组成成分,或者物品中压榨出液体.如果你养蜂,也可使用它来处理蜂巢.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -1057,7 +1058,7 @@
 	</centrifuge>
 	<drying>
 		<desc>
-			The drying bed is where some liquids can evaporate or coagulate to leave other items behind.
+			干燥池靠流体的蒸发与凝结以获得需要的产物.
 		</desc>
 		<note>
 			
@@ -1065,7 +1066,7 @@
 	</drying>
 	<wetter>
 		<desc>
-			The liquefaction machine will mix a fluid into an item, yielding a different item.
+			液化器能把一个物品混合在某种液体当中,使之加工成不同的物品.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -1075,7 +1076,7 @@
 	</wetter>
 	<chunkloader>
 		<desc>
-			The chunk loader uses extremely high velocities - generated with extreme input speeds - to induce relativistic effects and distort space-time around it, keeping chunks loaded.
+			区块加载器的运作需要非常之高的转速-依靠极端的高转速-基于相对论效应原理,使得能扭曲周围的时间,保持区块的持续加载.
 		</desc>
 		<note>
 			Required Speed: %d rad/s
@@ -1083,4 +1084,4 @@
 			Radius In Chunks: %d+((Power-%d)/%d)
 		</note>
 	</chunkloader>
-</machines>
+</machies>
