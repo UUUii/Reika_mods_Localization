@@ -3,7 +3,7 @@
 * [x] categories
 * [x] engines
 * [x] info
-* [ ] machines
+* [x] machines
 * [x] misc
 * [ ] resource
 * [x] thaum
