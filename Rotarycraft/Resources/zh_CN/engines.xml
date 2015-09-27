@@ -86,13 +86,13 @@
 		<note>
 			<sub>
 				<s1>
-				最大扭矩: %d Nm
-				最大转速: %d rad/s
-				最大功率: %.3fkW
-				能量源: 下落的流水
-				消耗: 润滑油
-				风险: 旋转桨叶
-				注意事项: 需要很高的流水才能达到最大功率
+					最大扭矩: %d Nm
+					最大转速: %d rad/s
+					最大功率: %.3fkW
+					能量源: 下落的流水
+					消耗: 润滑油
+					风险: 旋转桨叶
+					注意事项: 需要很高的流水才能达到最大功率
 				</s1>
 				<s2>
 					At most 4 engines can be chained before the torque overloads the core shaft
