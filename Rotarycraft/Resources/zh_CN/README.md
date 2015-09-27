@@ -1,4 +1,4 @@
-#Finished
+#Still WIP and need update
 
 * [x] categories
 * [x] engines
@@ -7,4 +7,5 @@
 * [x] misc
 * [x] resource
 * [x] thaum
+* [ ] tool
 * [x] trans
