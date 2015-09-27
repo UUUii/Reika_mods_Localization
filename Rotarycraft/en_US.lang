@@ -313,6 +313,8 @@ crafting.shaftcore=Shaft Core
 crafting.ignition=Ignition Unit
 crafting.diamondcore=Diamond Shaft Core
 crafting.compoundcompress=Compound Compressor
+crafting.alucylinder=Aluminum Alloy Cylinder
+crafting.highcombustor=High-Temperature Combustor
 
 crafting.panel=Base Panel
 crafting.ingot=HSLA Steel Ingot
@@ -394,6 +396,7 @@ misc.redgoldingot=Inductive Ingot
 misc.coke=Coal Coke
 misc.springingot=Spring Steel Ingot
 misc.silicon=Silicon
+misc.alualloy=Aluminum Alloy Ingot
 
 interface.slipperycomb=Slippery Comb
 interface.slipperypropolis=Slippery Propolis

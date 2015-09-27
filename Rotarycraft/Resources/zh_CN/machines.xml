@@ -57,7 +57,6 @@
 			需求功率: 任意
 			需求扭矩: 任意
 			动力输入: 后侧
-			如果提供足够的扭矩和功率,它也能破坏用于保护某些迷宫低层的人造基岩类方块
 		</note>
 	</borer>
 	<piledriver>
@@ -635,11 +634,21 @@
 	</compressor>
 	<pneuengine>
 		<desc>
-			气动引擎使用涡轮将BC导能管道的能量转为轴功率.使用它的GUI即可选择输出的转速.输出的动力越大就需要越高的气压.(每tick更多的MJ).
+			气动引擎使用涡轮将PneumaticCraft导能管道的能量转为轴功率.使用它的GUI即可选择输出的转速.输出的动力越大就需要越高的气压and airflow.
 		</desc>
 		<note>
-			Conductive Pipe Input: Back
-		</note>
+			<sub>
+				<s1>
+					Air Pipe Input: Back
+
+					Overheats at: %dC
+
+					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>		</note>
 	</pneuengine>
 	<liquidconverter>
 		<desc>
@@ -691,6 +700,7 @@
 		</desc>
 		<note>
 			纯机械的方块如轴不受其影响
+			Activation Energy: %dJ
 			动力输入: 底面
 		</note>
 	</emp>
@@ -719,8 +729,19 @@
 			摩擦锅炉使用轴功率加热泵入其中的水.一旦沸腾,水就会变为水蒸气从锅炉顶部排出.机器在制造蒸汽前有一段预热时间.注意该机器可能会过热而损坏.
 		</desc>
 		<note>
-			Power Input: Bottom
-		</note>
+			<sub>
+				<s1>
+					Steam Input: Back
+
+					Overheats at: %dC
+
+					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+			</note>
 	</boiler>
 	<steamturbine>
 		<desc>
@@ -771,8 +792,19 @@
 			电动引擎能把IC2的电力转化为旋转功力.右击打开GUI能设定其输出转速.更高的能量输出则需要更多的电力,更强的电压.
 		</desc>
 		<note>
-			Wire Connection: Back
-		</note>
+			<sub>
+				<s1>
+					Wire Connection: Back
+
+					Overheats at: %dC
+
+					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
+			</note>
 	</electricmotor>
 	<hose>
 		<desc>
@@ -940,7 +972,18 @@
 			静磁引擎的功能类似气动发电机.它能将RF转化为旋转动力,它的输出转速取决于所选择的速度大小.跟其他转换引擎一样,它需要冷却剂.
 		</desc>
 		<note>
-			Conduit Input: Back
+			<sub>
+				<s1>
+					Conduit Input: Back
+
+					Overheats at: %dC
+
+					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+				</s1>
+				<s2>
+					%s
+				</s2>
+			</sub>
 		</note>
 	</magnetic>
 	<crystallizer>
@@ -1061,7 +1104,7 @@
 			干燥池靠流体的蒸发与凝结以获得需要的产物.
 		</desc>
 		<note>
-			
+
 		</note>
 	</drying>
 	<wetter>

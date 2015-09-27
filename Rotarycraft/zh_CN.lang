@@ -313,6 +313,8 @@ crafting.shaftcore=轴芯
 crafting.ignition=点火装置
 crafting.diamondcore=钻石轴芯
 crafting.compoundcompress=复式压缩机
+crafting.alucylinder=Aluminum Alloy Cylinder
+crafting.highcombustor=High-Temperature Combustor
 
 crafting.panel=材料板
 crafting.ingot=HSLA钢锭
