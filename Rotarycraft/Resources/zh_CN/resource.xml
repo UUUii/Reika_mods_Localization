@@ -48,6 +48,9 @@
 	<bedingot>
 		基岩锭用于基岩工具,护甲和一些机器的合成制作.
 	</bedingot>
+	<alloying>
+		Some items and machines need special metal alloys, which are usually made in the Blast Furnace by adding the constituent ingredients into the main grid, and reaching the necessary temperature.
+	</alloying>
 	<silveringot>
 		银锭用于制作银质部件.提取机处理金时有几率产生银.
 	</silveringot>
@@ -72,4 +75,7 @@
 	<explosives>
 		高爆弹也是一种轨道炮可用的炮弹.它们成本低廉,尽管对生物伤害甚少,对着弹点附近地形的破坏力还是很强的.
 	</explosives>
+	<tungsten>
+		Tungsten is a byproduct of processing iron ore in the Extractor, and is used for high-temperature, high-strength, or high-pressure applications. It can only be smelted in a vanilla furnace above %dC.
+	</tungsten>
 </resource>

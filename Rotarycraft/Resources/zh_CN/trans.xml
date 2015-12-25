@@ -1,4 +1,4 @@
-﻿ <?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <trans>
 	<shaft>
 		最基础的动力传输设备就是轴.不太美观,且只能从一端将动力传输到另一端,既不会改变扭矩也不会改变转速.有一点要注意的就是.确保传输方向正确,不然你可就头疼了.不同材料所制成的轴有着不同的强度并且因此有着不同的扭矩和转速上限.
@@ -42,26 +42,29 @@
 			<s1>
 				Energy storage limits:
 
-				Steel: %d J (%s)
-				Bedrock: %d J (%s)
+				钢: %d J (%s)
+				基岩: %d J (%s)
 			</s1>
 			<s2>
 				Input requirements:
 
-				Torque: %s
+				扭矩: %s
 				Power: %s
 			</s2>
 			<s3>
 				Output limits:
 
 				Cap:
-				Steel: %d rad/s x %d Nm
-				Bedrock: %d rad/s x %d Nm
+				钢: %d rad/s x %d Nm
+				基岩: %d rad/s x %d Nm
 				
 				Function: %s
 			</s3>
+			<s4>
+				Outputs a redstone comparator signal in proportion to its fill state
+			</s4>
 		</sub>
-</coil>
+	</coil>
 	<higear>
 		高速比传动器相对于多个相连的变速箱,更能为你节省空间.产生高达256:1的传动比,它需要大量的润滑油才能运行,而且必须用基岩制作才能承受极高的压力.像普通的变速箱那样,它也能用螺丝刀shift右击在扭矩与转速模式之间切换.
 	</higear>
