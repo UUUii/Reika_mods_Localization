@@ -144,6 +144,7 @@ material.stone=石
 material.steel=钢
 material.diamond=钻石
 material.bedrock=基岩
+material.hsla=HSLA钢
 
 shaft.wood=木轴
 shaft.stone=石轴
@@ -181,6 +182,7 @@ block.decotank.0=装饰储罐
 block.decotank.1=装饰储罐(澄澈)
 block.shield=钻机防护块
 block.bedrockingot=基岩锭块
+block.coke=焦煤块
 
 fluid.lubricant=润滑油
 fluid.jet fuel=航空燃油
@@ -313,8 +315,8 @@ crafting.shaftcore=轴芯
 crafting.ignition=点火装置
 crafting.diamondcore=钻石轴芯
 crafting.compoundcompress=复式压缩机
-crafting.alucylinder=Aluminum Alloy Cylinder
-crafting.highcombustor=High-Temperature Combustor
+crafting.alucylinder=铝合金气缸
+crafting.highcombustor=高温燃烧室
 
 crafting.panel=材料板
 crafting.ingot=HSLA钢锭
@@ -396,6 +398,7 @@ misc.redgoldingot=感应锭
 misc.coke=焦煤
 misc.springingot=活性钢锭
 misc.silicon=硅
+misc.alualloy=铝合金锭
 
 interface.slipperycomb=润滑蜂巢
 interface.slipperypropolis=润滑蜂胶
@@ -413,6 +416,7 @@ upgrade.tier4=热量稳定升级组件
 upgrade.tier5=抗扭强度升级组件
 upgrade.afterburn=再燃装置升级组件
 upgrade.efficiency=谐振稳定升级组件
+upgrade.flux=Flux Amplitude升级组件
 
 label.temperature=温度
 label.pressure=压力
@@ -421,7 +425,7 @@ label.torque=扭矩
 label.power=功率
 label.range=范围
 label.damaged=损坏的
-label.fuel=剩余染料
+label.fuel=剩余燃料
 
 message.drowning=引擎进水!
 message.fod=引擎被动物损坏!
