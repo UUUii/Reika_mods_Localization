@@ -144,6 +144,7 @@ material.stone=Stone
 material.steel=Steel
 material.diamond=Diamond
 material.bedrock=Bedrock
+material.hsla=HSLA Steel
 
 shaft.wood=Wood Shaft
 shaft.stone=Stone Shaft
@@ -181,11 +182,12 @@ block.decotank.0=Decorative Tank
 block.decotank.1=Decorative Tank (Clear)
 block.shield=Borer Shield Block
 block.bedrockingot=Bedrock Ingot Block
+block.coke=Coal Coke Block
 
-fluid.lubricant=Lubricant
-fluid.jet fuel=Jet Fuel
+fluid.rc lubricant=Lubricant
+fluid.rc jet fuel=Jet Fuel
 fluid.rc ethanol=Ethanol
-fluid.liquid nitrogen=Liquid Nitrogen
+fluid.rc liquid nitrogen=Liquid Nitrogen
 fluid.molten hsla=Molten HSLA Steel
 
 canola.seed=Canola Seeds
@@ -414,6 +416,7 @@ upgrade.tier4=Thermal Stability Upgrade
 upgrade.tier5=Torsion Resistance Upgrade
 upgrade.afterburn=Afterburner Upgrade
 upgrade.efficiency=Resonance Stability Upgrade
+upgrade.flux=Flux Amplitude Upgrade
 
 label.temperature=Temperature
 label.pressure=Pressure
