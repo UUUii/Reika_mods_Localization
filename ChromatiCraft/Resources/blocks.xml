@@ -1,0 +1,69 @@
+﻿<?xml version="1.0"?>
+<blocks>
+	<tnt>
+		TNT cannons are fun, but they are large and easy to sabotage, something you learned the hard way the last time you tried to use it. How else, though, are you to cause explosions at a distance? Ender TNT allows you to create an explosion at any coordinate in any dimension.
+	</tnt>
+	<chroma>
+		Experience you gain can be condensed and purified into an iridescent, freeflowing liquid that seems to have magical properties. You wonder if this fluid can be bound into various items to better harness crystal energy.
+	</chroma>
+	<runes>
+		Engraved with strange symbols - some of which look vaguely familiar - these glowing stones are found around the pylons and seem to focus and direct crystal energy. To that end, they are likely going to be a core component of your designs.
+	</runes>
+	<tankaux>
+		Combined with the controller, these crystalline blocks widen the bridge to the void, allowing you to store more and more fluid.
+	</tankaux>
+	<fenceaux>
+		These seem to relay and redirect the beam from the crystal fence, allowing you to draw a perimeter. Sneak-clicking with the manipulator sets the output side, whereas normal right-clicking sets the input.
+	</fenceaux>
+	<lumenleaves>
+		The leaves of the lumen tree throb with crystal energy. Because of this, you likely can use them to charge yourself. Seeing as they are the storage for the tree, breaking them means losing all the stored energy, but you wonder what result that may give...
+	</lumenleaves>
+	<dyeleaves>
+		Weakly magical trees dot the landscape, and ocasionally congregate together in forests where the magical energy is strong enough to drive away hostile mobs.
+	</dyeleaves>
+	<lampaux>
+		Scatter these around your base, and you have a network of lights that can be remotely controlled with the flick of a switch.
+	</lampaux>
+	<rainbowleaves>
+		Aside from the comparatively common single-color trees, you have occasionally spotted towering flame-shaped trees whose leaves sparkle with every color of the rainbow. They are more than aesthetically pleasing; they seem to change the very air around them, cleaning it, stabilizing it. You recall the purple blight you ran into elsewhere, and wonder if this can keep that at bay. It might even be able to stabilize those worlds you found, rich with dense ores but being eaten by spongy masses and giant meteors.
+	</rainbowleaves>
+	<crystallamp>
+		Lighting your house is a necessary task, but torches, while effective, are boring, and other lighting methods often involve glowstone, a costly and rare material. Recalling the weak glow given off by crystals, you wonder if you may be able to fashion them into far more attractive and powerful lamps.
+	</crystallamp>
+	<superlamp>
+		Crystal-based lamps are nice, but you long for the stat boosts given by the original crystals. Recalling their creation, you hit upon an idea: if you use a complete crystal, rather than shards as the base, and dump in a healthy amount of crystal energy, you should get a lamp that not only glows brightly, but emits a powerful effect over a significant radius.
+	</superlamp>
+	<glow>
+		Mounting a crystal shard on a base of some other material creates a stylish light whose variability allows it to be put in any home.
+	</glow>
+	<relay>
+		Not all your constructs draw directly from the repeater network. Others, notably those that tend to be used in groups, seem to draw via relays that transmit from a central source - which does draw from the pylons - and bounce from relay to relay - as long as there is a clear line of sight - to the target block. Conveniently, this also allows you to use some of these constructs underground, where getting lumen energy beams in is rather difficult. There is a range limit, of %d meters per jump.
+	</relay>
+	<path>
+		Imbued with the energy of motion, travel path accelerates your ability to traverse the ground, often to surpising velocities. Just don't try crouching while you do so, as you might tumble uncontrollably.
+	</path>
+	<portal>
+		All this talk of a special world brimming with crystal energy is rather pointless without a way to actually GET there. Fortunately, you feel you just might have enough knowledge to rift space enough to venture into the unknown.
+	</portal>
+	<heatlamp>
+		When faced with the need to bring something to a precise temperature - most annoyingly, that metal fermentation box - your options are somewhat limited. Fire and lava, while they heat things, are often much too hot - only a fool would try using lava to gently warm yeast for composting - and ice and snow are frigidly cold. What would be most ideal would be some gentle heater you could affix directly to a block.
+	</heatlamp>
+	<door>
+		Keeping creatures out of your house is proving more difficult than you would like. You had a nice door crafted from oak, but two hits from a zombie and you had unwanted guests. Sure, you could make iron doors, but they are expensive, unsightly, and will force you to endure the clanging noise as zombies ineffectually try to demolish it. A more visually ethereal - yet still impenetrable - design would be wonderful.
+	</door>
+	<altar>
+		Continuing your endeavour to create fancy lighting, you decided to make an altar-like crystal flame. Not only does it glow and pulsate various colors, but it also gives off colored particles and fog, making for quite an impressive display.
+	</altar>
+	<name>
+		
+	</name>
+	<name>
+		
+	</name>
+	<name>
+		
+	</name>
+	<name>
+		
+	</name>
+</blocks>

@@ -1,0 +1,67 @@
+machine.wire=Wire
+machine.electrigenerator=Induction Generator
+machine.electrimotor=Induction Motor
+machine.electriresistor=Resistor
+machine.electrirelay=Relay
+machine.battery=Battery
+machine.rfcable=RF Transfer Cable
+machine.wiremeter=Electric Meter
+machine.rfbattery=RF Storage Battery
+machine.transformer=Transformer
+machine.eusplit=EU Splitter
+
+battery.redstone=Redstone Battery
+battery.glowstone=Lustrous Battery
+battery.lapis=Azulant Battery
+battery.star=Auroral Battery
+battery.diamond=Graphene Battery
+battery.ender=Procyon Battery
+
+energycrystal.redstone=Redstone Energy Crystal
+energycrystal.glowstone=Lustrous Energy Crystal
+energycrystal.lapis=Azulant Energy Crystal
+energycrystal.star=Auroral Energy Crystal
+energycrystal.diamond=Graphene Energy Crystal
+energycrystal.ender=Procyon Energy Crystal
+energycrystal.rf=RF Energy Crystal
+
+electricrafting.bluedust=Lapis Dust
+electricrafting.diamonddust=Diamond Dust
+electricrafting.quartzdust=Quartz Dust
+electricrafting.crystaldust=Energy Crystal Dust
+
+ore.copper=Copper Ore
+ore.tin=Tin Ore
+ore.silver=Silver Ore
+ore.platinum=Platinum Ore
+ore.nickel=Nickel Ore
+ore.aluminum=Aluminum Ore
+
+ingot.copper=Copper Ingot
+ingot.tin=Tin Ingot
+ingot.silver=Silver Ingot
+ingot.platinum=Platinum Ingot
+ingot.nickel=Nickel Ingot
+ingot.aluminum=Aluminum Ingot
+
+wire.steel=Steel Wire
+wire.copper=Copper Wire
+wire.tin=Tin Wire
+wire.silver=Silver Wire
+wire.gold=Gold Wire
+wire.aluminum=Aluminum Wire
+wire.platinum=Platinum Wire
+wire.nickel=Nickel Wire
+wire.superconductor=Superconducting Wire
+
+wire.insulated.steel=Insulated Steel Wire
+wire.insulated.copper=Insulated Copper Wire
+wire.insulated.tin=Insulated Tin Wire
+wire.insulated.silver=Insulated Silver Wire
+wire.insulated.gold=Insulated Gold Wire
+wire.insulated.aluminum=Insulated Aluminum Wire
+wire.insulated.platinum=Insulated Platinum Wire
+wire.insulated.nickel=Insulated Nickel Wire
+wire.insulated.superconductor=Insulated Superconducting Wire
+
+item.electribook=ElectriCraft Handbook
