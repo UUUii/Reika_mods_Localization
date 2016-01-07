@@ -11,14 +11,14 @@ machine.transformer=变压器
 machine.eusplit=EU储存电池
 
 battery.redstone=红石电池
-battery.glowstone=萤石电池
+battery.glowstone=荧石电池
 battery.lapis=青金石电池
 battery.star=下界之星电池
 battery.diamond=钻石电池
 battery.ender=末影电池
 
 energycrystal.redstone=红石能量水晶
-energycrystal.glowstone=萤石能量水晶
+energycrystal.glowstone=荧石能量水晶
 energycrystal.lapis=青金石能量水晶
 energycrystal.star=下界之星能量水晶
 energycrystal.diamond=钻石能量水晶
@@ -52,7 +52,7 @@ wire.gold=Gold导线
 wire.aluminum=铝线
 wire.platinum=铂导线
 wire.nickel=镍导线
-wire.superconductor=超导体线
+wire.superconductor=超导线
 
 wire.insulated.steel=绝缘钢导线
 wire.insulated.copper=绝缘铜导线
@@ -62,6 +62,6 @@ wire.insulated.gold=绝缘金导线
 wire.insulated.aluminum=绝缘铝导线
 wire.insulated.platinum=绝缘铂导线
 wire.insulated.nickel=绝缘镍导线
-wire.insulated.superconductor=绝缘超导体线
+wire.insulated.superconductor=绝缘超导线
 
 item.electribook=电力工艺手册
