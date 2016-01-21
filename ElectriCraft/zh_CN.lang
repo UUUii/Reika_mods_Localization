@@ -11,14 +11,14 @@ machine.transformer=变压器
 machine.eusplit=EU储存电池
 
 battery.redstone=红石电池
-battery.glowstone=荧石电池
+battery.glowstone=萤石电池
 battery.lapis=青金石电池
 battery.star=下界之星电池
 battery.diamond=钻石电池
 battery.ender=末影电池
 
 energycrystal.redstone=红石能量水晶
-energycrystal.glowstone=荧石能量水晶
+energycrystal.glowstone=萤石能量水晶
 energycrystal.lapis=青金石能量水晶
 energycrystal.star=下界之星能量水晶
 energycrystal.diamond=钻石能量水晶
