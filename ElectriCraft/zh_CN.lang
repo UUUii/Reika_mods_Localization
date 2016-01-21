@@ -52,7 +52,7 @@ wire.gold=Gold导线
 wire.aluminum=铝线
 wire.platinum=铂导线
 wire.nickel=镍导线
-wire.superconductor=超导体线
+wire.superconductor=超导线
 
 wire.insulated.steel=绝缘钢导线
 wire.insulated.copper=绝缘铜导线
@@ -62,6 +62,6 @@ wire.insulated.gold=绝缘金导线
 wire.insulated.aluminum=绝缘铝导线
 wire.insulated.platinum=绝缘铂导线
 wire.insulated.nickel=绝缘镍导线
-wire.insulated.superconductor=绝缘超导体线
+wire.insulated.superconductor=绝缘超导线
 
 item.electribook=电力工艺手册

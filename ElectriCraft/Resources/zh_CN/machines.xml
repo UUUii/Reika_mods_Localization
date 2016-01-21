@@ -2,34 +2,34 @@
 <machines>
 	<generator>
 		<desc>
-			The generator converts rotational shaft power to electric power. The magnitude of input torque is proportional to the current output, while the magnitude of the input speed is proportional to the voltage output. The total power remains the same. The machine operates losslessly.
+			发电机可以将轴旋转产生的动能转化为�电能。其电流输出量与输入扭矩大小成正比,而输出电压则与转速成正比,同时总输出保持不变.本机器工作时不会有损耗.
 		</desc>
 		<note>
-			Requires %d Nm/A, generates %dV per rad/s
+			需求%dNm/A,每rad/s产生%dV
 		</note>
 	</generator>
 	<motor>
 		<desc>
-			The motor converts electric power back into shaft power using the inverse of the ratios seen in the generator. Like the generator, the motor is usually lossless; putting power into a generator and then directly into a motor yields the original torque and speed values. The one exception is that motors can only connect to a finite number of power sources; exceeding this wastes power and generates heat.
+			马达可将电能重新转换为轴产生的旋转动能,其转换比例和发电机的正好相反.和发电机类似,马达工作时没有损耗;只需为其提供电力,即可产生一开始输入的扭矩和转速.特别需要说明的是,马达可连接的电源数有限,超出的部分会以热的形式浪费掉.
 		</desc>
 		<note>
-			Source limits:
-			Default: 1
-			Inductive upgrade: 2
-			Tungsten upgrade: 4
+			电源数限制:
+			默认:1
+			感应升级:2
+			钨升级:4
 		</note>
 	</motor>
 	<wire>
 		<desc>
-			Wires actually transport the electrical power. They must form a continuous path from a power source to a power sink for any current to flow. For a given wire path, current remains constant, but most wires have a nonzero resistance and thus a nonzero voltage loss over distance. They also tend to have current limits, as the lost power generates heat that can melt the wire. The only exception to this is the superconducting wire, which has zero electrical resistance, and thus has both zero loss and no current limits.
+			电线是电力的真正载体.电线必须在电源和用电器之间组成通路方可传输电流.对于一个给定的电流通路,其中电流大小不变;然而,大多数导线都有损耗,这导致了电压在电线中不断损耗.导线同时还有电流限制,损失的电力会以热的形式散失,这些热能可能会导致电线熔断.唯一的例外是超导线,它电阻为零,因此不会有损耗,也没有电流限制.
 		</desc>
 		<note>
-			Uninsulated wires are very dangerous, and can deliver strong or even lethal shocks at high voltages
+			未绝缘导线十分危险,高压电触电甚至可以致命.
 		</note>
 	</wire>
 	<relay>
 		<desc>
-			The relay is a redstone-controlled electrical switch. Applying electrical power connects it and allows current to flow; shutting off the signal severs the path. It has no loss or limit on the power.
+			继电器是个受红石控制的电开关.为其提供电力时它可与其它导线连接并传输电力,撤去信号时则会切断电流通路.它本身无损耗,也无电流传输上限.
 		</desc>
 		<note>
 			
@@ -37,25 +37,25 @@
 	</relay>
 	<resistor>
 		<desc>
-			Resistors act as current limiters for a path. If the path current would normally be larger than permitted by the resistor, the surplus is redirected to other paths if possible. Resistor values are determined by the three bands on the resistor; each color corresponds to a value from 0 to 9. The first two bands are the 10s and 1s places respectively; the third band is a multiplier, adding its value in zeros to the end. Use dye to color the bands.
+			电阻在电路中可起限流作用.若通过电阻的电流会超过电阻器允许的范围,其超出部分会从其它可能路径中流出.电阻值可由其身上的三个色带读出,每种颜色都对应一个0-9的电阻值.前两个色带分别对应are the 10s and 1s places;第三条色带是a multiplier, adding its value in zeros to the end.使用染料可为其染色.
 		</desc>
 		<note>
-			Color values:
-			Black = 0
-			Brown = 1
-			Red = 2
-			Orange = 3
-			Yellow = 4
-			Green = 5
-			Blue = 6
-			Purple = 7
-			Gray = 8
-			White = 9
+			颜色-电阻对照表:
+			黑 = 0
+			棕 = 1
+			红 = 2
+			橙 = 3
+			黄 = 4
+			绿 = 5
+			蓝 = 6
+			紫 = 7
+			灰 = 8
+			白 = 9
 		</note>
 	</resistor>
 	<battery>
 		<desc>
-			Batteries store electrical power, acting as a buffer or long-term storage. There are several tiers of batteries; each tier has more capacity and output power than the last. The output current, voltage, and power of a battery are constant. Batteries retain their charge when moved. They can take power in the sides, and will output it from their top when supplied with a redstone signal.
+			电池可以储存电力,可用作缓冲,也可用于长期储存电力.电池有数个不同等级;每个等级的电池,相比于上一个等级,都有容量和输出上的提升.单个电池的输出电流,电压和总电量是一定的.电池被拆除时会保存电量.它们从侧面接受电力输入,并在有红石信号输入时,从顶面输出电力.
 		</desc>
 		<note>
 			
@@ -63,10 +63,10 @@
 	</battery>
 	<transformer>
 		<desc>
-			Using coils on each side, the transformer changes the ratio of voltage to current across it. The ratio of coils on the input side to the output side determines the change in voltage/current; ratios larger than one, such as 1:8, favor an increased current, while ratios less than one, such as 2:5, favor increased voltage. Note that as the ratio gets farther from one, the efficiency drops and the wasted energy is dissipated as heat. Excessive temperatures (larger than %dC) or excessive currents (larger than %dA) will cause the transformer to violently fail.
+			变压器可借助安装于其一侧的线圈来改变流经其的电力之电流与电压大小.电流与电压的变更量由输入端与输出端的线圈数量比决定;比值大于1时, such as 1:8,可导致电流增大,而比值小于1时,such as 2:5,则会导致电压提升. Note that as the ratio gets farther from one, the efficiency drops and the wasted energy is dissipated as heat. Excessive temperatures (larger than %dC) or excessive currents (larger than %dA) will cause the transformer to violently fail.
 		</desc>
 		<note>
-			Can be cooled with fins or liquid nitrogen
+			可用散热片或液氮散热.
 		</note>
 	</transformer>
 	<meter>
