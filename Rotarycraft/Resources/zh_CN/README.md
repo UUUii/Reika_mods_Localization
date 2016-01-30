@@ -7,5 +7,5 @@
 * [x] misc
 * [x] resource
 * [x] thaum
-* [ ] tool
+* [x] tool
 * [x] trans
