@@ -184,10 +184,10 @@ block.shield=钻机防护块
 block.bedrockingot=基岩锭块
 block.coke=焦煤块
 
-fluid.lubricant=润滑油
-fluid.jet fuel=航空燃油
+fluid.rc lubricant=润滑油
+fluid.rc jet fuel=航空燃油
 fluid.rc ethanol=乙醇
-fluid.liquid nitrogen=液氮
+fluid.rc liquid nitrogen=液氮
 fluid.molten hsla=熔融HSLA钢
 
 canola.seed=油菜籽
@@ -217,7 +217,7 @@ item.nvh=夜视头盔
 item.handcraft=手持合成桌
 item.railgun=轨道枪弹药
 item.rcbucket=桶
-item.target=TNT加农炮瞄准辅助
+item.target=TNT加农炮瞄准辅助器
 item.iogoggles=I/O眼镜
 item.slide=幻灯片
 item.key=加农炮钥匙
@@ -416,7 +416,7 @@ upgrade.tier4=热量稳定升级组件
 upgrade.tier5=抗扭强度升级组件
 upgrade.afterburn=再燃装置升级组件
 upgrade.efficiency=谐振稳定升级组件
-upgrade.flux=Flux Amplitude升级组件
+upgrade.flux=通量振幅升级组件
 
 label.temperature=温度
 label.pressure=压力

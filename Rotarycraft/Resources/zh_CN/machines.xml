@@ -101,7 +101,7 @@
 			阶段2速度: %d rad/s
 			阶段3速度: %d rad/s
 			动力输入: 底面
-			提示: 阶段2和3均需要水的供应
+			提示: 阶段2和3均需要水的供应;可以用基岩钻头升级
 		</note>
 	</extractor>
 	<pulsejet>
@@ -116,7 +116,7 @@
 	</pulsejet>
 	<pump>
 		<desc>
-			泵在动力充足时会从周围的环境中吸取流体,将它们泵入管道中.水常被作为冷却剂,多数情况下用于抽取岩浆输入到流体池,用于作为某些引擎的燃料.
+			泵在动力充足时会从周围的环境中吸取流体,将它们泵入管道中.水常被作为冷却剂,多数情况下用于抽取岩浆输入到蓄水池,用于作为某些引擎的燃料.
 		</desc>
 		<note>
 			需求功率: %d W
@@ -126,7 +126,7 @@
 	</pump>
 	<reservoir>
 		<desc>
-			流体池用于装载各种流体,最多可以装载%d立方米(桶).用桶右击可以存入或取出流体,如果里面装满水,也可用玻璃瓶装水.此外,在水平面上相连可以形成一个更大的容器.
+			蓄水池用于装载各种流体,最多可以装载%d立方米(桶).用桶右击可以存入或取出流体,如果里面装满水,也可给玻璃瓶装水.此外,在水平面上相连可以形成一个更大的容器,上方可以用玻璃板覆盖.
 		</desc>
 		<note>
 			能力: %d m^3 每方块
@@ -299,10 +299,10 @@
 	</mobradar>
 	<winder>
 		<desc>
-			卷线器会用于盘卷弹簧线圈,使其充入机械能方便之后的使用.它也能让预先充能好的弹簧作为动力源,这使得物品形式的能源传输成为可能.
+			卷线器用于盘卷弹簧线圈,使其充入机械能方便之后的使用.它也能让预先充能好的弹簧作为动力源,这使得物品形式的能源传输成为可能.
 		</desc>
 		<note>
-			Maximum energy acheivable is proportional to torque input
+			能充入的最大能量与输入的扭矩成正比
 		</note>
 	</winder>
 	<tntcannon>
@@ -322,10 +322,10 @@
 		<note>
 			需求功率: %dW
 			范围 = 8+(功率-%d)/%d m
-			Blindness at: %d W/m^2
-			Confusion at: %d W/m^2
-			Drowning at: %d W/m^2
-			Lethality at: %d W/m^2
+			造成失明: %d W/m^2
+			造成混乱: %d W/m^2
+			造成窒息: %d W/m^2
+			致死: %d W/m^2
 			动力输入: 任意
 		</note>
 	</sonicweapon>
@@ -357,9 +357,9 @@
 			音乐盒实质上是一个集成化的音符盒电路.只需给它编辑曲目 - 使用演示曲目或由自己编写, 并提供动力即可演奏音乐.红石信号会使曲子循环一次; 提供动力则会循环播放.
 		</desc>
 		<note>
-			Activation: Redstone for one cycle, shaft power for looped music
-			Loop porwe: %d
-			Data Entry Mode: Sequential
+			激活: 红石信号一次循环,轴功率持续循环
+			循环播放所需能量: %d
+			数据写入模式: 顺序
 			动力输入: 任意
 		</note>
 	</musicbox>
@@ -441,7 +441,7 @@
 			液体喷射器用于把坑洼之地用液体填满. 每桶液体相当于也可液体方块. 它会从最底下一层开始补填.
 		</desc>
 		<note>
-			Requires piped liquid to operate
+			需求输送液体使其运作
 		</note>
 	</spiller>
 	<smokedetector>
@@ -449,7 +449,7 @@
 			烟雾检测器会检测附近的一个火源方块并发出警报声响,当线圈给它持续功能时,它能持续发出警报声响.
 		</desc>
 		<note>
-			Requires a charged windspring as a power source
+			需要一个弹簧线圈作为能量源
 		</note>
 	</smokedetector>
 	<igniter>
@@ -509,7 +509,7 @@
 			CCTV检测仪能让你随意观察是否存在你无法安全访问的区域.只需要提供一个充能好的弹簧与三个染料做出的编码,其观察镜头你可以通过CCTV监控屏来查看.要退出相机模式只需要按 "\". 该检测器可以通过螺丝刀调节(按住shift右击以倾斜).
 		</desc>
 		<note>
-			Requires a charged windspring as a power source
+			需要一个弹簧线圈作为能量源
 		</note>
 	</cctv>
 	<purifier>
@@ -557,7 +557,7 @@
 			地雷是一种能埋在地下一格位置的陷阱.它需要弹簧线圈,线圈的损耗越多,其自爆的风险就越高. 也可以在右侧放入TNT,烈焰粉,蜘蛛眼,玻璃来产生一些额外的效果,左侧的火药越多爆炸威力越强.
 		</desc>
 		<note>
-			Requires a charged windspring as a power source
+			需要一个弹簧线圈作为能量源
 		</note>
 	</landmine>
 	<bucketfiller>
@@ -576,16 +576,16 @@
 		</desc>
 		<note>
 			需求功率: %dW
-			需求扭矩: Goes up with block mass
+			需求扭矩: 随方块重量上升
 			动力输入: 任意或下面
 		</note>
 	</blockcannon>
 	<spycam>
 		<desc>
-			航拍摄像仪能让你从高空观察一个大区域,以便得知怪物与方块的位置.像CCTV检测仪一样,它需要一个弹簧线圈以及三色“信号频道”.
+			航拍摄像仪能让你从高空观察一个大区域,以便得知怪物与方块的位置.像CCTV检测仪一样,它需要一个弹簧线圈以及三色"信号频道".
 		</desc>
 		<note>
-			Requires a charged windspring as a power source
+			需要一个弹簧线圈作为能量源
 		</note>
 	</spycam>
 	<mirror>
@@ -593,7 +593,7 @@
 			反射镜是太阳能塔的关键部件.更多的镜子意味着有更多的效率.请注意,它们需要一个直视天空,如果太阳的亮度不是全亮的,它将会降低效率.此外,如果有重物如玩家或史莱姆在上面时,它很容易损坏.
 		</desc>
 		<note>
-			Requires a clear view of the sky
+			需要在清晰可见天空的地方
 		</note>
 	</mirror>
 	<selfdestruct>
@@ -601,7 +601,7 @@
 			自毁装置会检测一个动力源,若动力源出现变动会把所积聚的能量释放出来形成大爆炸.
 		</desc>
 		<note>
-			Detonates on power loss
+			动力下降时会产生爆炸
 			动力输入: 任意
 		</note>
 	</selfdestruct>
@@ -618,16 +618,16 @@
 			工作台是除高炉或其本身以外所有机器加工出来的地方. 使用方法与原版合成台一样.给它红石信号或点击右侧物品即可.工作台也可给需要线圈的工具进行充能.只需在左侧放入工具与线圈即可,并在右侧取出.跟原版合成台不同的是,它能暂时储存物品.
 		</desc>
 		<note>
-			Required to craft any machines
+			任何机器都需在该工作台上制作
 		</note>
 	</worktable>
 	<compressor>
 		<desc>
-			空气压缩机能用轴来压缩空气,通过导能管道能给Buildcraft的机器供能.如果提供过量的动力,它会爆炸.
+			空气压缩机能用轴来压缩空气,通过导能管道能给BuildCraft的机器供能.如果提供过量的动力,它会爆炸.
 		</desc>
 		<note>
-			Maximum pressure before detonation: %d kPa
-			Orientation and Output: Like BuildCraft engines
+			在爆炸前所能达到的最大压力: %d kPa
+			朝向与输出: 与BC引擎类似
 			动力输入: 后面
 		</note>
 	</compressor>
@@ -640,9 +640,9 @@
 				<s1>
 					空气输入: 后面
 
-					Overheats at: %dC
+					过热临界温度: %dC
 
-					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
 				</s1>
 				<s2>
 					%s
@@ -701,7 +701,7 @@
 		</desc>
 		<note>
 			纯机械的方块,如轴不受其影响
-			Activation Energy: %dJ
+			激活所需能量: %dJ
 			动力输入: 底面
 		</note>
 	</emp>
@@ -742,9 +742,9 @@
 				<s1>
 					蒸汽输入: 后面
 
-					Overheats at: %dC
+					过热临界温度: %dC
 
-					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
 				</s1>
 				<s2>
 					%s
@@ -797,9 +797,9 @@
 				<s1>
 					电线连接位置: 后面
 
-					Overheats at: %dC
+					过热临界温度: %dC
 
-					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
 				</s1>
 				<s2>
 					%s
@@ -816,21 +816,21 @@
 	</hose>
 	<pipe>
 		<desc>
-			管道用于将流体从泵输送到机器或流体池.一节管道能无限制地容纳流体,但一次只能有一种,并且必须在流体种类变化之前清空.由于腐蚀性问题,该管道不能输送航空燃油或含氟的流体.
+			管道用于将流体从泵输送到机器或蓄水池.一节管道能几乎无限制地容纳流体,但一次只能有一种,并且必须在流体种类变化之前清空.由于腐蚀性问题,该管道不能输送航空燃油或含氟的流体.
 		</desc>
 		<note>
 		</note>
 	</pipe>
 	<fuelline>
 		<desc>
-			燃料管线将乙醇或航空燃油输给需要它们的引擎和炉子中.一旦连接到了源头,它们就会开始自动抽取流体充入自身.一旦连接到了目标,也会自动将内部的流体输入其中.它们有无限的容量,所以在破坏它们的时候最好多加小心,以防流失内部大量的燃料..
+			燃料管线将乙醇或航空燃油输给需要它们的引擎和炉子中.一旦连接到了源头,它们就会开始自动抽取流体充入自身.一旦连接到了目标,也会自动将内部的流体输入其中.它们有几乎无限的容量,所以在破坏它们的时候最好多加小心,以防流失内部大量的燃料..
 		</desc>
 		<note>
 		</note>
 	</fuelline>
 	<valve>
 		<desc>
-			阀门管道,就和其他类型的管道一样,若放在流体池下方就会抽出其中的流体.然而它在没有红石信号的时候是不工作的.
+			阀门管道,就和其他类型的管道一样,若放在蓄水池下方就会抽出其中的流体.然而它在没有红石信号的时候是不工作的.
 		</desc>
 		<note>
 		</note>
@@ -872,9 +872,9 @@
 			燃油引擎能够利用Buildcraft的燃油来产生旋转动力.它的运作产出方式类似其他mod的发电机.它需要润滑油以及冷却水,引擎在过热时会减速.
 		</desc>
 		<note>
-			Torque Produced: %d Nm
-			Rotational Speed: %d rad/s
-			Power Produced: %dW
+			扭矩: %d Nm
+			转速: %d rad/s
+			功率: %dW
 		</note>
 	</fuelengine>
 	<airgun>
@@ -961,7 +961,7 @@
 	</suction>
 	<dynamo>
 		<desc>
-			旋转动力发电机能将旋转工艺的动力转化为热力膨胀的红石通量.由于磁场内部的显示, 它最多只能接受的扭矩为 %d Nm ,最大转速为 %d rad/s.多余的能量不会造成危险,但会被浪费掉.
+			旋转动力发电机能将旋转工艺的动力转化为热力膨胀的红石通量.由于磁场内部的显示, 它最多只能接受的扭矩为 %d Nm (升级后为 %d Nm ),最大转速为 %d rad/s.多余的能量不会造成危险,但会被浪费掉.
 		</desc>
 		<note>
 			方向和输出: 和热力膨胀的发电机一样
@@ -977,9 +977,9 @@
 				<s1>
 					能量输入: 后面
 
-					Overheats at: %dC
+					过热临界温度: %dC
 
-					Tiered from 0 to 5; each tier increases power output but decreases efficiency
+					级别从0-5.每个级别将会输出额外的动力,但会削弱利用率
 				</s1>
 				<s2>
 					%s
@@ -1063,12 +1063,12 @@
 	</gastank>
 	<crafter>
 		<desc>
-			自动合成器使你能自动化合成任何工作台或原版合成台可用的配方.他有三种模式: 在自动模式下,只要原料足够就会持续合成;需求模式下.它会按照你的需求合成物品然后停止.他可以自动输入在它上方的容器,它也可以接受Applied Energistics网络的物品供应.这台机器可以储存18个配方,并且这18个配方可以同时合成.在第三个模式,保持模式,它可以在ME系统中将指定的物品保持为一定数量.
+			自动合成器使你能自动化合成任何工作台或原版合成台可用的配方.他有三种模式: 在自动模式下,只要原料足够就会持续合成;需求模式下.它会按照你的需求合成物品然后停止.他可以自动输入在它上方的容器,它也可以接受Applied Energistics网络的物品供应.这台机器可以储存18个配方,并且这18个配方可以同时合成.在第三个模式,维持模式,它可以在ME系统中将指定的物品维持为一定数量.
 		</desc>
 		<note>
 			动力输入: 任意
 			需求功率: %dW
-			保持模式需要使用AE的合成处理器
+			维持模式需要使用AE的合成处理器
 		</note>
 	</crafter>
 	<antiair>

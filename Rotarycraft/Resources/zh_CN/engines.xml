@@ -95,9 +95,9 @@
 					注意事项: 需要很高的流水才能达到最大功率
 				</s1>
 				<s2>
-					At most 4 engines can be chained before the torque overloads the core shaft
+					在扭矩超负荷前最多4台引擎衔接A,轴芯
 
-					Can be upgraded with a bedrock shaft unit to increase that limit to 16 engines
+					能用基岩轴单元升级使得限制提升到16台
 				</s2>
 			</sub>
 		</note>

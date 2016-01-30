@@ -15,7 +15,7 @@
 				分轴箱就如其名.在"合并"模式时,将两个引擎的输出动力相结合,以输入的转速输出总的扭矩.注意,如果你输入两个转速不同的动力就可能会产生火花."分离"模式下,会以输入的转速各输出一些扭矩.用螺丝刀shift右击即可切换模式.
 			</s0>
 			<s1>
-				Shaft junctions can merge at most four times the average of the input power. Exceeding that load will cause them to break. Junctions upgraded with a bedrock 2x gear unit are not subject to this limit.
+				分轴箱的合并最多可接受四个相同的动力,超出负荷会导致轴损坏. 当分轴箱用一个基岩 2x 齿轮组升级后将不会有该限制.	
 			</s1>
 		</sub>
 	</splitter>
@@ -37,22 +37,22 @@
 	<coil>
 		<sub>
 			<s0>
-				工业线圈能在内部的弹簧中储存大量的能量,只需一个红石信号就能将其释放出来.由于它能输出预设范围之内的扭矩和转速,因此可用于储存能量或是某种电容,储存低强度的能量之后再一次性爆发输出.注意每种线圈都有储存上限,并且过载会导致十分严重的能量爆发.这个装置不能同时积攒和释放能量;因此输出能量时一切输入的能量都会被浪费掉.
+				工业线圈能在内部的弹簧中储存大量的能量,只需一个红石信号就能将其释放出来.由于它能输出预设范围之内的扭矩和转速,因此可用于储存能量或是某种电容,储存低强度的能量之后再一次性爆发输出.注意每种线圈都有存储上限,并且过载会导致十分严重的能量爆发.这个装置不能同时积攒和释放能量;因此输出能量时一切输入的能量都会被浪费掉.
 			</s0>
 			<s1>
-				Energy storage limits:
+				能量存储上限:
 
 				钢: %d J (%s)
 				基岩: %d J (%s)
 			</s1>
 			<s2>
-				Input requirements:
+				输入需求:
 
 				扭矩: %s
 				功率: %s
 			</s2>
 			<s3>
-				Output limits:
+				输出上限:
 
 				Cap:
 				钢: %d rad/s x %d Nm
@@ -61,7 +61,7 @@
 				Function: %s
 			</s3>
 			<s4>
-				Outputs a redstone comparator signal in proportion to its fill state
+				根据其能量存满比例输出一个红石比较器型号
 			</s4>
 		</sub>
 	</coil>
