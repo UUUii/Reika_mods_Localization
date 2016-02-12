@@ -6,7 +6,7 @@
 * [ ] hover
 * [ ] machines
 * [ ] progression
-* [ ] resource
-* [ ] structure
-* [ ] thaum
+* [X] resource
+* [X] structure
+* [X] thaum
 * [ ] tool
