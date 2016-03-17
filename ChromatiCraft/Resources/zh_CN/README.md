@@ -2,11 +2,12 @@
 
 * [ ] abilities
 * [ ] blocks
-* [ ] elements
+* [X] elements
 * [ ] hover
+* [X] Info (Unreviewed)
 * [ ] machines
-* [ ] progression
-* [X] resource
+* [X] progression (Unreviewed)
+* [X] resource (Unreviewed)
 * [X] structure
 * [X] thaum
 * [ ] tool

@@ -25,7 +25,7 @@
 		一开始这casting table看起来和普通木质工作台没什么区别，但你很快发现就它只能合成很基础的东西。不论如何，你都需要在这table周围建造某种结构以帮助它聚焦魔法能量，从而允许更高级别的合成。另外，合成的朝向看上去也很重要；你希望这个table会自动按照上北下南左西右东这样符合逻辑的布局来排列合成配方。
 	</crafting>
 	<balllightning>
-		Pylons和彩虹森林似乎有一些有趣的生物，它们不断地在天空中和地表彷徨。你很想找个人问问它们是否有什么用途，或者它们是不是什么危险生物。即便它们不会直接构成威胁，你或许也不会希望它们掉进诸如涡轮机这样的精密机械里。
+		Pylons和彩虹森林似乎有一些有趣的生物，它们不断地在天空中和地表彷徨。你很想知道它们是否有什么用途，或者它们是不是什么危险生物。即便它们不会直接构成威胁，你或许也不会希望它们掉进诸如涡轮机这样的精密机械里。
 	</balllightning>
 	<apirecipes>
 		Recalling the constructs you have crafted for other purposes - often those bearing little resemblance to the rest of your designs, feeling more akin to part of some other whole - you notice that you can nonetheless manufacture them on your casting table as well.
@@ -37,26 +37,26 @@
 		在巨大的水晶能源网络和不断增加的负载下，即便是完整的能量水晶环也无法保证足够多的能量流动了。再一次，你的思维冲破了你老旧的中继器，因为那就是水晶能源网络中最大的瓶颈。若你可以以某种方式同时增强plyon和中继器，那将是极好的。引发这样的事件将会激化pylon，所以将其与既有网络隔绝开来绝对是个好主意。
 	</turbo>
 	<dimension>
-		烈焰中闪动的黑暗梦魇。被巨龙统治的异域之岛。A fiery nightmare. An eldritch island ruled by a giant dragon. This world you have come to call your home is far from the only one in existence, but each of the others is alien and hostile. While they have proved bountiful with resources you no doubt need, they are inhospitable and useless aside from their raw materials. Another world must be the key, a world where the different colors of crystal energy flow naturally, unbounded by the corrupting influence of other forces. Maybe there will be secrets here, too.
+		烈焰中闪动的黑暗梦魇。被巨龙统治的异域之岛。A fiery nightmare. An eldritch island ruled by a giant dragon. This world you have come to call your home is far from the only one in existence, 但其它的每一个世界都充满了诡异的气氛和浓浓的杀气。自然这些世界毫无疑问充满了各种你需要的资源，但除此之外这些世界就只剩下不友好的气氛和各种无用的东西了。关键肯定是在另一个世界上 - 在那个世界中，各种颜色的水晶魔力可以自然地流动，不再受那些腐化的力量或者别的什么力量的束缚。当然了那个世界也会隐藏着什么别的秘密。
 	</dimension>
 	<usingrunes>
 		在这海量的配方中，有一些需要你在casting table上配合符文使用。留有通用的符文表也许会很有用。
 	</usingrunes>
 	<nodenet>
-		Scattered around the world are these odd, somewhat ethereal points that radiate magical energy of various flavors. You have managed to figure out how to draw energy from them into a wand, but even though they recharge, the process is slow. Thinking back to the larger crystal repeater networks you use to channel a different kind of magical energy, you wonder if you might be able to graft the two systems together...
+		这世界上星罗棋布着很多古怪而虚无缥缈的节点，它们不断地释放着不同种类的魔法能量。你已成功地找到了将这能量注入到法杖中的方法，虽然它们同时也会自动回复魔力，但它自然回复得慢。你将思绪重新拉回了你为传输多种魔法能量所建造的大规模水晶中继网络上，于是你开始思考能否将两个系统合二为一...
 	</nodenet>
 	<selfcharge>
-		You noticed that by using the manipulator on certain energy sources - most notably pylons - you could drain some of their energy into yourself. However, your lack of experience with this meant you could only store small amounts. No doubt increasing that experience and collecting as much as you can will help you surmount that barrier.
+		你注意到一件事情：用源晶魔杖可以从某些能量源 - 尤其是pylon - 中抽取能量到自己身上。然而，你对这个工作缺乏经验，因此你只能存储一小部分魔力。毫无疑问，不断地收集能量将会帮助你突破存储上限的壁垒。
 	</selfcharge>
 	<dimension2>
-		Having been to this strange other world, one thing in particular stands out to you: Its volatility. Like the proverbial cat in a famous and usually misunderstood experiment, it, until observed, exists in some sort of undefined state, and as such lacks persistence from one visit to the next. Like many other things, that is a double-edged sword; Infinite resource replenishment, but anything you leave there will not be there for your return.
+		在涉足这片奇特的土地后，第一个摆在你眼前的事实是：这是一个瞬息万变的世界。和那个著名但通常被曲解的实验中的猫一样，这个世界在被观察前，是以某种没有定义的状态存在的，也正是因为这个，它在下一次拜访后无法保持之前的状态。和很多其它的事情一样，这是一把双刃剑：无穷无尽的资源，并且会自然恢复，但在下一次返回后，上一次留下的痕迹都将不复存在。而且，这个世界的入口和出口非同寻常。
 	</dimension2>
 	<mystpage>
-		You have found a way to create worlds of your own by scribbling random symbols into a book. Bound only by the limits of your own avarice, you have created worlds with airborne veins of diamond ore, with oceans of rare fluids, and with fields of valuable blocks, plants, and items. Perhaps other symbols exist for things like pylons and those buried crystals.
+		你发现了一种通过将各种随机符号抄写进书本来创造世界的方法。在无尽贪婪的驱使下，你创造了天空中布满钻石矿的世界、海洋中充满了稀有液体的世界、以及充斥着稀有方块、植物和物品的世界。也许有些符号可以让pylon和地下的水晶也能存在于这种世界中。
 	</mystpage>
-	<name>
-		
-	</name>
+	<enchanting>
+		When you designed that obsidian slab on which you enchant your tools, you apparently did not have flexibility in mind, because it will not accept all but a small subset of your tools. Sure, a couple more recent variants are more accepting, but your lumen-powered tool stars could really benefit from the upgrade. The next best thing to try would be to try casting it like it was a recipe.
+	</enchanting>
 	<name>
 		
 	</name>

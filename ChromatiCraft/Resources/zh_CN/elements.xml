@@ -1,51 +1,51 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <elements>
 	<black>
-		%s的能量似乎是其他能量的基础；追根究底，它似乎和魔法能量的本身有关。
+		%s energy seems to be something of a base for the others; to that end, it is best associated with magic itself.
 	</black>
 	<red>
-		%s的力量会显现出保护和防御的特性。
+		%s, when applied, gives protective and defensive capabilities.
 	</red>
 	<green>
-		源出自然之力与万物之灵，成就%s之名。
+		Energy of the %s type emanates from nature, from living things.
 	</green>
 	<brown>
-		另一方面，大地，似乎就是由%s构成的，它的力量弥漫在每一块石头之中。
+		The earth, on the other hand, seems primarily composed of %s, which permeates the rock and ground.
 	</brown>
 	<blue>
-		%s的光将驱逐黑暗，它必是光元素的具现。
+		%s glows, banishing the darkness, so it must be the element of light.
 	</blue>
 	<purple>
-		%s不仅拥有纯净的力量，它还有一种有趣的特性：它不会像别的元素一样赋予特效，而是单纯地给予魔力提升和增幅，但它似乎还能将附魔转化为其他东西。
+		Rather than being a clear force of its own, %s is an interesting case; it seems more attuned to enhancing and boosting the power of the others than giving its own effects, but it is likely capable of transferring that enhancement to other things as well.
 	</purple>
 	<cyan>
-		毫无意外，%s是流体的象征，它和液体和流动息息相关。
+		Not surprisingly, %s is fluid, and associated with liquids and fluid flow.
 	</cyan>
 	<lightgray>
-		%s和%s外观相似，若不出意外，它便是与惊奇和欺骗相关联的元素。
+		%s is similar visually to %s, so it is little wonder then that it is the element most seen associated with surprise and deception.
 	</lightgray>
 	<gray>
-		这是最中性的色彩，%s。不出意外，它和变动有某种联系。
+		The most neutral color of all, %s is unsurprisingly associated with flux, with change.
 	</gray>
 	<pink>
-		%s那明显的敌意显然和敌对生物等来源相关，在这种影响下这种元素也极具力量和侵略意识。
+		Palpably hostile, %s is tangible from hostile mobs and similar sources, making it the element of strength and aggression.
 	</pink>
 	<lime>
-		%s的移动和闪烁，标志了它作为移动这个特性背后的起源。
+		%s can be felt to move, to pulse, making it a clear candidate for energy associated with movement and mobility.
 	</lime>
 	<yellow>
-		%s持续放射出的能量，表明了它代表最原始的能量。
+		%s radiates power, so it is clearly the element of raw energy.
 	</yellow>
 	<lightblue>
-		%s的能量不断地在周围制造着扭曲 - 这能量一定能扭曲时间和它的旅客。
+		Creating all sorts of distortions around it, %s energy is clearly capable of manipulating time and its passage.
 	</lightblue>
 	<magenta>
-		%s拥有治愈的力量，籍此这元素一定和生命本身有关。
+		%s has the power to heal, making it likely to be the element associated with life itself.
 	</magenta>
 	<orange>
-		毫无疑问，%s散发的能量是温暖的，甚至可以说是燥热的，它就是像岩浆和火焰那样的高温物体之核心组成。
+		Not very surprisingly, %s energy is warm, even hot, and is a core component of things like lava and fire.
 	</orange>
 	<white>
-		%s和所有其他的颜色息息相关，它将所有的颜色调和为一体，促成了它最纯洁之元素的名号。
+		%s ties together all the other colors, and unifies them into a coherent harmony, making it the purest of them all.
 	</white>
 </elements>

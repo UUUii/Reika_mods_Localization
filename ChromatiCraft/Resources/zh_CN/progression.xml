@@ -2,79 +2,79 @@
 <progression>
 	<crystals>
 		<title>
-			Tangible Energy
+			可触及的能量
 		</title>
 		<hint>
-			Crystal energy is mostly an ethereal, intagible force. However, when concentrated, it may have a physical manifestation.
+			水晶能量是一种永恒而无形的力量。然而，当这种能量聚集在一起时，它可能会拥有物理的样貌。
 		</hint>
 		<reveal>
-			Sure enough, you have found places where crystal energy has coalesced and formed regular, glassy formations, ones that radiate the effects of their element.
+			你确信你找到了水晶能量聚集为规则的玻璃状物质的地方，这些物质正不断地散发着它们的元素能量。
 		</reveal>
 	</crystals>
 	<casting>
 		<title>
-			Fabrication
+			制造
 		</title>
 		<hint>
-			Surely the wooden crafting table is not sufficient to do all your crafting.
+			你确信木质的工作台无法进行你所有的合成。
 		</hint>
 		<reveal>
-			As expected, to perform feats more complex than making a wooden box to store your items, you needed to create a special more magically-sound table.
+			和预想中的一样，为了进行那些材料多到木头箱子都装不下的合成，你需要一种特制的魔法工作台。
 		</reveal>
 	</casting>
 	<dyetree>
 		<title>
-			Technicolor Trees
+			五彩缤纷的树
 		</title>
 		<hint>
-			These trees seem to come in all sorts of colors; you wonder if there is something special about them.
+			这些树似乎有各种颜色；你很想知道它们是不是有什么特别之处。
 		</hint>
 		<reveal>
-			Well, they seem to drop berries and dyes of their color, so that has to count for something...
+			嗯，它们似乎会掉落浆果和对应颜色的染料，所以说一定是有什么特别的作用...
 		</reveal>
 	</dyetree>
 	<multiblock>
 		<title>
-			More Complex Crafting
+			更复杂的合成
 		</title>
 		<hint>
-			The more complex ideas you have could not possibly be pulled off with only nine constituent items...
+			你脑海中更复杂的想法，恐怕不能通过区区九种物品组合而完成...
 		</hint>
 		<reveal>
-			Sure enough, the 5x5 afforded by the item stands is what you need.
+			的确，你需要5x5的物品台方能完成任务。
 		</reveal>
 	</multiblock>
 	<runeuse>
 		<title>
-			Weak Magical Foci
+			弱魔力核心
 		</title>
 		<hint>
-			You may not be able to harness the power of the pylons yet, but these may make a milder alternative.
+			你或许暂时无法掌控pylon的能量，但似乎有替代品可用。
 		</hint>
 		<reveal>
-			That they do, allowing you to make items more infused with energy than simple stone.
+			相比于普通的石头，这些东西的确可以让物品吸收更多的魔法能量。
 		</reveal>
 	</runeuse>
 	<pylon>
 		<title>
-			Energy Beacons
+			魔能信标
 		</title>
 		<hint>
-			Glowing and radiant, what are these?
+			那些正闪烁着耀眼光芒的东西是？
 		</hint>
 		<reveal>
-			Some sort of an energy beacon...probably a good idea to remember that.
+			似乎是一种魔能信标...也许做下笔记会很不错。
 		</reveal>
 	</pylon>
 	<link>
 		<title>
-			Top-tier Crafting
+			顶级合成
 		</title>
 		<hint>
-			Finally you can harness the pylons, but how to put it to use?
+			现在你终于能掌控pylon的能量了，但又该如何使用呢？
 		</hint>
 		<reveal>
-			Channeling all that energy directly into the table has allowed you to construct devices from your wildest imagination.
+			将所有能量导向合成台，你便能尽情发挥你宽广的想像力来制造各种设备了。
 		</reveal>
 	</link>
 	<charge>
@@ -82,183 +82,216 @@
 			Energy Internalization
 		</title>
 		<hint>
-			If the pylons and trees can store energy, maybe you can too...
+			如果pylon和树可以储存能量，那或许你也可以...
 		</hint>
 		<reveal>
-			Turns out you can, though the acquisition process is more dangerous than is enjoyable.
+			事实上的确可以，虽然这个过程对你来说危险大于愉悦。
 		</reveal>
 	</charge>
 	<ability>
 		<title>
-			Personal Enhancement
+			个人强化
 		</title>
 		<hint>
-			Machines you can accelerate. Tools you can enchant. Yourself?
+			你现在可以加速机器，附魔工具。你自己呢？
 		</hint>
 		<reveal>
-			A new set of rituals has given you abilities of great utility.
+			一系列新的仪式可以赋予你更强且更实用的能力。
 		</reveal>
 	</ability>
 	<rainbowleaf>
 		<title>
-			Magical Trees
+			魔力之树
 		</title>
 		<hint>
-			Trees in various colors were one thing. But this?
+			那些拥有各种颜色的树都是一种树，但这个？
 		</hint>
 		<reveal>
-			The raw magic energy in this tree is palpable, not to mention behind the impressive visual display.
+			树中存储着可以触及的原始魔法能量，不要在其华丽的外表后提及这个事情。
 		</reveal>
 	</rainbowleaf>
+	<makechroma>
+		<title>
+			魔法液体
+		</title>
+		<hint>
+			一个收集器，但它收集什么，又能制造什么？
+		</hint>
+		<reveal>
+			它可将经验转化为一种神秘的魔法液体。肯定会有用。
+		</reveal>
+	</makechroma>
+	<shardcharge>
+		<title>
+			浓缩溶剂
+		</title>
+		<hint>
+			这液体不断散发着纯净的魔法能量。你很想知道它有什么效果...
+		</hint>
+		<reveal>
+			将浆果溶于彩能液体中后，得到的溶液可大幅提升水晶碎片的魔法性能。
+		</reveal>
+	</shardcharge>
 	<chroma>
 		<title>
-			Magic Liquid
+			液体效果
 		</title>
 		<hint>
-			The liquid is pulsing and throbbing with raw magical energy. You wonder what its effects are...
+			你已证明彩能液体可以作为一种溶剂，溶解某些丢进去的物品。但还能发生什么？
 		</hint>
 		<reveal>
-			Stepping in it yourself seemed to do little - though you do feel a bit rejuvenated - but its power to enrich materials is not insignificant.
+			你跳入液体中后它并没有做什么事情－尽管你感觉你的生命在一点一点恢复－但是它富集各种资源的能力太微不足道了。
 		</reveal>
 	</chroma>
-	<stones>
+	<alloy>
 		<title>
-			Unity of the Elements
+			魔法冶金
 		</title>
 		<hint>
-			What effect does combining all the different elements have?
+			那些普通的材料又会和液体有什么反应，如果和别的材料混在一起又会怎样？
 		</hint>
 		<reveal>
-			This gemstone throbs will all the colors of energy. That will surely prove useful.
+			彩能液体可以溶解这些材料，并将魔力注入其中。
+		</reveal>
+	</alloy>
+	<stones>
+		<title>
+			元素之整体
+		</title>
+		<hint>
+			如果将所有不同元素全部整合在一起会发生什么？
+		</hint>
+		<reveal>
+			你能感受到最终得到的宝石中各种颜色的能力。是的，这个东西将相当有用。
 		</reveal>
 	</stones>
 	<shock>
 		<title>
-			Damaging Discharge
+			震击伤害
 		</title>
 		<hint>
-			Pylons seem friendly...are they?
+			魔塔看上去是友好的...是吗?
 		</hint>
 		<reveal>
-			If your idea of "friendly" is a discharge to the face...
+			如果你所谓的"友好"就是直接将电弧丢到脸上的话...
 		</reveal>
 	</shock>
 	<nether>
 		<title>
-			The Evil Realm
+			恶魔领域
 		</title>
 		<hint>
-			You need some other way below that unyielding rock...
+			你需要在那些结实的石头下面找到别的什么出路...
 		</hint>
 		<reveal>
-			So those stories of obsidian portals leading to a fiery nightmare are true...
+			所以说那些黑曜石传送门将人引导向烈焰中的噩梦的故事是真实的...
 		</reveal>
 	</nether>
 	<end>
 		<title>
-			The Alien Realm
+			外星人的领域
 		</title>
 		<hint>
-			Surely nothing could be more alien than that land of lava, glowing stalactites, and flying jellyfish...
+			肯定没有比岩浆、发光的钟乳石、以及飞翔在天空中的水母更诡异的了...
 		</hint>
 		<reveal>
-			Apparently it can.
+			很显然，有。
 		</reveal>
 	</end>
 	<twilight>
 		<title>
-			The Forested Realm
+			森林掩盖的领域
 		</title>
 		<hint>
-			Legends tell of a different plane, covered in thick forests, with giant towers and buried mazes.
+			传说中有这样一片被茂密森林覆盖的土地，到处矗立着巨大的塔楼，地下尽是被掩埋的迷宫。
 		</hint>
 		<reveal>
-			Not only does this realm exist, but it teems with unique creatures and is plentiful with treasure.
+			不仅这片领域真实存在，还拥有独特的生物和巨大的宝藏。
 		</reveal>
 	</twilight>
 	<bedrock>
 		<title>
-			World Floor
+			世界之底
 		</title>
 		<hint>
-			Is it possible to dig too deep?
+			是否可以挖到更深的地方？
 		</hint>
 		<reveal>
-			Maybe, but that layer of rock below seems impenetrable.
+			也许吧，但那层石头似乎不可破坏。
 		</reveal>
 	</bedrock>
 	<cavern>
 		<title>
-			Buried Hollows
+			水晶圣地
 		</title>
 		<hint>
-			Surely many treasures lie underground.
+			地下绝对埋藏着财宝。
 		</hint>
 		<reveal>
-			Buried deep in the rock, these crystal-rich cavities hold further intrigue.
+			那些埋藏于岩石深处，被水晶环绕的空腔里有更精密的结构。
 		</reveal>
 	</cavern>
 	<burrow>
 		<title>
-			Secret Burrows
+			水晶洞穴
 		</title>
 		<hint>
-			Patches of light dot the night landscape; some are explainable as lava or fire, but not all...
+			夜晚的大地被星星点点的光亮点缀着；有些是岩浆或火焰，但并非全部...
 		</hint>
 		<reveal>
-			Upon closer inspection, you found hidden burrows stocked with goods, but for who?
+			近距离观察后你找到了一个隐藏洞穴，里面藏有各种储备货物，但这是为谁准备的？
 		</reveal>
 	</burrow>
 	<ocean>
 		<title>
-			Ocean Temples
+			海洋神庙
 		</title>
 		<hint>
-			Stories abound of strange structures left in the deepest parts of the ocean.
+			有故事说，大量奇怪的建筑现在沉没于最深的海底。
 		</hint>
 		<reveal>
-			True stories, it seems. If only they warned of the danger...
+			似乎是真实的故事呢。如果他们提到了潜在的危险...
 		</reveal>
 	</ocean>
 	<desertstruct>
 		<title>
-			Sandy Burrows
+			沙质洞穴
 		</title>
 		<hint>
-			Aside from the rare (and explosive) pyramids, do deserts hold other secrets?
+			除了那些稀有(且易爆)的金字塔，沙漠还有别的秘密吗？
 		</hint>
 		<reveal>
-			They do indeed, and their riches eclipse most others.
+			的确有，而且它们掩藏的珍宝比其它遗迹都要多。
 		</reveal>
 	</desertstruct>
 	<die>
 		<title>
-			Painful Loss
+			痛苦的损失
 		</title>
 		<hint>
-			You lose your items when you die; what happens to your knowledge?
+			你死时会失去你所有的物品；你的知识呢？
 		</hint>
 		<reveal>
-			Lost too. Ouch.
+			一样。噢好疼。
 		</reveal>
 	</die>
 	<allcolors>
 		<title>
-			Elemental Awareness
+			元素的认知
 		</title>
 		<hint>
-			Red, Green, Blue, Orange, how many are there?
+			红、绿、蓝、橙，究竟有多少种？
 		</hint>
 		<reveal>
-			You have identified sixteen, each with a unique color and symbolic icon.
+			你分辨出了十六种，每一种都拥有独特的颜色和徽记。
 		</reveal>
 	</allcolors>
 	<repeater>
 		<title>
-			Broadcasting
+			广播
 		</title>
 		<hint>
-			Unless you set up dangerously close to a pylon, there does not seem to be a way to use them, as their range is too limited.
+			除非你直接把基地造在危险的水晶魔塔附近，否则它们看上去根本没法利用，因为它们的能量能覆盖的范围太有限了。
 		</hint>
 		<reveal>
 			These refractors of a sort seem to be able to reconcentrate and repeat the signal.
@@ -266,7 +299,7 @@
 	</repeater>
 	<rainbowforest>
 		<title>
-			Magical Forests
+			魔法森林
 		</title>
 		<hint>
 			You have heard rumors of forests populated with those brightly colored trees as far as the eye can see...
@@ -277,57 +310,57 @@
 	</rainbowforest>
 	<dimension>
 		<title>
-			Other Worlds
+			另一个世界
 		</title>
 		<hint>
-			You have been to several other worlds, each stranger than the last...could there be more?
+			你已经抵达了好几个世界，每一个都比上一个更诡异...还有下一个吗？
 		</hint>
 		<reveal>
-			There are indeed, but this one...is different.
+			当然有下一个，但是这次...不一样了。
 		</reveal>
 	</dimension>
 	<ctm>
 		<title>
-			Restoration
+			重建
 		</title>
 		<hint>
-			A ruined structure. Scattered pieces.
+			一片废墟。散落的碎块。
 		</hint>
 		<reveal>
-			The reward for completing and restoring the monument must be large.
+			重建纪念碑并令其重新运转的奖励一定是丰厚的。
 		</reveal>
 	</ctm>
 	<storage>
 		<title>
-			Lumen Storage
+			Lumen存储
 		</title>
 		<hint>
-			Some constructs need to be moved around, making repeater-based power difficult. Is there an alternative?
+			一些建筑需要来回移动，这样一来基于中继器的能量供应就显得力不从心了。有别的替代方案吗？
 		</hint>
 		<reveal>
-			Fortunately, you have found out how to store energy in a crystal matrix for exactly this purpose.
+			幸运的是，你找到了将能量存储在水晶矩阵中的方法，正好能满足这个需要。
 		</reveal>
 	</storage>
 	<balllightning>
 		<title>
-			Orbs of Energy
+			能量球
 		</title>
 		<hint>
-			Pylons and some trees seem to spawn odd balls of energy.
+			魔塔似乎会产生奇怪的能量球。
 		</hint>
 		<reveal>
-			They do not seem particularly useful, but at least they are not obviously dangerous.
+			它们似乎并没什么用，但至少它们看上去并不危险。
 		</reveal>
 	</balllightning>
 	<powercrystal>
 		<title>
-			Recharge
+			再充能
 		</title>
 		<hint>
-			Pylons drain too quickly for instensive use, and take too long to recharge.
+			水晶魔塔的魔力在巨大的消耗下很快被榨尽，而且它还需要很长时间来充能。
 		</hint>
 		<reveal>
-			That ring of iridescent crystals dramatically helps.
+			那些彩虹水晶碎片组成的环帮助巨大。
 		</reveal>
 	</powercrystal>
 	<killdragon>
@@ -335,43 +368,43 @@
 			Aerial Predator
 		</title>
 		<hint>
-			The static sky is empty...save for a massive dragon.
+			静止而空旷的天空中...有一条巨龙。
 		</hint>
 		<reveal>
-			Killing it has revealed yet more of the world to you.
+			击杀这条巨龙并没有给你多少关于这个世界的信息。
 		</reveal>
 	</killdragon>
 	<breakspawner>
 		<title>
-			Endless Mobs
+			无尽生物
 		</title>
 		<hint>
-			These metal cages spew forth endless creatures...
+			那些金属笼子似乎会无穷无尽地弹出生物...
 		</hint>
 		<reveal>
-			The only way to stop them is to destroy them.
+			只有摧毁笼子才可以阻止它。
 		</reveal>
 	</breakspawner>
 	<killwither>
 		<title>
-			Eldritch Nightmare
+			邪术梦魇
 		</title>
 		<hint>
-			Four soul sand. Three wither skulls. What could this possibly be useful for?
+			四块灵魂沙。三颗凋灵头颅。这些东西能干什么？
 		</hint>
 		<reveal>
-			An undead monstrosity, though its loot proved useful.
+			一个不死的畸形生物，然而战胜它得到的奖励特别有用。
 		</reveal>
 	</killwither>
 	<hive>
 		<title>
-			Crystal Hives
+			水晶蜂巢
 		</title>
 		<hint>
-			Can bees live in the darkness of underground caves?
+			蜜蜂能生活在黑暗的地下洞穴中吗？
 		</hint>
 		<reveal>
-			Yes, they can, and not only that, but they take on the effect of nearby cave crystals.
+			能，不仅如此，她们还会拥有附近洞穴水晶的效果。
 		</reveal>
 	</hive>
 	<killmob>
@@ -379,21 +412,21 @@
 			Monster Slayer
 		</title>
 		<hint>
-			Certain creatures prove vicious, and will need to be dealt with.
+			有些生物心地邪恶，必须尽快解决。
 		</hint>
 		<reveal>
-			Conveniently, they drop useful items when killed.
+			更方便的是，击杀它们还会掉落有用的物品。
 		</reveal>
 	</killmob>
 	<allcores>
 		<title>
-			Dimensional Cores
+			次元核心
 		</title>
 		<hint>
-			They come in various colors...what are they for?
+			它们有各种颜色...它们是干什么的？
 		</hint>
 		<reveal>
-			I have all sixteen...maybe these are for that monument I need to repair...
+			我找齐了全部十六种颜色...也许它们都是我修复纪念碑用的材料...
 		</reveal>
 	</allcores>
 	<turbocharge>
@@ -401,10 +434,10 @@
 			Pylon Turbocharging
 		</title>
 		<hint>
-			This should be possible...if somewhat violent.
+			这应该可行...如果有点暴力的话。
 		</hint>
 		<reveal>
-			More so than expected, but also far more valuable.
+			比期望还要好，而且更加有价值。
 		</reveal>
 	</turbocharge>
 	<name>

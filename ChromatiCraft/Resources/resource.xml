@@ -13,7 +13,7 @@
 		With your increased knowledge and understanding, patches of rock that you once mistook for smooth stone now reveal themselves to you. Harvesting these is of obvious importance.
 	</ores>
 	<crystalstone>
-		All the magic structures you have found thus far have been built of a smooth, dark stone, so it must be able to channel and conduct crystal energy. To that end, all of your constructions will probably use this material.
+		All the magic structures you have found thus far have been built of a smooth, dark stone, so it must be able to channel and conduct crystal energy. To that end, all of your constructions will probably use this material. It can be reshaped at will, and reverted back to the smooth variant with the application of heat.
 	</crystalstone>
 	<seed>
 		Searching for and harvesting crystals is often a tedious task; however, you have found a way to imbue the magic off of the shards onto a plant, turning it into a brillant crystal flower that can help supplement your shard requirements.
@@ -39,9 +39,9 @@
 	<bees>
 		After being told that you could breed bees that make rare metals (how, exactly?), you let yourself be overcome with avarice and immediately ventured to do so. However, the things are unbelievably fussy, refusing to work in the rain, in the dark, with the slightest fluctuations in temperature, and on top of that work slowly and in a small area. Maybe you can improve their stock with outside genes.
 	</bees>
-	<name>
-		
-	</name>
+	<hicores>
+		The various crystal cores you have learned to craft are useful to be sure, but they lack...something. You could create higher-energy variants, but doing so would likely be a rather involved task, one not to be taken lightly.
+	</hicores>
 	<name>
 		
 	</name>
