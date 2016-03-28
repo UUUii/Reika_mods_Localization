@@ -439,6 +439,8 @@ message.emptypipe=Pipe contains no liquid.
 
 achievement.makesteel=Steelmaker
 achievement.makesteel.desc=Make a steel ingot in the blast furnace
+achievement.rcusebook=Actually doing the research
+achievement.rcusebook.desc=Read the handbook instead of making basic mistakes and calling it a bug
 achievement.makeyeast=Fermenter
 achievement.makeyeast.desc=Make yeast in the fermenter
 achievement.extractor=Multiplier
