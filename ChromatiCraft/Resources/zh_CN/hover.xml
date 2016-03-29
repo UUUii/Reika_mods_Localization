@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0"?>
 <hover>
 	<crystals>
-		Concentrated crystal energy; seems to radiate weak effects related with the associated element. Fragile and not easily moved.
+		这是浓缩的水晶能量；与它所关联的元素能量似乎正不断地泄漏，并影响周围的环境。易碎，不易搬运。
 	</crystals>
 	<pylon>
-		A powerful emitter of crystal energy. You are likely to need these later on.
+		强大的水晶能量释放者。稍后你可能需要这些东西。
 	</pylon>
 	<rune>
-		Runes seem to be able to act as weak foci for crystal energy of their color.
+		符文似乎可以起到一个颜色对应的弱魔法核心的作用。
 	</rune>
 	<ore_infused>
-		Seams of energy run through this rock; its contents are likely useful in your endeavours.
+		这石头中似乎有能量泄漏出来；它所包含的物质也许对你的魔法师生涯有帮助。
 	</ore_infused>
 	<ore_stones>
-		Embedded in the stone appears to be a different kind of rock, one which glows with energy.
+		在这石头中似乎藏有一种不同的岩石，闪闪发光，并释放着魔法能量。
 	</ore_stones>
 	<ore_binding>
-		Fossilized crystals, fused together. Their color long since gone, they no longer contain energy but may be a good substrate.
+		这是些变成化石的水晶，相互交融在了一起。它们的颜色早已褪去，也因此不存在任何能量，但这并不妨碍它们成为一种实用物质。
 	</ore_binding>
 	<ore_focal>
 		Glowing an angry red, this rock may well have the capability to act as a lens for crystal energy.
@@ -63,6 +63,12 @@
 	<plant_desert>
 		This bush gives off a powerful aura - no doubt it will be critical in constructing beacons of your own.
 	</plant_desert>
+	<plant_pod>
+		This pod is full of gently glowing beans. Likely not a foodstuff, it may well have other uses.
+	</plant_pod>
+	<plant_root>
+		This root strengthens and enriches the tree on which it grows. Perhaps you can put it to a similar use.
+	</plant_root>
 	<rainbowleaf>
 		Never before have you seen a tree like this. With leaves of every color of the rainbow, there must be more to this tree than meets the eye.
 	</rainbowleaf>
