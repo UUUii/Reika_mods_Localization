@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <hover>
 	<crystals>
 		这是浓缩的水晶能量；与它所关联的元素能量似乎正不断地泄漏，并影响周围的环境。易碎，不易搬运。
@@ -19,85 +19,85 @@
 		这是些变成化石的水晶，相互交融在了一起。它们的颜色早已褪去，也因此不存在任何能量，但这并不妨碍它们成为一种实用物质。
 	</ore_binding>
 	<ore_focal>
-		Glowing an angry red, this rock may well have the capability to act as a lens for crystal energy.
+		这种散发着刺眼红色光芒的岩石似乎可以扮演水晶能量的透镜这一角色。
 	</ore_focal>
 	<ore_teleport>
-		The similarity between the color of these gems and the color of an ender pearl is probably no coincidence.
+		这宝石的颜色和末影珍珠的颜色的相似性绝非巧合。
 	</ore_teleport>
 	<ore_watery>
-		Watery in both color and texture, the powder from this rock is probably imbued with the essence of fluidity.
+		以这种岩石研磨出的粉末带有水一样的材质和颜色，这似乎是它与液体精华相互交融的结果。
 	</ore_watery>
 	<ore_firaxite>
-		Palpably warm, Firaxite must be associated with heat energy.
+		Firaxite那触手可及的温暖，注定了它和热能之间存在着紧密联系。
 	</ore_firaxite>
 	<ore_luma>
-		Glowing brightly, the contents of this stone no doubt enhance the power of lumen transmission.
+		这石头中蕴藏的物质正发出耀眼的光芒，毫无疑问，这物质可以为lumen能量的传输增幅。
 	</ore_luma>
 	<ore_echo>
-		Vibrations pass back and forth through this rock; harnessing them might become a priority.
+		这岩石中似乎有能量来回震荡；似乎有必要尽快驾驭这种能量。
 	</ore_echo>
 	<ore_firestone>
-		Buried deep in the nether, it is no surprise the gems in this rock are almost painfully hot.
+		毋庸置疑，这埋藏于下界深处的宝石所携带的高温是常人无法忍受的。
 	</ore_firestone>
 	<ore_thermite>
-		This rock is barely able to contain the energy within. Maybe if released it could act as a powerful emitter.
+		这石头仅能保存既有的能量。也许，将它释放出来，就可以做成一个强大的能量发射器。
 	</ore_thermite>
 	<ore_reso>
-		These pulsing crystals might hold the secret to warping space itself.
+		这不断释放脉冲的水晶似乎掩藏了扭曲空间的秘密。
 	</ore_reso>
 	<ore_spacerift>
-		This material might provide a key to being able to relocate oneself at will.
+		这种材料似乎是让人能按自己意愿空间转移的关键。
 	</ore_spacerift>
 	<plant_flower>
-		This gently glowing flower seems to weakly radiate energy; if extracted, its contents likely are crucial in maintaining an aura.
+		缓慢生长的花，释放着微弱的魔法能量。萃取其精华，也许可以得到某种对保留灵气至关重要的物质。
 	</plant_flower>
 	<plant_cave>
-		Sparkling in the dark, there is something cleansing about the essence of this plant.
+		在黑暗中闪耀的神秘植物，它纯净的颜色背后也许有某种魔法精华。
 	</plant_cave>
 	<plant_lily>
-		This lily throbs will all colors of energy; perhaps its extracts could be used as a sort of unifier.
+		这片莲叶释放着各种颜色的魔法能量；它的提取物也许可以充当某种同化剂使用。
 	</plant_lily>
 	<plant_bulb>
-		Hanging from the underside of leaves, these bulbs are filled with a magical dust of unknown nature.
+		这些灯笼一样的东西悬挂于树叶的最底层，充满了魔法粉尘，以及未知的特性。
 	</plant_bulb>
 	<plant_desert>
-		This bush gives off a powerful aura - no doubt it will be critical in constructing beacons of your own.
+		这灌木丛释放着强大的灵气－毫无疑问，这便是你建造信标的关键材料。
 	</plant_desert>
 	<plant_pod>
-		This pod is full of gently glowing beans. Likely not a foodstuff, it may well have other uses.
+		这豆荚里充满了闪闪发光的豆子。看上去它们并非食物，但想必它们定有别的用途。
 	</plant_pod>
 	<plant_root>
-		This root strengthens and enriches the tree on which it grows. Perhaps you can put it to a similar use.
+		这根须所经过的每一棵树，都将变得更加强健而富有生机。你应该可以将这特性用在别的地方。
 	</plant_root>
 	<rainbowleaf>
-		Never before have you seen a tree like this. With leaves of every color of the rainbow, there must be more to this tree than meets the eye.
+		你从未见过这样的树。除了它七彩的树叶，你相信这棵树还有更多的秘密等待着你的发现。
 	</rainbowleaf>
 	<flower_enderflower>
-		The growth pattern of these flowers - literally jumping from location to location - is no doubt a hint to their utility.
+		这花奇特的生长规律－完全就是在各个地点间跃迁－毫无疑问地成为了它的用途的最明显提示。
 	</flower_enderflower>
 	<flower_lumalily>
-		It can surely be no coincidence that these flowers, found in the frozen climates, are icy and bind things together.
+		这绝非巧合——这朵在寒冷地带发现的冰冷的花拥有将物体绑定在一起的能力。
 	</flower_lumalily>
 	<flower_resoclover>
-		The energetic sparks surrounding this plant offer a clue as to the usefulness of their internals.
+		这株植物周围环绕着的能量火花证明了它内在的使用价值。
 	</flower_resoclover>
 	<flower_sanobloom>
-		High atop the jungle canopy, these berries might be useful in combination with another form of berry...
+		生长于高大的从林木树冠之上的浆果，若与另一种浆果混合，也许就会更加有用...
 	</flower_sanobloom>
 	<flower_voidreed>
-		Looking into the gentle aura given off by these reeds gives you a sense of vertigo and space.
+		你贴近了这种奇特的芦苇，观察它周围柔和的灵气，但你却感到了一阵眩晕与空虚。
 	</flower_voidreed>
 	<flower_flowivy>
-		Growing like a weed, this fast-spreading ivy is almost nature incarnate.
+		这像杂草一样快速蔓延的常青藤，大概就是自然的化身吧。
 	</flower_flowivy>
 	<dyeleaf>
-		Brightly hued leaves cover this tree, and it appears that berries sprout from the twigs.
+		光线的彩色树叶遮蔽了树干；浆果的影子在树梢上若隐若现。
 	</dyeleaf>
 	<dyeflower>
 	
 	</dyeflower>
 	<dimensioncore>
-		Vibrantly hued and energetically luminous, this...thing is of obvious value.
+		色彩鲜明，光芒四射的它...显而易见，是无价之宝。
 	</dimensioncore>
 	<name>
 	

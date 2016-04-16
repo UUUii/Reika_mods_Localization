@@ -3,7 +3,7 @@
 * [ ] abilities
 * [ ] blocks
 * [X] elements
-* [ ] hover
+* [X] hover
 * [X] Info (Unreviewed)
 * [ ] machines
 * [X] progression (Unreviewed)
