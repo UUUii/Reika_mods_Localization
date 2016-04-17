@@ -1,79 +1,79 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <ability>
 	<reach>
-		Improving the range at which you can interact with blocks is one of the most sought-after powers of all, to the point where many before you have gone to great lengths, often violating the natural order so badly that they find themselves exiled from the world itself. Finally, however, you have found a real way to acquire this ability yourself, allowing you to break and place blocks up to %d blocks away. You cannot, however, attack mobs or open GUIs outside the normal range.
+		提升可操作方块的范围可以说是广受欢迎的能力之一，但在你之前曾有很多人在这方面达到了相当高的境界，但他们无一例外地发现，他们因为过度违反自然法则而被自动从这个世界中剔除了。然而，可喜可贺，你终于找到了获得这个能力的正确方式，从此你可以在%d范围中破坏或放置方块了。然而攻击生物和打开GUI仍然受到正常范围的约束。
 	</reach>
 	<magnet>
-		Many activities tend to scatter items far and wide, leading to a tedious cleanup at best and the destruction of many valuable materials at worst. Fortunately, you have discovered a way to create a magnetic aura around yourself, drawing in items and experience orbs from a large range. Conveniently, items in transit also appear shielded from environmental effects, negating the concern of pesky lava flows and other hazards normally responsible for large losses.
+		很多事情都会导致物品散落一地，随之而来的，轻则枯燥乏味的清理工作，重则损失贵重物品和材料。幸运的是，你找到了一种在你周围引发魔力磁场的方法，这种磁场可以将大范围内的物品及经验球吸到你的身上。更方便的是，被吸引的物品可免疫自然环境的影响，籍此你不必担心被吸引的物品会因为岩浆等而损坏。
 	</magnet>
 	<sonic>
-		With enough of the energetic elements concentrated on your fingertips, you can release a small shock wave that can clear blocks in a small area, a useful tool if buried or trying to clear an area.
+		在将大量活化的魔法元素聚集到指尖上后，你可以释放出一股能清理小范围内方块的小型冲击波。当你被埋在地下，或者你需要清理一片空地时，这技能将会相当实用。
 	</sonic>
 	<shift>
-		With the application of a lot of energy related to movement and terrain, you have found that you can move entire regions of the terrain - though some more complex blocks tend to get left behind - allowing for easy correction of small build errors or large-scale terraforming.
+		你发现大量使用那些与移动和大地相关的能量可以移动大片区域中的方块－虽然一些复杂的方块会被留下来－但这依旧是纠正建筑错位和大规模塑造地形的简单方法。
 	</shift>
 	<pylon>
-		After one too many energy discharges to the face - or perhaps as a result of it - you have finally devised a way to "ground" yourself, causing the pylons's surplus energy to seek alternate routes to dissipate itself. This is of course of obvious utility.
+		在被水晶塔击中过无数次后，你终于找到了使自己“免于”水晶塔那过剩的能量带来的冲击的办法，此法可令那些能量流动时自动绕开你的身体。暂且先不谈这究竟是不是你被攻击次数过多的结果，这个技能绝对相当实用。
 	</pylon>
 	<heal>
-		Useful if low on food or desperately low on health, the ability to instantly heal a heart or two is an expensive yet indispensable asset.
+		虽然，习得能瞬间恢复一两颗心的生命值的技能的代价十分昂贵，但在你没有食物，或者生命值特别低的时候，这将会是不可或缺的宝贵资产。
 	</heal>
 	<health>
-		Even with the most powerful armor available, and with all sorts of other protections active, you often find yourself still in mortal danger simply due to the fact that some things deal more damage than you can withstand. Fortunately, you have found that you have the ability to increase your life force up to a factor of three with the application of a great deal of associated energy.
+		即使武装以最强大的盔甲，并以各种措施加护，你仍然发现你面对的伤害足以将你瞬间置于死地。幸运的是，你发现了一种能力，这种能力会消耗相当数量的相关能量后，将你的生命值上限提升两到三倍。
 	</health>
 	<communicate>
-		You are not alone in this world; you share it with many other creatures, ranging from basic animals to beings advanced enough to try and scam you out of emeralds. However, some of these creatures seem to harbor an irrational hatred for you, attempting to kill you on sight, even if it costs them their own lives. Using the magic elements, combined with the application of a healthy amount of deception, you might be able to stave off their aggression.
+		在这个世界中你并非孤身一人，你还有很多邻居：从普普通通的动物，到试图敲诈你绿宝石的高智商生物，五花八门，应有尽有。然而，这些生物中，有那么一小撮生物对你有莫名的憎恶，它们总试图以各种方式击杀你，甚至明知会为此付出生命的代价也在所不辞。将大量魔法元素和一点和欺诈有关的魔法能量混合在一起后，你或许可以暂时消除这种敌意了。
 	</communicate>
 	<fireball>
-		You made the mistake of building a frame of obsidian and stepping into the fiery nightmare on the other side, where you were promptly attacked by tentacled clouds that sound like injured children. Long-range and difficult to dodge, you to wonder if you can replicate the attacks yourself. Fire and heat energy are obvious, but combined with others, like aggression, you have successfully reproduced this capability, and potentially more powerfully as well. As a bonus, screaming - either like the monsters or, as some do, expletives and references to frowned-upon activities with maternal relatives - is not required.
+		建造黑曜石框架并走入门的另一端这件事对你来说就是一个错误。你踏入的是一个充满业火与梦魇的世界，同时你随时都会被水母一样的，发出像婴儿啼哭一样声音的云彩攻击。那攻击的范围巨大，你也难以进行躲避，但你开始思考你能否也能重现一样的攻击方式。很明显你需要有关火焰和能量的魔法元素，但在加上一些其他元素(例如和侵略相关的元素)之后，你终于完美重现了发射火球的能力，同时这个能力也有巨大的潜能。同时，作为奖励——这个技能不会产生任何形式的尖叫。
 	</fireball>
 	<shield>
-		Perhaps the most annoying of the creatures you find yourself up against - even outdoing the kamikaze leaf bombs - are skeletons, with their ranged attack and, when in groups, their irriating tendency to imitate a gatling gun. Usefully, however, protective energy can create a field around you to deflect their assault.
+		也许你面对的最恼人－甚至比那些效仿神风特攻队的绿色炸弹还要恼人－的怪物，就是骷髅：它们拥有极长的射击范围，当聚在一起时还能立刻化身加特林机枪将你打成刺猬。然而，利用一些具有保护作用的魔法能量即可轻易制造出一层极为有用的护盾，将这些攻击反弹回去。
 	</shield>
 	<lightning>
-		From the Greek deity Zeus to a malicious shrouded man, harnessing lightning is one of the classic demonstrations of strong power. With the ability to bring a massive bolt from the sky, you can smite a mob or player or ignite a structure. Better yet, at high charge levels, the shockwave the thunder generates is rather more powerful than the corresponding effect from the natural counterpart and has the capacity to blow apart whatever it hits.
+		从希腊神话中的宙斯，到一个全身被包裹着闪电的恶人，驾驭闪电的能力一直都是力量的经典象征。借助从天上引出巨大闪电球，你现在可以狠狠敲打怪物或玩家，抑或引燃巨大的建筑了。另外，当电荷数量足够多时，雷电产生的冲击波甚至比自然产生的雷电还要强大，强大的可以击碎那些不幸被命中的物体。
 	</lightning>
 	<lifepoint>
-		You have dabbled in the dark arts, using your own life force to accomplish significant, if rather macabre, feats. However, having tied those powers to your very life has come with a rather unpleasant side-effect; every action you perform directly saps your energy, and any amount of overexertion can push you to the brink of death. Recalling the healing and life power of the %s crystal element, you wonder if you can redirect these drains onto your buffer of crystal energy instead.
+		你开始涉猎一些黑暗艺术：以自己的生命力作为祭品，去完成一些巨大的，甚至毛骨悚然的功绩。然而，将能量与自己的生命绑定在一起会带来一些令人不快的副作用；每一次施法都直接调用你的生命力，稍有不慎抽取过多就会将你自己推向死亡的边缘。回想起可以回复生命力的%s水晶元素，你开始思考有没有可能让这些法术不再抽取你自己的生命，而是去调用水晶能量。
 	</lifepoint>
 	<deathproof>
-		Dying is painful. Not just literally, which is obvious, but more figuratively as well. As you learned the hard way, though your mind has the ability to infinitely respawn, your body - and the energy stored within - is lost, as are some of your other powers. As you wish to avoid this in the future - though you are not confident of your ability to avoid death - you may wish to try to hold on to what you can at the moment of death.
+		死亡的过程是痛苦的。这个痛苦不只是字面上带来的明显痛苦，还有能感受到的痛苦。惨痛的教训告诉你，虽然你的思维可以重生，但你的身体，以及你身体里的能量，却在你死后流失了。为了避免这种情况再次出现－尽管你也不知道你有没有避免死亡的能力－你决心在死的一瞬间挽回尽可能多的东西。
 	</deathproof>
 	<hotbar>
-		Too often have you been in the middle of a building project and found your hands full of tools, blocks, and other things and were forced to carefully shuffle around your items when you want a different block than is immediately accessible, and then of course switch it right back when you need the original blocks. If only there was a way to bind a template of sorts to your held items, to alleviate this stupidity.
+		你已经遇到无数次这样的情况了：正在施工时，手头充满了各种工具、方块和杂物，然后在你想临时换一个不一样的方块时，被迫小心翼翼地在背包中搜索并切换，用完后再重复一样的过程切换回去。只有为你的那堆物品绑定模板才可以降低这样蠢事的出现次数。
 	</hotbar>
 	<shockwave>
-		Having found yourself in a multi-mob brawl more times than you care to count, you reflect on the relative difficulty of avoiding getting hurt when being attacked from all sides. A better approach would be to repel them somehow.
+		经历过数不清的怪物潮的进攻后，你开始认真考虑在身处重围时避免受伤的困难程度。也许更好的策略是直接以某种方式击退它们。
 	</shockwave>
 	<leech>
-		Being able to absorb some of the health you drain from aggressors is sure to grant you the upper hand in any battle. One hopes you do not get accused of cheating again.
+		直接吸取敌人的生命保证了你在今后的战斗中能百战百胜。希望你不要再被指控为作弊了。
 	</leech>
 	<float>
-		With some special augments - those spring-loaded boots are especially helpful - you have become able to run along the ground at high speed. This would be even better were it not for those pesky lakes, rivers, and oceans that stymie your running abilities. Being able to skip across the surface would be most convenient. Just avoid angry mobs with torches and kindling...
+		在一些特种附件的帮助下－其中尤其以弹簧靴帮助最大－你现在可以在地面上高速奔跑了。若是没有那些令人讨厌的湖泊、河流、海洋以及所有阻碍你跑步能力的地形的话那就更好了。如果你能直接跳开地面的约束的话那无疑是极好的。只需要避免遇到那些手持火把，眼睛力冒火的怪物就可以了...
 	</float>
 	<teleport>
-		If you had an ingot for every time you found something of value, lacked the inventory space to carry it back, and then never found again, you would have...you have no idea how many, because if you did, you would probably not have forgotten them in the first place. At any rate, if you could mark positions - and even better, somehow warp to them at will - it would be of great value.
+		如果你遇到了一些有价值的锭，但此时背包中已没有空间将它带回去，然后你再也没有见到过它第二次时，你会...你完全不记得你遇到过多少次这样的情况，因为如果你记得有多少次的话，你肯定不会忘记你第一次见到它们的地方。不论如何，如果你能标记这些地点－甚至还能直接传送过去－定将是一个宝贵的技能。
 	</teleport>
 	<breadcrumb>
-		Caves are...not fun. Sure, they are loaded with resources, but for some reason you take ten steps into one and you are already hopelessly lost and take hours to find the way out, usually only barely managing before you run out of torches, food, tools, or all of the above. Being able to trace your path and see the way back out, or even just knowing where you have been, may - MAY - help your apparently severely underdeveloped navigational skills.
+		洞穴...一点也不令人愉快。的确，洞穴中充满了各种资源，但因为种种原因，你迈进一个洞穴后不久，就开始绝望地花数小时寻找回去的路，多数情况下此时的你已经没有多少火把、工具或食物，或者几乎什么都没有。若能记住你的踪迹并以此找回出路，或仅仅记住入口，也许－也许会对你那缺少锻炼的方向感有帮助。
 	</breadcrumb>
 	<spawnersee>
-		Some madman has placed these weird cages underground that spawn endless hordes of mobs. Presumably the same madman also put chests full of loot in their proximity. If you could just listen carefully, either for the sound of that infernal box or from items inside the chests nearby, you may be able to detect them through walls.
+		有些疯子在地下埋了一些奇怪的笼子，这笼子可以无休止地生成怪物。大概笼子一旁的战利品箱子也是这帮怪人留下的吧。若你用心聆听那深渊之笼或战利品箱中的声音的话，你或许就能隔墙判断它们的位置。
 	</spawnersee>
 	<rangedboost>
-		Having spent countless hours and resources crafting the ultimate ranged weapon, then charging it at what seemed like a snail's pace, you found yourself disappointed that effects like strength or looting could not be carried across a ranged attack. Some way to transfer that aura would solve this problem. For an added bonus, automatically capturing their drops would save them from falling out of reach.
+		在花费大量时间、资源和心血在终极范围打击武器上，并以蜗牛一样的速度为其充能后，你对这些武器不受诸如力量和抢夺的特效影响感到失望。利用一些灵气场将效果转移到这些武器上即可解决这些问题。此外这个技能还有一个加成，即自动收集掉落，这样可以避免物品掉在你能达到的范围之外。
 	</rangedboost>
 	<dimping>
-		You have heard of untold riches in the world on the other side of the crystal portal. And to be sure, you have found some. However, most of it appears to be hiding, either buried underground or otherwise invisible. Searching aimlessly in the hopes of stumbling upon them could take years; if only there was a way to triangulate their position.
+		从水晶传送门的另一端中，你听到了很多从未提及的财宝的传说。同时你确认你已经找到了一部分。然而，这些财宝大多数都被掩藏起来了：要么深埋于地下，要么完全隐形。仅仅依靠漫无目的的碰运气肯定要花费数年才能找到；若是能对它们的位置作三角测量的话，或许可以大大缩短这一时间。
 	</dimping>
 	<dash>
-		Flail your weapon as you may, being surrounded by mobs will often result in your death. That night, however, you had a dream. Interspersed with hallucinations of some guy named "Kluex", it finally hit you: You can probably combine time- and movement-based energies to quickly bolt out of danger, turning sprint into something rather more powerful.
+		在你身陷怪物包围时，你挥舞着你的武器，怪物通常也应声倒下。然而，那一晚你做了一个梦：到处都是名为"Kluex"的人，最终提醒了你，将代表时间和移动的两种能量混合在一起后，你就有可能快速脱离险境，并让冲刺变成更加强大的能力。
 	</dash>
 	<firerain>
-		There are times when precise, directed efforts are optimal. And then there are times where everything in sight must be reduced to rubble. After venturing into a thick forest inhabited by giant spiders and invisible wolves, you lost a significant portion of your dignity when you barely made it halfway to the tower rising out of the center. Next time will be better, because you will make sure that there will not BE a forest.
+		有时候，精确直接的努力效率最高。有时候又需要将所有的东西都仔细拆解。在探索过巨型蜘蛛和隐形狼栖息的森林后，你最终还是在距离高塔只有一半距离时选择了屈辱地放弃。这样的情况不会再有下一次了，因为，下一次你*不会*再看到森林了。
 	</firerain>
 	<laser>
-		From a particularly obnoxious mountain range to mazes of near-impenetrable stone, you often find your path blocked. Recalling that "The best solution to a problem is usually the easiest one", it would be optimal to simply obliterate the obstacle. Unsurprisingly, this also kills everything in a large area, but its utility for that is limited unless you like living in a smoldering moonscape. Maybe, though, it could be used to kill that abomination below the bedrock...the proper word is "toast".
+		从高耸入云的群峦，到坚不可摧的迷宫之石，你总是遇到被阻挡的路径。你想起一句谚语，“解决问题的最好方法往往是最简单的一个”，你忽然觉得最简单的解决方案就是直接让眼前的障碍消失。毫无疑问这个方法也会击杀周围的一切生物，然而就这点来说这技能的实用性实际上被限制了，除非你喜欢生活在一个阴燃的废墟中。然而，也许这可以用来击杀那基岩之下的恶煞...但正确的说法是"toast"。
 	</laser>
 	<name>
 
