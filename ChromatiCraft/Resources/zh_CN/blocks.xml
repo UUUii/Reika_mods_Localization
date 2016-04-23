@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <blocks>
 	<tnt>
-		TNT大炮的确有趣，但它们体型巨大，并且很容易被用于蓄意破坏，事实是它是你试图做一些事情时所学到的一条弯路。除此之外你还能如何在远处制造爆炸？末影TNT可以在任何维度的任何坐标制造爆炸。
+		TNT大炮的确有趣，但它们体型巨大，并且很容易被用于蓄意破坏。事实上，它是你试图做一些事情时所经历的一条弯路。除此之外你还能如何在远处制造爆炸？末影TNT可以在任何维度的任何坐标制造爆炸。
 	</tnt>
 	<chroma>
 		你所获得的经验可以浓缩并纯化为一种会自由流动的七彩液体，这液体似乎还拥有魔法属性。你开始思考能否将其与其它物品混合在一起以更好地驾驭水晶能量。
@@ -10,61 +10,61 @@
 		这些镌刻着奇怪的符文的发光石头－有些符文甚至有点眼熟－在每一座水晶塔上都能找到，它们似乎在聚焦并引导着水晶能量的流动。就这一点来说，它们也应该是你的魔法中不可或缺的部分。
 	</runes>
 	<tankaux>
-		Combined with the controller, these crystalline blocks widen the bridge to the void, allowing you to store more and more fluid.
+		在与控制器组合在一起后，这些水晶质地的方块拓宽了通向虚空的渠道，它们将可以承载更多的液体。
 	</tankaux>
 	<fenceaux>
-		These seem to relay and redirect the beam from the crystal fence, allowing you to draw a perimeter. Sneak-clicking with the manipulator sets the output side, whereas normal right-clicking sets the input.
+		这方块似乎可以中继并偏转水晶栅栏(Crystal Fence)的光束，最终可以组成一个封闭的空间。潜行时以manipulator点击它可以设定光束输出的方向，而输入方向则只需要普通右击即可更改。
 	</fenceaux>
 	<lumenleaves>
-		The leaves of the lumen tree throb with crystal energy. Because of this, you likely can use them to charge yourself. Seeing as they are the storage for the tree, breaking them means losing all the stored energy, but you wonder what result that may give...
+		lumen tree的树叶不断散发着水晶能量。有鉴于此，你或许可以用它来为自己充能。既然它们是整棵树储存能量的地方，那么破坏即意味着失去所有能量，但你却提出了新的疑问：破坏之后又会产生什么呢？
 	</lumenleaves>
 	<dyeleaves>
-		Weakly magical trees dot the landscape, and ocasionally congregate together in forests where the magical energy is strong enough to drive away hostile mobs.
+		那些仅含少量魔法能量的树点缀着大地。偶尔，它们会在魔法能量强的地方聚集起来，而这些地方的魔法能量已经强大到可以驱散敌对生物。
 	</dyeleaves>
 	<lampaux>
-		Scatter these around your base, and you have a network of lights that can be remotely controlled with the flick of a switch.
+		在水晶灯布满你的基地后，你设计了一套光照控制网络，自此你便可以通过轻松地拉动开关来远程控制灯的亮灭了。
 	</lampaux>
 	<rainbowleaves>
-		Aside from the comparatively common single-color trees, you have occasionally spotted towering flame-shaped trees whose leaves sparkle with every color of the rainbow. They are more than aesthetically pleasing; they seem to change the very air around them, cleaning it, stabilizing it. You recall the purple blight you ran into elsewhere, and wonder if this can keep that at bay. It might even be able to stabilize those worlds you found, rich with dense ores but being eaten by spongy masses and giant meteors.
+		除了那些相对常见的单色树外，你偶尔还能看到一些高耸入云的大树：它们的树冠形如火焰，并闪耀着七彩的光芒。它们的存在似乎不只是赏心悦目那样简单：它们似乎还会清理、稳定它们周围的空气。你想起了你在其它地方看到的紫色崩坏，然后便开始思考能否用这种树叶困住它们。也许它还可以稳定你发现的新世界，那些充满了矿石，但却正被海绵一样的物质和从天而降的巨型陨石侵蚀的新世界。
 	</rainbowleaves>
 	<crystallamp>
-		Lighting your house is a necessary task, but torches, while effective, are boring, and other lighting methods often involve glowstone, a costly and rare material. Recalling the weak glow given off by crystals, you wonder if you may be able to fashion them into far more attractive and powerful lamps.
+		房屋照明总是生活的必需。火把，虽然高效，但单调；其它的方法经常会用到萤石，一种昂贵且稀少的材料。你回想起了水晶散发的微弱亮光，并怀疑它们有没有把它们打扮成强大的灯具的可能性。
 	</crystallamp>
 	<superlamp>
-		Crystal-based lamps are nice, but you long for the stat boosts given by the original crystals. Recalling their creation, you hit upon an idea: if you use a complete crystal, rather than shards as the base, and dump in a healthy amount of crystal energy, you should get a lamp that not only glows brightly, but emits a powerful effect over a significant radius.
+		水晶灯表现的确不错，但因此你也不能获得水晶一开始给予你的特殊效果了。回顾它们的制作过程，一件事情提醒了你：若使用整块水晶，而非碎片，并注入大量水晶能量，也许你就能获得一盏全新的灯：它不仅更明亮，还能让增益效果覆盖更广阔的范围。
 	</superlamp>
 	<glow>
-		Mounting a crystal shard on a base of some other material creates a stylish light whose variability allows it to be put in any home.
+		将水晶碎片装在别的材料做成的底座上后，你得到了一盏能符合所有房屋风格的灯。
 	</glow>
 	<relay>
-		Not all your constructs draw directly from the repeater network. Others, notably those that tend to be used in groups, seem to draw via relays that transmit from a central source - which does draw from the pylons - and bounce from relay to relay - as long as there is a clear line of sight - to the target block. Conveniently, this also allows you to use some of these constructs underground, where getting lumen energy beams in is rather difficult. There is a range limit, of %d meters per jump.
+		并非你所有的魔法建构都直接从你的中继器网络中抽取能量。这些例外的设备，尤其是那些需要成组工作的设备，似乎更倾向于从一个核心能量源抽取能量——而这个核心的能量来自pylon——这些能量若没有被阻挡，就会在中继器间来回跳转——直到目的地。更方便的是，它还可以为地下的设备供能，而在以前地下的设备是很难获得lumen能量的。同时它还有一定的距离限制，即每次跳跃最多只能跳%d米。
 	</relay>
 	<path>
-		Imbued with the energy of motion, travel path accelerates your ability to traverse the ground, often to surpising velocities. Just don't try crouching while you do so, as you might tumble uncontrollably.
+		Travel path中蕴含了大量象征移动的能量，大大加快了你在地面上的运动速度，通常你的速度会令人叹为观止。只需记住一点：不要试着在它上面走路时蹲下，因为这样可能会让你失去控制并滑倒。
 	</path>
 	<portal>
-		All this talk of a special world brimming with crystal energy is rather pointless without a way to actually GET there. Fortunately, you feel you just might have enough knowledge to rift space enough to venture into the unknown.
+		若是没有真正到达过，所有关于这个充满水晶能量的世界的讨论都是空谈。幸运的是，你感觉你的知识已经足够让你撕开空间并开始未知的冒险了。
 	</portal>
 	<heatlamp>
-		When faced with the need to bring something to a precise temperature - most annoyingly, that metal fermentation box - your options are somewhat limited. Fire and lava, while they heat things, are often much too hot - only a fool would try using lava to gently warm yeast for composting - and ice and snow are frigidly cold. What would be most ideal would be some gentle heater you could affix directly to a block.
+		当面对需要精确控制温度的工程时－尤其是恼人的金属发酵箱－你却开始束手无策了。火焰，岩浆，虽然可以加热，但它们太热了－也只有傻子才会去用岩浆来缓慢加热酵母来进行发酵－但冰和雪又太冷了。最好的选择，莫过于一种可以贴在方块上的，缓慢的加热器。
 	</heatlamp>
 	<door>
-		Keeping creatures out of your house is proving more difficult than you would like. You had a nice door crafted from oak, but two hits from a zombie and you had unwanted guests. Sure, you could make iron doors, but they are expensive, unsightly, and will force you to endure the clanging noise as zombies ineffectually try to demolish it. A more visually ethereal - yet still impenetrable - design would be wonderful.
+		事实证明，将生物拒之门外比你想象中的还要困难。你用橡木做了一扇精致的门，但僵尸敲两下后你就迎来了不速之客。的确，你可以做扇铁门，但它们造价高昂，还密不透风，僵尸敲门时你还得忍受“砰砰砰砰”的噪音。有鉴于此，一扇外表透明，但仍然不可破坏的门将会是极好的。
 	</door>
 	<altar>
-		Continuing your endeavour to create fancy lighting, you decided to make an altar-like crystal flame. Not only does it glow and pulsate various colors, but it also gives off colored particles and fog, making for quite an impressive display.
+		你继续着你制造更好看灯光的努力，这次你打算做一个祭坛一样的水晶焰。它不仅可以发出多种色光，还能产生粒子效果和雾气，用来展示效果一定很好。
 	</altar>
 	<glass>
-		When you look at glass, your first thought is that it is too clear, too inert. Spurred by this, you have created glass from crystals, that is strongly tinted, and which serves better as a musical instrument than a window.
+		你看到玻璃后的第一反应是，它们实在是太干净了，太不活跃了。在这样的想法的驱使下，你用水晶做出了一种带有浓重色彩的玻璃；相比于做窗户，它们更适合当乐器使用。
 	</glass>
 	<musictrigger>
-		Having spent (...wasted...) hours sitting there punching crystals for a musical tune, and yet more time devising elaborate redstone contraptions to play them with specific timings and at specific pitches, what you find yourself wanting is a way to do this more compactly, without a large analog circuit for each note on the scale. The buttons on this block serve that purpose well.
+		在花费(...其实是浪费...)大量时间调整水晶的音调、设计精密的红石电路、并将它们连接起来以让它们在特定时间发出特定音效后，你最终意识到，你需要某种小型设备来完成这个任务，这样就不用再动用大型的模拟信号电路来控制每个音符了。这方块上的按钮很适合完成这个任务。
 	</musictrigger>
 	<selectiveglass>
-		Every night your house becomes surrounded by mobs, and they often manage to last long enough into the morning that you find yourself spending all your time cowering indoors. Sure, you could try and make a run for it, but half the time a leaf bomb is hiding around the corner, taking out the front half of your house the moment you step outside. You need a way to be able to kill them while still inside, without giving them the reciprocal ability.
+		每个夜晚你的房子都会被怪物包围，他们通常都会坚持到早上，接着你会发现你已被彻底困在房间里了。当然你也可以冲出去决一死战，但至少有一半的情况会是这样：一个隐藏在角落里的绿色炸弹在你迈出房门的第一步后冲出来，并与你同归于尽。你需要某种手段，使得你足不出户便可清理掉这些怪物，同时也不至于让它们冲进来把你解决掉。
 	</selectiveglass>
 	<altar>
-		Put some crystals and stone together, and you get a light source with an impressive display of energy...Probably enough so that putting several of these in proximity is a bad idea.
+		把一些水晶和石头放在一起后，你得到了一种新光源，一种能将能量以令人震撼的方式呈现出来的新光源...震撼到不适合靠近观赏的地步。
 	</altar>
 	<name>
 		

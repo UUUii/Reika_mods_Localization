@@ -1,7 +1,7 @@
 # ChromatiCraft manual localization progress
 
 * [X] abilities
-* [ ] blocks
+* [X] blocks
 * [X] elements
 * [X] hover
 * [X] Info (Unreviewed)
