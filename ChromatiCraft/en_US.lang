@@ -64,6 +64,19 @@ chroma.weakrepeater=Lumen Repeater
 chroma.enchantdecomp=Enchantment Decomposer
 chroma.lumenwire=Lumen Wire
 chroma.particles=Particle Spawner
+chroma.meteor=Meteor Tower Core
+
+adjacency.black=Efficiency Augment
+adjacency.green=Fertility Booster
+adjacency.brown=Mineral Enricher
+adjacency.purple=Performance Enhancer
+adjacency.pink=Damage Booster
+adjacency.lime=Range Expander
+adjacency.yellow=Energy Booster
+adjacency.lightblue=Tile Accelerator
+adjacency.orange=Heat Relay
+adjacency.magenta=Healing Core
+adjacency.white=Stability Focus
 
 fluid.chroma=Liquid Chroma
 fluid.endere=Liquid Ender Essence
@@ -136,7 +149,7 @@ chroma.share=Ownership Expansion Key
 chroma.crystalcell=Crystal Cell
 chroma.purify=Aura Purification Gem
 chroma.efficiency=Anti-Attenuation Gem
-chroma.killaura=Discharge Gun
+chroma.killauragun=Discharge Gun
 
 chromability.reach=Reach Boost
 chromability.magnet=Magnetism
@@ -170,6 +183,7 @@ chromability.growaura=Fertility Aura
 chromability.recharge=Passive Draw
 chromability.meinv=Applied Hotbars
 chromability.mobseek=Piercing Vision
+chromability.beealyze=Genetic Insight
 
 chromastruct.repeater=Repeater
 chromastruct.compound=MultiAura Repeater
@@ -178,6 +192,7 @@ chromastruct.casting1=Casting Room
 chromastruct.casting2=Casting Temple
 chromastruct.casting3=Casting Complex
 chromastruct.ritual=Ritual Altar
+chromastruct.ritual2=Enhanced Ritual Altar
 chromastruct.infusion=Infusion Ring
 chromastruct.tree=Lumen Tree
 chromastruct.ocean=Ocean Temple
@@ -191,6 +206,9 @@ chromastruct.cloaktower=Cloaking Tower
 chromastruct.tree_boosted=Enriched Lumen Tree
 chromastruct.protect=Proection Obelisk
 chromastruct.weakrepeater=Lumen Repeater
+chromastruct.meteor1=Meteor Tower (Green)
+chromastruct.meteor2=Meteor Tower (Yellow)
+chromastruct.meteor3=Meteor Tower (Red)
 
 crystal.cave=Cave Crystal
 crystal.lamp=Crystal Lamp
@@ -280,6 +298,10 @@ chromacraft.teledust=Motive Dust
 chromacraft.icydust=Fixation Dust
 chromacraft.energydust=Energetic Essence
 chromacraft.livingessence=Nature Fiber
+chromacraft.glowbeans=Luma Beans
+chromacraft.boostroot=Enrichment Root
+chromacraft.lumencore=Lumen Core
+chromacraft.glowchunk=Radiant Gem
 
 chromamod.crystalStar=Crystal Star Core
 chromamod.firaxcap=Firaxite Star Cap
@@ -315,6 +337,19 @@ chromablock.dimgen.miasma=Miasma
 chromablock.dimgen.floatstone=Floatstone
 chromablock.dimgen.firejet=Aura Jet
 chromablock.dimgen.aqua=Aqua
+
+chromablock.laser.emitter=Burst Emitter
+chromablock.laser.target=Directional Receiver
+chromablock.laser.target_thru=Multidirectional Receiver
+chromablock.laser.mirror=Mirror
+chromablock.laser.doublemirror=Double-Sided Mirror
+chromablock.laser.slitmirror=Slit Mirror
+chromablock.laser.refractor=Beam Refractor
+chromablock.laser.prism=Prism
+chromablock.laser.splitter=Beam Splitter
+chromablock.laser.oneway=Directional Transmitter
+chromablock.laser.colorizer=Color Filter
+chromablock.laser.polarizer=Beam Polarizer
 
 chromaitem.dimgen.miasma=Miasmatic Essence
 chromaitem.dimgen.floatstone=Floatstone
