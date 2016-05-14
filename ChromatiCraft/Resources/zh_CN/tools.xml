@@ -1,16 +1,16 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <tools>
 	<wand>
-		The manipulator is your first foray into this strange new field of crystal elements and chromatic forces. The tool seems to be your main way of activating blocks, either to start some operation or to change settings on a device. It also seems capable of testing the connectivity of segments of a crystal network, and drawing energy off a pylon into yourself.
+		源晶魔杖是你迈向水晶元素与彩能魔法领域的第一步。不论是启动什么仪式，还是更改什么设定，这魔杖似乎都是你操纵方块的主要途径。它似乎还能测试水晶网络的连接，并且能从水晶魔塔中汲取能量到你身上。
 	</wand>
 	<finder>
-		The pylon compass scans the energy field that permeates the world and analyzes it to calculate the location of the nearest pylon of each crystal element. Due to the fact that the energy is always in flux, there is some inaccuracy to the calculation, but the location you are directed to should be within a short walk of the actual pylon.
+		水晶魔塔指南针通过扫描世界中永久存在的魔法能量场并予以分析，籍此来判断距离最近的各元素的水晶魔塔。因为能量一直在波动，所以计算会有些许误差，但只要按照它给出的方向走，即便有误差，再多走几步就能找到。
 	</finder>
 	<excavator>
-		By concentrating elements associated with energy and minerals, you have found that you can apply them to the terrain and excavate a large area. When you release the energy into the ground, it seems to only get conducted along identical materials, but this nonetheless allows you to clear a large area of rock, ores, or other materials with a single stroke.
+		将象征能量与矿物的元素浓缩后，你发现这些东西可以用来挖掘大片区域。你每对地面释放一次能量，这能量似乎只会沿着相同质地的方块传递，但不论如何这都可以让你一次性清理大片岩石、矿石或其它东西。
 	</excavator>
 	<transition>
-		Gray-colored energy seems to have the power to transmute and change, so it is a reasonable guess to think that if applied to the world, with some information of what blocks to place and replace, this power could be used to change large swaths of one block into another, greatly expediting the landscaping process.
+		灰色的能量似乎有转变事物的能力，有鉴于此，你开始思考如果将这种能量在这个世界中释放，并给予一些基本信息，比如放置和替换何种方块，这灰色能量应该可以大范围地替换方块，大大加快地面美化速度。
 	</transition>
 	<invlink>
 		Mining and other activities tend to fill your inventory with useless junk that seems to accumulate faster than you can get rid of it. By leveraging the power of elements associated with movement, you discover that you can create a linkage between your inventory and one placed somewhere in the world, and one for which you can control the items it transports.
@@ -52,7 +52,7 @@
 		There are a great many tools available to you to grant you exceptional abilities, including those crystalline pendants you designed earlier. However, each of these needs to remain in your inventory to function. The end result is that your inventory quickly fills while mining, something not helped by the twenty kinds of stone you find underground. Putting these items in a backpack negates their effects, so that is not a solution, either. If only there was some way to put all these items in a bag and still have it pass on the items' effects...
 	</aurapouch>
 	<multitool>
-		Different kinds of blocks need different kinds of tools to harvest them efficiently and effectively. Given the wide variety of blocks you come across, this quickly necessitates several tools - picks, axes, shovels, shears, your SWORD - and switching between them becomes increasingly clumsy. Combining all the tools into one - somehow - is the obvious solution.
+		不同的方块需要不同的工具来采集，这样才能达到最高效率。若是面对大量五花八门的方块，你肯定也会用上五花八门的工具——镐、斧、锹、剪刀，甚至是剑——接着不断地切换工具就足以让你晕头转向了。似乎，将这些工具融为一体，才是最终的解决方案。
 	</multitool>
 	<orepick>
 		Branch mining is a waste of time. You make a narrow tunnel out of kilometers of rock and find barely anything - and most of what you find is worthless - except that which you blindly dug right into. No doubt large amounts of ore remain hidden to you just underneath the walls of your tunnel, but short of expending the herculean effort to clear all of the overlying stone, you will never know what you are missing...
@@ -64,10 +64,10 @@
 		You often find yourself scrambling to load many items into a chest that feeds into a machine. The amount of work involved is tedious and frustrating, and a way to expedite the process would be most convenient. The item mover can do just that; it can move large quantities - up to ten thousand - of any one item at a time from one inventory (or digital storage system) to another.
 	</bulkmover>
 	<chaingun>
-		Swords and arrows are useful to a point, but they quickly become insufficient if the target creatures are spread over too large an area. Fortunately, the chain gun can fire a projectile that bounces between multiple creatures, even across significant distances.
+		剑与矢对于定点打击很有效，但若是你的目标们分散开来，传统的武器似乎就不太好使了。幸运的是，你的Chain gun发射的子弹可以在目标间来回弹射，甚至能跨越很长一段距离。
 	</chaingun>
 	<splash>
-		For groups of tightly packed mobs, the usual strategy is to wildly flail a sword around you, but this is both rather amateur and ineffective. A weapon that dealt splash damage would be ideal...
+		For groups of tightly packed mobs, the usual strategy is to wildly flail a sword around you, but this is both rather amateur and ineffective. A weapon that dealt splash damage would be ideal...对于
 	</splash>
 	<endercrys>
 		You recall needing eight of those mysterious pulsing crystals from the eldritch island, but attempting to interact with them blew up in your face...literally. You need a more delicate method of picking them up and storing them.
@@ -76,10 +76,10 @@
 		Water buckets, as a method of breaking fall damage, are somewhat effective, but they require agile reflexes. As a way of climbing a wall, they are slow. Perhaps some sort of magical buffer would do a better job...
 	</hover>
 	<growth>
-		Crops take forever to grow. Sure, wheat and that plant with the oily black seeds seem to grow fast enough, but things like sugar cane take hours, and those crops you got to (somehow) drop mob drops and bits of ore take so long you wonder if farming them is even worth the time. You had a watering can which seemed to help, but it got crumpled beyond recognition the moment you tried it with that automated clicking machine. You know that Kijani energy forms the basis of natural things, including plants; perhaps a blast of that may expedite the process.
+		作物生长总是那么缓慢。的确，小麦和那种有着乌黑油亮的种子的作物生长比较快，但是诸如甘蔗之类的就特别慢，Crops take forever to grow. Sure, wheat and that plant with the oily black seeds seem to grow fast enough, but things like sugar cane take hours, and those crops you got to (somehow) drop mob drops and bits of ore take so long you wonder if farming them is even worth the time. You had a watering can which seemed to help, but it got crumpled beyond recognition the moment you tried it with that automated clicking machine. You know that Kijani energy forms the basis of natural things, including plants; perhaps a blast of that may expedite the process.
 	</growth>
 	<doorkey>
-		Doors are generally useless without keys. To that end, your ethereal barrier needs a key. After shift-right-clicking the key on the door, you linked the two and now using the key will open the door. Surely this key cannot open someone else's door.
+		门总是需要配钥匙的。有鉴于此，你的ethereal barrier需要一把钥匙。按住Shift时手持钥匙右击门，即可将钥匙与门绑定，从而允许你用这把钥匙开门。当然了，这把钥匙不能打开别人的门。
 	</doorkey>
 	<crystalcell>
 		A great many types of items come in sixteen variants, one for each color of crystal energy. Sure, you could just dump them all into your magical etched-crystal storage device, but after mining out a dungeon and finding 23 different tools of six materials (who leaves a bronze sword in a random area underground?), the limit on item types is becoming insurmountable. Perhaps a storage cell dedicated to these crystalline items would mitigate the issue.
