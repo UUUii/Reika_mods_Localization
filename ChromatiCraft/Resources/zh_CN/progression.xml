@@ -49,7 +49,7 @@
 			弱魔力核心
 		</title>
 		<hint>
-			你或许暂时无法掌控pylon的能量，但似乎有替代品可用。
+			你或许暂时无法掌控水晶塔的能量，但似乎有替代品可用。
 		</hint>
 		<reveal>
 			相比于普通的石头，这些东西的确可以让物品吸收更多的魔法能量。
@@ -71,7 +71,7 @@
 			顶级合成
 		</title>
 		<hint>
-			现在你终于能掌控pylon的能量了，但又该如何使用呢？
+			现在你终于能掌控水晶塔的能量了，但又该如何使用呢？
 		</hint>
 		<reveal>
 			将所有能量导向合成台，你便能尽情发挥你宽广的想像力来制造各种设备了。
@@ -79,10 +79,10 @@
 	</link>
 	<charge>
 		<title>
-			Energy Internalization
+			内部存储的能量
 		</title>
 		<hint>
-			如果pylon和树可以储存能量，那或许你也可以...
+			如果水晶塔和树可以储存能量，那或许你也可以...
 		</hint>
 		<reveal>
 			事实上的确可以，虽然这个过程对你来说危险大于愉悦。
@@ -294,7 +294,7 @@
 			除非你直接把基地造在危险的水晶魔塔附近，否则它们看上去根本没法利用，因为它们的能量能覆盖的范围太有限了。
 		</hint>
 		<reveal>
-			These refractors of a sort seem to be able to reconcentrate and repeat the signal.
+			这些折射器似乎可以重新聚集信号并将其传递下去。
 		</reveal>
 	</repeater>
 	<rainbowforest>
@@ -302,10 +302,10 @@
 			魔法森林
 		</title>
 		<hint>
-			You have heard rumors of forests populated with those brightly colored trees as far as the eye can see...
+			你听说过一些关于一种奇特森林的笑话，大老远你就能看到这些五颜六色的树...
 		</hint>
 		<reveal>
-			Not only do such forests exist, but they also teem with animals and plants, and the magic keeps hostile forces at bay.
+			这样的森林不仅存在，而且充满着各种动物和植物，森林本身的魔法能量也让怪物敬而远之。
 		</reveal>
 	</rainbowforest>
 	<dimension>
@@ -332,7 +332,7 @@
 	</ctm>
 	<storage>
 		<title>
-			Lumen存储
+			流明存储
 		</title>
 		<hint>
 			一些建筑需要来回移动，这样一来基于中继器的能量供应就显得力不从心了。有别的替代方案吗？
@@ -365,7 +365,7 @@
 	</powercrystal>
 	<killdragon>
 		<title>
-			Aerial Predator
+			天空中的捕食者
 		</title>
 		<hint>
 			静止而空旷的天空中...有一条巨龙。
@@ -409,7 +409,7 @@
 	</hive>
 	<killmob>
 		<title>
-			Monster Slayer
+			怪物杀手
 		</title>
 		<hint>
 			有些生物心地邪恶，必须尽快解决。
@@ -431,7 +431,7 @@
 	</allcores>
 	<turbocharge>
 		<title>
-			Pylon Turbocharging
+			水晶塔涡轮增压
 		</title>
 		<hint>
 			这应该可行...如果有点暴力的话。
@@ -440,28 +440,28 @@
 			比期望还要好，而且更加有价值。
 		</reveal>
 	</turbocharge>
-	<name>
+	<useenergy>
 		<title>
-
+			驾驭流明
 		</title>
 		<hint>
-
+			若水晶塔是能量之源，那么这是不是意味着我们可以对其加以利用？
 		</hint>
 		<reveal>
-
+			是的，而且它驱动的无数设备都是极好的。
 		</reveal>
-	</name>
-	<name>
+	</useenergy>
+	<structcomplete>
 		<title>
-
+			不寻常的结构
 		</title>
 		<hint>
-
+			巨大的结构点缀着不稳定的领域。那里面有什么？
 		</hint>
 		<reveal>
-
+			一个发光的核心，会自动调整为某种水晶的颜色。Interesting...
 		</reveal>
-	</name>
+	</structcomplete>
 	<name>
 		<title>
 
