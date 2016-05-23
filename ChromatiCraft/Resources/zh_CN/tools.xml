@@ -13,80 +13,86 @@
 		灰色的能量似乎有转变事物的能力，有鉴于此，你开始思考如果将这种能量在这个世界中释放，并给予一些基本信息，比如放置和替换何种方块，这灰色能量应该可以大范围地替换方块，大大加快地面美化速度。
 	</transition>
 	<invlink>
-		Mining and other activities tend to fill your inventory with useless junk that seems to accumulate faster than you can get rid of it. By leveraging the power of elements associated with movement, you discover that you can create a linkage between your inventory and one placed somewhere in the world, and one for which you can control the items it transports.
+		采矿以及其它很多活动都会快速往你的背包中填满各种垃圾，而且它们填充的速度比你清理的速度还快。权衡有关移动的水晶元素后，你发现你可以在你的背包和世界上的某个角落之间建立连接，这样你就可以控制物品的移动了。
 	</invlink>
 	<pendant>
-		As you have already discovered, crystallized elemental energy can be found scattered around the world, and its proximity imbues the effects of that element on yourself. However, the effect is rather less than convenient to transport in a form that bulky, so a logical next step would be to wear a small part of the crystal to allow you to benefit from its effects at any location.
+		你已经发现了，晶化的元素能量散布在了世界的各个角落里，只要你接近，你就会受到这些水晶能量的影响。但水晶本身很笨重，搬运起来很不方便，所以将一小块水晶戴在身上成为了理所当然的合理选择，这样你就可以随时随地享受水晶带来的特殊效果了。
 	</pendant>
 	<vacuumgun>
-		Though purely utilitarian ways of killing hostile mobs get the job done, they lack a certain entertainment value. With that in mind, you devised a weapon that creates a rift in the fabric of space, pulling all the creatures into it from a substantial radius. Even better, it seems to rip the blocks out of the ground as well.
+		尽管实用的怪物磨床干脆利落地解决了所有的敌对生物，但它并不怎么有趣啊。为了娱乐化这个过程，你发明了新武器，它可以在空间中产生裂缝，将一定范围内的生物全部拉过来。甚至，它还能将地上的方块吸起来。
 	</vacuumgun>
 	<lens>
-		Crystal Lenses work much like their optical counterparts, focusing, tinting, and otherwise manipulating a beam of energy so that it can apply its effects more strongly over a smaller area.
+		水晶透镜和它的同类，光学透镜，工作方式十分相似，比如说聚焦，比如说滤光，再不就是制造激光，令光在一小片区域中拥有更强的效果。
 	</lens>
 	<storage>
-		Merging small amounts of all the types of crystal yields a crystal that seems to have the ability to store large amounts of energy delivered to it, almost like a battery. This may be convenient for some things that drain this energy yet are too portable for a true crystal network.
+		将一点点各种颜色的水晶合并在一起后产生了一块新的水晶，它似乎可以像电池一样储存大量能量。这对于那些需要经常移动又需要从水晶网络中抽取能量的设备来说再好不过了。
 	</storage>
 	<linktool>
-		Many constructs come in pairs, needing to be linked to each other. The linking tool accomplishes exactly that, binding together two positions.
+		很多东西需要成对使用，因此它们需要连接在一起。连接器因此而生，它可将两个目标绑定在一起。
 	</linktool>
 	<warp>
-		By experimenting with the darker aspects of another branch of magic, you have suffered some serious consequences, including impaired vision and a nasty tendency for the air around you to come alive with hostile and destructive manifestations of that power. With this mixture, you should be able to work towards keeping those effects at bay.
+		随着你对另一个魔法分支中的黑暗魔法的研究不断深入，你的身体也受到了严重影响，比如模糊的视力，以及对周围空气的恶心感觉，你甚至感觉空气都变成了不友好的活物，充斥着那种极具毁灭性的力量。这药液也许对驱散这些病状有帮助。
 	</warp>
 	<duplicator>
-		Building structures that consist of many repeated parts is a tedious task involving less in the way mental vigour and more in the way of running around. Finally, however, you have found a way to scan regions of a structure and allow it to be replicated as many times as you see fit and can afford.
+		建筑中若出现大量相同结构，你的工作就会变得索然无味，你也因此会提不起精神。但最终，你找到了一种方法，可以在扫描一片区域的建筑后，在任何你觉得合适的地方立刻复制出来。
 	</duplicator>
 	<teleport>
-		Long-distance travel has often been a major headache for you, and even with more advanced powers like gliding and flight, you find yourself spending a great deal of time in transit between distant locations. With the mobility wand, you can fling yourself at a distant location, appearing there instantaneously.
+		长途旅行总令你头疼，即便有了滑翔和飞行的能力，你依旧需要在路上消耗大把时间。有了这mobility star，你就可以瞬间移动到目的地了。
 	</teleport>
 	<builder>
-		Building walls and paths is tedious and time-consuming. Fortunately, with the aid of the construction wand, you can extend any continuous surface you like, greatly expediting this process.
+		造墙，修路，这样的工作都是枯燥无味且浪费时间的工作。幸运的是你有了construction star的帮助，你可以随心所欲地拓展任何连续的平面结构，大幅缩短建造时间。
 	</builder>
 	<capture>
-		Moving creatures is nearly impossible. Cows and other animals can be led with food, but they are so stupid that they frequently forget you exist and go wander off a cliff. Wolves have trouble telling the difference between water and lava - which would not be so much of a problem if not for their love of swimming - and cannot find their way through a door if their life depends on it. Finally, most hostile mobs would rather eat/shoot/explode your face than chase you hundreds of blocks. With the capture wand, however, you can ignore these obstacles and carry the mob - in suspension of course - wherever you need.
+		移动生物？基本不可能。牛和其它动物还可以用它们喜爱的食物吸引，但是它们有时候会笨到经常忘记你的存在然后跑去悬崖边玩耍。至于狼，它似乎无法分辨水和岩浆，这个问题因为狼喜欢游泳而严重了起来，然后它在生死攸关时不会进门躲避。最后，大多数敌对生物都会优先选择生吞你、射你一脸、甚至是自爆，而跟着你跑路则是万不得已的选择。然而，有了capture star，你就可以无视这所有的问题了，想把生物带到哪就带到哪－虽然你依旧有所怀疑。
 	</capture>
 	<voidcell>
-		Your mining efforts have yielded you untold riches in the form of metals, gems, and other materials, but it has also left you with mountains of stone - you literally could build a mountain if you felt like it. Being something of a pack rat, you cannot bring yourself to throw it away, and your crystal-based item storage system is rapidly approaching capacity with some 196 million of it. After some time spent reverse-engineering it, you hit upon a solution. Like the crystal tanks, you could probably use a void link to store basically infinite quantities of an item, though only one item per storage unit.
+		你采矿的努力最终换来了各种前所未闻的财富，各种金属，宝石还有其他材料，应有尽有，但同时你还有堆积如山的圆石－没错，只要你愿意，你完全可以用这些石头堆座山出来。既为收集控，你自然不会轻易丢掉那么多圆石，而你那用水晶制成的存储系统很快就达到了上限，1.96亿。在对其进行反向工程后，你发现了新的解决方案。和水晶储罐一样，你可以利用与虚空之间的链接来达成近乎无限量的储存，但这样一个单元就只能存储一种物品了。
 	</voidcell>
 	<aurapouch>
-		There are a great many tools available to you to grant you exceptional abilities, including those crystalline pendants you designed earlier. However, each of these needs to remain in your inventory to function. The end result is that your inventory quickly fills while mining, something not helped by the twenty kinds of stone you find underground. Putting these items in a backpack negates their effects, so that is not a solution, either. If only there was some way to put all these items in a bag and still have it pass on the items' effects...
+		有很多工具可以赋予你额外的能力，比如说你早些时候做的水晶吊坠。但是，这些工具都需要待在你的背包里才有效果。最后的结果就是，你在挖矿时背包很快就被二十种互不相同的石头填满了。把物品丢进背包里的话，你就无法享受到加成了，所以这也不是办法。如果有办法能让背包里的物品仍能给予你加成的话...
 	</aurapouch>
 	<multitool>
 		不同的方块需要不同的工具来采集，这样才能达到最高效率。若是面对大量五花八门的方块，你肯定也会用上五花八门的工具——镐、斧、锹、剪刀，甚至是剑——接着不断地切换工具就足以让你晕头转向了。似乎，将这些工具融为一体，才是最终的解决方案。
 	</multitool>
 	<orepick>
-		Branch mining is a waste of time. You make a narrow tunnel out of kilometers of rock and find barely anything - and most of what you find is worthless - except that which you blindly dug right into. No doubt large amounts of ore remain hidden to you just underneath the walls of your tunnel, but short of expending the herculean effort to clear all of the overlying stone, you will never know what you are missing...
+		树形矿道浪费时间。你凿出了一条数千米长的坑道，然后的确找到了很多东西，但就是不见你想要的东西的影子，同时你挖到的东西也都没什么价值。毫无疑问，还有大量的宝藏潜藏在你挖出的矿道厦门，但即便你费大力气清理掉了矿道的墙壁，你还是不知道你错过了什么...
 	</orepick>
 	<oresilk>
-		You have mechanisms to process ore and increase your rate of return, from half a dozen ways of doubling it to ways of increasing that output even further, but this is rather unhelpful if the ore blocks themselves are unobtainable to you and the ore taunts you by dropping its contents instead. You could of course put Silk Touch on your tool, but enchanting is a random and often frustrating endeavor; a better idea would be to make the tool itself carve ore cleanly from the ground.
+		你有一套矿物增产的机械，大半可以提供两倍产量，有些甚至更多，但若是你无法取得矿石本身，一切都是空谈。这时你肯定会诉诸精准采集，但附魔本身就是在碰运气，而且你的努力经常会付之东流；更好的办法，就是做一个本身就可以精确地获得矿石本身的工具。
 	</oresilk>
 	<bulkmover>
-		You often find yourself scrambling to load many items into a chest that feeds into a machine. The amount of work involved is tedious and frustrating, and a way to expedite the process would be most convenient. The item mover can do just that; it can move large quantities - up to ten thousand - of any one item at a time from one inventory (or digital storage system) to another.
+		你在往与机器相连的箱子里放东西时经常会手忙脚乱。工作量总是这样大，你肯定在想有没有什么办法能够简化工作。物品搬运器因此而生：它可以从一个容器中一次性移动至多一万个物品到另一个容器中。(当然，也可以是某种数字化存储系统)
 	</bulkmover>
 	<chaingun>
 		剑与矢对于定点打击很有效，但若是你的目标们分散开来，传统的武器似乎就不太好使了。幸运的是，你的锁链枪发射的子弹可以在目标间来回弹射，甚至能跨越很长一段距离。
 	</chaingun>
 	<splash>
-		For groups of tightly packed mobs, the usual strategy is to wildly flail a sword around you, but this is both rather amateur and ineffective. A weapon that dealt splash damage would be ideal...
+		对于成群的怪，通常的做法是不断地用剑砍，但这样既没效率，也让你显得没水平。带溅射效果的武器才是最终解决方案...
 	</splash>
 	<endercrys>
-		You recall needing eight of those mysterious pulsing crystals from the eldritch island, but attempting to interact with them blew up in your face...literally. You need a more delicate method of picking them up and storing them.
+		你想起来你需要八块来自异域之岛的神秘脉动水晶，但是你一碰它们...就瞬间爆炸了。你似乎需要某种更专业的工具来把它们存储起来。
 	</endercrys>
 	<hover>
-		Water buckets, as a method of breaking fall damage, are somewhat effective, but they require agile reflexes. As a way of climbing a wall, they are slow. Perhaps some sort of magical buffer would do a better job...
+		一桶水，作为防止摔落伤害的方法，的确有效，但需要敏锐的反应速度。若是用来爬墙，就更慢了。也许你需要用到魔法能量...
 	</hover>
 	<growth>
-		作物生长总是那么缓慢。的确，小麦和那种有着乌黑油亮的种子的作物生长比较快，但是诸如甘蔗之类的就特别慢，Crops take forever to grow. Sure, wheat and that plant with the oily black seeds seem to grow fast enough, but things like sugar cane take hours, and those crops you got to (somehow) drop mob drops and bits of ore take so long you wonder if farming them is even worth the time. You had a watering can which seemed to help, but it got crumpled beyond recognition the moment you tried it with that automated clicking machine. You know that Kijani energy forms the basis of natural things, including plants; perhaps a blast of that may expedite the process.
+		作物生长总是那么缓慢。的确，小麦和那种有着乌黑油亮的种子的作物生长比较快，但是诸如甘蔗之类的就特别慢，更不用说那些会掉落怪物掉落物以及小块矿物的作物了，它们的生长速度会慢到让你怀疑你是不是在浪费人生。你的洒水壶似乎对这玩意有效果，但你在试图用自动点击器来模拟使用水壶时却遇到了巨大阻力。你已经知道，Kijani水晶能量便是自然界一切的基础，因此它也是植物的基础，也许它的冲击波可以大大加快作物生长速度。
 	</growth>
 	<doorkey>
 		门总是需要配钥匙的。有鉴于此，你的通灵屏障需要一把钥匙。按住Shift时手持钥匙右击门，即可将钥匙与门绑定，从而允许你用这把钥匙开门。当然了，这把钥匙不能打开别人的门。
 	</doorkey>
 	<crystalcell>
-		A great many types of items come in sixteen variants, one for each color of crystal energy. Sure, you could just dump them all into your magical etched-crystal storage device, but after mining out a dungeon and finding 23 different tools of six materials (who leaves a bronze sword in a random area underground?), the limit on item types is becoming insurmountable. Perhaps a storage cell dedicated to these crystalline items would mitigate the issue.
+		很多东西都正好有16种变种，每种都象征一个颜色的水晶能量。的确，你完全可以直接丢进你的魔术般的蚀刻水晶存储设备，但你这时又发现了一座地牢，找到了23种互不相同的工具(谁往地牢里留青铜剑啊?)，然后你就不得不面对物品种类上限这个无法解决的问题了。也许一个专门用来存储这种和水晶能量相关的物品才能解决问题。
 	</crystalcell>
-	<name>
-		
-	</name>
+	<purify>
+ 		在某些世界中，这包括下界还有那些仅靠笔墨就写就的大量世界－水晶的魔法效果受到了污染，变成了更为危险的形式。你很想重新修复并净化那里的灵气，而不是每次听到叮当响就逃跑，这其中缘由不外乎是因为，逃跑即意味着，从悬崖上失足－掉入岩浆。
+ 	</purify>
+ 	<efficiency>
+ 		你对个人属性的强化极大提高了你的才能，但这些强化不仅消耗时间，还会消耗大量能量。你想到了你的Kuro水晶吊坠，然后你打算继续强化。
+ 	</efficiency>
+ 	<killaura>
+ 		真是奇妙，你到现在都没遇到过那些你知道位置但就是打不到的怪物。的确，你可以击碎这层壁垒，但更简单粗暴的办法是，跳过这层壁垒直接发起进攻。准确的说，你根本不必发起进攻，但敌人依旧会受到伤害。
+ 	</killaura>
 	<name>
 		
 	</name>
