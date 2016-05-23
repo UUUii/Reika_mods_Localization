@@ -4,10 +4,10 @@
 * [X] blocks
 * [X] elements
 * [X] hover
-* [X] Info (Unreviewed)
-* [ ] machines
-* [X] progression (Unreviewed)
-* [X] resource (Unreviewed)
+* [X] Info
+* [X] machines
+* [X] progression
+* [X] resource
 * [X] structure
 * [X] thaum
 * [ ] tool
