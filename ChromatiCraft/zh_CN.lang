@@ -140,7 +140,7 @@ chroma.aurapouch=灵力袋
 chroma.growth=生长魔杖
 chroma.bulkmove=物品搬运器
 chroma.chaingun=锁链枪
-chroma.splashgun=溅液枪
+chroma.splashgun=溅射枪
 chroma.hoverwand=悬浮魔杖
 chroma.key=天之钥
 chroma.gol=彩能存储池
@@ -233,7 +233,7 @@ crystal.cluster0=原始晶簇
 crystal.cluster1=二阶晶簇
 crystal.core=水晶之核
 crystal.star=水晶之星
-crystal.multi=多水晶
+crystal.multi=七彩水晶
 
 dye.block=染料块
 dye.flower=花
