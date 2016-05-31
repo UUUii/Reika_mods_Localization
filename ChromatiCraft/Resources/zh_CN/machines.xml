@@ -5,8 +5,8 @@
 			Various things you have constructed thus far have been, if not abject failures, somewhat disappointing, having some major drawback or not quite fulfilling your desires (and greed). Sure, you could try to improve them, but that is often impossible or at least stupidly costly (and the last time you tried, its original inventor yelled at you), so a way to apply outside influence is of great use. Different colors, of course, will confer different advantages.
 		</desc>
 		<note>
-			每种类型都分为％d个等级，每次升级都会更加强大；
-			在“本质”没有聚集的地方，局部效果或会没有明显效果。
+			每种类型都分为％d个等级，等级愈高，其愈加强大；
+			在“本质”没有聚集的地方，局部效果或会不甚明显。
 		</note>
 		<black>
 			Power crystals or not, your poor pylons are so heavily overloaded that your network is more gray balls of sadness than glowing beacons of energy. You do not yet have the means to improve their capabilities directly, but maybe you can reduce the load...
@@ -65,7 +65,7 @@
 			可阻止%d格方块范围内的方块放置、方块破坏以及打开GUI操作；
 
 			所有人和管理员拥有控制权限；
-			所有人可用指令：/guardstone 来添加或移除&#60;玩家&#62;授权。 <!-- The &# tags are for angle brackets. Do not touch those. -->
+			所有人可用指令 /guardstone 来添加或移除&#60;玩家&#62;授权。 <!-- The &# tags are for angle brackets. Do not touch those. -->
 		</note>
 	</guardian>
 	<stand>
@@ -482,7 +482,7 @@
 	</cropspeed>
 	<inserter>
 		<desc>
-			你不止一次发现，你需要不断地往一些根本不支持物流的容器中放物品。你早已厌倦了往石头盆子中丢甘蔗，也早已厌倦了往彩能液体中丢浆果。你需要想办法做到自动化，然后集中精力做一些更有趣的事情。
+			你不止一次发现，你需要不断地往一些根本不支持物流的容器中放物品。你早已厌倦了往石头盆子中丢糖，也早已厌倦了往彩能液体中丢浆果。你需要想办法做到自动化，然后集中精力做一些更有趣的事情。
 		</desc>
 		<note>
 
@@ -514,7 +514,7 @@
 	</broadcast>
 	<enchantdecomp>
 		<desc>
-			Rather starving, you made a box of netting and wood and plopped it in a pond, hoping to catch fish over time. However, the world is apparently determined to see you starve, as all you have obtained is an endless series of - weakly - enchanted bows and boots. They are too close to the end of their life to be useful, but the weak magic of the enchantments might be able to be put to good use.
+			为了不挨饿，你做了个小木箱，给它贴上了一张网，扑通一声把它丢进小池塘中，希望过段时间它能抓住几条鱼。然而很明显，这个充满恶意的世界决定看着你挨饿，并给了你各种各样基本没用的附魔弓和靴子。这些玩意大都已损坏到了不能再用的地步，但那些脆弱的低级附魔似乎还有更好的用途。
 		</desc>
 		<note>
 
@@ -522,7 +522,7 @@
 	</enchantdecomp>
 	<lumenwire>
 		<desc>
-			You took three steps into a ruined, overgrown stone structure deep in the jungle and were rewarded with an arrow to the face. Primitive as they might be, tripwires are an effective trap or other detector. However, they are just that - primitive. Not all constructions are amenable to redstone connectivity, and you would far prefer something a bit more visually appealing.
+			你三步两步踏进了茂密丛林深处被青苔掩盖的废墟，然后立刻被流矢射了一脸。虽然原始，但这并不妨碍绊线作为高效陷阱的地位。但你也不能改变它十分原始的特征。并非所有的建筑都适合加复杂的红石机关，因此你还需要寻找更美观的替代品。
 		</desc>
 		<note>
 
@@ -538,15 +538,15 @@
 	</particles>
 	<meteor>
 		<desc>
-			Lumen turrets are all well and good, but they need to be spammed to protect a large area, and do not work for areas without a clear sky view. You tried a magnetic projectile launcher earlier, but for what it accomplished in mob-killing it doubled in destroying the base you were trying to protect. To that end, you have decided to create a defense tower, one that can attack mobs at a large range, and doing large amounts of splash damage. Now, some towers are more effective than others against certain mob types (in case you hadn't noticed), and this one does not work for fliers.
+			流明炮台十分好使，但若是需要保护的范围特别大，那么这玩意就势必要泛滥成灾了，而且它工作时还必须要见得着太阳光。你之前试过一种用磁力驱动的发射器，那个东西虽然完美解决了大范围防御问题，但是它同时还带来了对于被保护建筑的更大伤害。所以呢，你决心研制一种新型防御塔，它的攻击范围足够大，也能够带来巨大的伤害。还有一点要注意，有些塔队特定生物的效果会更好，另外就是对飞行生物没什么效果。
 		</desc>
 		<note>
-			Comes in three tiers, each with greater capabilities and costs.
+			分三个等级，级别愈高，消耗愈大，其能力也愈强。
 		</note>
 	</meteor>
 	<fluxcreator>
 		<desc>
-			Every time you screw up with a crucible, or a jar of magic...stuff, it creates a cloud or puddle of purple goo. Now, you are SUPPOSED to be unhappy about this, but who could be unhappy about a supply of pretty purple...stuff? Sure, others will say that you are crazy - or, more than they already do - but since when has that stopped you?
+			每次你搞砸坩锅或一罐魔力，呃，嗯，魔法物质的时候，总会弄出一堆紫色的黏液，或化为一团毒云，或化成一滩腐水。那么，你本应该对此表示不悦的，但是谁会对大量紫色...物质，的供应，表示不快呢？没错，这样一来别人肯定又说你要搞个大新闻了－或者他们已经开喷了－但是你什么时候又停下脚步了？
 		</desc>
 		<note>
 
