@@ -117,7 +117,7 @@
 			The transmission range of a Crystal Pylon is limited to %d blocks, and its beams are blocked by just about anything aside from air and glass; this means that unless you built your base next to one of every pylon - a dangerous endeavour - you need some way to relay the signal. This is exactly the function of a repeater, which can repeat a signal and do so around obstacles. However, repeaters do incur a small signal attenuation, so optimizing the path is a good idea. This is only a first attempt at such repeaters, and as a result its quality is...questionable. Surely you will need to improve your designs with experience.
 		</desc>
 		<note>
-			Range: %d blocks receiving and transmitting
+			Range: %d blocks transmitting and %d receiving
 		</note>
 	</weakrepeater>
 	<rift>
@@ -296,7 +296,7 @@
 			Despite your best attempts, you have not been able to totally avert the need for farming, and your mountain of grey seeds and beige goo can attest to that. Unfortunately, farms tend to scatter items far and wide, leading to the need for either powerful item collection systems - which have their own problems - or a problem with so many items on the ground you find it hard to move. The item collector at last is an answer to this problem, being able to collect items anywhere in its range as soon as they are created.
 		</desc>
 		<note>
-			Range: +/- %d blocks horizontally, +/- %d blocks vertically
+			Max Range: +/- %d blocks horizontally, one fourth of that vertically
 		</note>
 	</itemcollector>
 	<aishutdown>
@@ -552,14 +552,14 @@
 
 		</note>
 	</fluxcreator>
-	<name>
+	<villagerepair>
 		<desc>
-
+			Villagers may LOOK intelligent (ok, not really), but after their crowning architectural achievement was a pylon embedded in their wall and their attempt at a casting structure was about as skillful as a painting made with one's rear, it is clear that their cognitive capabilites are more like that of the carrots they farm. That extends to their defence strategies during a zombie seige, which consist of trying to cram the entire village into a tiny hut and usually forgetting to close the door. Sure, you could try teaching them, but after all they got out of your last educational session (about early discoveries you made) was "LEAF"...well...good luck with that.
 		</desc>
 		<note>
 
 		</note>
-	</name>
+	</villagerepair>
 	<name>
 		<desc>
 

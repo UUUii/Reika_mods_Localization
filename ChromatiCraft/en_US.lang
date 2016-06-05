@@ -65,11 +65,14 @@ chroma.enchantdecomp=Enchantment Decomposer
 chroma.lumenwire=Lumen Wire
 chroma.particles=Particle Spawner
 chroma.meteor=Meteor Tower Core
+chroma.fluiddistrib=Fluid Radiator
 
 adjacency.black=Efficiency Augment
+adjacency.red=Protection Core
 adjacency.green=Fertility Booster
 adjacency.brown=Mineral Enricher
 adjacency.purple=Performance Enhancer
+adjacency.cyan=Capacity Boost
 adjacency.pink=Damage Booster
 adjacency.lime=Range Expander
 adjacency.yellow=Energy Booster
@@ -102,7 +105,7 @@ chroma.voidrift=Void Rift
 chroma.hover=Hover
 chroma.coloraltar=Crystal Altar
 chroma.door=Ethereal Barrier
-chroma.specialshield=Shielding Stone
+chroma.specialshield=Shielding Stone Variant
 chroma.musicmem=Crystal Music Storage
 chroma.musictrigger=Crystal Music Trigger
 chroma.dimdata=Structure Interface
@@ -353,6 +356,13 @@ chromablock.laser.polarizer=Beam Polarizer
 
 chromaitem.dimgen.miasma=Miasmatic Essence
 chromaitem.dimgen.floatstone=Floatstone
+chromaitem.dimgen.aqua=Aqua Dust
+chromaitem.dimgen.lifewater=Restorative Gel
+chromaitem.dimgen.tubes=Ortho Crystals
+chromaitem.dimgen.geode=Geode Gem
+chromaitem.dimgen.crysleaf=Crystal Leaves
+chromaitem.dimgen.oceanstone=Oceanstone
+chromaitem.dimgen.cliffshard=Aura Glass Shard
 
 chroma.tieredplant.0=Aura Bloom
 chroma.tieredplant.1=Rock Flower
