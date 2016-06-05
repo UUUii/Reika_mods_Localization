@@ -462,28 +462,39 @@
 			一个发光的核心，依照环境的不同，会带上某种水晶的颜色。Interesting...
 		</reveal>
 	</structcomplete>
-	<name>
+	<netherroof>
 		<title>
-
+			另一层
 		</title>
 		<hint>
-
+			恶魔领域似乎是封顶的。真的牢不可破吗？
 		</hint>
 		<reveal>
-
+			非也。更多的谜团正等待着下一个冒险家的到来。
 		</reveal>
-	</name>
-	<name>
+	</netherroof>
+	<netherstruct>
 		<title>
-
+			不详的建筑
 		</title>
 		<hint>
-
+			奇怪的东西点缀着下界之顶。
 		</hint>
 		<reveal>
-
+			有些还能提供有价值的线索。
 		</reveal>
-	</name>
+	</netherstruct>
+	<villagecasting>
+		<title>
+			一次...不光彩的尝试
+		</title>
+		<hint>
+			你真的是第一位涉足这种魔法的人吗？
+		</hint>
+		<reveal>
+			并不，但那些先辈们的想法总还差那么一步。
+		</reveal>
+	</villagecasting>
 	<name>
 		<title>
 

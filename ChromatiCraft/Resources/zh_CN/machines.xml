@@ -42,7 +42,7 @@
 			Area-of-effect constructs are wonderful...right up until the point they taunt you by either forcing you to knock out three walls to fit it in the center of your base - unless it needs to be outside, because of course it does - or have their range end an infuriating four blocks from the edge of your house. Of the many things you need, one of them is a way to solve this problem once and for all.
 		</lime>
 		<yellow>
-			"Make a nuclear reactor", they said. "Never worry about power again", they said. What 'they' resolutely failed to tell you, however, was that in order to get anything more than what amounts to a trickle, you need to either rely on magic heat voids that eat lapis like it was coal or duty-cycle the damn thing and hope your base does not turn into a crater. If you could boost its output in a safer way, you would do so in a heartbeat.
+			“造台核反应堆吧”，他们这样说道，”这样就不愁发电了。”然而他们没告诉你的是，为了那巨量的能源，你要么必须依赖于那魔法一样的，把青金石当煤炭吃的散热装置，抑或轮班值守在这天杀的玩意旁边，并祈祷你的基地不会变成一个大坑。要是有安全的提高产能的方式，你肯定打心底想要一套吧。
 		</yellow>
 		<lightblue>
 			你早已知道，淡蓝色的能量和时间以及时空扭曲有关。浓缩淡蓝色的能量，并封印于水晶结构之中－这个结构实际上是基于由你之前不慎掉入大锅中后胡乱设计出来的一个结构，并大幅优化后得到的－你也许凭借它可以在一定范围内加快时间的流动。
@@ -117,7 +117,7 @@
 			水晶塔的传输范围被限制在了%d方块，除了空气和玻璃以外的任何方块都可以挡住它的光芒。这就意味着，除非你选择冒死把基地建在每一种水晶塔旁边，你必须用某种方法把信号传递下去。这便是中继器的功能，它可以中继信号，do so around obstacles。然而，它本身还有一点点损耗，所以对传输路径进行优化就显得很有必要。这是你在中继器上迈出的第一步，而你的研究成果的质量...令人担忧。毫无疑问你还需要不断积累经验，并对你的设计加以改进。
 		</desc>
 		<note>
-			范围：%d方块，含发送和接收
+			范围：最大传输距离%d方块，最大接收距离%d方块。
 		</note>
 	</weakrepeater>
 	<rift>
@@ -296,7 +296,7 @@
 			除了最初的尝试，你依旧没能摆脱各种农场的需求，你那堆积如山的黑灰色种子和米色粘稠液体便是证明。但是，农场总是会把物品洒在地上，这时候你就需要一套强大的物品收集系统，但这会引出新问题：地上东西太多，太难捡了。这个物品收集器可以解决刚才提到的问题，只要物品在它的收集范围内，它就可以立刻将其捡起来。
 		</desc>
 		<note>
-			范围：水平方向+/-%d格，垂直方向+/-%d格。
+			最大范围：水平方向+/-%d格，垂直方向为水平方向的四分之一。
 		</note>
 	</itemcollector>
 	<aishutdown>
@@ -552,14 +552,14 @@
 
 		</note>
 	</fluxcreator>
-	<name>
+	<villagerepair>
 		<desc>
-
+			Villagers may LOOK intelligent (ok, not really), but after their crowning architectural achievement was a pylon embedded in their wall and their attempt at a casting structure was about as skillful as a painting made with one's rear, it is clear that their cognitive capabilites are more like that of the carrots they farm. That extends to their defence strategies during a zombie seige, which consist of trying to cram the entire village into a tiny hut and usually forgetting to close the door. Sure, you could try teaching them, but after all they got out of your last educational session (about early discoveries you made) was "LEAF"...well...good luck with that.
 		</desc>
 		<note>
-
-		</note>
-	</name>
+ 
+ 		</note>
+	</villagerepair>
 	<name>
 		<desc>
 
