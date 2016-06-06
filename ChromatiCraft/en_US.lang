@@ -305,6 +305,7 @@ chromacraft.glowbeans=Luma Beans
 chromacraft.boostroot=Enrichment Root
 chromacraft.lumencore=Lumen Core
 chromacraft.glowchunk=Radiant Gem
+chromacraft.lumengem=Lumen Gem
 
 chromamod.crystalStar=Crystal Star Core
 chromamod.firaxcap=Firaxite Star Cap
@@ -340,6 +341,11 @@ chromablock.dimgen.miasma=Miasma
 chromablock.dimgen.floatstone=Floatstone
 chromablock.dimgen.firejet=Aura Jet
 chromablock.dimgen.aqua=Aqua
+chromablock.dimgen.lifewater=Lifewater
+chromablock.dimgen.lattice=Crystal Lattice
+chromablock.dimgen.crystalleaf=Crystal Leaves
+chromablock.dimgen.oceanstone=Oceanstone
+chromablock.dimgen.cliffglass=Aura Glass
 
 chromablock.laser.emitter=Burst Emitter
 chromablock.laser.target=Directional Receiver
@@ -385,6 +391,7 @@ chroma.tieredore.9=Firestone
 chroma.tieredore.10=Thermitic Rock
 chroma.tieredore.11=Vibrant Crystals
 chroma.tieredore.12=Void Stone
+chroma.tieredore.13=Lumen Gems
 
 chroma.flower.voidreed=Void Reeds
 chroma.flower.sanobloom=Ether Berries
