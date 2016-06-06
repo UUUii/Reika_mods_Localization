@@ -2,14 +2,14 @@
 <machines>
 	<adjacency>
 		<desc>
-			Various things you have constructed thus far have been, if not abject failures, somewhat disappointing, having some major drawback or not quite fulfilling your desires (and greed). Sure, you could try to improve them, but that is often impossible or at least stupidly costly (and the last time you tried, its original inventor yelled at you), so a way to apply outside influence is of great use. Different colors, of course, will confer different advantages.
+			除开失败的作品，你造的很多东西都会让人略感不快，或因它们与生俱来的缺点，或因它们并不能满足你的需求(以及贪婪)。的确你可以试着改进它们，但通常这不可能，或者消耗惊人(而上次你试的时候，原发明者喷了你一脸)，所以说从外部下手才是极好的。当然了，不同颜色的能量，拥有的效果也不一样。
 		</desc>
 		<note>
 			每种类型都分为％d个等级，等级愈高，其愈加强大；
 			在“本质”没有聚集的地方，局部效果或会不甚明显。
 		</note>
 		<black>
-			Power crystals or not, your poor pylons are so heavily overloaded that your network is more gray balls of sadness than glowing beacons of energy. You do not yet have the means to improve their capabilities directly, but maybe you can reduce the load...
+			抛开能量水晶不谈，你可怜的水晶塔现在已经超负荷工作很久了，曾经闪烁着希望的水晶之塔不再，取而代之的则是令人伤心的灰色光球。你暂时没有办法提高它的容量，但是你应该可以降低负载...
 		</black>
 		<red>
 		
@@ -18,7 +18,7 @@
 			You already have more ways to accelerate crops than you can even fit in your farm (not helped by the fact some require so much overhead to work that it would be less work to farm the crops manually), but few work on more general targets, and basically nothing can accelerate other idle processes. That last part, at least, is no longer true.
 		</green>
 		<brown>
-			Ores are a thing that you never really notice you need until you completely run out. Sure, you could create a world out of nothing but paper, ink, and cryptic scribbles - and have it eaten in minutes by white goo if you so much as think about increasing ore yield - or plop down a wall of mining machines and spend more power than an entire country does in a year. Or you could just convert raw stone into ore, and this time without pretending that bedrock has some magic ore-creation capability.
+			矿石是种直到用完你才会注意的东西。的确你可以现在就铺纸磨墨，然后用各种鬼画符来造个世界——然后因为你肆意提高矿石密度，这个世界很快就被白色黏液吃掉了——当然如果你没遇上这种悲惨的事件，你会摆下一整排采矿机械，然后一个国家一年的耗能都无法赶上它们的需求。或者你可以考虑直接把石头变成矿石，而这次你不用再假定基岩拥有创造矿石的魔法能力了。
 		</brown>
 		<blue>
 		
@@ -36,10 +36,10 @@
 		
 		</gray>
 		<pink>
-			There are no shortage of ways to defend your base. However, many deal pitiful amounts of damage, and what good is a base defence if it takes so long to kill a Creeper that you still get to enjoy a (not very) shiny new hole in your wall? This frustration must be brought to an end.
+			保护基地的办法一向不缺。然而呢，那点可怜的伤害输出基本可以忽略不计，而且当一只爬行者最终死于基地防御的火力下后，你是不是希望你的墙上又新添一个崭新的(划去)洞？是时候终结这令人窘迫的局势了。
 		</pink>
 		<lime>
-			Area-of-effect constructs are wonderful...right up until the point they taunt you by either forcing you to knock out three walls to fit it in the center of your base - unless it needs to be outside, because of course it does - or have their range end an infuriating four blocks from the edge of your house. Of the many things you need, one of them is a way to solve this problem once and for all.
+			范围攻击(AOE)就是好...直到你被它实际的限制嘲讽了一脸：你要么得用层层墙壁以让你的基地能建在中间，除非它得建在外面，当然也的确如此；要么就只能压住心中的怒火，接受它只有四格攻击范围的事实。为解决这个问题，你需要做很多工作...而其中之一，就是找到一条永久解决此问题的途径。
 		</lime>
 		<yellow>
 			“造台核反应堆吧”，他们这样说道，”这样就不愁发电了。”然而他们没告诉你的是，为了那巨量的能源，你要么必须依赖于那魔法一样的，把青金石当煤炭吃的散热装置，抑或轮班值守在这天杀的玩意旁边，并祈祷你的基地不会变成一个大坑。要是有安全的提高产能的方式，你肯定打心底想要一套吧。
@@ -48,13 +48,13 @@
 			你早已知道，淡蓝色的能量和时间以及时空扭曲有关。浓缩淡蓝色的能量，并封印于水晶结构之中－这个结构实际上是基于由你之前不慎掉入大锅中后胡乱设计出来的一个结构，并大幅优化后得到的－你也许凭借它可以在一定范围内加快时间的流动。
 		</lightblue>
 		<magenta>
-			There is an old saying that you can always tell how good someone is at managing mechanical power by how many damaged gearboxes they have stuffed in a chest. Though the obvious solution is not to screw up in the first place, that has remained firmly outside your capabilities thus far. Sure, you can still repair them with gear items, but that takes effort. Much better would be an active healing source nearby that could repair them for free.
+			有句老俗话，是说你永远都可以吹嘘某人如何如何擅长借助一堆塞进箱子里的坏齿轮箱来管理机械能。尽管最明显的答案并非一开始就搞砸，但是那个方案已经远远超出了你的能力。的确，你依旧可以用齿轮之类的修复，但这需要精力与时间。更好的选择，就是用象征治愈的能量，直接修复它们。
 		</magenta>
 		<orange>
-			You thought that putting a controller in your fission reactor meant that you would never worry again about it overheating to the point where your base becomes as habitable as the moon, but you realized - too late, of course - a stark truth: That only helps if the heat has time to propagate to the controller, not accumulate in the fuel cores and ruin your day. With this tool to ferry heat around, that should hopefully FINALLY be solved.
+			你觉得你给裂变堆丢个控制器就一劳永逸，就再也不用担心反应堆过热爆炸，把你的基地炸得跟月球一样不适合居住了。但是你最终醒悟得太迟了。残酷的现实就是这样，热量只有在有时间散布到控制器上时，控制器才能发挥效用，而热量一旦累积在堆芯的燃料棒处，就是你无力回天之时。在这个特殊的散热装置的帮助下，你希望这个问题——能最终得以解决。
 		</orange>
 		<white>
-			Stability is good. So what exactly were you thinking when you decided to construct a crafting system that is so unstable that you almost expect the thing to blow up in your face, sometimes literally? At any rate, you can probably calm it and other...volatile...things with a core of a relevant crystal element.
+			稳定是好事。所以你在决定搞一套不稳定，而且有可能会炸你一脸的合成系统时，你究竟在想些什么？！但不论如何，你都可以用一个充满了水晶能量的核心，来让它和其它那些...不稳定...的东西，冷静下来。
 		</white>
 	</adjacency>
 	<guardian>
@@ -65,7 +65,7 @@
 			可阻止%d格方块范围内的方块放置、方块破坏以及打开GUI操作；
 
 			所有人和管理员拥有控制权限；
-			所有人可用指令 /guardstone 来添加或移除&#60;玩家&#62;授权。 <!-- The &# tags are for angle brackets. Do not touch those. -->
+			所有人可用指令 /guardstone &#60;玩家名&#62; 来添加或移除对指定玩家之授权。 <!-- The &# tags are for angle brackets. Do not touch those. -->
 		</note>
 	</guardian>
 	<stand>
@@ -530,7 +530,7 @@
 	</lumenwire>
 	<particles>
 		<desc>
-			Almost every construct you make seems to give off clouds of glowing particles. Given their visual appeal, it would be quite pleasant to be able to summon them at will, especially if able to control their appearance.
+			基本上你造的东西都会散发出一团发光的粒子。既然如此，要是能随心所欲地制造粒子效果那就更好了，最好还要能控制它们出现的位置。
 		</desc>
 		<note>
 
