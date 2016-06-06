@@ -76,28 +76,28 @@
 		从高耸入云的群峦，到坚不可摧的迷宫之石，你总是遇到被阻挡的路径。你想起一句谚语，“解决问题的最好方法往往是最简单的一个”，你忽然觉得最简单的解决方案就是直接让眼前的障碍消失。毫无疑问这个方法也会击杀周围的一切生物，然而就这点来说这技能的实用性实际上被限制了，除非你喜欢生活在一个阴燃的废墟中。然而，也许这可以用来击杀那基岩之下的恶煞...但正确的说法是"toast"。
 	</laser>
 	<keepinv>
-		One of the greatest frustrations of death is that everything on your person scatters on the ground. Even worse is when you return to find a zombie trying on your armor, or that half of it fell into a nearby water stream...that OF COURSE ends in a lava pit. Being able to retain your items on death would be of utmost convenience.
+		死亡引发的窘境之一就是散落一地的物品。若是你好不容易回去，却发现有个僵尸已穿好你的盔甲在那里等候多时，或者你的一半物品被附近的流水冲走了...当然如果你死在了岩浆里那就全完了。要能保住所有物品那就是真的太方便了。
 	</keepinv>
 	<oreclip>
-		The annoying thing about ores is that they are buried in solid rock, and can take vast quantities of time to find. Some claim to have devised ways to be able to make the ores show themselves through the rock, or make the rock itself invisible (and usually pay for it with exile). You will do one better, and combine that with the ability to also pass through it as well. As you may imagine, this will be neither easy nor inexpensive.
+		挖矿之所以烦人，是因为矿都藏在坚硬的石头里，找起来很费时。有些人发明了让矿石直接显示出位置的方法，有些人则发明出了让石头隐形的办法，但通常这帮人最终只得被迫流亡(别的服务器)。你决定做个更好的版本：将上述两种能力合二为一。你能想象到这绝非易事。
 	</oreclip>
 	<doublecraft>
-		Crafting would be so much more convenient if it had higher yields. To that end, you have devised a way to increase the yield of nearly every recipe available, doubling the usefulness of your resources. However, you have yet to devise how to extend this power to your digital creations.
+		合成物品时的产量总是越高越好。你这样想着，最终你找到了让所有合成的产量翻番的方法。然而你还没找到如何让这神奇的力量也能用在你的数字化大发明上。
 	</doublecraft>
 	<growaura>
-		You have previously devised ways to combat the corruption that infects your world, but reverting the damage is often time-consuming and requires direct manual input. Remembering that the rainbow trees accomplish this effect naturally, you wonder if you can imbue yourself with a similar capability.
+		此前你找到了对抗世界的崩坏的方法，但修复已经造成的损伤费时费力。回忆起彩虹树本身修复大地的力量，你在想你能否将相似的力量注入到你身体里。
 	</growaura>
 	<meinv>
-		Few things are more irritating than deciding to build a structure, then having to return home 15 times because you cannot carry enough materials. You have that near-infinite storage system, but its wireless capabilities, if they work at all - a rare occurrence - are expensive and difficult to use. Much better would be to somehow unify whatever you hold with what might be in the system.
+		没什么比你决定造个房子，然后你因背包不够而在基地和工地来回往返15次更令人上火的了。你的确有个容量近乎无限的存储系统，但如果它罕见地工作了，它的无线访问能力——不仅代价高昂，还难用。你觉得更好的解决方案是，把你手上拿的东西和那系统里的东西合二为一。
 	</meinv>
 	<mobseek>
-		A mob radar is all well and good, until its warning of a nearby creeper is useless because the mob is hiding in a patch of trees. Going into the forest is a very bad idea, as it entails putting oneself in danger; being able to see - and shoot - the mobs through solid surfaces would be far better.
+		有个生物雷达是好事，直到Creeper躲在树后面并因此导致雷达预警完全失效的那一刻。前往森林无异于将人直接丢进危险中；那么，若能看到那些隐藏在各种屏障后的怪物，并予以打击，那就再好不过了。
 	</mobseek>
 	<recharge>
-		You have better things to do than fly around to your pylons draining energy from them, or flail your manipulator at your lumen tree. If you could get your tree to refill your energy buffers automatically, that would be far simpler.
+		你为给自己充能而在水晶塔或者流明树之间奔波，但你在这上面浪费的大量时间本可以用来做更有意义的事情。要是你能自动回复这水晶能量，那生活就简单多了。
 	</recharge>
 	<beealyze>
-		To think of all those hours you spent fine-tuning your apiculture production lines, breeding the master race of bees - somewhat amusingly earning you a moniker that brings to mind certain expansionist despots. Sure, half of it was spent using the latest in magic-block technology to redesign them at the genetic level, but a large fraction was wasted coaxing finicky insects into a analysis tool - your supply of honeydew may never recover - just to find out the bee is of better use if liquidated. If only you could view their genetics at a glance, you could save hours of time.
+		想想你花在某条养蜂生产线上的时间，以及杂交出最优品种所用的时间，然后人们半开玩笑地给予了你一个称号，但此后你就开始关注那几个扩张主义者了。的确，你大半个养蜂生涯都是花费在用那黑科技一般的方块重新设计蜜蜂们的基因，但还有大量时间浪费在了分析仪上——别忘了，你的蜂蜜滴供应正因此而无法提升，把蜜蜂们全部处理掉有时反倒更好。要是你能一眼便知蜜蜂的基因，那省下来的时间便可用来做更多有意义的事情。
 	</beealyze>
 	<name>
 
