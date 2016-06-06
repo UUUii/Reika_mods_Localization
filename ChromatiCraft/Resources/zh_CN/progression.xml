@@ -165,7 +165,7 @@
 			将浆果溶于彩能液体中后，得到的溶液可大幅提升水晶碎片的魔法性能。
 		</reveal>
 		<desc>
-			Enhancing the power of a crystal shard with elemental energy distilled from the trees
+			萃集彩树之精华，以增强水晶碎片之魔法性能。
 		</desc>
 	</shardcharge>
 	<chroma>
@@ -179,7 +179,7 @@
 			你跳入液体中后它并没有做什么事情－尽管你感觉你的生命在一点一点恢复－但是它富集各种资源的能力太微不足道了。
 		</reveal>
 		<desc>
-			This liquid has enriching power, and you have only scratched the surface
+			这液体充满了魔法能量，而你现在却仅仅是看到了表面而已。
 		</desc>
 	</chroma>
 	<alloy>
@@ -193,7 +193,7 @@
 			彩能液体可以溶解这些材料，并将魔力注入其中。
 		</reveal>
 		<desc>
-			The creation of magical materials with the enriching power of liquid chroma
+			浓缩彩能液体的魔力，造就全新的魔法材料。
 		</desc>
 	</alloy>
 	<stones>
@@ -207,7 +207,7 @@
 			你能感受到最终得到的宝石中各种颜色的能力。是的，这个东西将相当有用。
 		</reveal>
 		<desc>
-			A complete collection of the crystal elements into a gem
+			完整的水晶元素序列，集结为一体，化作一玉石。
 		</desc>
 	</stones>
 	<shock>
@@ -221,7 +221,7 @@
 			如果你所谓的"友好"就是直接将电弧丢到脸上的话...
 		</reveal>
 		<desc>
-			Proximity to a crystal pylon, at least for now, is clearly undesirable
+			至少是现在，还是不要去接近水晶魔塔了吧。
 		</desc>
 	</shock>
 	<nether>
@@ -235,7 +235,7 @@
 			所以说那些黑曜石传送门将人引导向烈焰中的噩梦的故事是真实的...
 		</reveal>
 		<desc>
-			A hostile, unpleasant world of lava, red rock, and nightmarish creatures
+			一个满怀敌意，令人不快的世界，眼前尽是炽热熔岩、血色岩石和梦魇般的生物。
 		</desc>
 	</nether>
 	<end>
@@ -249,7 +249,7 @@
 			很显然，有。
 		</reveal>
 		<desc>
-			A...strange world suspended in the void, ruled by an aggressive dragon
+			一个...浮游于虚空上的，被巨龙统治的诡异世界。
 		</desc>
 	</end>
 	<twilight>
@@ -263,7 +263,7 @@
 			不仅这片领域真实存在，还拥有独特的生物和巨大的宝藏。
 		</reveal>
 		<desc>
-			A mystical forest dotted with massive structures and strange creatures
+			这是一片神秘的森林，星罗棋布着各种建筑，到处都是珍禽异兽。
 		</desc>
 	</twilight>
 	<bedrock>
@@ -277,7 +277,7 @@
 			也许吧，但那层石头似乎不可破坏。
 		</reveal>
 		<desc>
-			An unyielding barrier to those who attempt to dig downwards
+			这牢不可破的壁垒正是为那些试图挖到更深处的人准备的。
 		</desc>
 	</bedrock>
 	<cavern>
@@ -291,7 +291,7 @@
 			那些埋藏于岩石深处，被水晶环绕的空腔里有更精密的结构。
 		</reveal>
 		<desc>
-			A buried room, populated with crystals and some random loot
+			一个深埋地下的房间，充满了水晶和其它宝物。
 		</desc>
 	</cavern>
 	<burrow>
@@ -305,7 +305,7 @@
 			近距离观察后你找到了一个隐藏洞穴，里面藏有各种储备货物，但这是为谁准备的？
 		</reveal>
 		<desc>
-			A small burrow, with a handful of starter items
+			一个小地洞，里面有各种前期有用的资源。
 		</desc>
 	</burrow>
 	<ocean>
@@ -319,7 +319,7 @@
 			似乎是真实的故事呢。如果他们提到了潜在的危险...
 		</reveal>
 		<desc>
-			A large submerged structure which is more complex than it first appears
+			一座被水淹没的巨大建筑，随着探索的深入你发现它没外表看上去那样简单。
 		</desc>
 	</ocean>
 	<desertstruct>
@@ -333,7 +333,7 @@
 			的确有，而且它们掩藏的珍宝比其它遗迹都要多。
 		</reveal>
 		<desc>
-			A subsurface hollow, filled with loot but also danger
+			一座被掩埋的大厅，充斥着财宝以及危险。
 		</desc>
 	</desertstruct>
 	<die>
@@ -347,7 +347,7 @@
 			一样。噢好疼。
 		</reveal>
 		<desc>
-			Like your items, your knowledge and energy is also lost upon your demise
+			和你的物品一样，你的知识，你的能量也会随着你的死亡而消散。
 		</desc>
 	</die>
 	<allcolors>
@@ -361,7 +361,7 @@
 			你分辨出了十六种，每一种都拥有独特的颜色和徽记。
 		</reveal>
 		<desc>
-			Sixteen colors, sixteen forms of energy, each tuned to a specific property
+			十六种颜色，十六种能量，每一种都有独一无二的属性。
 		</desc>
 	</allcolors>
 	<repeater>
@@ -375,7 +375,7 @@
 			这些折射器似乎可以重新聚集信号并将其传递下去。
 		</reveal>
 		<desc>
-			A more refined and effective form of lumen transmission
+			改进后的流明传输方式更加有效率。
 		</desc>
 	</repeater>
 	<rainbowforest>
@@ -389,7 +389,7 @@
 			这样的森林不仅存在，而且充满着各种动物和植物，森林本身的魔法能量也让怪物敬而远之。
 		</reveal>
 		<desc>
-			A magic forest, full of multicolored trees and with significant power to keep evil away
+			这是片魔法森林，充满了五颜六色的树，它蕴藏的魔法能量让恶魔不敢接近。
 		</desc>
 	</rainbowforest>
 	<dimension>
@@ -403,7 +403,7 @@
 			当然有下一个，但是这次...不一样了。
 		</reveal>
 		<desc>
-			A new world...strange, yet peaceful and serene. And vibrantly hued
+			一个...奇怪，但安详而平和的世界，十六色彩能在此交汇成海。
 		</desc>
 	</dimension>
 	<ctm>
@@ -417,7 +417,7 @@
 			重建纪念碑并令其重新运转的奖励一定是丰厚的。
 		</reveal>
 		<desc>
-			Completing the ruined monument, with surely significant reward
+			修复纪念碑遗迹，确信其奖励也一定非同寻常。
 		</desc>
 	</ctm>
 	<storage>
@@ -431,7 +431,7 @@
 			幸运的是，你找到了将能量存储在水晶矩阵中的方法，正好能满足这个需要。
 		</reveal>
 		<desc>
-			Storing energy in a crystal for easy mobility
+			将能量存储于水晶中以方便随身携带。
 		</desc>
 	</storage>
 	<balllightning>
@@ -445,7 +445,7 @@
 			它们似乎并没什么用，但至少它们看上去并不危险。
 		</reveal>
 		<desc>
-			A glowing, moving clump of energy that seems to be animated on its own
+			一团看似自己动起来的能量，闪烁着耀眼的光芒。
 		</desc>
 	</balllightning>
 	<powercrystal>
@@ -459,7 +459,7 @@
 			那些彩虹水晶碎片组成的环帮助巨大。
 		</reveal>
 		<desc>
-			Upgrading a pylon with a ring of eight power crystals massively improves its energy recovery
+			以八块能量水晶组成的环极大地提升了水晶魔塔的恢复速度。
 		</desc>
 	</powercrystal>
 	<killdragon>
@@ -473,7 +473,7 @@
 			击杀这条巨龙并没有给你多少关于这个世界的信息。
 		</reveal>
 		<desc>
-			A giant, hostile dragon whose destruction gives both physical and conceptual reward
+			与人为敌的巨龙，降伏它便可得到物质和精神上的双重奖励。
 		</desc>
 	</killdragon>
 	<breakspawner>
@@ -487,7 +487,7 @@
 			只有摧毁笼子才可以阻止它。
 		</reveal>
 		<desc>
-			Destroying a spawner not only stops the flood of creatures, but also lets you better understand, and maybe even harvest it
+			摧毁刷怪笼不仅可以阻挡怪兽的洪流，还能让你更好地理解它，甚至是直接拿到它的本体。
 		</desc>
 	</breakspawner>
 	<killwither>
@@ -501,7 +501,7 @@
 			一个不死的畸形生物，然而战胜它得到的奖励特别有用。
 		</reveal>
 		<desc>
-			A nightmarish creature which drops a mysterious but obviously valuable star
+			梦魇般的怪物，会掉落一颗神秘但珍贵的五角星。
 		</desc>
 	</killwither>
 	<hive>
@@ -515,7 +515,7 @@
 			能，不仅如此，她们还会拥有附近洞穴水晶的效果。
 		</reveal>
 		<desc>
-			Underground, crystalline hives full of uniquely adapted bees
+			在深埋地下的水晶蜂巢中，栖息着一群特别的蜜蜂。
 		</desc>
 	</hive>
 	<killmob>
@@ -529,7 +529,7 @@
 			更方便的是，击杀它们还会掉落有用的物品。
 		</reveal>
 		<desc>
-			Killing various creatures, especially hostile ones, drops an assortment of useful items
+			击杀各种生物，尤其是那些敌对生物，获得有用的资源。
 		</desc>
 	</killmob>
 	<allcores>
@@ -543,7 +543,7 @@
 			我找齐了全部十六种颜色...也许它们都是我修复纪念碑用的材料...
 		</reveal>
 		<desc>
-			Collecting all sixteen glowing orbs, for some unified purpose
+			集齐十六色荧光球，为了同一个目的。
 		</desc>
 	</allcores>
 	<turbocharge>
@@ -557,7 +557,7 @@
 			比期望还要好，而且更加有价值。
 		</reveal>
 		<desc>
-			Greatly enhancing the power of a crystal pylon
+			极大地增强水晶塔的能力。
 		</desc>
 	</turbocharge>
 	<useenergy>
@@ -571,7 +571,7 @@
 			是的，而且它驱动的无数设备都是极好的。
 		</reveal>
 		<desc>
-			Relaying the signal from a crystal pylon allows for feasible use of their energy
+			中继信号使得使用这种能量成为了可能。
 		</desc>
 	</useenergy>
 	<structcomplete>
@@ -585,7 +585,7 @@
 			一个发光的核心，依照环境的不同，会带上某种水晶的颜色。Interesting...
 		</reveal>
 		<desc>
-			Completing the task in the strange construction, and being consequently rewarded
+			完成这奇怪建筑中的任务，获得对应的奖励。
 		</desc>
 	</structcomplete>
 	<netherroof>
@@ -599,7 +599,7 @@
 			非也。更多的谜团正等待着下一个冒险家的到来。
 		</reveal>
 		<desc>
-			Getting above the impassable layer at the top of the Nether
+			穿越本不可逾越的下界之顶。
 		</desc>
 	</netherroof>
 	<netherstruct>
@@ -613,7 +613,7 @@
 			有些还能提供有价值的线索。
 		</reveal>
 		<desc>
-			Finding the secrets buried in the Nether
+			找寻下界中掩藏的秘密。
 		</desc>
 	</netherstruct>
 	<villagecasting>
@@ -627,7 +627,7 @@
 			并不，但那些先辈们的想法总还差那么一步。
 		</reveal>
 		<desc>
-			The villagers have tried - and abjectly failed - to learn to manipulate crystal energy.
+			村民们早已尝试去改变水晶能量了——显然他们的结局是个悲剧。
 		</desc>
 	</villagecasting>
 	<name>
