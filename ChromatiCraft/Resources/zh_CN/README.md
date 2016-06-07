@@ -1,12 +1,15 @@
 # ChromatiCraft manual localization progress
 
-* [ ] abilities
-* [ ] blocks
-* [ ] elements
-* [ ] hover
-* [ ] machines
-* [ ] progression
-* [ ] resource
-* [ ] structure
-* [ ] thaum
-* [ ] tool
+Now we only need revision. - 3TUSK
+
+* [X] abilities
+* [X] blocks
+* [X] elements
+* [X] hover
+* [X] Info
+* [X] machines
+* [X] progression
+* [X] resource
+* [X] structure
+* [X] thaum
+* [X] tool

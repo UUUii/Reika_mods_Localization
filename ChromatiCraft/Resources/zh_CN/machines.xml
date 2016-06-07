@@ -1,56 +1,104 @@
 ﻿<?xml version="1.0"?>
 <machines>
-	<accelerator>
+	<adjacency>
 		<desc>
-			As you have already learned, light blue energy is associated most with time and its manipulation. By concentrating this energy and binding it in a crystal structure - a vast improvement over the previous design you scribbled out after slipping and knocking yourself unconscious on a cauldron - you might be able to set up a localized field in which time progresses at a greatly increased rate.
+			除开失败的作品，你造的很多东西都会让人略感不快，或因它们与生俱来的缺点，或因它们并不能满足你的需求(以及贪婪)。的确你可以试着改进它们，但通常这不可能，或者消耗惊人(而上次你试的时候，原发明者喷了你一脸)，所以说从外部下手才是极好的。当然了，不同颜色的能量，拥有的效果也不一样。
 		</desc>
 		<note>
-			Comes in various tiers, each tier being twice as powerful as the last
-			Localized effects may be ineffective over things whose essence is less concentrated
+			每种类型都分为％d个等级，等级愈高，其愈加强大；
+			在“本质”没有聚集的地方，局部效果或会不甚明显。
 		</note>
-	</accelerator>
+		<black>
+			抛开能量水晶不谈，你可怜的水晶塔现在已经超负荷工作很久了，曾经闪烁着希望的水晶之塔不再，取而代之的则是令人伤心的灰色光球。你暂时没有办法提高它的容量，但是你应该可以降低负载...
+		</black>
+		<red>
+		
+		</red>
+		<green>
+			你早已找到了更多加速作物生长的办法，有些甚至可以直接种在地里，(这不包括那些手动种植比自动简单的作物)，但没几个方法可以适用于大多数作物，目前也没有任何已知的能加速那些看似慵懒的植物的生长的办法。但至少，刚才那句话中的最后一部份，现在被推翻了。
+		</green>
+		<brown>
+			矿石是种直到用完你才会注意的东西。的确你可以现在就铺纸磨墨，然后用各种鬼画符来造个世界——然后因为你肆意提高矿石密度，这个世界很快就被白色黏液吃掉了——当然如果你没遇上这种悲惨的事件，你会摆下一整排采矿机械，然后一个国家一年的耗能都无法赶上它们的需求。或者你可以考虑直接把石头变成矿石，而这次你不用再假定基岩拥有创造矿石的魔法能力了。
+		</brown>
+		<blue>
+		
+		</blue>
+		<purple>
+
+		</purple>
+		<cyan>
+		
+		</cyan>
+		<lightgray>
+		
+		</lightgray>
+		<gray>
+		
+		</gray>
+		<pink>
+			保护基地的办法一向不缺。然而呢，那点可怜的伤害输出基本可以忽略不计，而且当一只爬行者最终死于基地防御的火力下后，你是不是希望你的墙上又新添一个崭新的(划去)洞？是时候终结这令人窘迫的局势了。
+		</pink>
+		<lime>
+			范围攻击(AOE)就是好...直到你被它实际的限制嘲讽了一脸：你要么得用层层墙壁以让你的基地能建在中间，除非它得建在外面，当然也的确如此；要么就只能压住心中的怒火，接受它只有四格攻击范围的事实。为解决这个问题，你需要做很多工作...而其中之一，就是找到一条永久解决此问题的途径。
+		</lime>
+		<yellow>
+			“造台核反应堆吧”，他们这样说道，”这样就不愁发电了。”然而他们没告诉你的是，为了那巨量的能源，你要么必须依赖于那魔法一样的，把青金石当煤炭吃的散热装置，抑或轮班值守在这天杀的玩意旁边，并祈祷你的基地不会变成一个大坑。要是有安全的提高产能的方式，你肯定打心底想要一套吧。
+		</yellow>
+		<lightblue>
+			你早已知道，淡蓝色的能量和时间以及时空扭曲有关。浓缩淡蓝色的能量，并封印于水晶结构之中－这个结构实际上是基于由你之前不慎掉入大锅中后胡乱设计出来的一个结构，并大幅优化后得到的－你也许凭借它可以在一定范围内加快时间的流动。
+		</lightblue>
+		<magenta>
+			有句老俗话，是说你永远都可以吹嘘某人如何如何擅长借助一堆塞进箱子里的坏齿轮箱来管理机械能。尽管最明显的答案并非一开始就搞砸，但是那个方案已经远远超出了你的能力。的确，你依旧可以用齿轮之类的修复，但这需要精力与时间。更好的选择，就是用象征治愈的能量，直接修复它们。
+		</magenta>
+		<orange>
+			你觉得你给裂变堆丢个控制器就一劳永逸，就再也不用担心反应堆过热爆炸，把你的基地炸得跟月球一样不适合居住了。但是你最终醒悟得太迟了。残酷的现实就是这样，热量只有在有时间散布到控制器上时，控制器才能发挥效用，而热量一旦累积在堆芯的燃料棒处，就是你无力回天之时。在这个特殊的散热装置的帮助下，你希望这个问题——能最终得以解决。
+		</orange>
+		<white>
+			稳定是好事。所以你在决定搞一套不稳定，而且有可能会炸你一脸的合成系统时，你究竟在想些什么？！但不论如何，你都可以用一个充满了水晶能量的核心，来让它和其它那些...不稳定...的东西，冷静下来。
+		</white>
+	</adjacency>
 	<guardian>
 		<desc>
-			Too often you come home to find your constructions damaged or half of your valuables missing because someone snooping around your property helped themselves to your supplies. Sometimes you are fortunate and have those in power apply magical protection spells over your territory, but they are often of fairly limited range, and the less scrupulous will demand a steep payment from you to do so. Finally, however, you can protect yourself by applying a version of that yourself; each stone emits an aura that prevents those you do not trust from helping themselves to your resources or your structures.
+			你时常发现你的建筑被炸了一块，或者你又丢了贵重物品，因为有人早已把你的箱子当自助餐厅了。有些情况下你很幸运地发现你可以用魔法来保护你的领地，但它们的作用范围毕竟有限，而且这些并不严谨的魔法居然还有高得吓人的开销。然而，最终你自创了一套新的保护措施，这些石头散发出的灵气将任何你不信任的人挡在你的建筑前。
 		</desc>
 		<note>
-			Protects against block placement and breaking, and the opening of GUIs within a %d block range
+			可阻止%d格方块范围内的方块放置、方块破坏以及打开GUI操作；
 
-			Owners and admins always have permissions
-			The owner can also use /guardstone add/remove &#60;player&#62; to allow/deny others access <!-- The &# tags are for angle brackets. Do not touch those. -->
+			所有人和管理员拥有控制权限；
+			所有人可用指令 /guardstone &#60;玩家名&#62; 来添加或移除对指定玩家之授权。 <!-- The &# tags are for angle brackets. Do not touch those. -->
 		</note>
 	</guardian>
 	<stand>
 		<desc>
-			In order to achieve your more grandoise casting arrangements, you will need to expand the grid beyond a 3x3, and that means you need a receptacle on which to store the items. Integrated into the structures around your table, these stands serve exactly that purpose, allowing you a 5x5 grid. The outer ring will need to be elevated by a block so that they have a clear line of sight to the table.
+			为了那些更宏伟的铸件组合，你需要在3x3的合成网格基础上向外拓展，这就意味着你需要特制容器了。这些环绕在铸件台周围的架子正是你需要的东西，它的存在使得你的网格达到了5x5的大小。外面一圈架子需要抬高一格，这样这些架子和铸件桌之间就没有阻挡了。
 		</desc>
 		<note>
-			In order to place a stack of more than one item, double-right-click on the stand with a stack
+			
 		</note>
 	</stand>
 	<telepump>
 		<desc>
-			You already have all sorts of automated pumps and devices to drain large pools of liquid. However, some liquids, irritatingly, occur not in large lakes or wells but in scattered ponds all over the place and thus force you to either bucket it manually or spend more time moving the pump and pipes than actually pumping. The teleportation pump, by using movement energy, solves this problem by draining a large area of disconnected lakes at once, greatly expediting fluid acquisition.
+			你早就有各式各样的泵或其它设备，可以抽干一大片湖。然而，有些液体，却以一小片一小片的方式散布在世界的各个角落，迫使你只能用桶人力搬运，或者不断地移动泵的位置，无论如何这都令人上火。而这台末影传送泵，借助象征移动的魔法能量，可一次性抽干一块区域互不相临的湖，从而大大提高了液体抽取速度。
 		</desc>
 		<note>
-			Needs to scan the area after being placed
-			Requires:
+			放置后需要对当前区域进行扫描
+			每方块基础消耗：
 			%s
 		</note>
 	</telepump>
 	<miner>
 		<desc>
-			Most of your time mining is wasted digging out mountains of rock to find scattered blocks of ore or other valuables, making the whole process a tedious chore that is done more out of necessity than any sort of enjoyment. Even most automated methods of acquiring resources have this problem, wasting a large amount of time and energy, leaving you with nothing to show for it except 50 chests of cobblestone. The mineral extractor, however, is able to sense the presence of value in the world, allowing it to pinpoint the locations of ores and other valuables.
+			你在采矿时，大多数时间都浪费在了清理那堆积如山的石头上，真正能找到的有价值的矿物却不多，这就使得挖矿变成了一件无聊的苦差事。甚至是自动化程度最高的资源采集设备也有这个问题，浪费大量时间，最终却只得到了五十箱圆石。而这台矿物提取机，则可以感知宝藏的存在，据此能够精确探测矿石和其它宝藏的位置。
 		</desc>
 		<note>
-			Needs to scan the area after being placed, and can be triggered with the manipulator
-			Requires:
+			放置后需要对当前区域进行扫描，可用源晶魔杖控制开关。
+			每方块基础消耗：
 			%s
 		</note>
 	</miner>
 	<reprogrammer>
 		<desc>
-			Some madman has scattered dark metal cages throughout the world, in cobblestone rooms underground to old mining tunnels to red brick bridges in the Nether. These cages pump forth endless mobs, making them not only a dangerous hazard but a very useful device for farming the creature's drops. Unfortunately, while many have tried to replicate these structures, all have either failed or yielded a pale imitation of the original, and few designs allow you to customize the type of mob in the cage; after all, you can only use so much rotten flesh and spider eyes. This device will finally change that.
+			有些疯子将暗黑金属打造的笼子散布在了世界的各个角落里，从地下的圆石密室，到古老的矿井，再到下界里红色砖块建成的桥上。从笼子出现的那一刻开始，它们就在生成无尽的怪物，这一点令它们危险，但却给量产怪物掉落物提供了方便。不幸的是，所有那些试图复制笼子结构的人，要么失败了，要么只是得到了一个脆弱的仿制品，能改变笼子中怪物种类的设计更是少之又少。毕竟，你手头能用的，只有堆积如山的腐肉和蜘蛛眼。但是，这台设备的出现，将会改变一切。
 		</desc>
 		<note>
 
@@ -58,37 +106,45 @@
 	</reprogrammer>
 	<repeater>
 		<desc>
-			The transmission range of a Crystal Pylon is limited to %d blocks, and its beams are blocked by just about anything aside from air and glass; this means that unless you built your base next to one of every pylon - a dangerous endeavour - you need some way to relay the signal. This is exactly the function of a repeater, which can repeat a signal and do so around obstacles. However, repeaters do incur a small signal attenuation, so optimizing the path is a good idea.
+			你在传输流明能量这个问题上迈出的第一步却是个灾难。你做的木质的中继器也只是勉强胜任，而且很容易损坏。说穿了，你从一开始就不应该用木头作为原材料。很明显你大量使用的水晶才是更好的选择。加上一个彩色符文可以帮助它汇聚能量，但这样会让它只能传输一种颜色的能量。也许...你以后会找到第二个问题的解决方法的。
 		</desc>
 		<note>
-			Range: %d blocks receiving and transmitting
+			范围：%d方块，含发送和接收
 		</note>
 	</repeater>
-	<rift>
+	<weakrepeater>
 		<desc>
-			Transporting things long-distance or between dimensions is one of the most annoying tasks you have to face; whether you built a structure in another world because of fear of a destructive failure or you are trying to transport a fluid from a source thousands of blocks away to your base, you often find yourself stymied by an inability to bridge the gap. Now, however, you can tie two disparate locations in the world together - no matter the distance or differences in dimension - and transport items, fluids, redstone, power of all kinds, and more through a link to the void.
+			水晶塔的传输范围被限制在了%d方块，除了空气和玻璃以外的任何方块都可以挡住它的光芒。这就意味着，除非你选择冒死把基地建在每一种水晶塔旁边，你必须用某种方法把信号传递下去。这便是中继器的功能，它可以中继信号，do so around obstacles。然而，它本身还有一点点损耗，所以对传输路径进行优化就显得很有必要。这是你在中继器上迈出的第一步，而你的研究成果的质量...令人担忧。毫无疑问你还需要不断积累经验，并对你的设计加以改进。
 		</desc>
 		<note>
-			Always placed in pairs
+			范围：最大传输距离%d方块，最大接收距离%d方块。
+		</note>
+	</weakrepeater>
+	<rift>
+		<desc>
+			长距离运输或者跨世界运输是你不得不面对的恼人问题之一。不论是出于对毁灭性打击的恐惧而将新设备建在另一个世界，还是试图将千里之外的液体资源送回你的基地，你都不得不承认，你没有能力填补这巨大的空白。现在，不论距离，不论维度，你终于可以将两个不同地点连接在一起了；借助这条虚空中开辟的通道，你可以传输各种物品、液体、红石信号甚至能量。
+		</desc>
+		<note>
+			必须成对使用；
 
-			What goes in one side of one rift comes out the opposite side of the other
+			从一端输入后，就会从另一端输出；
 
-			Item transport is directional, and a side must be chosen with the manipulator
+			物品传输有方向性，必须事先用魔杖进行设定。
 		</note>
 	</rift>
 	<tank>
 		<desc>
-			Items are easy to store en masse - particularly after you found a way to store them in patterns on some strange purple crystals - but too often you find yourself out of storage for fluids that you collect or produce. Tanks of all sizes are already available to you, but even the largest ones, these mysterious metal boxes that only seem structurally stable in a few preset sizes, hold a few tens of thousands of buckets. By trapping a link to the void hole inside a glass frame and adding large quantities of fluid energy, you have a multiblock tank that can quickly reach enormous capacities.
+			物品很容易就能堆在一块存储－尤其是在你找到了将物品按照一定方式存储进奇异的紫色水晶中的方法后－但是呢，你到现在都还在苦苦寻找存储你收集或者生产出的成吨液体的方式。当然现在你已经有了各种尺寸的储罐，但即便是最大号的那一个，搭建它用到的神奇金属盒子似乎只有在几个预设的尺寸下才能保证整体结构稳定，然而也只能存储数万桶液体。在成功将通向虚空的洞困在玻璃框架中，并注入大量象征流体的魔法能量后，你建成了一座可以快速提升容量的多方块储罐。
 		</desc>
 		<note>
-			Capacity is approximately %d*n^2 buckets, where n is the number of blocks in the tank
+			容量约为%d*n^2桶，此处n为整个储罐结构中的方块数量；
 
-			Can be built to any size and shape, up to a capacity of %d buckets
+			没有尺寸和形状限制，极限容量可达%d桶。
 		</note>
 	</tank>
 	<compound>
 		<desc>
-			Repeaters are all well and good, but they suffer two problems. One, if you have a number of pylons all along the same path, laying multiple tracks of repeaters is messy and costly. Two, if your base is not easily accessed from the outside, you are forced to punch one hole for each color channel. The multi-aura repeater solves both of these; though larger and much more costly, they can carry all sixteen colors - including simultaneously. They do, however, have a larger per-node attenuation, meaning you will want to keep their use to a minimum.
+			中继器的确是好东西，但它本身也有两个严重问题。其一，若是你有若干水晶塔同时坐落在一条路上，那么你的中继器网络就会变得一团糟。其二，如果你的基地不方便进入的话，你就只能选择打洞以供各个颜色的流明进入。复合灵气中继器成功解决了这两个问题；尽管它体积硕大，并且造价不菲，但它可以同时传输十六种颜色的彩能。同时它们的损耗也有所提高，所以你需要尽量少用这种中继器。
 		</desc>
 		<note>
 
@@ -96,15 +152,15 @@
 	</compound>
 	<charger>
 		<desc>
-			You have already figured out how to make a crystal that can selectively take in and release crystal energy, but you are in need of a way to funnel that energy - which unfiltered would probably violently overload the crystal - safely and efficiently. Recalling something about sharp corners concentrating stress in materials - the details escape you due to the lack of attention you paid at the time (a decision you now regret) - you try to do the same for the crystal, building a frame to shield the edges and focus the energy into the center. As to why it spins...what you don't know can't hurt you, right?
+			你早已知道如何制作一块可以选择性地存储并释放能量的水晶，但是你还需要一个安全高效地引流能量的方法，否则未经过滤的能量很快就会令水晶瞬间过载。你想到了一些事情，是说锋利的角可以在另一种材料上产生巨大压强，然后你决定如法炮制，造一个保护边缘的框架并将能量全部聚焦到中央。但你却记不起你回想起的事情中的大部分细节(你现在已经后悔了)。现在你开始发问了，为什么这玩意会扎人啊...你不知道的东西难道还会伤害你嘛？
 		</desc>
 		<note>
-			Stores up to %d lumens of each color
+			至多可存储每种颜色的流明各%d点。
 		</note>
 	</charger>
 	<heatlily>
 		<desc>
-			You, in your (less than) infinite wisdom, decided to make a sugarcane farm in a snow biome. It worked perfectly...until the water froze and your sugarcane rotted on the ground. You need some way to heat the water and stave off the cold in a small area around the farm. Maybe if you used some essence of those mechanical-sounding fire creatures from the Nether bridges, you could make a plant that not only served that purpose, but was aesthetically pleasing as well. This should also help prevent your high-drop landing pools from freezing over. (Ow.)
+			你，以你无尽的聪明才智(实际上比无穷还小)，决定在雪地造甘蔗厂。一切运转正常...直到水上冻了，然后甘蔗全部烂在地里。你得想办法让水热起来，另外你还得让农场里面保持温暖。也许，那些盘踞于下界的暗红色桥梁上，不断发出机械碰撞声音的火系生物，所掉落的精华，可以为你所用。你培养出了一种兼顾美观和实用的植物，解决了这个问题。你的新植物应该还可以避免你从高处掉下时摔死在结冰的水面上。(啊好疼)
 		</desc>
 		<note>
 
@@ -112,34 +168,34 @@
 	</heatlily>
 	<ticker>
 		<desc>
-			You spent quite a lot of effort making the perfect set of tools; some are made of a blend of different materials, including some exotic alloys (a hard purple one seems particularly useful). Fortunately for you, you can put moss all over the tool and this (somehow) makes it regenerate its durability. The only problem is, the moss seems to be triggered by your body heat, so sticking the tools in a chest to let them repair does you little good. If you could somehow concentrate life energy, along with some amount of time, you may be able to construct something to achieve the same effect, and possibly faster as well.
+			你为了一套完美的工具费了不少心思；其中，有些工具是用各种不同材料打造的，这其中包括一些奇异的合金(尤其是那个紫色的坚硬金属，它似乎十分有用)。幸运的是，你可以给这些工具糊上一些青苔，这样做可以似乎可以让它们自行恢复它们的耐久。但问题在于，这青苔似乎是用你的体温驱动的，所以就这样直接把它们丢进箱子里基本没有好处。若是你可以浓缩些生命能量，并再多花点时间的话，你就能造出一个能让它们不在你的背包也能回复耐久的东西，甚至还能回复的更快。
 		</desc>
 		<note>
-			Requires:
+			需要：
 			%s
 		</note>
 	</ticker>
 	<fence>
 		<desc>
-			You need some way of protecting your base from the hordes of mobs outside, and fences are rather boring. You already tried using moats (how does a spider the size of a cow swim!?) to no effect, and you tried using unshielding wires as an impromptu electric fence, an experiment that ended after you had the misfortune of touching it yourself. However, with (a large amount of) energy associated with protection and shielding, you can make a barrier that will stop creatures of all types while letting you pass unharmed, and can be built into any shape between connected nodes.
+			你需要某种方式来保护基地免受一大波怪物的袭击，但栅栏未免太无趣了。你早已试过护城河，但毫无效果(为什么跟牛一样大的蜘蛛会游泳啊？！)，然后你使用了未绝缘导线做了个电网，但有一天你自己一不小心踩上去了，于是这个实验也告吹了。然而，你可以用(大量)和保护有关的能量来打造一个只允许你无伤通行的结界，而且你可以将其搭建成任何形状。
 		</desc>
 		<note>
-			Requires a perimeter with vertices marked by either fence emitters or relays. Right click with manipulator to calculate perimeter, shift-right-click to set output side
+			需要由护盾发射器或结界中继器作为顶点组成的封闭图形作为有效范围。用源晶魔杖右击以自动计算边缘，潜行时右击可设定发射面。
 			
-			Each emitter in the perimeter adds to the damage dealt to intruding entities
+			每个发射器都会提高对入侵者造成的伤害。
 		</note>
 	</fence>
 	<furnace>
 		<desc>
-			Smelting. One of the most boring, mundane tasks you nonetheless still find yourself forced to do. Sure, there are all sorts of ways to speed up the process - although the external heating methods have a nastly tendency of liquefying the whole setup - but you might now be able to enhance the yield with a new kind of furnace able to harness not only fire but also enhancement energy as well.
+			烧炼。这是世界上最无聊，最普通，但又不得不去做的苦力活之一。的确，现在有很多提高效率的方法－虽然这样做有可能会把一切烧成水－但你也许能借助一种可以同时驾驭火焰和魔法的新熔炉来提高产量。
 		</desc>
 		<note>
-			Yields %dx output for anything smelted inside it except for ingot dusts
+			除锭的粉末外，所有物品均有%d倍产量提升。
 		</note>
 	</furnace>
 	<laser>
 		<desc>
-			Standard light can be focused into a beam, so it stands to reason that you can do the same with lumen energy with the appropriate lens. That is exactly the function of this device. With it, you can focus energy of any color in a thin beam along a line of blocks - up to %d blocks away - thus applying the effects of that color. Now if only you had any idea what each color did...
+			光可以聚焦为一束激光，这就是你为什么可以利用合适的透镜对流明能量如法炮制的原因。这就是本设备的功能。你可以用它来聚焦任意一种颜色的能量为一道激光，最远可达%d格－同时还能带来颜色对应的特效。现在，若是你对每种颜色的效果了如指掌的话...
 		</desc>
 		<note>
 
@@ -147,7 +203,7 @@
 	</laser>
 	<itemrift>
 		<desc>
-			A classic transport problem involves two inventories within a clear line of sight to each other but separated by several blocks. You once saw a device you can attach to each block and rapidly transport the contents, but it was limited to a single block of space; this, however, is a longer-ranged variant.
+			有个经典的运输问题，就是两口相隔仅数个方块，且相互之间视线没有阻挡的箱子。你曾经看到过一个设备，贴在带物品栏的方块上后可以快速将其中物品运出，但那个设备的工作范围只有一格；而这一个，正是你曾看到的那个设备的长距离加强版。
 		</desc>
 		<note>
 
@@ -155,7 +211,7 @@
 	</itemrift>
 	<crystal>
 		<desc>
-			Once you started to do a lot of pylon-driven crafting, or started to charge yourself with large quantities of crystal energy, you made a crucial observation: Pylons are not infinite, but lose their color as they are drained. Granted, they do recharge, but slowly - though planting similarly colored trees around them helps a bit. However, you have found that these crystals, being raw elemental energy cast into crystal form, can dramatically increase the charging speed of a pylon, with a full, balanced ring of eight speeding it up enormously.
+			在进行过大量水晶塔驱动的合成后，或者在为自己充入大量水晶能量后，你发现了一个残酷的事实：水晶塔的能量不是无限的，它们的颜色会随着能量不断被抽出而变得暗淡。的确，它们还会再充能，但速度特别慢，尽管种植颜色相近的树对于能量恢复有一定帮助。然而，你发现那些灌注以原始元素能量的水晶可以大幅加快水晶塔的再充能速度，若是有八块这种水晶在塔上组成一个平衡的环，其充能速度的提升会异常明显。
 		</desc>
 		<note>
 
@@ -163,7 +219,7 @@
 	</crystal>
 	<infuser>
 		<desc>
-			Tossing raw shards into pools of chroma is one thing, but the purified shards you made do not seem to respond to such a crude attempt at infusion. A better strategy would be to build a dedicated receptacle for the items, and surround it with a moat of chroma, thus setting up a vortex to funnel the energy into the items.
+			把天然碎片丢入彩能液体中是一回事，而对于净化过的水晶碎片来说就是另一回事了：它对于这样粗暴的对待毫无反应。但你还有更好的策略：使用一种专用的物品容器，将其以彩能液体环绕，然后制造漩涡将彩能液体的能量注入碎片之中。
 		</desc>
 		<note>
 
@@ -171,32 +227,32 @@
 	</infuser>
 	<fabricator>
 		<desc>
-			You have already seen how many items contain trace amounts of various crystal elements, leading you to wonder if the reverse is also true. After much experimentation, you devise an odd contraption that collects crystal energy on large paddles, and funnels it to the center, where it can be formed into an item. You do of course require one item first, as a sort of blueprint, and you note that only some more simplistic items can be fabricated.
+			你已经注意到很多物品都含有微量水晶元素，于是你开始思考能否直接用水晶元素来制造物品。在无数次实验后，你设计出了一台古怪的设备，它将水晶能量引流到它的扇叶上，然后导流到中央，并在那里进行最终的物品成型过程。当然，你需要一个物品作为蓝图一样的存在，同时你注意到只有那些最基本的物品才可以通过此法制造。
 		</desc>
 		<note>
-			Requires %d*(%.1f*n^%d) lumens per unit naturally present on the item
+			物品中每有一单位元素，需要消耗%d*(%.1f*n^%d)流明。
 		</note>
 	</fabricator>
 	<beacon>
 		<desc>
-			After an unfortunate encounter with an engine intake, you have been desperately seeking a way to protect yourself from the more hazardous situations you always seem to end up in. Recalling the enormous protective power of %s crystal energy to protect, you try building a beacon that radiates the energy into the air. As long as it stays supplied with energy - not an easy task, given the large energy expenditure - you may well be impossible to kill.
+			在有一次不慎被吸入引擎中后，你就在没日没夜地寻找在危险工作环境下保护自己免受伤害的方法。想到%s水晶能量所拥有的保护效果，你开始试着建造一座可以向空气中辐射这种能量的灯塔。虽然它的巨大消耗使得保持能量供应并非易事，但只要做到了，你很可能就能拥有一副金刚之躯。
 		</desc>
 		<note>
-			Uses %dn^%d lumens per half-heart of damage
-			Max range %d blocks
+			每受半颗心伤害，消耗%dn^%d点流明；
+			最大作用范围为%d方块。
 		</note>
 	</beacon>
 	<enchanter>
 		<desc>
-			Enchanting has always been a random and infurating process. Spend a week collecting experience and you might get Bane of Arthropods I, or you might be lucky enough to get Fortune III and Efficiency V off of a few levels. Rather than tear your hair out trying to spend your experience efficiently, you recall the liquid chroma, which, being concentrated experience, may allow you not only automatic enchanting, but to allow you more fine control over the actual enchantments as well.
+			附魔总是一场令人上火的赌局。你花费了一周时间收集足够多的经验，然后你也许最终得到了节肢杀手I，如果人品好的话你或许能得到时运III和效率V，当然也有可能是略微次一点的附魔组合。但你并没有选择就此放弃－你开始寻找更高效的解决办法，这时你想到了彩能液体，它由经验浓缩而成，也许它能够让你同时达成自动附魔和更精准的附魔控制两个目标。
 		</desc>
 		<note>
-
+			每级附魔需要%d mB的彩能液体。
 		</note>
 	</enchanter>
 	<chromaflower>
 		<desc>
-			You may not be that guy that builds 9x9 cobblestone boxes for a house, but nonetheless your ability to make your territory visually appealing has rested more on access to fancy decorations than raw architectural design. With that in mind, you work on enhancing a lowly flower with crystal energy. The end result is certainly interesting, with its gently pulsing colors, but it may also have a functional use as well.
+			你或许不是唯一一个造9x9的圆石房子的人，但无论如何，你装修你的家园的能力更多地集中在了使用华丽装饰上，而不是建筑本身上。据此，你将一点水晶能量融入了一朵花中。最终结果很有趣，你得到了一朵绚丽的花，它似乎还有一个特殊功能。
 		</desc>
 		<note>
 
@@ -204,24 +260,24 @@
 	</chromaflower>
 	<collector>
 		<desc>
-			Being able to convert and concentrate experience into chroma is one thing, but until now you have been at a loss as to how to actually do that. Fortunately for you, you stumbed upon the answer while fiddling with some crystal shards; running experience over them, either draining off yourself or pumped in in liquid form, seems to catalyze the reaction.
+			拥有将经验值浓缩并转化为彩能的能力后，你却不是很清楚究竟该怎么做。幸运的是，在你摆弄水晶碎片时，你意外找到了答案；不论是直接让经验球从它上面经过，还是直接从你身上抽取，亦或者直接泵入液体经验，似乎都能催化整个反应过程。
 		</desc>
 		<note>
-			%d XP = 1 mB of Chroma
+			%d XP = 1 mB 彩能液体
 		</note>
 	</collector>
 	<brewer>
 		<desc>
-			Everyone loves making potions...OK, no. Between collecting a hideous red weed that seems to grow so slowly you could mine a chunk before it grew, to fiddling with arcane procedures that seem designed as a last-resort replacement for something even worse, to burning through valuable ingredients for effects that last mere minutes - and at the expense of a boosted effect too! - nobody sane enjoys this process. At the very least, maybe, you can forgo most of the process by using the energy from the crystal shards instead, making the process actually worth your time.
+			所有人都喜欢酿造药水...好吧，不是所有人。在那丑陋的红色杂草极其缓慢的生长周期里你甚至能挖穿一个区块，然后摆弄着像是孤注一掷一样的奥术仪式，然后烧掉昂贵的材料，仅为几分钟特殊效果－甚至为了增幅效果还要继续加价！－任何正常人都不可能喜欢这样的过程。最终你放弃了正常的药水酿造方法，转而直接利用水晶碎片的魔法能量，药水酿造也随之变得更具性价比了。
 		</desc>
 		<note>
-			Standard shards yield Level I 3:00 potions
-			Boosted shards yield Level II 8:00 potions
+			普通碎片可产生持续3:00的等级I药水；
+			增幅碎片可产生持续8:00的等级II药水。
 		</note>
 	</brewer>
 	<ritual>
 		<desc>
-			You have heard mention of all these special abilities you can gain by imbuing yourself with large quantities of crystal energy, but you need some means to carry out the infusion. After an incident that shall never be mentioned again - and if anyone asks, no, you do not have anything to do with the crater where that village used to be - you recall the shards' infusion process. If it worked for items, maybe it will work for you as well.
+			你也听说过，你可以通过为自己注入大量水晶能量来获得那些传说中的特殊能力，但你需要某种方式来完成这个注魔过程。一次你不应再提起的意外之后－哪怕有人问，你也和那个大坑，曾经有一座村庄的地方，毫无关系－你想到了为水晶碎片注入魔力的过程。如果这种方法对物品有效，那么它也应该适用于你自己。
 		</desc>
 		<note>
 
@@ -229,7 +285,7 @@
 	</ritual>
 	<table>
 		<desc>
-			Wooden crafting tables, useful as they are, have their limitations. To that end, you have found a way to affix crystal plating to a table, allowing it to store and process crystal energy, this allowing you to craft items that require magical interaction. Hopefully this one will turn out better than your other design, given that this one is not asking you to surround it with skulls or face the consequences of lightning, explosions, and noxious purple gas. You are initially unfamiliar with the table, precluding advanced use, but as you grow accustomed to it, you can be more adventurous.
+			木质的工作台，虽然有用，但依旧有它自己的局限性。出于这样的考虑，你找到了一种将水晶粘在工作台上的办法，这样它就可以储存并利用水晶能量了，同时你也得以合成那些需要与魔法能量打交道的物品。你确信这玩意不会要求你用各种头颅环绕其周围，也不会产生各种闪电、爆炸以及剧毒紫色气体，所以你希望这个设计会比你的其他设计更优秀。当然，你一开始并不熟悉这张新的工作台，因此也不能进行一些更高级的合成，但随着你不断地练习与使用，你会乐意去冒险的。
 		</desc>
 		<note>
 
@@ -237,15 +293,15 @@
 	</table>
 	<itemcollector>
 		<desc>
-			Despite your best attempts, you have not been able to totally avert the need for farming, and your mountain of grey seeds and beige goo can attest to that. Unfortunately, farms tend to scatter items far and wide, leading to the need for either powerful item collection systems - which have their own problems - or a problem with so many items on the ground you find it hard to move. The item collector at last is an answer to this problem, being able to collect items anywhere in its range as soon as they are created.
+			除了最初的尝试，你依旧没能摆脱各种农场的需求，你那堆积如山的黑灰色种子和米色粘稠液体便是证明。但是，农场总是会把物品洒在地上，这时候你就需要一套强大的物品收集系统，但这会引出新问题：地上东西太多，太难捡了。这个物品收集器可以解决刚才提到的问题，只要物品在它的收集范围内，它就可以立刻将其捡起来。
 		</desc>
 		<note>
-			Range: +/- %d blocks horizontally, +/- %d blocks vertically
+			最大范围：水平方向+/-%d格，垂直方向为水平方向的四分之一。
 		</note>
 	</itemcollector>
 	<aishutdown>
 		<desc>
-			Animal farms are an eternal headache. Between cows' endless noise and chickens' tendency to get out of any enclosure you try to keep them in, you would gleefully exterminate every one of them if not for the fact that you need a supply of leather, feathers, wool, and meat. If there was some way to stun them, to freeze their thought processes, this would probably help a great deal.
+			牧场是永恒的噩梦。牛总是在制造噪音，鸡总是试图逃跑，若不是你需要皮革、羽毛、羊毛以及肉类，你已经把它们干脆利落地全部解决了。若是有办法能够把它们打昏，或者说，让它们的思维暂时停止一下，那问题或许就可以解决了。
 		</desc>
 		<note>
 
@@ -253,7 +309,7 @@
 	</aishutdown>
 	<aspect>
 		<desc>
-			Aside from their use as impromptu musical instruments, those jars of colored liquids you get when melting down random items have an actual use; When you decided to pursue another branch of magic, you found yourself in need of endless numbers of them. The problem is, the process of melting items into raw essentia is slow and hard to automate. With your knowledge of crystal energy, however, you have finally made a device capable of collecting crystal energy and converting it into essentia, though not exactly cheaply.
+			除了当即兴乐器，那些装满了你烧各种东西得到的彩色液体的罐子确实有实际用途：你下定决心在另一个魔法分支领域深造后，你发现你对这些彩色液体的需求根本就是无底洞。问题是，将物品烧成源质的过程不仅缓慢还难以自动化。然而，在你的水晶的知识的帮助下，你终于造出了一台设备，可以直接将水晶能量转化为源质。虽然有时候开销不小，但聊胜于无。
 		</desc>
 		<note>
 
@@ -261,43 +317,43 @@
 	</aspect>
 	<lamp>
 		<desc>
-			The standard method of keeping unwanted creatures away is to light the area, but that is often difficult or ugly to do, and the best designs can be rendered worthless with one block left a bit too dark. With that in mind, you seek to concentrate crystal energy, being luminous itself, in some sort of lamp to keep the mobs at bay.
+			一般来说人们都会通过光来驱散那些怪物，但这个方法不仅麻烦，还不美观，甚至最好的设计都会因一个角落的黑暗而显得毫无用途。这样想着，你开始寻找浓缩水晶能量的方法，借助它与生俱来的荧光特性，制成一盏灯，让怪物敬而远之。
 		</desc>
 		<note>
-			Range: %d for each element in the lamp
+			范围：灯中每种元素可提供%d格光照
 		</note>
 	</lamp>
 	<powertree>
 		<desc>
-			Even with power crystals in place, pylons still remain incapable of handling very heavy load. That, combined with the tedium of venturing to them every time you need to recharge yourself, leads you to dream of a way to store energy in larger quantities, effectively a battery. Obviously a simple box would not be the correct approach, but maybe if you built some sort of structure, it could grow organically. As long as the energy remains pure...
+			即便有能量水晶，水晶塔已久不能承受高负载。加之你还需要冒险跑去为自己充能，你最终萌生了制造一个能方便储存大量水晶能量的“电池”的想法。显然区区一个盒子是不靠谱的，但你若建造一个可以像生命一样自行生长的结构，也许就能做到，只要能量还保持纯净...
 		</desc>
 		<note>
-			Capacity: %d+%dn^%d, where n is the number of leaf blocks
-			Cannot function without a view of the sky
+			容量：%d+%dn^%d，其中n为流明树叶的数量；
+			必须暴露在天空下方能工作。
 		</note>
 	</powertree>
 	<lampcontrol>
 		<desc>
-			You often find yourself in need of controllable lighting, but redstone, even when you figured out how to alloy it into iron and stick it on the ceiling, is clumsy and requires false floors and ceiling in order to hide unslightly wiring. However, the magic aura, which you can control, may allow you to manipulate many separate lamps at a distance, obviating that need.
+			你经常发现你需要一套光照控制系统，但是红石呢，即便你成功将红石与铁熔为合金，做成线，贴在天花板上，但这样布线依旧会弄成一团糟，你还需要用各种板材伪装出天花板和地板以掩盖布线。然而，借助你早已控制的灵气，你可以控制一定范围内的多盏灯，从而避免使用红石电路。
 		</desc>
 		<note>
-			Max Range: %d
-			Max Channel: %d
-			Can be controlled manually, with redstone, by the charge state of an RF battery, or with shaft power
+			最大范围：%d
+			最大频道数：%d
+			可手动控制，也可使用红石控制，还可受RF电池储能数量影响，亦能被旋转动能影响。
 		</note>
 	</lampcontrol>
 	<aspectjar>
 		<desc>
-			This fabrication process gives you nightmares. Not only is it incredibly unstable - more than once the thing has exploded, sent items flying, or done other nasty things - and to top it off it draws liquid essence out of jars that must be placed around the construct. This would be fine, were it not for the small capacity of these jars, meaning filling them - another tedious process - is a constant necessity. Being able to store more essentia in a jar - perhaps even multiple types! - would be of enormous convenience.
+			这个物品制造过程带给你的却是灾难，不仅是因为这个过程本身极不稳定－你已经不止一次引发爆炸、将物品送上天、或者弄出其它恶心人的事情了；而且，最终它还是需要抽取源质，作为源质容器的罐子还必须放在整个祭坛的附近。要是这些罐子本身容量巨大，你就不必重复那枯燥无味的装填源质的过程了，那该多好！要是罐子能存储多种源质的话－岂不美哉！
 		</desc>
 		<note>
-			Primal Aspect Capacity: %d
-			Other Aspect Capacity: %d
+			元始要素容量：%d
+			其它要素容量：%d
 		</note>
 	</aspectjar>
 	<farmer>
 		<desc>
-			Harvesting crops is somewhat of a hassle. Doing it manually is extremely slow and ineffective, and those fans you used, while they work, are loud and tend to send items flying. Channelling nature-based energy is likely to provide a superior solution.
+			收割作物可是个不小的麻烦。手动收割不仅速度慢，还效率低下，但那些风扇呢，虽然效率可以，但噪音巨大，并且总是想让物品飞起来。正确地引导那些和自然有关的能量也许可以创造出更好的解。
 		</desc>
 		<note>
 
@@ -305,7 +361,7 @@
 	</farmer>
 	<automator>
 		<desc>
-			Though less of a hassle than some other fabrication systems - that pyramidal altar nearly left you dead on the table - it can still be tedious, particularly with recursive crafting that can take quite a bit of time. This is where an idea hits you - you should be familiar enough with some of these recipes that you might be able to set up some sort of system to automatically perform them, reducing the amount of work by an enormous amount.
+			尽管比其它自动化系统要容易一些，那个金字塔形的祭坛依旧让你几乎累死在桌子上－它依旧是那样枯燥，尤其是当你遇到多重嵌套的合成时消耗的时间就更长了。这就是你灵感的起源：你对其中的几个配方已经足够熟悉，你应该有能力架设一套自动化系统让它们自动进行，这样便可节约大量时间。
 		</desc>
 		<note>
 
@@ -313,7 +369,7 @@
 	</automator>
 	<biomepainter>
 		<desc>
-			Too often you find yourself in need of tweaking the climate around you, often because some task you are working on requires specific temperatures or humidities (those bees you were working on proved particularly inflexible). It is not too much of a stretch to imagine that you might be able to use crystal energy to accomplish that task, and on top of that make it as easy as painting on a canvas.
+			你时常发现你需要改变你周围的气候，因为你的工作总需要特定温度和湿度(尤其是那些蜜蜂，你已经证明它们对气候十分挑剔)。你不难想到，用水晶能量就可以达成这个目标，最终你让改变气候就像在帆布上涂画一样简单。
 		</desc>
 		<note>
 
@@ -321,7 +377,7 @@
 	</biomepainter>
 	<medistributor>
 		<desc>
-			That digitial storage system of yours is unmatched in its convenience, except for one thing. Though it has a special device for pumping out items, and another for using internal item buffers to control a redstone signal, doing this with multiple items quickly becomes infeasible. To that end, you have designed an assembly that can function as several of these in parallel, allowing you to always maintain certain item levels in the system.
+			你的那套数字化物品存储系统绝对是最方便的，除了一点：虽然有用于输出物品的设备，以及根据内部物品储量输出红石信号的设备，但在面对多个物品的时候你就无能为力了。因此你设计出了一台新设备，它可以同时监测多种物品的储量，这样你可以很方便地维持你的系统内多种物品的储量。
 		</desc>
 		<note>
 
@@ -329,7 +385,7 @@
 	</medistributor>
 	<rfdistributor>
 		<desc>
-			You thought that it could hardly get any easier with this kind of power; simply hook up the conduits from a generator to a machine and everything worked. However, you were still presented with one final dilemma: When grouping machines together, the cluster of cables is both unsightly and inconvenient to navigate around. Some way to transmit that power wirelessly from above would solve this problem.
+			你认为几乎没有别的能源能比这种能源更简单了：只需要用导管把能源炉和机器连起来就好了。然而，你最终还是要面对这样一个窘境：当你有一堆机器的时候，那团导线一样的玩意就既不赏心悦目，也不方便维护了。要是有无线传输这种能源的方式就好了。
 		</desc>
 		<note>
 
@@ -337,15 +393,15 @@
 	</rfdistributor>
 	<window>
 		<desc>
-			Some say a special kind of window exists, one that should you gaze into it, might just find that the view on the other side becomes your reality.
+			有人声称有这样一种窗户，你从中看去，最终呈现的却是另一端的真实。
 		</desc>
 		<note>
-			Requires a square frame of crystal-based stone, such as crystalline stone, shielding stone, or obsidian, and to be linked to another location
+			需要水晶质石材组成的框架，例如水晶之石、重盾石或者黑曜石，同时需要与另一端配对连接。
 		</note>
 	</window>
 	<music>
 		<desc>
-			How many times have you banged out a tune on the different colors of crystals? With your new device, you should be able to attain even greater musical fidelity, complete with greater range, chord capability, and even - somehow - an oddly familiar melody that came pre-etched into the crystal matrix.
+			你敲响过多少次不同颜色的水晶了？这台设备甚至有更准确的音位，更广的音域，还支持和弦，甚至－似乎－还有－对预先刻入水晶矩阵的旋律所产生的莫名的熟悉感。
 		</desc>
 		<note>
 
@@ -353,23 +409,24 @@
 	</music>
 	<turret>
 		<desc>
-			If you had an emerald for every time a creeper ambushed you right as you left your front door, you would have enough to be able to afford trading with villagers. Frustrated with this repeated occurrence, you have designed a small construct which can fire energy into nearby hostiles, ultimately killing them. Now all they need is a high-pitched voice and a polite demeanor...
+			若是你每次关门并被苦力怕伏击后都会得到一枚绿宝石，你现在早已能和村民做各种交易了。忍无可忍，无需再忍－你设计了一个迷你设备，可以随时对附近的敌对生物开火，直到目标被消灭。那么现在就只需要高音和斯文了...
 		</desc>
 		<note>
-			Requires a clear view of the sky and the target mob to function
+			需要暴露在天空下，并需要附近有敌对生物作为目标。
+			可通过在其下方放置不同种类的符文来升级。
 		</note>
 	</turret>
 	<pylonturbo>
 		<desc>
-			You knew you could turbocharge your pylons, but that little display of yours, hopping up and down around the pylon, wildly flailing your manipulator, was neither insightful, productive, nor dignified. Now, however, the pattern is more clear: You need to enhance the structure, building a ring of 8 foci - and one central one below the pylon itself - and trigger the central one with your manipulator. Surely interrupting this process - or breaking the stabilization ring afterwards - is a very bad idea.
+			你知道你可以对水晶塔进行涡轮增压仪式，但除此之外你毫无线索，不论是在塔上上蹿下跳，还是拼命挥舞着你的魔杖，都不见有什么变化，甚至连点异常都没有。然而，现在你已经知道了：你需要强化这个结构，为此你需要一个由八个核心组成的环－以及一个置于水晶塔正中央下方的核心－然后手持源晶魔杖右击中央的核心以启动仪式。毫无疑问，不论是强行终止仪式，还是在仪式完成后打碎外侧的稳定环，都是万万不行的。
 		</desc>
 		<note>
-			Ring: Requires a clear view of the sky and air around it to work; Center: Must be placed 8 blocks below the pylon's orb
+			环状结构：须有阳光直射，其周围须有空气；中央：必须位于水晶塔光球正下方8格处。
 		</note>
 	</pylonturbo>
 	<personal>
 		<desc>
-			Flying out to each of the sixteen colors of pylon to draw energy from them to power your abilities is a massive headache. Perhaps you could try to imitate them somehow. No doubt you lack the skill - or patience - required to duplicate them exactly, but the end result, if not able to be networked, might still serve as a useful charging point, as well as a nice decoration.
+			在十六种颜色的水晶魔塔之间飞来飞去，只为抽取足够的能量来保证你的各种新能力的需要，这已经让你头痛不已了。也许你可以模仿这个过程。毫无疑问－你对完美复制水晶塔一无所知，但最终，虽然你造出来的东西并不能接入网络，但它依旧可以充当充能点，另外它本身也是精美的装饰品。
 		</desc>
 		<note>
 
@@ -377,20 +434,172 @@
 	</personal>
 	<cloaking>
 		<desc>
-			Rather inconveniently, you have found yourself largely confined to your base during the night, as it is your only defence against the waves of mobs, which lock onto you the moment you step outside. And this is not counting the time a horde of zombies, detecting the light of your constructions, made a beeline to you and destroyed most of the structure that stood in their way. After much frustration, it hit you: A cloaking device, which makes you undetectable unless at point-blank range. Pleasantly, it even smells of raspberries.
+			尽管会有种种不便，但你一到晚上还是会把你的基地封锁起来，以抵抗怪物的入侵，同时也将你锁在了基地里。这还不包括那些追逐亮光并直奔你而来，顺路摧毁一切挡路者的僵尸潮。在无数次失望后，你终于灵光一现：一个可以让你不被发现隐形装置，直到近距离接触。更令人兴奋的是，它闻起来像树莓。
 		</desc>
 		<note>
-			Requires the tower structure around it to focus its energy and function correctly
+			需要塔状结构以辅助其能聚焦能量，确保正常工作。
 		</note>
 	</cloaking>
 	<lighter>
 		<desc>
-			Caves are an extremely unpleasant place to be - how many times have you found a large vein of ore, only to be shot into lava, fall down a gravel pit, or be dive-bombed by a creeper? - largely due to their cavernous gloom. Sure, you can cover the entire interior of the cave system with torches, but that quickly gets ridiculous, and after that incident with a gas pocket near the coal vein you wish for an alternative. Knowing that %s energy is that of light, you are sure you can use that to your advantage and make cave-mining actually enjoyable again.
+			洞穴绝非什么好地方－你有多少次在发现巨大的矿脉后，被射进岩浆、埋在沙砾堆里、抑或被爬行者炸死？一切都是洞穴本身幽暗的环境的错。的确你可以选择插满火把，但此后事态发展更可笑了：一场因煤矿附近的一小袋汽油引发的爆炸事故迫使你寻找另外的办法。现在你知道%s便是光背后隐藏的魔法能量，你可以设法做点什么，让洞穴探矿再次令人愉快。
 		</desc>
 		<note>
 
 		</note>
 	</lighter>
+	<reverter>
+		<desc>
+			你的世界正逐渐崩坏。从降下黑暗诅咒的黑曜石柱，到吞噬一切的紫色野草，你只能眼睁睁地看着曾经美好的一切正缓缓堕落，不再像以前那样友好。甚至那些树造就的魔法森林也会让生物群系一团糟。而你，只是想找到让它们变回原来的样子的办法。
+		</desc>
+		<note>
+
+		</note>
+	</reverter>
+	<cobblegen>
+		<desc>
+			你从未想到过用光圆石的一天...直到那一天真的来了。的确你现在就可以再挖一些，但你还有别的事情要做。你已经知道将岩浆与水混合即可获得圆石，但它的自动化却是相当麻烦，而且造价不菲。你提出了一种新的解决方案，这是一朵可以自动从附近抽取液体的花，它会把抽到的液体混合起来并将产物直接以物品形式丢在地上。除了圆石，若是配方正确，它还能产生一些别的东西。
+		</desc>
+		<note>
+
+		</note>
+	</cobblegen>
+	<plantaccel>
+		<desc>
+			众所周知，草皮的生长速度已经慢到它们看似并不在长了。你的各种带特殊功能的花草也有一样的情况。也许你可以把它们种在别的植物上以加快速度。
+		</desc>
+		<note>
+
+		</note>
+	</plantaccel>
+	<cropspeed>
+		<desc>
+			尽管某些作物的生长速度都很快，但是大多数作物，甚至是那些经过长时间精心培育出的作物－生长得并不快。虽然你已经有各式各样的加速生长的办法，但它们都需要在耕地旁安装设备，没有一种方法可以完美与耕地交融在一起。这样所带来的效率降低，正是你最不想看到的事情。
+		</desc>
+		<note>
+
+		</note>
+	</cropspeed>
+	<inserter>
+		<desc>
+			你不止一次发现，你需要不断地往一些根本不支持物流的容器中放物品。你早已厌倦了往石头盆子中丢糖，也早已厌倦了往彩能液体中丢浆果。你需要想办法做到自动化，然后集中精力做一些更有趣的事情。
+		</desc>
+		<note>
+
+		</note>
+	</inserter>
+	<essentiarelay>
+		<desc>
+			所以说你现在有了一口装满了水的巫师大锅，你可以往里面倒各种原料，籍此获得你需要的物品。但不论合成成功与否，大量生产总会带来大量有毒气体，于是你又加装了个特殊结构来解决自动化问题，顺带解决毒气问题。但不论如何，你总还是要把源质运输到大锅里的，但你一开始用的管道...和你的想法差太远了。而一套长距离，灵活，稳定耐用的源质运输解决方案－无疑，是极好的。
+		</desc>
+		<note>
+
+		</note>
+	</essentiarelay>
+	<glowfire>
+		<desc>
+			你总是缺少一些东西，尤其是钻石、碎片和铁(缺铁是在当你在造小房子大小的涡轮时才有的事情)。同时你总有一些东西几近爆仓，以至于你不得不开始思考合适的储存地点。或许最合适的选择，就是分解后者，并重组为前者。看上去并没有出差错...
+		</desc>
+		<note>
+
+		</note>
+	</glowfire>
+	<broadcast>
+		<desc>
+			你开始后悔住在群山之中了。首先，大多数水晶塔与你基地相比都有千里之遥。然后，从水晶塔到你的基地之间还有巨大的海洋。的确你可以用石头为中继器打地基，但你希望有一个更方便而且看起来不是很蠢的解决方案。最终，你设计出了一座功率巨大的广播设备，可以将水晶能量送至千里之外。然而，为了发挥这惊人的力量，你需要一座巨型的塔状结构，而且如果它们离得太近还会互相干扰对方。
+		</desc>
+		<note>
+
+		</note>
+	</broadcast>
+	<enchantdecomp>
+		<desc>
+			为了不挨饿，你做了个小木箱，给它贴上了一张网，扑通一声把它丢进小池塘中，希望过段时间它能抓住几条鱼。然而很明显，这个充满恶意的世界决定看着你挨饿，并给了你各种各样基本没用的附魔弓和靴子。这些玩意大都已损坏到了不能再用的地步，但那些脆弱的低级附魔似乎还有更好的用途。
+		</desc>
+		<note>
+
+		</note>
+	</enchantdecomp>
+	<lumenwire>
+		<desc>
+			你三步两步踏进了茂密丛林深处被青苔掩盖的废墟，然后立刻被流矢射了一脸。虽然原始，但这并不妨碍绊线作为高效陷阱的地位。但你也不能改变它十分原始的特征。并非所有的建筑都适合加复杂的红石机关，因此你还需要寻找更美观的替代品。
+		</desc>
+		<note>
+
+		</note>
+	</lumenwire>
+	<particles>
+		<desc>
+			基本上你造的东西都会散发出一团发光的粒子。既然如此，要是能随心所欲地制造粒子效果那就更好了，最好还要能控制它们出现的位置。
+		</desc>
+		<note>
+
+		</note>
+	</particles>
+	<meteor>
+		<desc>
+			流明炮台十分好使，但若是需要保护的范围特别大，那么这玩意就势必要泛滥成灾了，而且它工作时还必须要见得着太阳光。你之前试过一种用磁力驱动的发射器，那个东西虽然完美解决了大范围防御问题，但是它同时还带来了对于被保护建筑的更大伤害。所以呢，你决心研制一种新型防御塔，它的攻击范围足够大，也能够带来巨大的伤害。还有一点要注意，有些塔队特定生物的效果会更好，另外就是对飞行生物没什么效果。
+		</desc>
+		<note>
+			分三个等级，级别愈高，消耗愈大，其能力也愈强。
+		</note>
+	</meteor>
+	<fluxcreator>
+		<desc>
+			每次你搞砸坩锅或一罐魔力，呃，嗯，魔法物质的时候，总会弄出一堆紫色的黏液，或化为一团毒云，或化成一滩腐水。那么，你本应该对此表示不悦的，但是谁会对大量紫色...物质，的供应，表示不快呢？没错，这样一来别人肯定又说你要搞个大新闻了－或者他们已经开喷了－但是你什么时候又停下脚步了？
+		</desc>
+		<note>
+
+		</note>
+	</fluxcreator>
+	<villagerepair>
+		<desc>
+			村民们看起来是种智能生物(好吧，也只是看起来而已)，但当他们将他们毕生的建筑学知识用于建造水晶塔，并且他们在彩能铸件集群中的尝试已接近化境时，他们真实的能力就显得力不从心了。这一点也可以从防御僵尸攻城上看出来：他们总试图挤在一间小屋里，但他们总是忘记关门。的确你可以教他们些新知识，但是最终他们学到的东西居然是"LEAF"...好吧，祝好运。
+		</desc>
+		<note>
+ 
+ 		</note>
+	</villagerepair>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
 	<name>
 		<desc>
 

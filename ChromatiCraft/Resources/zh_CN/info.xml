@@ -1,62 +1,71 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <info>
 	<elements>
-		You quickly realized that the magic elements that shape and drive the world are divided into sixteen types, each with an associated color.
+		你很快意识到：这世界是由十六种互不相同的魔法元素塑造并驱动的，每种元素都和色彩有关。
 	</elements>
 	<crystals>
-		Crystal energy, if it reaches a critical density, seems to coalesce and crystallize, forming interesting structures that radiate an aura related to the crystal. Aside from their obvious utility as a source of mild effect boosts, their stored crystal energy is clearly going to be invaluable. One wonders how they handle the corrupting influence of the Nether...
+		水晶能量在聚集到一定程度后，就会凝聚在一起并结晶，最终形成一种有趣的水晶结构，并不断释放着灵气。很明显这种水晶所带来的附加效果可以为我们所用，但除此之外，这些水晶储藏的魔法能量也是无价之宝。但也有人此时开始思考，它们又该如何面对下界那不断腐化的魔力之影响...
 	</crystals>
 	<structures>
-		You appear to not be the first to attempt to investigate these magic forces. Scattered around the world you find a plethora of constructions - shrines, burrows, even large temples - left by those who came before you. Maybe their knowledge, if reacquired, could prove useful.
+		你似乎并不是第一个前去调查这魔力的来源的人。在走遍世界的各个角落后你找到了各种零星的遗迹－圣地、洞穴、甚至是神庙－而这些都是你的先辈们留下的。若你能找到他们留下的知识，那将对很有帮助。
 	</structures>
 	<pylons>
-		At points where the energy field seems to be the strongest, you tend to find dark stone structures adorned with sparkling aura and topped with a beacon that visibly and audibly radiates raw power. Unfiltered and uncontained, they seem too powerful and unstable - a lesson you quickly learned - to be easily used, but you suspect that later on they will be a key component of your research.
+		在能量似乎是最强烈的地方，你似乎总能找到一些暗色石头组成的结构，缀以灵气的火花，最顶上则赫然矗立着一个不断释放着魔力的信标。那直接暴露在外不加过滤的信标节点似乎拥有着强大而不稳定的力量 - 而你很快便意识到 - 你是不能轻易驾驭这强大的力量的，但你怀疑它们就是你之后研究的关键。
 	</pylons>
 	<transmission>
-		Pylons are the power sources, radiating crystal energy of their color. It stands to reason that you will have or make receivers requiring that energy. How, though, are you to transport that energy over the long distances between the pylons and where it is needed?
+		那不断放射着水晶能量的水晶塔，是魔法能量的源泉。自然地，它自己就是为什么你需要制造某种接收器来获得这能量的原因。但是，你又该怎么做才能跋山涉水将能量运到你需要的地方？
 	</transmission>
 	<start>
-		This world is strange, confusing, and unknown. You have no idea what drives or forms it, something you will need to learn before you can possibly begin to exploit it and bend the forces to your needs. Fortunately for you, you have a notebook of sorts, though you will need to populate it with information you collect as you explore and experiment.
+		这是一个奇怪，未知，令人困惑的世界。你完全不知道它究竟是怎么来的，也不知道是怎么运转的，也许你在明白这一切并能将这力量为己所用前还得学会些什么。幸运的是你拿到本笔记一样的东西，然而你还需要在不断的探险与实验中收集大量的信息。
 	</start>
 	<lexicon>
-		Seeing as you are learning this as you go along, you will be required to piece together your understanding from various fragments of information; rarely will one item or event hold all of the information you need. In particular, various notes, though incomplete on their own, might become more complete when assembled together. Also, for some reason, sneaking when navigating the book accelerates the process.
+		随着你学习的不断深入，你开始逐渐接受了这个世界，与此同时你也需要将碎片上的信息集合在一起；然而，仅仅一个物品或一个独立事件带来的信息远远不够。但特别的是，虽然是些不完整的信息碎片，你觉得把它们拼起来后会变得更完整。同时，基于某种原因，潜行时浏览这本书会加快拼接进程。
 	</lexicon>
 	<crafting>
-		At first, the casting table seemed identical to a wooden worktable, but you soon realized that in that form it can only make the most basic of items. In all likelihood, you will need to build a structure around the table to help focus the energy and allow you to advance your crafting. Additionally, the directionality to the recipes is likely important; one can only hope that the logical mapping of upwards to North has been chosen.
+		一开始这铸件台看起来和普通木质工作台没什么区别，但你很快发现就它只能合成很基础的东西。不论如何，你都需要在它周围建造某种结构以帮助它聚焦魔法能量，从而允许更高级别的合成。另外，合成的朝向看上去也很重要；你希望这个table会自动按照上北下南左西右东这样符合逻辑的布局来排列合成配方。
 	</crafting>
+	<crafting2>
+ 		自然地，合成图是上北下南的，牢记这一点就不会出差错。但还有个事，就是这铸件桌似乎需要利用周围的能量场来完成它的任务；若是在这种能量场极微弱，甚至于根本不存在的世界中，那么它就只能进行十分基本的合成了。要说这种能量场微弱或不存在的世界，典型例子便是那些没有自然生成水晶塔的世界。
+	</crafting2>
 	<balllightning>
-		Pylons and rainbow forests seem to have interesting phenomena flitting about, wandering through the sky and around the ground. You wonder if they have a use, or if they might be dangerous. Even if not dangerous directly, you probably want to avoid letting them into sensitive machinery like a turbine.
+		水晶塔和彩虹森林似乎有一些有趣的生物，它们不断地在天空中和地表彷徨。你很想知道它们是否有什么用途，或者它们是不是什么危险生物。即便它们不会直接构成威胁，你或许也不会希望它们掉进诸如涡轮机这样的精密机械里。
 	</balllightning>
 	<apirecipes>
-		Recalling the constructs you have crafted for other purposes - often those bearing little resemblance to the rest of your designs, feeling more akin to part of some other whole - you notice that you can nonetheless manufacture them on your casting table as well.
+		回想起你合成的其他东西，有些大相径庭，有些看似熟悉——尽管如此，你发现你完全可以用铸件台来制造他们。
 	</apirecipes>
 	<leylines>
-		Pylons transmit energy in concentrated beams, which you have come to call ley lines (no relation to the similarly named phenomena those with poor reasoning skills attribute to extraterrestrial construction projects and spontaneous combustion of people). These beams have a maximum range, and additionally are blocked by anything even remotely opaque.
+		水晶塔通过聚焦在一起的光线传递能量，而你通常称呼这些光为ley lines(和那个没有多少理论支撑的地外生物建筑和超出常识的人类自燃现象相关的ley lines名字相同，但并无任何关系)。这些光线有最大范围，另外可以被任何不透明方块阻挡。
 	</leylines>
 	<turbo>
-		With your ever-larger crystal network and your increasing load on your pylons, even a full ring of power crystals is insufficient to keep your energy flowing. Similarly, you outstripped the throughput of your repeaters long ago, and they are becoming an increasingly tight bottleneck on your network. If you can somehow enhance the power of the pylons and repeaters, it would be most convenient. Such an event would likely be very energetic, so isolation from the rest of the network could be a good idea.
+		在巨大的水晶能源网络和不断增加的负载下，即便是完整的能量水晶环也无法保证足够多的能量流动了。再一次，你的思维冲破了你老旧的中继器，因为那就是水晶能源网络中最大的瓶颈。若你可以以某种方式同时增强水晶塔和中继器，那将是极好的。引发这样的事件将会激化pylon，所以将其与既有网络隔绝开来绝对是个好主意。
 	</turbo>
+	<turborepeater>
+		很久以前，你还能超越你中继器的传输量，但现在这低下的带宽成了你网络的瓶颈。若能增强他们的话，那就太好了。
+	</turborepeater>
 	<dimension>
-		A fiery nightmare. An eldritch island ruled by a giant dragon. This world you have come to call your home is far from the only one in existence, but each of the others is alien and hostile. While they have proved bountiful with resources you no doubt need, they are inhospitable and useless aside from their raw materials. Another world must be the key, a world where the different colors of crystal energy flow naturally, unbounded by the corrupting influence of other forces. Maybe there will be secrets here, too.
+		烈焰中闪动的黑暗梦魇。被巨龙统治的异域之岛。你现在称之为家的这个世界显然不是仅有的存在，但其它的每一个世界都充满了诡异的气氛和浓浓的杀气。自然这些世界毫无疑问充满了各种你需要的资源，但除此之外这些世界就只剩下不友好的气氛和各种无用的东西了。关键肯定是在另一个世界上－在那个世界中，各种颜色的水晶魔力可以自然地流动，不再受那些腐化的力量或者别的什么力量的束缚。当然了那个世界也会隐藏着什么别的秘密。
 	</dimension>
 	<usingrunes>
-		Some of the many recipes you can perform on the casting table require using runes. Keeping a shorthand list of all the runes you need to place is likely to be useful.
+		在这海量的配方中，有一些需要你在铸件台上配合符文使用。留有通用的符文表也许会很有用。
 	</usingrunes>
 	<nodenet>
-		Scattered around the world are these odd, somewhat ethereal points that radiate magical energy of various flavors. You have managed to figure out how to draw energy from them into a wand, but even though they recharge, the process is slow. Thinking back to the larger crystal repeater networks you use to channel a different kind of magical energy, you wonder if you might be able to graft the two systems together...
+		这世界上星罗棋布着很多古怪而虚无缥缈的节点，它们不断地释放着不同种类的魔法能量。你已成功地找到了将这能量注入到法杖中的方法，虽然它们同时也会自动回复魔力，但它自然回复得慢。你将思绪重新拉回了你为传输多种魔法能量所建造的大规模水晶中继网络上，于是你开始思考能否将两个系统合二为一...
 	</nodenet>
 	<selfcharge>
-		You noticed that by using the manipulator on certain energy sources - most notably pylons - you could drain some of their energy into yourself. However, your lack of experience with this meant you could only store small amounts. No doubt increasing that experience and collecting as much as you can will help you surmount that barrier.
+		你注意到一件事情：用源晶魔杖可以从某些能量源－尤其是水晶塔－中抽取能量到自己身上。然而，你对这个工作缺乏经验，因此你只能存储一小部分魔力。毫无疑问，不断地收集能量将会帮助你突破存储上限的壁垒。
 	</selfcharge>
 	<dimension2>
-		Having been to this strange other world, one thing in particular stands out to you: Its volatility. Like the proverbial cat in a famous and usually misunderstood experiment, it, until observed, exists in some sort of undefined state, and as such lacks persistence from one visit to the next. Like many other things, that is a double-edged sword; Infinite resource replenishment, but anything you leave there will not be there for your return.
+		在涉足这片奇特的土地后，第一个摆在你眼前的事实是：这是一个瞬息万变的世界。和那个著名但通常被曲解的实验中的猫一样，这个世界在被观察前，是以某种没有定义的状态存在的，也正是因为这个，它在下一次拜访后无法保持之前的状态。和很多其它的事情一样，这是一把双刃剑：无穷无尽的资源，并且会自然恢复，但在下一次返回后，上一次留下的痕迹都将不复存在。而且，这个世界的入口和出口非同寻常。
 	</dimension2>
 	<mystpage>
-		You have found a way to create worlds of your own by scribbling random symbols into a book. Bound only by the limits of your own avarice, you have created worlds with airborne veins of diamond ore, with oceans of rare fluids, and with fields of valuable blocks, plants, and items. Perhaps other symbols exist for things like pylons and those buried crystals.
+		你发现了一种通过将各种随机符号抄写进书本来创造世界的方法。在无尽贪婪的驱使下，你创造了天空中布满钻石矿的世界、海洋中充满了稀有液体的世界、以及充斥着稀有方块、植物和物品的世界。也许有些符号可以让水晶塔和地下的水晶也能存在于这种世界中。
 	</mystpage>
-	<name>
-		
-	</name>
+	<enchanting>
+		显然，你在设计附魔工具用的黑曜石板时并没考虑灵活性，因为这块黑曜石板只接受一小部分工具。的确，最近你发现了一些新的可附魔工具，但请别忘了那些依靠流明能量的工具。那么，下一步，便是尝试用彩能铸件来完成附魔过程。
+	</enchanting>
+	<dimension3>
+		很久以前，你遇到一个人，他给你讲述了很多关于那片废弃的土地的故事，那是一片只有旅行家在翻过十万八千里后才能到达的地方。他还跟你谈到了他那荒唐的徒步旅行到那个地方的计划。的确荒唐可笑，但是你刚刚涉足的那片不稳定的土地似乎也有类似的地方(希望路途别太遥远吧)...你可以管这片地方叫...远陆？你一直不怎么擅长起名。
+	</dimension3>
 	<name>
 		
 	</name>

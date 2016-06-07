@@ -1,14 +1,62 @@
 ﻿<?xml version="1.0"?>
 <machines>
-	<accelerator>
+	<adjacency>
 		<desc>
-			As you have already learned, light blue energy is associated most with time and its manipulation. By concentrating this energy and binding it in a crystal structure - a vast improvement over the previous design you scribbled out after slipping and knocking yourself unconscious on a cauldron - you might be able to set up a localized field in which time progresses at a greatly increased rate.
+			Various things you have constructed thus far have been, if not abject failures, somewhat disappointing, having some major drawback or not quite fulfilling your desires (and greed). Sure, you could try to improve them, but that is often impossible or at least stupidly costly (and the last time you tried, its original inventor yelled at you), so a way to apply outside influence is of great use. Different colors, of course, will confer different advantages.
 		</desc>
 		<note>
-			Comes in various tiers, each tier being twice as powerful as the last
+			Each type comes in %d tiers, each tier being more powerful than the last
 			Localized effects may be ineffective over things whose essence is less concentrated
 		</note>
-	</accelerator>
+		<black>
+			Power crystals or not, your poor pylons are so heavily overloaded that your network is more gray balls of sadness than glowing beacons of energy. You do not yet have the means to improve their capabilities directly, but maybe you can reduce the load...
+		</black>
+		<red>
+		
+		</red>
+		<green>
+			You already have more ways to accelerate crops than you can even fit in your farm (not helped by the fact some require so much overhead to work that it would be less work to farm the crops manually), but few work on more general targets, and basically nothing can accelerate other idle processes. That last part, at least, is no longer true.
+		</green>
+		<brown>
+			Ores are a thing that you never really notice you need until you completely run out. Sure, you could create a world out of nothing but paper, ink, and cryptic scribbles - and have it eaten in minutes by white goo if you so much as think about increasing ore yield - or plop down a wall of mining machines and spend more power than an entire country does in a year. Or you could just convert raw stone into ore, and this time without pretending that bedrock has some magic ore-creation capability.
+		</brown>
+		<blue>
+		
+		</blue>
+		<purple>
+
+		</purple>
+		<cyan>
+		
+		</cyan>
+		<lightgray>
+		
+		</lightgray>
+		<gray>
+		
+		</gray>
+		<pink>
+			There are no shortage of ways to defend your base. However, many deal pitiful amounts of damage, and what good is a base defence if it takes so long to kill a Creeper that you still get to enjoy a (not very) shiny new hole in your wall? This frustration must be brought to an end.
+		</pink>
+		<lime>
+			Area-of-effect constructs are wonderful...right up until the point they taunt you by either forcing you to knock out three walls to fit it in the center of your base - unless it needs to be outside, because of course it does - or have their range end an infuriating four blocks from the edge of your house. Of the many things you need, one of them is a way to solve this problem once and for all.
+		</lime>
+		<yellow>
+			"Make a nuclear reactor", they said. "Never worry about power again", they said. What 'they' resolutely failed to tell you, however, was that in order to get anything more than what amounts to a trickle, you need to either rely on magic heat voids that eat lapis like it was coal or duty-cycle the damn thing and hope your base does not turn into a crater. If you could boost its output in a safer way, you would do so in a heartbeat.
+		</yellow>
+		<lightblue>
+			As you have already learned, light blue energy is associated most with time and its manipulation. By concentrating this energy and binding it in a crystal structure - a vast improvement over the previous design you scribbled out after slipping and knocking yourself unconscious on a cauldron - you might be able to set up a localized field in which time progresses at a greatly increased rate.
+		</lightblue>
+		<magenta>
+			There is an old saying that you can always tell how good someone is at managing mechanical power by how many damaged gearboxes they have stuffed in a chest. Though the obvious solution is not to screw up in the first place, that has remained firmly outside your capabilities thus far. Sure, you can still repair them with gear items, but that takes effort. Much better would be an active healing source nearby that could repair them for free.
+		</magenta>
+		<orange>
+			You thought that putting a controller in your fission reactor meant that you would never worry again about it overheating to the point where your base becomes as habitable as the moon, but you realized - too late, of course - a stark truth: That only helps if the heat has time to propagate to the controller, not accumulate in the fuel cores and ruin your day. With this tool to ferry heat around, that should hopefully FINALLY be solved.
+		</orange>
+		<white>
+			Stability is good. So what exactly were you thinking when you decided to construct a crafting system that is so unstable that you almost expect the thing to blow up in your face, sometimes literally? At any rate, you can probably calm it and other...volatile...things with a core of a relevant crystal element.
+		</white>
+	</adjacency>
 	<guardian>
 		<desc>
 			Too often you come home to find your constructions damaged or half of your valuables missing because someone snooping around your property helped themselves to your supplies. Sometimes you are fortunate and have those in power apply magical protection spells over your territory, but they are often of fairly limited range, and the less scrupulous will demand a steep payment from you to do so. Finally, however, you can protect yourself by applying a version of that yourself; each stone emits an aura that prevents those you do not trust from helping themselves to your resources or your structures.
@@ -25,7 +73,7 @@
 			In order to achieve your more grandoise casting arrangements, you will need to expand the grid beyond a 3x3, and that means you need a receptacle on which to store the items. Integrated into the structures around your table, these stands serve exactly that purpose, allowing you a 5x5 grid. The outer ring will need to be elevated by a block so that they have a clear line of sight to the table.
 		</desc>
 		<note>
-			In order to place a stack of more than one item, double-right-click on the stand with a stack
+
 		</note>
 	</stand>
 	<telepump>
@@ -34,7 +82,7 @@
 		</desc>
 		<note>
 			Needs to scan the area after being placed
-			Requires:
+			Base Cost per block:
 			%s
 		</note>
 	</telepump>
@@ -44,7 +92,7 @@
 		</desc>
 		<note>
 			Needs to scan the area after being placed, and can be triggered with the manipulator
-			Requires:
+			Base Cost per block:
 			%s
 		</note>
 	</miner>
@@ -58,12 +106,20 @@
 	</reprogrammer>
 	<repeater>
 		<desc>
-			The transmission range of a Crystal Pylon is limited to %d blocks, and its beams are blocked by just about anything aside from air and glass; this means that unless you built your base next to one of every pylon - a dangerous endeavour - you need some way to relay the signal. This is exactly the function of a repeater, which can repeat a signal and do so around obstacles. However, repeaters do incur a small signal attenuation, so optimizing the path is a good idea.
+			Your initial foray into transmitting lumen energy was a disaster. The basic wooden repeaters you created only marginally served their purpose, and were prone to often violent failure as they were used. In hindsight, wood was a monumentally foolish material to choose. Clearly the crystal you have used so much of would be a better choice. A rune to focus the color would improve them even better, though that would mean restricting it to only one color of transmission. You may find a way around that too...later.
 		</desc>
 		<note>
 			Range: %d blocks receiving and transmitting
 		</note>
 	</repeater>
+	<weakrepeater>
+		<desc>
+			The transmission range of a Crystal Pylon is limited to %d blocks, and its beams are blocked by just about anything aside from air and glass; this means that unless you built your base next to one of every pylon - a dangerous endeavour - you need some way to relay the signal. This is exactly the function of a repeater, which can repeat a signal and do so around obstacles. However, repeaters do incur a small signal attenuation, so optimizing the path is a good idea. This is only a first attempt at such repeaters, and as a result its quality is...questionable. Surely you will need to improve your designs with experience.
+		</desc>
+		<note>
+			Range: %d blocks transmitting and %d receiving
+		</note>
+	</weakrepeater>
 	<rift>
 		<desc>
 			Transporting things long-distance or between dimensions is one of the most annoying tasks you have to face; whether you built a structure in another world because of fear of a destructive failure or you are trying to transport a fluid from a source thousands of blocks away to your base, you often find yourself stymied by an inability to bridge the gap. Now, however, you can tie two disparate locations in the world together - no matter the distance or differences in dimension - and transport items, fluids, redstone, power of all kinds, and more through a link to the void.
@@ -125,7 +181,7 @@
 		</desc>
 		<note>
 			Requires a perimeter with vertices marked by either fence emitters or relays. Right click with manipulator to calculate perimeter, shift-right-click to set output side
-			
+
 			Each emitter in the perimeter adds to the damage dealt to intruding entities
 		</note>
 	</fence>
@@ -191,7 +247,7 @@
 			Enchanting has always been a random and infurating process. Spend a week collecting experience and you might get Bane of Arthropods I, or you might be lucky enough to get Fortune III and Efficiency V off of a few levels. Rather than tear your hair out trying to spend your experience efficiently, you recall the liquid chroma, which, being concentrated experience, may allow you not only automatic enchanting, but to allow you more fine control over the actual enchantments as well.
 		</desc>
 		<note>
-
+			Each level of enchantment requires %d mB of Chroma
 		</note>
 	</enchanter>
 	<chromaflower>
@@ -240,7 +296,7 @@
 			Despite your best attempts, you have not been able to totally avert the need for farming, and your mountain of grey seeds and beige goo can attest to that. Unfortunately, farms tend to scatter items far and wide, leading to the need for either powerful item collection systems - which have their own problems - or a problem with so many items on the ground you find it hard to move. The item collector at last is an answer to this problem, being able to collect items anywhere in its range as soon as they are created.
 		</desc>
 		<note>
-			Range: +/- %d blocks horizontally, +/- %d blocks vertically
+			Max Range: +/- %d blocks horizontally, one fourth of that vertically
 		</note>
 	</itemcollector>
 	<aishutdown>
@@ -357,6 +413,7 @@
 		</desc>
 		<note>
 			Requires a clear view of the sky and the target mob to function
+			Can be upgraded with different runes below it
 		</note>
 	</turret>
 	<pylonturbo>
@@ -391,6 +448,158 @@
 
 		</note>
 	</lighter>
+	<reverter>
+		<desc>
+			Your world is slowly becoming corrupted. From pillars of obsidian that darken the world around them, to a purple weed that overtakes everything in sight, you find the once-beautiful landscape becoming ugly and inhospitable. Even the magic forests spread by the trees often make a mess of the biome. What you really need is a way to restore the biome to its former state.
+		</desc>
+		<note>
+
+		</note>
+	</reverter>
+	<cobblegen>
+		<desc>
+			You never think you would run out of cobblestone...until you actually do. Sure, you could mine more out of the ground, but you have better things to occupy your time. You know that mixing water and lava will make cobblestone, but automating that process is messy and often costly. One solution would be a flower that would pull up the required liquid from nearby pools, mixing it and dropping the result. It might even be able to make things other than cobblestone given the correct input liquids.
+		</desc>
+		<note>
+
+		</note>
+	</cobblegen>
+	<plantaccel>
+		<desc>
+			Like the proverbial grass and its glacial growth speed, your various flowers and plants to improve the area around them operate at a very slow pace. Perhaps they could be improved upon by being planted on a plant of its own.
+		</desc>
+		<note>
+
+		</note>
+	</plantaccel>
+	<cropspeed>
+		<desc>
+			Though some crops grow rapidly, the majority - even after careful crossbreeding and hours digging up weeds - very much do not. Already available to you are various means with which to increase that speed, but none of them fit neatly into the farm area itself, instead often requiring being placed nearby. This of course introduces an efficiency penalty, one that would be very desirable to avoid.
+		</desc>
+		<note>
+
+		</note>
+	</cropspeed>
+	<inserter>
+		<desc>
+			You have repeatedly found yourself manually adding items to constructs that cannot be connected to normal item transport. You long ago tired of dropping stack after stack of sugar into a stone basin, or of berries into a puddle of chroma. You need a way to automate that process before you give up and find something less of a hassle to work with.
+		</desc>
+		<note>
+
+		</note>
+	</inserter>
+	<essentiarelay>
+		<desc>
+			So you have a cauldron full of water, in which you need to dump various ingredients to fabricate your desired target. As that process more often fails than not, producing copious amounts of noxious gas in the process, you created an odd construct to help automate the process. However, you need to actually transport the essentia there, and the piping you tried at first...leaves much to be desired. A longer-range and more flexible solution - ideally more consistently functional as well - would fare far better.
+		</desc>
+		<note>
+
+		</note>
+	</essentiarelay>
+	<glowfire>
+		<desc>
+			Some things you never have enough of, in particular diamonds, shards, and iron (the last of which was not helped by your attempts to build a turbine the size of a small house). Other things you have so much of that your biggest problem is storing it somewhere. What would be most convenient would be to be able to decompose the latter into energy with which you could cast the former. Surely nothing could go wrong with this...
+		</desc>
+		<note>
+
+		</note>
+	</glowfire>
+	<broadcast>
+		<desc>
+			You now regret living in a mountain archipelago. For one, most of the pylons to which you wish to connect are thousands of meters away. Worse, though, are that many are across vast stretches of ocean. Yes, you could build cobblestone pillars to raise repeaters from the ocean floor, but you want a solution that is both convenient and does not look ridiculous. To that end, you designed high-power broadcasters, which can send energy over thousands of blocks. However, such power requires a large structure, and that they would interfere if too close to each other.
+		</desc>
+		<note>
+
+		</note>
+	</broadcast>
+	<enchantdecomp>
+		<desc>
+			Rather starving, you made a box of netting and wood and plopped it in a pond, hoping to catch fish over time. However, the world is apparently determined to see you starve, as all you have obtained is an endless series of - weakly - enchanted bows and boots. They are too close to the end of their life to be useful, but the weak magic of the enchantments might be able to be put to good use.
+		</desc>
+		<note>
+
+		</note>
+	</enchantdecomp>
+	<lumenwire>
+		<desc>
+			You took three steps into a ruined, overgrown stone structure deep in the jungle and were rewarded with an arrow to the face. Primitive as they might be, tripwires are an effective trap or other detector. However, they are just that - primitive. Not all constructions are amenable to redstone connectivity, and you would far prefer something a bit more visually appealing.
+		</desc>
+		<note>
+
+		</note>
+	</lumenwire>
+	<particles>
+		<desc>
+			Almost every construct you make seems to give off clouds of glowing particles. Given their visual appeal, it would be quite pleasant to be able to summon them at will, especially if able to control their appearance.
+		</desc>
+		<note>
+
+		</note>
+	</particles>
+	<meteor>
+		<desc>
+			Lumen turrets are all well and good, but they need to be spammed to protect a large area, and do not work for areas without a clear sky view. You tried a magnetic projectile launcher earlier, but for what it accomplished in mob-killing it doubled in destroying the base you were trying to protect. To that end, you have decided to create a defense tower, one that can attack mobs at a large range, and doing large amounts of splash damage. Now, some towers are more effective than others against certain mob types (in case you hadn't noticed), and this one does not work for fliers.
+		</desc>
+		<note>
+			Comes in three tiers, each with greater capabilities and costs.
+		</note>
+	</meteor>
+	<fluxcreator>
+		<desc>
+			Every time you screw up with a crucible, or a jar of magic...stuff, it creates a cloud or puddle of purple goo. Now, you are SUPPOSED to be unhappy about this, but who could be unhappy about a supply of pretty purple...stuff? Sure, others will say that you are crazy - or, more than they already do - but since when has that stopped you?
+		</desc>
+		<note>
+
+		</note>
+	</fluxcreator>
+	<villagerepair>
+		<desc>
+			Villagers may LOOK intelligent (ok, not really), but after their crowning architectural achievement was a pylon embedded in their wall and their attempt at a casting structure was about as skillful as a painting made with one's rear, it is clear that their cognitive capabilites are more like that of the carrots they farm. That extends to their defence strategies during a zombie seige, which consist of trying to cram the entire village into a tiny hut and usually forgetting to close the door. Sure, you could try teaching them, but after all they got out of your last educational session (about early discoveries you made) was "LEAF"...well...good luck with that.
+		</desc>
+		<note>
+
+		</note>
+	</villagerepair>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
 	<name>
 		<desc>
 

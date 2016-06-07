@@ -24,6 +24,9 @@
 	<crafting>
 		At first, the casting table seemed identical to a wooden worktable, but you soon realized that in that form it can only make the most basic of items. In all likelihood, you will need to build a structure around the table to help focus the energy and allow you to advance your crafting. Additionally, the directionality to the recipes is likely important; one can only hope that the logical mapping of upwards to North has been chosen.
 	</crafting>
+	<crafting2>
+		North is indeed marked as upwards in the recipe display, so as long as you keep that in mind, things should proceed smoothly. One other thing to note, however, is that the table seems to rely on the ambient energy field in the world to perform its duty; In a world where this field is negligible or entirely absent - most easily exemplified by a total lack of pylons - it is likely to be unable to craft anything beyond basic recipes.
+	</crafting2>
 	<balllightning>
 		Pylons and rainbow forests seem to have interesting phenomena flitting about, wandering through the sky and around the ground. You wonder if they have a use, or if they might be dangerous. Even if not dangerous directly, you probably want to avoid letting them into sensitive machinery like a turbine.
 	</balllightning>
@@ -34,8 +37,11 @@
 		Pylons transmit energy in concentrated beams, which you have come to call ley lines (no relation to the similarly named phenomena those with poor reasoning skills attribute to extraterrestrial construction projects and spontaneous combustion of people). These beams have a maximum range, and additionally are blocked by anything even remotely opaque.
 	</leylines>
 	<turbo>
-		With your ever-larger crystal network and your increasing load on your pylons, even a full ring of power crystals is insufficient to keep your energy flowing. Similarly, you outstripped the throughput of your repeaters long ago, and they are becoming an increasingly tight bottleneck on your network. If you can somehow enhance the power of the pylons and repeaters, it would be most convenient. Such an event would likely be very energetic, so isolation from the rest of the network could be a good idea.
+		With your ever-larger crystal network and your increasing load on your pylons, even a full ring of power crystals is insufficient to keep your energy flowing. You need another way to improve them, possibly with a corresponding enhancement structure and ritual. Such an event would likely be very energetic, so isolation from the rest of the network could be a good idea.
 	</turbo>
+	<turborepeater>
+		Long ago, you outstripped the throughput of your repeaters, and they are becoming an increasingly tight bottleneck on your network. If you can somehow enhance their power, it would be most convenient.
+	</turborepeater>
 	<dimension>
 		A fiery nightmare. An eldritch island ruled by a giant dragon. This world you have come to call your home is far from the only one in existence, but each of the others is alien and hostile. While they have proved bountiful with resources you no doubt need, they are inhospitable and useless aside from their raw materials. Another world must be the key, a world where the different colors of crystal energy flow naturally, unbounded by the corrupting influence of other forces. Maybe there will be secrets here, too.
 	</dimension>
@@ -49,14 +55,17 @@
 		You noticed that by using the manipulator on certain energy sources - most notably pylons - you could drain some of their energy into yourself. However, your lack of experience with this meant you could only store small amounts. No doubt increasing that experience and collecting as much as you can will help you surmount that barrier.
 	</selfcharge>
 	<dimension2>
-		Having been to this strange other world, one thing in particular stands out to you: Its volatility. Like the proverbial cat in a famous and usually misunderstood experiment, it, until observed, exists in some sort of undefined state, and as such lacks persistence from one visit to the next. Like many other things, that is a double-edged sword; Infinite resource replenishment, but anything you leave there will not be there for your return.
+		Having been to this strange other world, one thing in particular stands out to you: Its volatility. Like the proverbial cat in a famous and usually misunderstood experiment, it, until observed, exists in some sort of undefined state, and as such lacks persistence from one visit to the next. Like many other things, that is a double-edged sword; Infinite resource replenishment, but anything you leave there will not be there for your return. On top of that, entry and exit to and from this world is via unusual means.
 	</dimension2>
 	<mystpage>
 		You have found a way to create worlds of your own by scribbling random symbols into a book. Bound only by the limits of your own avarice, you have created worlds with airborne veins of diamond ore, with oceans of rare fluids, and with fields of valuable blocks, plants, and items. Perhaps other symbols exist for things like pylons and those buried crystals.
 	</mystpage>
-	<name>
-		
-	</name>
+	<enchanting>
+		When you designed that obsidian slab on which you enchant your tools, you apparently did not have flexibility in mind, because it will not accept all but a small subset of your tools. Sure, a couple more recent variants are more accepting, but your lumen-powered tool stars could really benefit from the upgrade. The next best thing to try would be to try casting it like it was a recipe.
+	</enchanting>
+	<dimension3>
+		Long ago, you met someone who told you tall tales of equally tall (and broken) terrain, found only if one was to venture a ludicrous distance into the world. He also went on about his absurd plan to venture there...on foot. Lunacy, sure, but perhaps that volatile realm you have recently frequented has a similar (and hopefully nearer) outer region; You could call them the far...regions?. You never were very good at names.
+	</dimension3>
 	<name>
 		
 	</name>
