@@ -31,7 +31,7 @@
 		水晶塔和彩虹森林似乎有一些有趣的生物，它们不断地在天空中和地表彷徨。你很想知道它们是否有什么用途，或者它们是不是什么危险生物。即便它们不会直接构成威胁，你或许也不会希望它们掉进诸如涡轮机这样的精密机械里。
 	</balllightning>
 	<apirecipes>
-		Recalling the constructs you have crafted for other purposes - often those bearing little resemblance to the rest of your designs, feeling more akin to part of some other whole - you notice that you can nonetheless manufacture them on your casting table as well.
+		回想起你合成的其他东西，有些大相径庭，有些看似熟悉——尽管如此，你发现你完全可以用铸件台来制造他们。
 	</apirecipes>
 	<leylines>
 		水晶塔通过聚焦在一起的光线传递能量，而你通常称呼这些光为ley lines(和那个没有多少理论支撑的地外生物建筑和超出常识的人类自燃现象相关的ley lines名字相同，但并无任何关系)。这些光线有最大范围，另外可以被任何不透明方块阻挡。
@@ -40,7 +40,7 @@
 		在巨大的水晶能源网络和不断增加的负载下，即便是完整的能量水晶环也无法保证足够多的能量流动了。再一次，你的思维冲破了你老旧的中继器，因为那就是水晶能源网络中最大的瓶颈。若你可以以某种方式同时增强水晶塔和中继器，那将是极好的。引发这样的事件将会激化pylon，所以将其与既有网络隔绝开来绝对是个好主意。
 	</turbo>
 	<turborepeater>
-		Long ago, you outstripped the throughput of your repeaters, and they are becoming an increasingly tight bottleneck on your network. If you can somehow enhance their power, it would be most convenient.
+		很久以前，你还能超越你中继器的传输量，但现在这低下的带宽成了你网络的瓶颈。若能增强他们的话，那就太好了。
 	</turborepeater>
 	<dimension>
 		烈焰中闪动的黑暗梦魇。被巨龙统治的异域之岛。你现在称之为家的这个世界显然不是仅有的存在，但其它的每一个世界都充满了诡异的气氛和浓浓的杀气。自然这些世界毫无疑问充满了各种你需要的资源，但除此之外这些世界就只剩下不友好的气氛和各种无用的东西了。关键肯定是在另一个世界上－在那个世界中，各种颜色的水晶魔力可以自然地流动，不再受那些腐化的力量或者别的什么力量的束缚。当然了那个世界也会隐藏着什么别的秘密。
@@ -64,7 +64,7 @@
 		显然，你在设计附魔工具用的黑曜石板时并没考虑灵活性，因为这块黑曜石板只接受一小部分工具。的确，最近你发现了一些新的可附魔工具，但请别忘了那些依靠流明能量的工具。那么，下一步，便是尝试用彩能铸件来完成附魔过程。
 	</enchanting>
 	<dimension3>
-		Long ago, you met someone who told you tall tales of equally tall (and broken) terrain, found only if one was to venture a ludicrous distance into the world. He also went on about his absurd plan to venture there...on foot. Lunacy, sure, but perhaps that volatile realm you have recently frequented has a similar (and hopefully nearer) outer region; You could call them the far...regions?. You never were very good at names.
+		很久以前，你遇到一个人，他给你讲述了很多关于那片废弃的土地的故事，那是一片只有旅行家在翻过十万八千里后才能到达的地方。他还跟你谈到了他那荒唐的徒步旅行到那个地方的计划。的确荒唐可笑，但是你刚刚涉足的那片不稳定的土地似乎也有类似的地方(希望路途别太遥远吧)...你可以管这片地方叫...远陆？你一直不怎么擅长起名。
 	</dimension3>
 	<name>
 		

@@ -15,7 +15,7 @@
 		
 		</red>
 		<green>
-			You already have more ways to accelerate crops than you can even fit in your farm (not helped by the fact some require so much overhead to work that it would be less work to farm the crops manually), but few work on more general targets, and basically nothing can accelerate other idle processes. That last part, at least, is no longer true.
+			你早已找到了更多加速作物生长的办法，有些甚至可以直接种在地里，(这不包括那些手动种植比自动简单的作物)，但没几个方法可以适用于大多数作物，目前也没有任何已知的能加速那些看似慵懒的植物的生长的办法。但至少，刚才那句话中的最后一部份，现在被推翻了。
 		</green>
 		<brown>
 			矿石是种直到用完你才会注意的东西。的确你可以现在就铺纸磨墨，然后用各种鬼画符来造个世界——然后因为你肆意提高矿石密度，这个世界很快就被白色黏液吃掉了——当然如果你没遇上这种悲惨的事件，你会摆下一整排采矿机械，然后一个国家一年的耗能都无法赶上它们的需求。或者你可以考虑直接把石头变成矿石，而这次你不用再假定基岩拥有创造矿石的魔法能力了。
@@ -554,7 +554,7 @@
 	</fluxcreator>
 	<villagerepair>
 		<desc>
-			Villagers may LOOK intelligent (ok, not really), but after their crowning architectural achievement was a pylon embedded in their wall and their attempt at a casting structure was about as skillful as a painting made with one's rear, it is clear that their cognitive capabilites are more like that of the carrots they farm. That extends to their defence strategies during a zombie seige, which consist of trying to cram the entire village into a tiny hut and usually forgetting to close the door. Sure, you could try teaching them, but after all they got out of your last educational session (about early discoveries you made) was "LEAF"...well...good luck with that.
+			村民们看起来是种智能生物(好吧，也只是看起来而已)，但当他们将他们毕生的建筑学知识用于建造水晶塔，并且他们在彩能铸件集群中的尝试已接近化境时，他们真实的能力就显得力不从心了。这一点也可以从防御僵尸攻城上看出来：他们总试图挤在一间小屋里，但他们总是忘记关门。的确你可以教他们些新知识，但是最终他们学到的东西居然是"LEAF"...好吧，祝好运。
 		</desc>
 		<note>
  
