@@ -1,3 +1,10 @@
+## 来找ChromatiCraft（缤纷纪元/彩晶魔法）的汉化的同学看这里：
+1. 点击右上角Clone or download, 然后点击Download ZIP，获得一个压缩包
+2. 解压。现在你只需要ChromatiCraft文件夹下的东西
+3. ChromatiCraft文件夹下有一个zh_CN.lang，用WinRAR等软件直接放入ChromatiCraft本体的assets/chromaticraft/lang文件夹下
+4. ChromatiCraft文件夹下有一个Resources文件夹，打开后可以找到一个名为zh_CN的文件夹。**此步骤尤为关键**：将zh_CN文件夹整个复制到ChromatiCraft本体中的Reika/ChromatiCraft/Resources文件夹下。
+5. 若操作没有失误，此时用已经添加汉化文件的ChromatiCraft启动游戏，则可看到绝大部分文本已经被汉化。祝生活愉快。
+
 ## What is it?
 This repository HAS NOTHING to do with reika officially. 
 This repository is used as a place to hold localization support for reika's mods instead.
