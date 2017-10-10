@@ -12,7 +12,7 @@
 			Power crystals or not, your poor pylons are so heavily overloaded that your network is more gray balls of sadness than glowing beacons of energy. You do not yet have the means to improve their capabilities directly, but maybe you can reduce the load...
 		</black>
 		<red>
-		
+			They said that as long as you supplied water, those fuel-burning engines would run stably forever. The giant crater in your base, however, clearly proves otherwise. Worse, since the explosion seems to have caused rays of destruction (as all large explosions seem to do), it just so happened to take out the drive bay for your crystal item storage. This is...infuriating, to put it kindly. Something that valuable needs protection of any kind you can devise.
 		</red>
 		<green>
 			You already have more ways to accelerate crops than you can even fit in your farm (not helped by the fact some require so much overhead to work that it would be less work to farm the crops manually), but few work on more general targets, and basically nothing can accelerate other idle processes. That last part, at least, is no longer true.
@@ -24,16 +24,16 @@
 		
 		</blue>
 		<purple>
-
+			Like its associated crystal element, this core is not so much for one distinct function as it is for bettering the abilities of whatever it happens to be put next to. As for exactly what that means, you only hope that experimentation will prove fruitful instead of fissile.
 		</purple>
 		<cyan>
-		
+			Crystal tanks are lovely, but once you build a housing for them or pack them close together, expansion ceases to be feasible. Yet your supply of fluid remains ever growing, and so you need some other way to increase their capacity.
 		</cyan>
 		<lightgray>
-		
+			You learned long ago that you could gain experience by merely being near certain crystal clusters, but you have better things to do than sit on a rock, however pretty. If only something could act on your behalf...
 		</lightgray>
 		<gray>
-		
+			Ever wanted to move blocks around, without having to actually move them? Probably not, but if you ever do, now you can.
 		</gray>
 		<pink>
 			There are no shortage of ways to defend your base. However, many deal pitiful amounts of damage, and what good is a base defence if it takes so long to kill a Creeper that you still get to enjoy a (not very) shiny new hole in your wall? This frustration must be brought to an end.
@@ -106,10 +106,10 @@
 	</reprogrammer>
 	<repeater>
 		<desc>
-			Your initial foray into transmitting lumen energy was a disaster. The basic wooden repeaters you created only marginally served their purpose, and were prone to often violent failure as they were used. In hindsight, wood was a monumentally foolish material to choose. Clearly the crystal you have used so much of would be a better choice. A rune to focus the color would improve them even better, though that would mean restricting it to only one color of transmission. You may find a way around that too...later.
+			Your initial foray into transmitting lumen energy was a disaster. The basic wooden repeaters you created only marginally served their purpose, proved vulnerable to violent failure. In hindsight, wood was a monumentally foolish material to choose. Perhaps the crystal you have used so much of would be a better choice, being able to better focus and relay the energy rather than leaking and absorbing it. A rune to focus a specific color would improve them even better, though that would mean restricting it to only that color of transmission. You may find a way around that too...later.
 		</desc>
 		<note>
-			Range: %d blocks receiving and transmitting
+			
 		</note>
 	</repeater>
 	<weakrepeater>
@@ -117,7 +117,7 @@
 			The transmission range of a Crystal Pylon is limited to %d blocks, and its beams are blocked by just about anything aside from air and glass; this means that unless you built your base next to one of every pylon - a dangerous endeavour - you need some way to relay the signal. This is exactly the function of a repeater, which can repeat a signal and do so around obstacles. However, repeaters do incur a small signal attenuation, so optimizing the path is a good idea. This is only a first attempt at such repeaters, and as a result its quality is...questionable. Surely you will need to improve your designs with experience.
 		</desc>
 		<note>
-			Range: %d blocks transmitting and %d receiving
+			
 		</note>
 	</weakrepeater>
 	<rift>
@@ -147,7 +147,7 @@
 			Repeaters are all well and good, but they suffer two problems. One, if you have a number of pylons all along the same path, laying multiple tracks of repeaters is messy and costly. Two, if your base is not easily accessed from the outside, you are forced to punch one hole for each color channel. The multi-aura repeater solves both of these; though larger and much more costly, they can carry all sixteen colors - including simultaneously. They do, however, have a larger per-node attenuation, meaning you will want to keep their use to a minimum.
 		</desc>
 		<note>
-
+			Can be built horizontally by using beams in place of columns
 		</note>
 	</compound>
 	<charger>
@@ -171,8 +171,8 @@
 			You spent quite a lot of effort making the perfect set of tools; some are made of a blend of different materials, including some exotic alloys (a hard purple one seems particularly useful). Fortunately for you, you can put moss all over the tool and this (somehow) makes it regenerate its durability. The only problem is, the moss seems to be triggered by your body heat, so sticking the tools in a chest to let them repair does you little good. If you could somehow concentrate life energy, along with some amount of time, you may be able to construct something to achieve the same effect, and possibly faster as well.
 		</desc>
 		<note>
-			Requires:
-			%s
+
+			
 		</note>
 	</ticker>
 	<fence>
@@ -391,6 +391,14 @@
 
 		</note>
 	</rfdistributor>
+	<fluiddistributor>
+		<desc>
+			Noting the similarity between this red-tinted magic power and the way fluids tend to flow - one would almost think they were designed by the same person - you figure: If you can make one to radiate the power, surely you can make one to radiate fluid as well.
+		</desc>
+		<note>
+
+		</note>
+	</fluiddistributor>
 	<window>
 		<desc>
 			Some say a special kind of window exists, one that should you gaze into it, might just find that the view on the other side becomes your reality.
@@ -404,7 +412,9 @@
 			How many times have you banged out a tune on the different colors of crystals? With your new device, you should be able to attain even greater musical fidelity, complete with greater range, chord capability, and even - somehow - an oddly familiar melody that came pre-etched into the crystal matrix.
 		</desc>
 		<note>
-
+			Can be connected to a repeater network to play the repeaters with the music; place on top of Nether Quartz or Crystalline Stone
+			
+			Place on top of Nether Quartz to broadcast the sound
 		</note>
 	</music>
 	<turret>
@@ -485,12 +495,12 @@
 			You have repeatedly found yourself manually adding items to constructs that cannot be connected to normal item transport. You long ago tired of dropping stack after stack of sugar into a stone basin, or of berries into a puddle of chroma. You need a way to automate that process before you give up and find something less of a hassle to work with.
 		</desc>
 		<note>
-
+			Link to a location with the linking tool
 		</note>
 	</inserter>
 	<essentiarelay>
 		<desc>
-			So you have a cauldron full of water, in which you need to dump various ingredients to fabricate your desired target. As that process more often fails than not, producing copious amounts of noxious gas in the process, you created an odd construct to help automate the process. However, you need to actually transport the essentia there, and the piping you tried at first...leaves much to be desired. A longer-range and more flexible solution - ideally more consistently functional as well - would fare far better.
+			So you have a cauldron full of water, in which you need to dump various ingredients to fabricate your desired target. As that process more often fails than not, producing copious amounts of noxious gas in the process, you created an odd construct to help automate the process. However, you need to actually transport the essentia there, and the piping you tried at first...leaves much to be desired. A longer-range and more flexible solution - ideally more consistently functional as well - would fare far better. Simply attach one to each end, as well as some at regular intervals in between.
 		</desc>
 		<note>
 
@@ -498,7 +508,7 @@
 	</essentiarelay>
 	<glowfire>
 		<desc>
-			Some things you never have enough of, in particular diamonds, shards, and iron (the last of which was not helped by your attempts to build a turbine the size of a small house). Other things you have so much of that your biggest problem is storing it somewhere. What would be most convenient would be to be able to decompose the latter into energy with which you could cast the former. Surely nothing could go wrong with this...
+			Some things you never have enough of, in particular diamonds, shards, and iron (the last of which was not helped by your attempts to build a turbine the size of a small house). Other things you have so much of that your biggest problem is storing it somewhere. What would be most convenient would be to be able to decompose the latter into energy with which you could cast the former. Surely nothing could go wrong with this sort of exchange project...
 		</desc>
 		<note>
 
@@ -560,6 +570,135 @@
 
 		</note>
 	</villagerepair>
+	<wireless>
+		<desc>
+			You are already very familiar with the fact that certain constructs require energy. Most draw that energy directly off the repeater network, and some use the relay system. However, others seem to need to be in proximity to a node of sorts, which weakly radiates energy around it. It even appears to be capable of passing through solid barriers, though it unsuprisingly is rather less efficient when it does.
+		</desc>
+		<note>
+
+		</note>
+	</wireless>
+	<areabreaker>
+		<desc>
+			For some reason, you decided that the bulk of your home would be underground. That of course means clearing away the rock, gravel, and other materials in the way, and this presents something of a problem. You could spent hours whacking at the rock with a pickaxe, hammer, or other tool, but that is a waste of your time. You have in the past tried a mechanical device to clear areas, but it was only capable of rectangular areas, and worse it destroyed the minerals in its target volume (or, with modification, yielded the materials, but then left orange piping all over the room). You need another alternative.
+		</desc>
+		<note>
+
+		</note>
+	</areabreaker>
+	<teleport>
+		<desc>
+			Being the prudent designer you are, you have decided to split your base into multiple structures spread across the landscape. However, this created a problem: Simply getting to them becomes something of a chore. However, another idea occurs to you: You could build a link of sorts, a gate, at any number of locations and be able to link between any two points at will. As long as the purity of the link is maintained, the two gates should work in harmony, and the supremacy of this method of travel will act as an emancipation from your current commute.
+		</desc>
+		<note>
+
+		</note>
+	</teleport>
+	<harvestplant>
+		<desc>
+			Flowers. You cannot get enough of them, especially ones that come in 16 colors. However, though you have the ability to create them using nothing but raw magic, harvesting them automatically has proven somewhat more difficult. On the advice of someone else, you made a drum and started banging on it with the same magic used to summon the flowers. Though it worked, your tree farm and crops nearby were also affected, causing you to revert to the loud and space-consuming piston and water contraptions. Now it finally hits you: You are planting flowers; a flower might be used to harvest as well.
+		</desc>
+		<note>
+			Checks the flowers adjacent to it to know what to break
+		</note>
+	</harvestplant>
+	<alveary>
+		<desc>
+			Untold piles of wax, jelly, and pollen later, and now poorer some 27 drums of honey, you finally have it: The pinnacle of your apiculture abilities, large structures to keep your bees as happy as possible and to maximize their productivity (wooden boxes, treated or not, proved lacking in that regard). And they help, but you still want MORE. More speed, more products, more capabilities. So an idea occurs to you: Lumen-powered bees! Well, more accurately, using the lumen energy to enhance their capabilities, or of the housing itself. You might even be able to plug it into those crystal relays from that glowy sparky thing you made as well.
+		</desc>
+		<note>
+			%s
+		</note>
+	</alveary>
+	<fluidrelay>
+		<desc>
+			Fluids. Fluids EVERYWHERE. Water, lava, oil, honey, liquid nitrogen, cryotheum, and more, routed all over your base with a rat's nest of pipes and ducts. Sure, some of them can be hidden in walls or the floor, but it is still a pain to connect everything, and that time you accidentally disconnected a fluid line and half your base cratered itself remains painfully sharp in your memory. Though you obviously will still need to connect all the endpoints, there has to be a better way...
+		</desc>
+		<note>
+			Positive pressures try to push fluids, negative pressures try to pull
+		</note>
+	</fluidrelay>
+	<bookdecomp>
+		<desc>
+			So you can create world after world by scribbling in a book, but you can even do this without writing much at all, and some unseen balancing force appears to fill in the missing pieces (though sometimes it appears to take issue with your choices). And few things are more frustrating than creating a random world and seeing it has a trait you want but lack the means to manually specify. You want those symbols, and you are going to get them out of those books any way you can.
+		</desc>
+		<note>
+
+		</note>
+	</bookdecomp>
+	<routerhub>
+		<desc>
+			So you have a field of constructs, all generating or needing items. Sure, you could run a giant grid of item pipes, but that is boring, expensive, and ugly. What you want is the ability to connect them all through the aether to some central hub which would automatically pull and push items as necessary.
+		</desc>
+		<note>
+			Endpoints must be connected to the hub (by right-clicking) in order to be placed
+		</note>
+	</routerhub>
+	<avolaser>
+		<desc>
+			Avolite crystals are ancient and imbued with magical power...You think. With that in mind, you have constructed a housing to focus and project that energy in an impressive and violent display. Ancient temples might not be able to maintain a security system this deadly, but you certainly can.
+		</desc>
+		<note>
+
+		</note>
+	</avolaser>
+	<focuscrystal>
+		<desc>
+			Crafting things can be painfully slow, and you are not all that keen on starting the process then wandering away to do other things, forgetting about the crafting almost immediately. If you could focus the pulses and bursts of energies used by the constructs into a more coherent...beam, to overcharge them and make them more efficient, you would better distribute the power within them and probably enhance the charge rate as well. No longer will you need to dwell around your construct doing nothing but waiting.
+		</desc>
+		<note>
+			More refined crystals yield more powerful effects
+			Up to 8 crystals per construct
+		</note>
+	</focuscrystal>
+	<chromacrafter>
+		<desc>
+			As powerful as some of your constructs have proven, crafting them has been at times painful enough that you have mentally prepended the ingredient's names with some variant of an expletive. In particular has been the various alloy ingots, which are not exactly expensive but whose particularly finicky and easy-to-disrupt nature of crafting has made you dread their production, to say nothing of their unified compound. If only you could mix them all together in a shielded glass tank or something...
+		</desc>
+		<note>
+
+		</note>
+	</chromacrafter>
+	<fluxmaker>
+		<desc>
+			This purple goo you get when you @#!$ up is supposed to be a problem, as if you were being punished, but in truth a vibrant purple liquid or gas could be nothing else than a pretty reward. To the shock and horror of your acquaintances, you have embarked on a quest to obtain more of it. Some stacks of cobblestone into a vat later, you have a purple mess that spawns similarly-colored slimes, but this is not going to help you decorate with it. You need a more organized solution.
+		</desc>
+		<note>
+
+		</note>
+	</fluxmaker>
+	<functionrelay>
+		<desc>
+			Certain constructs have areas of effect that is difficult to work with, making you now somewhat regret your decision to build a terrace farm whose contours make the placement of any such device rather awkward. One solution would be to create some sort of relay, that would be placed in the primary construct's area of effect and which would delegate said effect to its own more workable region.
+		</desc>
+		<note>
+
+		</note>
+	</functionrelay>
+	<multibuilder>
+		<desc>
+			For some applications, you find yourself needing to build either a structure consisting of a repeating unit, or multiple orderly-arranged multiblocks. Either case has generally proven tedious, as there is only so much enjoyment to be had in placing the same ten blocks over and over (and over and over and over) again. Your first attempt with a wooden axe proved utterly fruitless - whoever claimed it has magic capabilities is clearly about as sane as a house made of TNT - so what you may want to try is to mirror your actions when you build or break blocks.
+		</desc>
+		<note>
+			Manipulator changes region size; empty hand changes cell count or region shape
+		</note>
+	</multibuilder>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
+	<name>
+		<desc>
+
+		</desc>
+		<note>
+
+		</note>
+	</name>
 	<name>
 		<desc>
 

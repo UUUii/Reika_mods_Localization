@@ -41,7 +41,7 @@ chroma.aspectjar=Aspect Jar
 chroma.fibersource=Relay Source
 chroma.structcontrol=Structure Controller
 chroma.biomechg=Biome Painter
-chroma.farmer=Elemental Farmer
+chroma.farmer=Elemental Harvester
 chroma.automator=Casting Delegate
 chroma.medistrib=ME Item Distributor
 chroma.dimcore=Dimensional Core
@@ -66,10 +66,27 @@ chroma.lumenwire=Lumen Wire
 chroma.particles=Particle Spawner
 chroma.meteor=Meteor Tower Core
 chroma.fluiddistrib=Fluid Radiator
+chroma.areabreaker=Area Breaker
+chroma.wireless=Ambient Lumen Distributor
+chroma.village=Village Replenisher
+chroma.gate=Transposition Core
+chroma.fluidrelay=Fluid Link Anchor
+chroma.bookdecomp=Symbol Extractor
+chroma.harvestplant=Scissorweed
+chroma.avolaser=Avolite Defence Beam
+chroma.alveary=Lumen Alveary Booster
+chroma.router=Item Distribution Node
+chroma.focuscrystal=Focus Crystals
+chroma.pylonlink=Pylon Network Node
+chroma.skypeater=Lumen Node
+chroma.chcrafter=Alloying Tank
+chroma.funcrelay=Area Delegation Point
+chroma.taintmaker=Lumen Flux Exchanger
+chroma.multibuilder=Construction Mirror
 
 adjacency.black=Efficiency Augment
 adjacency.red=Protection Core
-adjacency.green=Fertility Booster
+adjacency.green=Growth Accelerator
 adjacency.brown=Mineral Enricher
 adjacency.purple=Performance Enhancer
 adjacency.cyan=Capacity Boost
@@ -80,10 +97,14 @@ adjacency.lightblue=Tile Accelerator
 adjacency.orange=Heat Relay
 adjacency.magenta=Healing Core
 adjacency.white=Stability Focus
+adjacency.gray=Block Exchanger
+adjacency.lightgray=Player Imitation Core
 
 fluid.chroma=Liquid Chroma
 fluid.endere=Liquid Ender Essence
 fluid.potioncrystal=Molten Potion Crystal
+fluid.luma=Ethereal Luma
+fluid.lumen=Lumen Essence
 
 chroma.powerleaf=Lumen Leaves
 chroma.lampblock=Lumen Lamp
@@ -113,6 +134,13 @@ chroma.glass=Crystal Glass
 chroma.fencerelay=Lumen Fence Relay
 chroma.shiftlock=Toggling Lock
 chroma.selectiveglass=Defensive Glass
+chroma.avolamp=Avolite Crystal Lamp
+chroma.relayfilter=Relay Filter
+chroma.artefactblock=Unknown Artefact
+chroma.dummyaux= 
+chroma.lorereader=Memory Crystal Scanner
+chroma.caveindicator=Piezo Crystals
+chroma.metaalloy=Lumen Pod
 
 chroma.bucket=Bucket
 chroma.invlink=Inventory Warp
@@ -153,6 +181,17 @@ chroma.crystalcell=Crystal Cell
 chroma.purify=Aura Purification Gem
 chroma.efficiency=Anti-Attenuation Gem
 chroma.killauragun=Discharge Gun
+chroma.floatboots=Floatstone Boots
+chroma.warpitem=Recall Tablet
+chroma.beeframe=Lifecycle Acceleration Frame
+chroma.structfind=Aura Tracker
+chroma.datacrystal=Memory Crystal
+chromaunknownartefact.artifact=Unknown Artefact
+chromaunknownartefact.fragment=Unknown Fragments
+chroma.mobsonar=Creature Sounding Star
+chroma.cavepather=Subterranean Route Finder
+chroma.fertileseed=Fertility Seeds
+chroma.splineattack=Bezier Crystals
 
 chromability.reach=Reach Boost
 chromability.magnet=Magnetism
@@ -187,6 +226,8 @@ chromability.recharge=Passive Draw
 chromability.meinv=Applied Hotbars
 chromability.mobseek=Piercing Vision
 chromability.beealyze=Genetic Insight
+chromability.nuker=Matter Dissolution
+chromability.lightcast=Lumen Flood
 
 chromastruct.repeater=Repeater
 chromastruct.compound=MultiAura Repeater
@@ -207,11 +248,17 @@ chromastruct.personal=Focus Frame
 chromastruct.broadcast=Lumen Beacon
 chromastruct.cloaktower=Cloaking Tower
 chromastruct.tree_boosted=Enriched Lumen Tree
-chromastruct.protect=Proection Obelisk
+chromastruct.protect=Protection Obelisk
 chromastruct.weakrepeater=Lumen Repeater
 chromastruct.meteor1=Meteor Tower (Green)
 chromastruct.meteor2=Meteor Tower (Yellow)
 chromastruct.meteor3=Meteor Tower (Red)
+chromastruct.telegate=Transposition Gate
+chromastruct.relay=Relay Amplification Focus
+chromastruct.pylonbroadcast=Atmospheric Lumen Broadcast Frame
+chromastruct.pylonturbo=Pylon Enhancement Ring
+chromastruct.datanode=Ancient Data Tower
+chromastruct.wirelesspedestal=Lumen Radiation Pedestal
 
 crystal.cave=Cave Crystal
 crystal.lamp=Crystal Lamp
@@ -305,20 +352,26 @@ chromacraft.glowbeans=Luma Beans
 chromacraft.boostroot=Enrichment Root
 chromacraft.lumencore=Lumen Core
 chromacraft.glowchunk=Radiant Gem
-chromacraft.lumengem=Lumen Gem
+chromacraft.lumengem=Lumenite
+chromacraft.avolite=Avolite
 
-chromamod.crystalStar=Crystal Star Core
-chromamod.firaxcap=Firaxite Star Cap
-chromamod.watercap=Waterstone Star Cap
-chromamod.endercap=Ender Star Cap
-chromamod.finalcap=Complex Star Cap
+chromamod.crystalwand=Crystal Wand Core
+chromamod.firaxcap=Firaxite Wand Cap
+chromamod.watercap=Waterstone Wand Cap
+chromamod.endercap=Ender Wand Cap
+chromamod.finalcap=Complex Wand Cap
 item.Wand.TIEREDCAP_FIRAXITE.cap=Firaxite Capped
-item.Wand.TIEREDCAP_WATER.cap=Fluidstone Capped
-item.Wand.TIEREDCAP_ENDER.cap=Enderstone Capped
+item.Wand.TIEREDCAP_WATERY.cap=Fluidstone Capped
+item.Wand.TIEREDCAP_RESO.cap=Enderstone Capped
 item.Wand.TIEREDCAP_FOCAL.cap=Chromastone capped
-item.Wand.CRYSTALStar.rod=Crystal-Core
+item.Wand.CRYSTALWAND.rod=Crystal-Core
 
 chromamod.comb=Crystal Comb
+
+chromapotion.growth=Growth Accelerant
+chromapotion.voidgaze=Void Gaze
+chromapotion.lumarhea=Lumarhea
+chromapotion.lumenregen=Restorative Aura
 
 chromablock.pylon.0=Crystalline Stone
 chromablock.pylon.1=Crystalline Stone Beam
@@ -344,6 +397,7 @@ chromablock.dimgen.aqua=Aqua
 chromablock.dimgen.lifewater=Lifewater
 chromablock.dimgen.lattice=Crystal Lattice
 chromablock.dimgen.crystalleaf=Crystal Leaves
+chromablock.dimgen.gemstone=Glowing Gemstone
 chromablock.dimgen.oceanstone=Oceanstone
 chromablock.dimgen.cliffglass=Aura Glass
 
@@ -359,6 +413,9 @@ chromablock.laser.splitter=Beam Splitter
 chromablock.laser.oneway=Directional Transmitter
 chromablock.laser.colorizer=Color Filter
 chromablock.laser.polarizer=Beam Polarizer
+
+chromablock.routernode.0=Extraction Node
+chromablock.routernode.1=Insertion Node
 
 chromaitem.dimgen.miasma=Miasmatic Essence
 chromaitem.dimgen.floatstone=Floatstone
@@ -391,7 +448,8 @@ chroma.tieredore.9=Firestone
 chroma.tieredore.10=Thermitic Rock
 chroma.tieredore.11=Vibrant Crystals
 chroma.tieredore.12=Void Stone
-chroma.tieredore.13=Lumen Gems
+chroma.tieredore.13=Lumenite
+chroma.tieredore.14=Avolite
 
 chroma.flower.voidreed=Void Reeds
 chroma.flower.sanobloom=Ether Berries
@@ -399,6 +457,8 @@ chroma.flower.enderflower=Enderflower
 chroma.flower.resoclover=Resonant Clover
 chroma.flower.lumalily=Luma Lotus
 chroma.flower.flowivy=Aura Ivy
+chroma.flower.glowdaisy=Glowing Daisy
+chroma.flower.glowroot=Lumen Root
 
 chromamisc.silktouch=Silk Touch Bonus
 chromamisc.efficiency=Energy Efficiency Bonus
@@ -424,6 +484,11 @@ enchantment.chroma.weaponaoe=Area Strike
 enchantment.chroma.aggromask=Aggro Mask
 enchantment.chroma.enderlock=Ender Lock
 enchantment.chroma.userepair=Durability Leech
+enchantment.chroma.rareloot=Reposession
+enchantment.chroma.fastsink=Submergence
+enchantment.chroma.harvestlevel=Enhanced Utility
+enchantment.chroma.airminer=Air Miner
+enchantment.chroma.phasing=Armor Breach
 
 tc.research_category.chromaticraft=ChromatiCraft
 
@@ -438,3 +503,5 @@ dragonapi.allele.Eon=Eon
 dragonapi.allele.Blink=Blink
 
 soundCategory.ChromatiCraft=ChromatiCraft Music
+
+material.chromastone=Chromastone
