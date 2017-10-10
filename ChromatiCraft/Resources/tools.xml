@@ -7,7 +7,7 @@
 		The pylon compass scans the energy field that permeates the world and analyzes it to calculate the location of the nearest pylon of each crystal element. Due to the fact that the energy is always in flux, there is some inaccuracy to the calculation, but the location you are directed to should be within a short walk of the actual pylon.
 	</finder>
 	<excavator>
-		By concentrating elements associated with energy and minerals, you have found that you can apply them to the terrain and excavate a large area. When you release the energy into the ground, it seems to only get conducted along identical materials, but this nonetheless allows you to clear a large area of rock, ores, or other materials with a single stroke.
+		By concentrating elements associated with energy and minerals, you have found that you can apply them to the terrain and excavate a large area. When you release the energy into the ground, it seems to only get conducted along identical materials, but this nonetheless allows you to clear a large area of rock, ores, or other materials with a single stroke. To avoid accidentally creating large holes, making it unable to mine the basic stone of the world is probably for the best.
 	</excavator>
 	<transition>
 		Gray-colored energy seems to have the power to transmute and change, so it is a reasonable guess to think that if applied to the world, with some information of what blocks to place and replace, this power could be used to change large swaths of one block into another, greatly expediting the landscaping process.
@@ -81,6 +81,9 @@
 	<doorkey>
 		Doors are generally useless without keys. To that end, your ethereal barrier needs a key. After shift-right-clicking the key on the door, you linked the two and now using the key will open the door. Surely this key cannot open someone else's door.
 	</doorkey>
+	<ownerkey>
+		You are sharing your house with a friend, but when they tried to use any of your constructions, from the %s to the %s, all they got in return was a clear message of "not yours". Time to rectify this.
+	</ownerkey>
 	<crystalcell>
 		A great many types of items come in sixteen variants, one for each color of crystal energy. Sure, you could just dump them all into your magical etched-crystal storage device, but after mining out a dungeon and finding 23 different tools of six materials (who leaves a bronze sword in a random area underground?), the limit on item types is becoming insurmountable. Perhaps a storage cell dedicated to these crystalline items would mitigate the issue.
 	</crystalcell>
@@ -93,18 +96,27 @@
 	<killaura>
 		Amazingly, up until now you have been out of options for attacking a mob whose position you know but which you cannot see. Sure, you could break the barrier, but far better would be to simply attack them through walls. Accuracy, however, is not your strength, and the attack power can suffer for it.
 	</killaura>
-	<name>
-		
-	</name>
-	<name>
-		
-	</name>
-	<name>
-		
-	</name>
-	<name>
-		
-	</name>
+	<floatboots>
+		Much to your chagrin, it seems nearly every build you make requires that you hover at some arbitrary distance off the ground, at neither the ceiling nor the floor, and not even at the right height for a pillar of dirt to help. You could use the flying attachment to your chestplate, but hovering in one place burns an excessive amount of fuel. With that in mind, you recall the floating stone deposits in the world you recently visited; They may be exactly what you need. Attaching some floatstone to your boots - whatever type they may be - will not only grant you the ability to hover, but dampen any fall.
+	</floatboots>
+	<beeframe>
+		Bee breeding is slow. VERY slow. Sure, you have it easier now that you have a magic bronze box in which you can mash bees or their genes together and avoid the finicky nature of chance, but you still have to wait for the bees' lifecycle, something that often takes hours. Purple void frames are not common enough to be of much help, but maybe you can try making your own frames...
+	</beeframe>
+	<telecapsule>
+		You have gotten lost so many times that you probably have more resources sitting in random "when you return" chests than you have back at home, and now you have done it again. Fed up with this, you have created a tablet that will let you instantly warp back to where you inscribed it. However, you appear to have done a rather poor job of it, as the thing is nearly as dangerous as teleporting blindly and hoping you do not end up suffocating in a wall. At least you are free of those damn gas and lava pockets...
+	</telecapsule>
+	<caveexit>
+		The first days of building a base are inevitably bottlenecked by the acquisition of ores, even with the help of your various machines to grind, pulverize, mill, or otherwise process them to increase the yield. And that means mining. Lots of mining. Branch mining is boring and unproductive, so you recently took up cave mining...something which is now a clear mistake, given your tendency to get lost in the deepest layers. You may not know the way back out, but perhaps you can create something that can...
+	</caveexit>
+	<mobsonar>
+		The problem with caving, aside from the occasional pitfall into a ravine - and those should be avoidable by not being an idiot - is that no matter what you do, you are always forced to turn blind corners that more often than not hide one or more monsters who wish to kill you. You did have a radar you tried a while back, but its range was limited and your attempt at a moving version saw you exiled to another part of the world entirely. Perhaps you can try something more like sonar instead, this time without being accused of trying to gain unfair advantages by seeing that which you should not.
+	</mobsonar>
+	<structfind>
+		You already know about the buried - slightly and deeply - structures in various biomes, from which you have learned the bulk of your knowledge of manipulating crystal energy. However, when it comes time to look for a new one, you thus far have had to rely on sheer luck, which is neither enjoyable nor productive. If you could tap into the ambient energy field the structures seem to focus on, you might help expedite that search.
+	</structfind>
+	<splineattack>
+		As noted before, clusters of enemies are the most difficult arrangement to deal with, as focusing your attacks on one often mean being attacked by another with impunity. What you need is some sort of attack that can bridge the gap and jump between mobs, attacking them in rapid succession. And now you have it, though for some insane reason you keep getting asked if you need to whistle to use it.
+	</splineattack>
 	<name>
 		
 	</name>

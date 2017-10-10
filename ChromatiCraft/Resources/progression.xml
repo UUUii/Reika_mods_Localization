@@ -630,72 +630,72 @@
 			The villagers have tried - and abjectly failed - to learn to manipulate crystal energy.
 		</desc>
 	</villagecasting>
-	<name>
+	<anystruct>
 		<title>
-
+			Buried Ruins
 		</title>
 		<hint>
-
+			From cobblestone squares to ancient mines, it appears some have come before you; have they left anything else?
 		</hint>
 		<reveal>
-
+			Yes, including their attempts to learn the same things you now attempt.
 		</reveal>
-	</name>
-	<name>
+	</anystruct>
+	<focuscrystal>
 		<title>
-
+			Refractory Gems
 		</title>
 		<hint>
-
+			You have thought of a way to increase the power of your fabrication constructs, but what to use as a refractor?
 		</hint>
 		<reveal>
-
+			Who would have thought THEY had found the key...
 		</reveal>
-	</name>
-	<name>
+	</focuscrystal>
+	<artefact>
 		<title>
-
+			Mysterious Relics
 		</title>
 		<hint>
-
+			All around the world linger remnants of...something.
 		</hint>
 		<reveal>
-
+			Including particularly mysterious - and dangerous - ones found in certain regions.
 		</reveal>
-	</name>
-	<name>
+	</artefact>
+	<tower>
 		<title>
-
+			Glowing Towers
 		</title>
 		<hint>
-
+			The pylons are not the only luminous constructs you find around the world.
 		</hint>
 		<reveal>
-
+			The purpose these obelisks serve is a entirely unknown, but they must be key to something.
 		</reveal>
-	</name>
-	<name>
+	</tower>
+	<blowrepeater>
 		<title>
-
+			Lumen Overload
 		</title>
 		<hint>
-
+			These wooden lumen foci seem to work quite well...
 		</hint>
 		<reveal>
-
+			...Except when they explode trying.
 		</reveal>
-	</name>
-	<name>
+	</blowrepeater>
+	<chargecrystal>
 		<title>
-
+			Lumen Storage II
 		</title>
 		<hint>
-
+			A storage crystal is little more than a pretty rock without a way to put the energy into it.
 		</hint>
 		<reveal>
-
+			As is usual, a simple problem has a simple - and spinny - solution.
 		</reveal>
-	</name>
+	</chargecrystal>
 	<name>
 		<title>
 
