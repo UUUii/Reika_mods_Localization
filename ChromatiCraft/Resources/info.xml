@@ -1,8 +1,20 @@
-﻿<?xml version="1.0"?>
+<!--
+  @author Reika Kalseki
+  
+  Copyright 2018
+  
+  All rights reserved.
+  Distribution of the software in any form is only allowed with
+  explicit, prior permission from the owner.
+-->
+<?xml version="1.0"?>
 <info>
 	<elements>
 		You quickly realized that the magic elements that shape and drive the world are divided into sixteen types, each with an associated color.
 	</elements>
+	<energy>
+		Crystal energy remains something of an enigma, but you have been able to determine some of its traits. At its core, it seems to be a fundamental aspect of reality, a kind of force of nature, akin to gravity or time. Indeed, it may well be the foundation upon which forces like those are built. While its workings do prove elusive, you should be able to begin to harness it for your own purposes, no different than one might harness the energy in coal or falling water. At the very least, it is neither a pile of arbitrary rites nor built on some sort of half-sapient set of eldritch metaphysics, like some of your other endeavors...
+	</energy>
 	<crystals>
 		Crystal energy, if it reaches a critical density, seems to coalesce and crystallize, forming interesting structures that radiate an aura related to the crystal. Aside from their obvious utility as a source of mild effect boosts, their stored crystal energy is clearly going to be invaluable. One wonders how they handle the corrupting influence of the Nether...
 	</crystals>
@@ -19,7 +31,7 @@
 		This world is strange, confusing, and unknown. You have no idea what drives or forms it, something you will need to learn before you can possibly begin to exploit it and bend the forces to your needs. Fortunately for you, you have a notebook of sorts, though you will need to populate it with information you collect as you explore and experiment.
 	</start>
 	<lexicon>
-		Seeing as you are learning this as you go along, you will be required to piece together your understanding from various fragments of information; rarely will one item or event hold all of the information you need. In particular, various notes, though incomplete on their own, might become more complete when assembled together. Also, for some reason, sneaking when navigating the book accelerates the process.
+		Seeing as you are learning this as you go along, you will be required to piece together your understanding from various fragments of information, supplemented by your own reasoning and experimentation; rarely will one item or event hold all of the information you need. In particular, various notes, though incomplete on their own, might become more complete when thought of together. Also, for some reason, sneaking when navigating the book accelerates the process.
 	</lexicon>
 	<crafting>
 		At first, the casting table seemed identical to a wooden worktable, but you soon realized that in that form it can only make the most basic of items. In all likelihood, you will need to build a structure around the table to help focus the energy and allow you to advance your crafting. Additionally, the directionality to the recipes is likely important; one can only hope that the logical mapping of upwards to North has been chosen.
@@ -66,15 +78,30 @@
 	<dimension3>
 		Long ago, you met someone who told you tall tales of equally tall (and broken) terrain, found only if one was to venture a ludicrous distance into the world. He also went on about his absurd plan to venture there...on foot. Lunacy, sure, but perhaps that volatile realm you have recently frequented has a similar (and hopefully nearer) outer region; You could call them the far...regions?. You never were very good at names.
 	</dimension3>
-	<name>
-		
-	</name>
-	<name>
-		
-	</name>
-	<name>
-		
-	</name>
+	<enchants>
+		You have found a way to magically imbue your tools with a purple glow and improve their usefulness, and later a way to even control what kind of bonus you wish to obtain. However, you have noticed something else: Using the %s, there are a series of powers not previously available to you, and on top of that others can be made more powerful.
+	</enchants>
+	<structurepasswords>
+		Upon - finally - completing a vast subterranean puzzle, you were struck with a random thought, though you as yet have no idea what it might mean or be related to. Nonetheless, having learned from past mistakes (you may never remember that idea you had for improving the fuel efficiency of your home base machinery), you have written these down for potential future reference.
+	</structurepasswords>
+	<turborepeater2>
+		A turbocharged repeater helps, but for the truly powerful constructs even they have proved unable to keep up. Perhaps a slight upgrade to their tower, replacing some parts with more energetic variants, could improve them even further.
+	</turborepeater2>
+	<abilities>
+		Powerful constructs and tools are plenty useful, but they are not a valid solution to every potential need. In particular, you may not have the inventory space to cart around 41 kinds of tools, and digging out the correct one can be rather too slow for the more urgent situations. Additionally, you have heard stories about lands where the use of such tools is forbidden, and the tools are made to disappear from your very hands. If you could imbue your own body with those powers instead, triggerable on demand, powered from your own personal energy storage, both issues would be solved.
+	</abilities>
+	<dimtuning>
+		This new world is somewhat difficult to get a handle on, not only figuratively, but also literally; thus far the portal has been somewhat...out of phase, akin to a radio tuned slightly off of a station. This has prevented you from properly interacting with much of it; entire areas remain inaccessible, and several formations and structures are impossible to make use of. Clearly you need to refine this...tuning, so that you can properly mesh with the fabric of this world and venture where you wish and harvest what you please.
+	</dimtuning>
+	<casttuning>
+		As your casting process grows ever more complicated, involving more interacting parts and more intricate procedures, you are encountering more and more recipes which cannot be done without "imprinting" the casting structure with some aspect of yourself. Hopefully this will carry that imprint onto the things which it constructs, thus enabling them to be permanently tied to yourself and your efforts.
+	</casttuning>
+	<multiblocks>
+		It is becoming clear at this point that in order to properly harness and manipulate crystal energies, you are going to need more than a simple block here or there. In particular, anything involving crafting, handling energy, or infusing one thing into another seems to require a fairly large construction. Given their size and number, and possible environmental considerations, it would be wise to build most or all of these - especially any that have anything to do with crafting or the pylons - outside.
+	</multiblocks>
+	<pylonlink>
+		Having connected various colors of pylon to your network, you quickly learned that their energy sources are not infinite; they will deplete and require significant time to recharge. You may to find a way to improve that later, but for now, the fact you have many pylons of any given color, all useless without being directly connected with repeaters, proves too irksome to ignore. However, a clue from a strange structure with a beaconlike aura provided an insight: linking the pylons themselves. If you can pull this off, they will effectively become one large energy buffer, with recharge rate to match.
+	</pylonlink>
 	<name>
 		
 	</name>
