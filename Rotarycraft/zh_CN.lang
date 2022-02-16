@@ -134,9 +134,9 @@ machine.hydrator=洒水器
 machine.filler=方块填充器
 machine.gatling=加特林炮台
 machine.spillway=汲液器
-machine.flameturret=纵火器
+machine.flameturret=火焰炮塔
 machine.bundledbus=ME集束输出总线
-machine.distribclutch=分配离合器
+machine.distribclutch=轴分配离合器
 
 engine.dc=直流电动引擎
 engine.wind=风力涡轮机
