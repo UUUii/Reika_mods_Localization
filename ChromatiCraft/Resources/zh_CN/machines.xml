@@ -9,8 +9,9 @@
 			好的。当然了，不同颜色的能量，拥有的效果也不一样。
 		</desc>
 		<note>
-			每种类型都分为％d个等级，等级愈高，其愈加强大；
+			每种类型都分为%d个等级，等级愈高，其愈加强大；
 			在“本质”没有聚集的地方，局部效果或会不甚明显。
+			但是它们只能在紧贴着的方块上工作。
 		</note>
 		<black>
 			抛开能量水晶不谈，你可怜的水晶塔现在已经超负荷工作很久了
@@ -41,9 +42,6 @@
 			的耗能都无法赶上它们的需求。或者你可以考虑直接把石头变成
 			矿石，而这次你不用再假定基岩拥有创造矿石的魔法能力了。
 		</brown>
-		<blue>
-			无
-		</blue>
 		<purple>
 			就像与它的相关联的水晶元素一样，这个核心并不是为了一个独
 			特的功能，而是为了提高在它附近所能发生的任何事情的能力。
@@ -125,14 +123,13 @@
 			可阻止%d格方块范围内的方块放置、方块破坏以及打开GUI操作；
 			所有人和管理员拥有控制权限；
 			所有人可用指令 /guardstone add(或者remove移除)&#60;玩家名&#62; 
-			来添加或移除对指定玩家的授权。
+			来添加或移除对指定玩家的授权。或者使用授权键。
 		</desc>
 		<note>
 			可阻止%d格方块范围内的方块放置、方块破坏以及打开GUI操作；
 			所有人和管理员拥有控制权限；
 			所有人可用指令 /guardstone add(或者remove移除)&#60;玩家名&#62; 
-			来添加或移除对指定玩家的授权。 <!-- The &# tags are for angle 
-			brackets. Do not touch those.   在此行，此条内容无法显示.-->
+			来添加或移除对指定玩家的授权。 
 		</note>
 	</guardian>
 	<stand>
@@ -198,7 +195,7 @@
 			方法的。
 		</desc>
 		<note>
-			范围：%d方块，含发送和接收
+			可以双击来显示大概的连接范围。
 		</note>
 	</repeater>
 	<weakrepeater>
@@ -289,7 +286,7 @@
 			时摔死在结冰的水面上。(啊好疼)
 		</desc>
 		<note>
-
+			可以给周围的植物提供热量。
 		</note>
 	</heatlily>
 	<ticker>
@@ -339,11 +336,12 @@
 		<desc>
 			光可以聚焦为一束激光，这就是你为什么可以利用合适的透镜对流
 			明能量如法炮制的原因。这就是本设备的功能。你可以用它来聚焦
-			任意一种颜色的能量为一道激光，最远可达%d格－同时还能带来颜
-			色对应的特效。现在，若是你对每种颜色的效果了如指掌的话...
+			任意一种颜色的能量为一道激光，最远可达%d格－同时还能为光线
+			中的方块和实体带来颜色对应的特效。
 		</desc>
 		<note>
-
+			效果:
+			%s
 		</note>
 	</laser>
 	<itemrift>
@@ -354,7 +352,9 @@
 			这一个，正是你曾看到的那个设备的长距离加强版。
 		</desc>
 		<note>
-
+			光线不可被阻挡
+			
+			如果提供 %s 能量，可被加速
 		</note>
 	</itemrift>
 	<crystal>
@@ -459,8 +459,12 @@
 			直接利用水晶碎片的魔法能量，药水酿造也随之变得更具性价比了。
 		</desc>
 		<note>
+			可以直接用水瓶酿药
+			
 			普通碎片可产生持续3:00的等级I药水；
 			增幅碎片可产生持续8:00的等级II药水。
+			
+			一些碎片可以酿出特殊的效果
 		</note>
 	</brewer>
 	<ritual>
@@ -588,7 +592,7 @@
 			的解。
 		</desc>
 		<note>
-
+			可被红石信号关闭
 		</note>
 	</farmer>
 	<automator>
@@ -600,7 +604,11 @@
 			统让它们自动进行，这样便可节约大量时间。
 		</desc>
 		<note>
-
+			支持重复制作
+			
+			如果存在一个物品的多个配方，可以标记一个为优先
+			
+			配方支持通过辞典或是相关物品选择
 		</note>
 	</automator>
 	<biomepainter>
@@ -634,7 +642,7 @@
 			心悦目，也不方便维护了。要是有无线传输这种能源的方式就好了。
 		</desc>
 		<note>
-
+			只能发往比它更低的方快，并且不能离得太远，最大距离 %dm
 		</note>
 	</rfdistributor>
 	<fluiddistributor>
@@ -644,7 +652,7 @@
 			你应该能如同传送能量一样传送液体.
 		</desc>
 		<note>
-
+			只能发往比它更低的方快，并且不能离得太远，最大距离 %dm
 		</note>
 	</fluiddistributor>
 	<window>
@@ -655,6 +663,7 @@
 		<note>
 			需要水晶质石材组成的框架，例如水晶之石、重盾石或者黑曜石，
 			同时需要与另一端配对连接。
+			只能单向链接，但是可以支持多个连接
 		</note>
 	</window>
 	<music>
@@ -664,8 +673,11 @@
 			水晶矩阵的旋律所产生的莫名的熟悉感。
 		</desc>
 		<note>
-
-
+			支持16个并行通道和 MIDI 文件
+			
+			可以放在一个中继器网络中触发中继器特效，可放置在下界石英和水晶石顶部
+			
+			放在下界石英顶部可以广播音乐
 		</note>
 	</music>
 	<turret>
@@ -678,6 +690,8 @@
 		<note>
 			需要暴露在天空下，并需要附近有敌对生物作为目标。
 			可通过在其下方放置不同种类的符文来升级。
+			
+			%s
 		</note>
 	</turret>
 	<pylonturbo>
@@ -704,7 +718,7 @@
 			充能点，另外它本身也是精美的装饰品。
 		</desc>
 		<note>
-
+			不可用于供能
 		</note>
 	</personal>
 	<cloaking>
@@ -751,7 +765,7 @@
 			价不菲。你提出了一种新的解决方案，这是一朵可以自动从附近
 			抽取液体的花，它会把抽到的液体混合起来并将产物直接以物品
 			形式丢在地上。除了圆石，若是配方正确，它还能产生一些别的
-			东西。
+			东西。或许？可以试试。
 		</desc>
 		<note>
 
@@ -784,10 +798,14 @@
 			你不止一次发现，你需要不断地往一些根本不支持物流的容器中
 			放物品。你早已厌倦了往石头盆子中丢糖，也早已厌倦了往彩能
 			液体中丢浆果。你需要想办法做到自动化，然后集中精力做一些
-			更有趣的事情。
+			更有趣的事情。不幸的是，这东西用起来虽然很灵活，但是操作
+			相当复杂，您需要逐个设置连接。
 		</desc>
 		<note>
-
+			用连接器设置位置
+			
+			对应面上输入红石信号来禁用对应槽位:
+			%s
 		</note>
 	</inserter>
 	<essentiarelay>
@@ -801,7 +819,9 @@
 			极好的。
 		</desc>
 		<note>
-
+			将会不断尝试填满有标签的罐子
+			
+			可以拓展搜索范围
 		</note>
 	</essentiarelay>
 	<glowfire>
@@ -812,7 +832,7 @@
 			就是分解后者，并重组为前者。看上去并没有出差错...
 		</desc>
 		<note>
-
+			其中的能量会缓慢泄漏，同时，当接近临界点的时候，会发生能量爆发。
 		</note>
 	</glowfire>
 	<broadcast>
@@ -849,7 +869,8 @@
 			加复杂的红石机关，因此你还需要寻找更美观的替代品。
 		</desc>
 		<note>
-
+			具有多个敏感度/过滤设置，包括仅限敌对生物、仅限凋落物和全
+			部生物。默认为仅限所有者使用。
 		</note>
 	</lumenwire>
 	<particles>
@@ -911,7 +932,9 @@
 			的效率会比较低
  </desc>
 		<note>
-
+			最大传输范围 %dm
+			
+			可以把 %s 的能量广播到 %ss
 		</note>
 	</wireless>
 	<areabreaker>
@@ -926,7 +949,9 @@
 			选择。
 		</desc>
 		<note>
-
+			需要红石信号
+			
+			最大范围 %dm
 		</note>
 	</areabreaker>
 	<teleport>
@@ -959,6 +984,8 @@
 		</desc>
 		<note>
 			放在花旁边的植物决定了它会破坏的类型
+			
+			需要露天
 		</note>
 	</harvestplant>
 	<alveary>
@@ -973,8 +1000,97 @@
 			入水晶中继器。
 		</desc>
 		<note>
-			%s
+			每种一个
+			
+			效果可被控制
 		</note>
+		<RainBoostEffect>
+			雨水爱好
+		</RainBoostEffect>
+		<ProductionBoostEffect>
+			双倍产物
+		</ProductionBoostEffect>
+		<NoProductionEffect>
+			产物销毁
+		</NoProductionEffect>
+		<EnhancedEffectEffect>
+			增强环境的效果
+		</EnhancedEffectEffect>
+		<MutationBoostEffect>
+			增加变异率
+		</MutationBoostEffect>
+		<FloweringBoostEffect>
+			增加授粉速度
+		</FloweringBoostEffect>
+		<AutomationEffect>
+			在生命周期结束时，自动将生成的公主蜂和雄蜂交配
+		</AutomationEffect>
+		<AccelerationEffectI>
+			二倍加速蜂后死亡
+		</AccelerationEffectI>
+		<AccelerationEffectII>
+			四倍加速蜂后死亡
+		</AccelerationEffectII>
+		<AccelerationEffectIII>
+			八倍加速蜂后死亡
+		</AccelerationEffectIII>
+		<LightningProductionEffect>
+			雷击超频
+		</LightningProductionEffect>
+		<HistoryRewriteEffect>
+			物种纯化
+		</HistoryRewriteEffect>
+		<GeneticBalancingEffect>
+			种族提升
+		</GeneticBalancingEffect>
+		<GeneticStabilityEffect>
+			稳定遗传
+		</GeneticStabilityEffect>
+		<GeneticImmutabilityEffect>
+			永垂不朽
+		</GeneticImmutabilityEffect>
+		<GeneticFluxEffect>
+			四倍突变
+		</GeneticFluxEffect>
+		<ExplorationEffect>
+			极大提高活动范围
+		</ExplorationEffect>
+		<GeneticImprovementEffect>
+			逐渐提升蜜蜂性状
+		</GeneticImprovementEffect>
+		<TemperatureMatchingEffect>
+			温度适应
+		</TemperatureMatchingEffect>
+		<HumidityMatchingEffect>
+			湿度适应
+		</HumidityMatchingEffect>
+		<GeneticRepairEffectI>
+			缓慢返祖
+		</GeneticRepairEffectI>
+		<GeneticRepairEffectII>
+			快速返祖
+		</GeneticRepairEffectII>
+		<EternalEffect>
+			永世蜜蜂永生不死
+		</EternalEffect>
+		<PlayerRestrictionEffect>
+			效果仅对玩家生效
+		</PlayerRestrictionEffect>
+		<ElementalBoostEffect>
+			极大加强了相应水晶蜂的环境效果
+		</ElementalBoostEffect>
+		<InfiniteSightEffect>
+			将非气候环境需求的检测范围扩大到无限大
+		</InfiniteSightEffect>
+		<OmnipresentEffectEffect>
+			蜜蜂效果作用范围无限
+		</OmnipresentEffectEffect>
+		<RareDropBoostEffect>
+			极大地增加了稀有产物的产率
+		</RareDropBoostEffect>
+		<name>
+			
+		</name>
 	</alveary>
 	<fluidrelay>
 		<desc>
@@ -986,6 +1102,9 @@
 		</desc>
 		<note>
 			正压将液体倒入机器，负压将液体从机器导出
+			零压或负压将会泵入，零压或正压被泵出
+			
+			过滤器可以设置为当前的储罐内容，或者在启用动态过滤的情况下，随着时间的推移不断更新
 		</note>
 	</fluidrelay>
 	<bookdecomp>
@@ -1072,10 +1191,12 @@
 			农场的决定感到有点后悔，因为它的轮廓使得任何这样的装置的放
 			置都相当尴尬。要解决这个尴尬的情况，其中一个可行的方案是创
 			造某种和中继器类似的东西，并将它放置在主结构的有效区域内，
-			这样它将会把机器对它的影响扩散到它自己能达到的范围内。
+			这样它将会把机器对它的影响扩散到它自己能达到的范围内。也就
+			是说，当构造指向了中继器所占据的位置时，其效果将改为应用于
+			中继器自身范围内的区域。
 		</desc>
 		<note>
-
+			这个 %s 可以延申以下结构的范围:
 		</note>
 	</functionrelay>
 	<multibuilder>
@@ -1090,7 +1211,7 @@
 			的时候，有一个东西能模仿你放置或破坏的动作            
 		</desc>
 		<note>
-			源晶魔杖右击改变放置方块的范围，空手右击改变区域数量
+			源晶魔杖右击改变放置方块的范围（侧面），空手右击改变区域数量（顶部）
 			
 		</note>
 	</multibuilder>
@@ -1106,7 +1227,7 @@
 			它们破坏机器周围的环境。
 		</desc>
 		<note>
-
+			基础范围: %dm
 		</note>
 	</explosionshield>
 	<aurapoint>
@@ -1132,7 +1253,9 @@
 			以更高效率从花朵中吸取出能量的东西。
 		</desc>
 		<note>
-
+			需要可以抵达的路径来使得其运行
+			
+			只能作用于 %dm 范围内的花, 并在 %dm 能量消失
 		</note>
 	</manabooster>
 	<progresslink>
@@ -1246,7 +1369,8 @@
 			的策略是否能应用在自己身上。尤其，它将是对使用这种注入
 			物来提高你身体存储能量的能力有所帮助的，从而允许你在任
 			何时候都有大量的能量围绕于你。显然，这将需要更精良的结
-			构，但不应要求你去重新设计。
+			构，但不应要求你去重新设计。也就是说，你将需要两个独立
+			的结构。
 		</desc>
 		<note>
 

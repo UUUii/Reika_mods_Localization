@@ -15,7 +15,7 @@
 		</desc>
 		<note>
 			Each type comes in %d tiers, each tier being more powerful than the last
-			Localized effects may be ineffective over things whose essence is less concentrated
+			Localized effects may be ineffective over things whose essence is less concentrated, but usually still work on singular machines which just occupy more than one block
 		</note>
 		<black>
 			Power crystals or not, your poor pylons are so heavily overloaded that your network is more gray balls of sadness than glowing beacons of energy. You do not yet have the means to improve their capabilities directly, but maybe you can reduce the load...
@@ -29,9 +29,6 @@
 		<brown>
 			Ores are a thing that you never really notice you need until you completely run out. Sure, you could create a world out of nothing but paper, ink, and cryptic scribbles - and have it eaten in minutes by white goo if you so much as think about increasing ore yield - or plop down a wall of mining machines and spend more power than an entire country does in a year. Or you could just convert raw stone into ore, and this time without pretending that bedrock has some magic ore-creation capability.
 		</brown>
-		<blue>
-		
-		</blue>
 		<purple>
 			Like its associated crystal element, this core is not so much for one distinct function as it is for bettering the abilities of whatever it happens to be put next to. As for exactly what that means, you only hope that experimentation will prove fruitful instead of fissile.
 		</purple>
@@ -74,7 +71,7 @@
 			Protects against block placement and breaking, and the opening of GUIs within a %d block range
 
 			Owners and admins always have permissions
-			The owner can also use /guardstone add/remove &#60;player&#62; to allow/deny others access <!-- The &# tags are for angle brackets. Do not touch those. -->
+			The owner can also use ownership keys or the command /guardstone add/remove &#60;player&#62; to allow/deny others access <!-- The &# tags are for angle brackets. Do not touch those. -->
 		</note>
 	</guardian>
 	<stand>
@@ -114,7 +111,7 @@
 			Your initial foray into transmitting lumen energy was a disaster. The basic wooden repeaters you created only marginally served their purpose, proving vulnerable to violent failure. In hindsight, wood was a monumentally foolish material to choose. Perhaps the crystal you have used so much of would be a better choice, being able to better focus and relay the energy rather than leaking and absorbing it. A rune to focus a specific color would improve them even better, though that would mean restricting it to only that color of transmission. You may find a way around that too...later.
 		</desc>
 		<note>
-			
+			Can "double-ping" to visualize approximate connectivity range
 		</note>
 	</repeater>
 	<weakrepeater>
@@ -168,7 +165,7 @@
 			You, in your (less than) infinite wisdom, decided to make a sugarcane farm in a snow biome. It worked perfectly...until the water froze and your sugarcane rotted on the ground. You need some way to heat the water and stave off the cold in a small area around the farm. Maybe if you used some essence of those mechanical-sounding fire creatures from the Nether bridges, you could make a plant that not only served that purpose, but was aesthetically pleasing as well. This should also help prevent your high-drop landing pools from freezing over. (Ow.)
 		</desc>
 		<note>
-
+			Can supply its heat to related flora nearby
 		</note>
 	</heatlily>
 	<ticker>
@@ -202,10 +199,11 @@
 	</furnace>
 	<laser>
 		<desc>
-			Standard light can be focused into a beam, so it stands to reason that you can do the same with lumen energy with the appropriate lens. That is exactly the function of this device. With it, you can focus energy of any color in a thin beam along a line of blocks - up to %d blocks away - thus applying the effects of that color. Now if only you had any idea what each color did...
+			Standard light can be focused into a beam, so it stands to reason that you can do the same with lumen energy with the appropriate lens. That is exactly the function of this device. With it, you can focus energy of any color in a thin beam along a line of blocks - up to %d blocks away - thus applying the effects of that color to blocks or entities in the ray.
 		</desc>
 		<note>
-
+			Effects:
+			%s
 		</note>
 	</laser>
 	<itemrift>
@@ -213,12 +211,14 @@
 			Sure, whenever items need to be moved, you could just run a line of pipes, but those can become unsightly and hard to navigate. This has been something annoying you for years; long ago, you remember seeing a pair of attachments you could place onto the inventories to "beam" the items between them, but these were limited to a single block of range. At the time, it seemed trivial to replicate them into a longer-distance and more dynamic form, but your skills then proved insufficient. Maybe now is time to try again; maybe this idea can be rescued from its abandonment.
 		</desc>
 		<note>
+			Requires line of sight
+			
 			Can be accelerated with %s energy
 		</note>
 	</itemrift>
 	<crystal>
 		<desc>
-			Once you started to do a lot of pylon-driven crafting, or started to charge yourself with large quantities of crystal energy, you made a crucial observation: Pylons are not infinite, but lose their color as they are drained. Granted, they do recharge, but slowly - though planting similarly colored trees around them helps a bit. However, you have found that these crystals, being raw elemental energy cast into crystal form, can dramatically increase the charging speed of a pylon, with a full, balanced ring of eight speeding it up enormously.
+			Once you started to do a lot of pylon-driven crafting, or started to charge yourself with large quantities of crystal energy, you made a crucial observation: Pylons are not infinite, but lose their color as they are drained. Granted, they do recharge, but this is enormously slow. However, you have found that these crystals, being raw elemental energy cast into crystal form, can dramatically increase the charging speed of a pylon, with a full, balanced ring of eight speeding it up enormously.
 		</desc>
 		<note>
 
@@ -280,8 +280,12 @@
 			Everyone loves making potions...OK, no. Between collecting a hideous red weed that seems to grow so slowly you could mine a chunk before it grew, to fiddling with arcane procedures that seem designed as a last-resort replacement for something even worse, to burning through valuable ingredients for effects that last mere minutes - and at the expense of a boosted effect too! - nobody sane enjoys this process. At the very least, maybe, you can forgo most of the process by using the energy from the crystal shards instead, making the process actually worth your time.
 		</desc>
 		<note>
+			Can make potions directly from water bottles
+			
 			Standard shards yield Level I 3:00 potions
 			Boosted shards yield Level II 8:00 potions
+			
+			Some shards have special effects to modify potions
 		</note>
 	</brewer>
 	<ritual>
@@ -334,7 +338,7 @@
 	</lamp>
 	<powertree>
 		<desc>
-			Even with power crystals in place, pylons still remain incapable of handling very heavy load. That, combined with the tedium of venturing to them every time you need to recharge yourself, leads you to dream of a way to store energy in larger quantities, effectively a battery. Obviously a simple box would not be the correct approach, but maybe if you built some sort of structure, it could grow organically. As long as the energy remains pure...
+			Even with power crystals in place, pylons still remain incapable of handling very heavy load. That, combined with the tedium of venturing to them every time you need to recharge yourself or some devices, leads you to dream of a way to locally store energy in larger quantities, effectively a battery. Obviously a simple box would not be the correct approach, but maybe if you built some sort of structure, it could grow organically. As long as the energy remains pure...
 		</desc>
 		<note>
 			Capacity: %d+%dn^%d, where n is the number of leaf blocks
@@ -365,7 +369,7 @@
 			Harvesting crops is somewhat of a hassle. Doing it manually is extremely slow and ineffective, and those fans you used, while they work, are loud and tend to send items flying. Channelling nature-based energy is likely to provide a superior solution.
 		</desc>
 		<note>
-
+			Can be disabled with a redstone signal
 		</note>
 	</farmer>
 	<automator>
@@ -373,7 +377,11 @@
 			Though less of a hassle than some other fabrication systems - that pyramidal altar nearly left you dead on the table - your casting system can still be tedious, particularly with recursive crafting that can take quite a bit of time. You DID create a device for placing items in stands automatically, but it is slow, limited to a few recipes, and cannot actually start the crafting, meaning you are still forced to be involved. This is where an idea hits you - you should be familiar enough with some of these recipes that you might be able to build on that device, adding what is missing and finally achieving proper automation.
 		</desc>
 		<note>
-
+			Supports repeated crafting
+			
+			Where multiple recipes for component recipes exist, one can be marked as priority
+			
+			Recipes can additionally be selected via the lexicon or with a corresponding item
 		</note>
 	</automator>
 	<biomepainter>
@@ -397,7 +405,7 @@
 			You thought that it could hardly get any easier with this kind of power; simply hook up the conduits from a generator to a machine and everything worked. However, you were still presented with one final dilemma: When grouping machines together, the cluster of cables is both unsightly and inconvenient to navigate around. Some way to transmit that power wirelessly from above would solve this problem.
 		</desc>
 		<note>
-
+			Can only send to blocks that are below it and that it can path towards without large deviation, and to a maximum range of %dm
 		</note>
 	</rfdistributor>
 	<fluiddistributor>
@@ -405,7 +413,7 @@
 			Noting the similarity between this red-tinted magic power and the way fluids tend to flow - one would almost think they were designed by the same person - you figure: If you can make one to radiate the power, surely you can make one to radiate fluid as well.
 		</desc>
 		<note>
-
+			Can only send to blocks that are below it and that it can path towards without large deviation, and to a maximum range of %dm
 		</note>
 	</fluiddistributor>
 	<window>
@@ -414,6 +422,8 @@
 		</desc>
 		<note>
 			Requires a square frame of crystal-based stone, such as crystalline stone, shielding stone, or obsidian, and to be linked to another location
+			
+			Connections are unidirectional but a given window can participate in multiple connections
 		</note>
 	</window>
 	<music>
@@ -421,6 +431,8 @@
 			How many times have you banged out a tune on the different colors of crystals? With your new device, you should be able to attain even greater musical fidelity, complete with greater range, chord capability, and even - somehow - an oddly familiar melody that came pre-etched into the crystal matrix.
 		</desc>
 		<note>
+			Supports 16 parallel channels and MIDI compatibility
+			
 			Can be connected to a repeater network to play the repeaters with the music; place on top of Nether Quartz or Crystalline Stone
 			
 			Place on top of Nether Quartz to broadcast the sound
@@ -431,8 +443,10 @@
 			If you had an emerald for every time a creeper ambushed you right as you left your front door, you would have enough to be able to afford trading with villagers. Frustrated with this repeated occurrence, you have designed a small construct which can fire energy into nearby hostiles, ultimately killing them. Now all they need is a high-pitched voice and a polite demeanor...
 		</desc>
 		<note>
-			Requires a clear view of the sky and the target mob to function
-			Can be upgraded with different runes below it
+			Normally requires a clear view of the sky and the target mob to function
+			Can be upgraded with different runes below it to modulate behavior:
+			
+			%s
 		</note>
 	</turret>
 	<pylonturbo>
@@ -449,7 +463,7 @@
 			Ever since you first started discovering and making use of the pylons, basically every person you have met has cracked some joke about how you should construct more of them. If you could do THAT, you would have already done so, not still be wasting time flying out to the ones you found so as to charge yourself off of them. Perhaps another attempt at an imitation for charging purposes is in order...
 		</desc>
 		<note>
-
+			Cannot be used to supply other constructs
 		</note>
 	</personal>
 	<cloaking>
@@ -478,7 +492,7 @@
 	</reverter>
 	<cobblegen>
 		<desc>
-			You never think you would run out of cobblestone...until you actually do. Sure, you could mine more out of the ground, but you have better things to occupy your time. You know that mixing water and lava will make cobblestone, but automating that process is messy and often costly. One solution would be a flower that would pull up the required liquid from nearby pools, mixing it and dropping the result. It might even be able to make things other than cobblestone given the correct input liquids.
+			You never think you would run out of cobblestone...until you actually do. Sure, you could mine more out of the ground, but you have better things to occupy your time. You know that mixing water and lava will make cobblestone, but automating that process is messy and often costly. One solution would be a flower that would pull up the required liquid from nearby pools, mixing it and dropping the result. It might even be able to make things other than cobblestone given the correct input liquids. As to what...some experimentation may be required.
 		</desc>
 		<note>
 
@@ -502,12 +516,13 @@
 	</cropspeed>
 	<inserter>
 		<desc>
-			You have repeatedly found yourself manually adding items to constructs that cannot be connected to normal item transport. You long ago tired of dropping stack after stack of sugar into a stone basin, or of berries into a puddle of chroma. You need a way to automate that process before you give up and find something less of a hassle to work with.
+			You have repeatedly found yourself manually adding items to constructs that cannot be connected to normal item transport. You long ago tired of dropping stack after stack of sugar into a stone basin, or of berries into a puddle of chroma. You needed a way to automate that process before you give up and find something less of a hassle to work with. Unfortunately, what you came up with is, while flexible, fairly complicated to use, where you need to connect the item flows on a connection-by-connection basis.
 		</desc>
 		<note>
 			Link to a location with the linking tool
 			
-			Redstone input to a side disables the corresponding slot
+			Redstone input to a side disables the corresponding slot:
+			%s
 		</note>
 	</inserter>
 	<essentiarelay>
@@ -525,7 +540,7 @@
 			Some things you never have enough of, in particular diamonds, shards, and iron (the last of which was not helped by your attempts to build a turbine the size of a small house). Other things you have so much of that your biggest problem is storing it somewhere. What would be most convenient would be to be able to decompose the latter into energy with which you could cast the former. Surely nothing could go wrong with this sort of exchange project, though early experimentation indicates that the value of what you get and what you fed in may not necessarily be equivalent...
 		</desc>
 		<note>
-
+			Energy containment is imperfect, and will leak slowly at first but may trigger larger discharges when stored energy levels are high
 		</note>
 	</glowfire>
 	<broadcast>
@@ -549,7 +564,7 @@
 			You took three steps into a ruined, overgrown stone structure deep in the jungle and were rewarded with an arrow to the face. Primitive as they might be, tripwires are an effective trap or other detector. However, they are just that - primitive. Not all constructions are amenable to redstone connectivity, and you would far prefer something a bit more visually appealing.
 		</desc>
 		<note>
-
+			Has several sensitivity/filter settings, including hostiles-only, drops only, and "all living". Defaults to owner-only.
 		</note>
 	</lumenwire>
 	<particles>
@@ -589,6 +604,8 @@
 			You are already very familiar with the fact that certain constructs require energy. Most draw that energy directly off the repeater network, and some use the relay system. However, others seem to need to be in proximity to a node of sorts, which weakly radiates energy around it. It even appears to be capable of passing through solid barriers, though it unsuprisingly is rather less efficient when it does.
 		</desc>
 		<note>
+			Maximum transmission range of %dm
+			
 			Can be built on a %s to broadcast power to other %ss
 		</note>
 	</wireless>
@@ -598,6 +615,8 @@
 		</desc>
 		<note>
 			Requires a redstone signal
+			
+			Maximum range of %dm
 		</note>
 	</areabreaker>
 	<teleport>
@@ -607,7 +626,12 @@
 		<note>
 			Can be toggled into private mode (purple), as well as between arrival/departure only (red/yellow).
 			
-			GUI Color Statuses: White = Available; Red = Owned by Other; Yellow = Unpowered; Magenta = No Structure; Blue = Other Dimension
+			GUI Color Statuses:
+			White = Fully Available
+			Red = Owned by Other
+			Yellow = Unpowered
+			Magenta = No Structure
+			Blue = Other Dimension
 		</note>
 	</teleport>
 	<harvestplant>
@@ -616,6 +640,8 @@
 		</desc>
 		<note>
 			Checks the flowers adjacent to it to know what to break
+			
+			Requires direct sunlight to function
 		</note>
 	</harvestplant>
 	<alveary>
@@ -623,15 +649,107 @@
 			Untold piles of wax, jelly, and pollen later, and now poorer some 27 drums of honey, you finally have it: The pinnacle of your apiculture abilities, large structures to keep your bees as happy as possible and to maximize their productivity (wooden boxes, treated or not, proved lacking in that regard). And they help, but you still want MORE. More speed, more products, more everything. So an idea occurs to you: Lumen-powered bees! Well, more accurately, using the lumen energy to enhance them, or of the housing itself. You might even be able to plug it into those crystal relays from that glowy sparky thing you made as well.
 		</desc>
 		<note>
-			%s
+			One per alveary
+			
+			Effect choices can be controlled
 		</note>
+		<RainBoostEffect>
+			Increases productivity when the alveary is exposed to rain
+		</RainBoostEffect>
+		<ProductionBoostEffect>
+			Doubles productivity
+		</ProductionBoostEffect>
+		<NoProductionEffect>
+			Prevents item production
+		</NoProductionEffect>
+		<EnhancedEffectEffect>
+			Increases the strength of applied ambient effects
+		</EnhancedEffectEffect>
+		<MutationBoostEffect>
+			Increases mutation rate
+		</MutationBoostEffect>
+		<FloweringBoostEffect>
+			Increases flowering rate
+		</FloweringBoostEffect>
+		<AutomationEffect>
+			Automatically cycles resultant princesses and drones back to the input at the end of the lifecycle
+		</AutomationEffect>
+		<AccelerationEffectI>
+			Doubles alveary tick rate
+		</AccelerationEffectI>
+		<AccelerationEffectII>
+			Quadruples alveary tick rate
+		</AccelerationEffectII>
+		<AccelerationEffectIII>
+			Octuples alveary tick rate
+		</AccelerationEffectIII>
+		<LightningProductionEffect>
+			Lightning strikes trigger brief bursts of massively increased productivity
+		</LightningProductionEffect>
+		<HistoryRewriteEffect>
+			Rewrites bee mate genetics to match self
+		</HistoryRewriteEffect>
+		<GeneticBalancingEffect>
+			Slowly matches primary and seconary alleles, and very slowly restores ignoble princesses or queens
+		</GeneticBalancingEffect>
+		<GeneticStabilityEffect>
+			Stops all mutation and slows decay
+		</GeneticStabilityEffect>
+		<GeneticImmutabilityEffect>
+			Stops all mutation and ignoble decay
+		</GeneticImmutabilityEffect>
+		<GeneticFluxEffect>
+			Quadruples mutation rate
+		</GeneticFluxEffect>
+		<ExplorationEffect>
+			Strongly increases territory size
+		</ExplorationEffect>
+		<GeneticImprovementEffect>
+			Gradually improves bee genes
+		</GeneticImprovementEffect>
+		<TemperatureMatchingEffect>
+			Makes the internal alveary temperature match the ideal value for the bee
+		</TemperatureMatchingEffect>
+		<HumidityMatchingEffect>
+			Makes the internal alveary humidity match the ideal value for the bee
+		</HumidityMatchingEffect>
+		<GeneticRepairEffectI>
+			Slowly repairs overworked and forced-ignoble queens
+		</GeneticRepairEffectI>
+		<GeneticRepairEffectII>
+			Quickly repairs overworked and forced-ignoble queens
+		</GeneticRepairEffectII>
+		<EternalEffect>
+			Makes Eon lifespan last forever
+		</EternalEffect>
+		<PlayerRestrictionEffect>
+			Restricts elemental effects to players only
+		</PlayerRestrictionEffect>
+		<ElementalBoostEffect>
+			Greatly strengthens the ambient effect for the corresponding crystal bee
+		</ElementalBoostEffect>
+		<InfiniteSightEffect>
+			Increases detection range for non-climatic environmental needs to infinity
+		</InfiniteSightEffect>
+		<OmnipresentEffectEffect>
+			Makes some effects apply to the player regardless of their proximity to the alveary
+		</OmnipresentEffectEffect>
+		<RareDropBoostEffect>
+			Greatly increases the chance of rare products
+		</RareDropBoostEffect>
+		<name>
+			
+		</name>
 	</alveary>
 	<fluidrelay>
 		<desc>
-			Fluids. Fluids EVERYWHERE. Water, lava, oil, honey, liquid nitrogen, cryotheum, and more, routed all over your base with a rat's nest of pipes and ducts. Sure, some of them can be hidden in walls or the floor, but it is still a pain to connect everything, and that time you accidentally disconnected a fluid line and half your base cratered itself remains painfully sharp in your memory. Though you obviously will still need to connect all the endpoints, there has to be a better way...
+			Fluids. Fluids EVERYWHERE. Water, lava, oil, chroma, honey, liquid nitrogen, jet fuel, cryotheum, and more, routed all over your base with a rat's nest of pipes and ducts. Sure, some of them can be hidden in walls or the floor, but it is still a pain to connect everything, and that time you accidentally disconnected a fluid line and half your base cratered itself remains painfully sharp in your memory. Though you obviously will still need to connect all the endpoints, there has to be a better way...
 		</desc>
 		<note>
 			Positive pressures try to push fluids, negative pressures try to pull
+			Only zero or negative pressure accept being pushed into, and only zero or positive being pulled from
+			
+			Filters can be set to the current tank contents, either once upon command or, with dynamic filtering enabled, continously updated over time
 		</note>
 	</fluidrelay>
 	<bookdecomp>
@@ -647,7 +765,7 @@
 			So you have a field of constructs, all generating or needing items. Sure, you could run a giant grid of item pipes, but that is boring, expensive, and ugly. What you want is the ability to connect them all through the aether to some central hub which would automatically pull and push items as necessary.
 		</desc>
 		<note>
-			Endpoints must be connected to the hub (by right-clicking) in order to be placed
+			The hub must be anchored on a valid storage (inventory, ME system, etc)
 		</note>
 	</routerhub>
 	<avolaser>
@@ -685,10 +803,10 @@
 	</fluxmaker>
 	<functionrelay>
 		<desc>
-			Certain constructs have areas of effect that is difficult to work with, making you now somewhat regret your decision to build a terrace farm whose contours make the placement of any such device rather awkward. One solution would be to create some sort of relay, that would be placed in the primary construct's area of effect and which would delegate said effect to its own more workable region.
+			Certain constructs have areas of effect that is difficult to work with, making you now somewhat regret your decision to build a terrace farm whose contours make the placement of any such device rather awkward. One solution would be to create some sort of relay, that would be placed in the primary construct's area of effect and which would delegate said effect to its own more workable region. That is, when the construct selected the location occupied by the relay, its effects would instead be applied to an area within the relay's own range.
 		</desc>
 		<note>
-
+			The %s can relay the effect of the following constructs:
 		</note>
 	</functionrelay>
 	<multibuilder>
@@ -696,7 +814,7 @@
 			For some applications, you find yourself needing to build either a structure consisting of a repeating unit, or multiple orderly-arranged multiblocks. Either case has generally proven tedious, as there is only so much enjoyment to be had in placing the same ten blocks over and over (and over and over and over) again. Your first attempt with a wooden axe proved utterly fruitless - whoever claimed it has magic capabilities is clearly about as sane as a house made of TNT - so what you may want to try is to mirror your actions when you build or break blocks.
 		</desc>
 		<note>
-			Interacting with a manipulator changes region size; empty hand changes cell count or region shape
+			Interacting with a manipulator changes region size; empty hand changes cell count (lateral) or region shape (top)
 		</note>
 	</multibuilder>
 	<explosionshield>
@@ -704,7 +822,7 @@
 			You found a way to convert between that magic fluidlike power and a more mechanical variant, a...manafetic...malgetonatic...macta...whatever. However, they require coolant, and when you tried to use them, your supply of said coolant apparently proved insufficient, as what you returned to was less a house and more a field of craters. You COULD hunt down the designer and leave them an immature rant, complaining about how they ruined your base, but a more dignified solution would be some sort of...shield. Something that, while it may not save the engines themselves, will prevent them from destroying their surroundings.
 		</desc>
 		<note>
-
+			Base Range: %dm
 		</note>
 	</explosionshield>
 	<aurapoint>
@@ -720,7 +838,9 @@
 			Pools of shiny blue liquid and flowers that eat cake, leaves, bread, and coal to make said liquid are nice, as are ones that turn this blue liquid into clay, item movement, dungeon loot, or forbidden knowledge. But there comes a time when you realize that in order to fully supply those flowers (disregarding the sunflower field that now looks more like a radiation accident), you need enough flowers and their preferred foods that you can barely move. Additionally, even the best spreaders can barely manage the load. What you need is something else which can pull from the flowers with a much greater efficiency.
 		</desc>
 		<note>
-
+			Requires an open though not necessarily direct path for mana to flow
+			
+			Mana bursts can only originate from flowers within %dm, and will fade away at distances over %dm
 		</note>
 	</manabooster>
 	<progresslink>
@@ -784,7 +904,7 @@
 	</voidtrap>
 	<playerinfuser>
 		<desc>
-			Having found a new way to directly imbue significant quantities of chroma into shards, you wonder if you could apply that same sort of strategy with your own body. In particular, it would be useful to use this infusion to enhance your body's ability to store energy, thus allowing you to carry more around at any time. Obviously, this will require refinements to the construct, but it should not necessitate a total redesign.
+			Having found a new way to directly imbue significant quantities of chroma into shards, you wonder if you could apply that same sort of strategy with your own body. In particular, it would be useful to use this infusion to enhance your body's ability to store energy, thus allowing you to carry more around at any time. Obviously, this will require refinements to the construct, but it should not necessitate a total redesign. That said, you will need two separate structures, as any refinements will prevent the original construct from working.
 		</desc>
 		<note>
 

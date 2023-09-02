@@ -442,6 +442,20 @@
 			能量让恶魔不敢接近。
 		</desc>
 	</rainbowforest>
+	<glowcliffs>
+		<title>
+			发光悬崖
+		</title>
+		<hint>
+			世界上只有魔法森林是魔法区域吗？会不会有罕见的例外？
+		</hint>
+		<reveal>
+			这个奇怪的新地方的每一层似乎都包含着新奇的现象、资源以及植物群。
+		</reveal>
+		<desc>
+			巨大的悬崖，有一种明显不同寻常的氛围
+		</desc>
+	</glowcliffs>
 	<dimension>
 		<title>
 			另一个世界
@@ -1052,7 +1066,21 @@
 			好似一本神奇的书
 		</desc>
 	</myst>
-	<name>
+	<biomestruct>
+		<title>
+			被遗弃的迷宫
+		</title>
+		<hint>
+			在富有魔力的生物群落中可能会发现什么？
+		</hint>
+		<reveal>
+			一旦建成，它包含的财富比迄今为止任何其他的建筑都多得多
+		</reveal>
+		<desc>
+			魔法森林中的一座建筑，在通过能力测试之前被封锁
+		</desc>
+	</biomestruct>
+	<farlands>
 		<title>
 			失落之城
 		</title>
@@ -1065,21 +1093,21 @@
 		<desc>
 			一个深藏于魔法森林中的建筑，需要用你的智慧激活
 		</desc>
-	</name>
-	<name>
+	</farlands>
+	<mudhint>
 		<title>
-			
+			蕴魔淤泥
 		</title>
 		<hint>
-			
+			这种神奇的材料能在自然中找到吗？当大量聚集时会发生什么？这种东西会随着时间的推移而分解吗？
 		</hint>
 		<reveal>
-			
+			彩虹树碎片飘落堆积，在下面形成了一种泥状物质。
 		</reveal>
 		<desc>
-			
+			魔法物质的残留物
 		</desc>
-	</name>
+	</mudhint>
 	<name>
 		<title>
 			

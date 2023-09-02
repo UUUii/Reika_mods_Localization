@@ -415,6 +415,20 @@
 			A magic forest, full of multicolored trees and with significant power to keep evil away
 		</desc>
 	</rainbowforest>
+	<glowcliffs>
+		<title>
+			Glowing Terraces
+		</title>
+		<hint>
+			Are all the magical areas in this world forests? Might there be rare exceptions?
+		</hint>
+		<reveal>
+			Every level of this strange new place seems to contain novel phenomena, resources, or flora.
+		</reveal>
+		<desc>
+			Large terraced cliffs, with a distinctly unusual ambience
+		</desc>
+	</glowcliffs>
 	<dimension>
 		<title>
 			Other Worlds
@@ -1003,7 +1017,7 @@
 			Constructed by a story
 		</desc>
 	</myst>
-	<biomefrag>
+	<biomestruct>
 		<title>
 			An Abandoned Puzzle
 		</title>
@@ -1016,21 +1030,35 @@
 		<desc>
 			A structure in a magic forest, locked down behind tests of skill
 		</desc>
-	</biomefrag>
-	<name>
+	</biomestruct>
+	<farlands>
 		<title>
-			
+			Outer Regions
 		</title>
 		<hint>
-			
+			Is this world the same forever?
 		</hint>
 		<reveal>
-			
+			No, areas distant from the entry point contain novel formations, materials, and...others.
 		</reveal>
 		<desc>
-			
+			New areas in a new world
 		</desc>
-	</name>
+	</farlands>
+	<mudhint>
+		<title>
+			Magical Residue
+		</title>
+		<hint>
+			Can magical materials be found naturally? What happens when large amounts congregate? Does this stuff break down over time?
+		</hint>
+		<reveal>
+			The debris falling off of rainbow trees accumulates and creates a muddy substance below.
+		</reveal>
+		<desc>
+			Residue of magical substances
+		</desc>
+	</mudhint>
 	<name>
 		<title>
 			
