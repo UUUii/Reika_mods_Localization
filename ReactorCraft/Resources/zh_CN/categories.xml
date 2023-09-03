@@ -18,6 +18,9 @@
 	<breederdesc>
 		这些是钠冷增殖反应堆或“液态金属快增殖反应堆”（LMFBR）的组件。
 	</breederdesc>
+	<thoriumdesc>
+		这些是液态钍反应堆的组件。它是裂变反应堆，但是其他相似类型的设计明显不同。
+	</thoriumdesc>
 	<fusiondesc>
 		这些是托卡马克磁约束核聚变反应堆的组件。
 	</fusiondesc>

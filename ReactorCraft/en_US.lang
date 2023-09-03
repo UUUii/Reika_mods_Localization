@@ -44,6 +44,7 @@ machine.fueldump=Fuel Dump Valve
 machine.solartop=Solar Tower Sodium Cycler
 machine.solarexchange=Solar Tower Sodium Heat Exchanger
 machine.heatpipe=Heat Pipe
+machine.wastedecayer=Forced Fission Chamber
 
 reactor.lamp=Tritium Lamp
 

@@ -44,6 +44,7 @@ machine.fueldump=燃油阀
 machine.solartop=塔式太阳能钠循环仪
 machine.solarexchange=塔式太阳能钠换热器
 machine.heatpipe=导热管道
+machine.wastedecayer=乏燃料处理仓
 
 reactor.lamp=氚灯
 
