@@ -74,7 +74,7 @@
 	</battery>
 	<transformer>
 		<desc>
-			变压器可借助安装于其一侧的线圈来改变流经其的电力之电流与电压大小.电流与电压的变更量由输入端与输出端的线圈数量比决定;比值大于1时, such as 1:8,可导致电流增大,而比值小于1时,such as 2:5,则会导致电压提升. Note that as the ratio gets farther from one, the efficiency drops and the wasted energy is dissipated as heat. Excessive temperatures (larger than %dC) or excessive currents (larger than %dA) will cause the transformer to violently fail.
+			变压器可借助安装于其一侧的线圈来改变流经其的电力之电流与电压大小.电流与电压的变更量由输入端与输出端的线圈数量比决定;比值大于1时, 例如 1:8,可导致电流增大,而比值小于1时,例如 2:5,则会导致电压提升. 需要注意的是，随着转换比的增大，转换效率将会下降，浪费的能量将作为热量耗散。积热过多(大于 %dC)或电流过大(大于 %dA)将会导致变压器故障。
 		</desc>
 		<note>
 			可用散热片或液氮散热.
