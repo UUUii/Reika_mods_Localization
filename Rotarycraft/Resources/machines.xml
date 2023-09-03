@@ -60,7 +60,7 @@
 	</heatray>
 	<borer>
 		<desc>
-			The boring machine is rather interesting. It will dig tunnels in the direction it is facing for as long as you like. With the GUI, you can control the tunnel shape, and control the item drops. Harder materials require more power and torque to dig - %dW per hardness points of the blocks in front of it, and up to %d Nm of torque per block to cut through the harder materials. The borer will ensure that the tunnel roof does not collapse by replacing sand and gravel. Rumor has it that certain underground mazes found in a mythical forest are easily conquered with this machine, though the hard stone makes for a high torque requirement.
+			The boring machine is rather interesting. It will dig tunnels in the direction it is facing to infinity. With the GUI, you can control the tunnel shape and item drops. Harder materials require more power and torque to dig - %dW per hardness point of the block, and around %d Nm per block (though up to %d Nm for the hardest materials). The borer will ensure that the tunnel roof does not collapse by replacing sand and gravel. Rumor has it that certain underground mazes found in a mythical forest are easily conquered with this machine, though the hard stone makes for a high torque requirement.
 		</desc>
 		<note>
 			Required Power: Varies
@@ -121,6 +121,8 @@
 			Required Speed: %d rad/s
 			Power Input: Bottom
 			Max Temperature: %dC
+			
+			Can accept liquid oxygen accelerant
 		</note>
 	</pulsejet>
 	<pump>
@@ -200,7 +202,7 @@
 	</firework>
 	<fractionator>
 		<desc>
-			The fractionator distills various items and refines them into jet fuel for use in some of the engines and machines. Jet fuel requires tar, netherrack dust, coal dust, blaze powder, dye, and magma cream. Additionally, liquid ethanol is used as a base, and ghast tears are used as a catalyst, but are not consumed like the other items. Fuel lines connect only to the top of this machine.
+			The fractionator distills various items and refines them into jet fuel for use in some of the engines and machines. Jet fuel requires tar, netherrack dust, coal dust, blaze powder, dye, and magma cream. Additionally, liquid ethanol is used as a base, and ghast tears are used as a catalyst, but are not consumed like the other items. Fuel can only be extracted from the top of this machine.
 		</desc>
 		<note>
 			Required Power: %dW
@@ -218,6 +220,8 @@
 			Required Power: %dW
 			Field-of-View = 1+2*log_2(power-%d) m
 			Power Input: Any side
+			
+			Viewed cross-section can be moved with [] keys
 		</note>
 	</gpr>	
 	<heater>
@@ -276,7 +280,7 @@
 		</desc>
 		<note>
 			Required Power: %dW
-			Range = 8+(Power*4)/%d m
+			Range = 8+Power/%d m
 			Power Input: Any side
 		</note>
 	</vacuum>
@@ -292,7 +296,7 @@
 	</woodcutter>
 	<ecu>
 		<desc>
-			The engine controller can throttle down the fuel-powered engines. When throttled down, they output their usual torque, but at a fraction of the speed. The benefit of this is that they consume fuel more slowly; slower speeds have greater efficiencies than faster ones, though turbine engines do not see as large a benefit. Modes are changed by right-clicking the ECU with a screwdriver. The ECU can also accept a redstone input, which will shut the engine down entirely.
+			The engine controller can throttle down the fuel-powered engines. When throttled down, they output their usual torque, but at a fraction of the speed. The benefit of this is that they consume fuel more slowly; slower speeds have greater efficiencies than faster ones, though turbine engines do not see as large a benefit. Modes are changed by right-clicking the ECU with a screwdriver. The ECU can also accept a redstone input (including bundled cable if colored to a specific channel), which will shut the engine down entirely.
 		</desc>
 		<note>
 			Available Modes:

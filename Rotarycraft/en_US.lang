@@ -137,6 +137,7 @@ machine.spillway=Spillway
 machine.flameturret=Flamethrower Turret
 machine.bundledbus=Bundled-Signaled ME Extractor
 machine.distribclutch=Shaft Distribution Clutch
+machine.splitbelt=Take-off Belt
 
 engine.dc=DC Electric Engine
 engine.wind=Wind Turbine
@@ -443,6 +444,7 @@ label.fuel=Fuel Remaining
 label.operationtime=Operation Time
 
 message.drowning=Engine is Drowning!
+message.noair=Engine needs air to operate!
 message.fod=Engine Destroyed from Animal Strikes!
 message.choke=Engine Intake is Blocked!
 message.minpower=Insufficient Power!

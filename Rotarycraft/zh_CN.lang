@@ -137,6 +137,7 @@ machine.spillway=汲液器
 machine.flameturret=火焰炮塔
 machine.bundledbus=ME集束输出总线
 machine.distribclutch=轴分配离合器
+machine.splitbelt=定扭矩引出带
 
 engine.dc=直流电动引擎
 engine.wind=风力涡轮机
@@ -443,6 +444,7 @@ label.fuel=剩余燃料
 label.operationtime=运行时间
 
 message.drowning=引擎进水!
+message.noair=引擎通风口堵塞!
 message.fod=引擎被动物损坏!
 message.choke=引擎通风口被损坏!
 message.minpower=功率不足!
