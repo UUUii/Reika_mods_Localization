@@ -1083,16 +1083,16 @@
 	</biomestruct>
 	<farlands>
 		<title>
-			失落之城
+			外围地区
 		</title>
 		<hint>
-			在那些魔法遗迹中或许能发现什么
+			这里永恒不变吗？
 		</hint>
 		<reveal>
-			它包含着空前绝后的财富，如果你能将他完成
+			不，远离降临之所的地方有着新的奇景、资源和……其他某些东西。
 		</reveal>
 		<desc>
-			一个深藏于魔法森林中的建筑，需要用你的智慧激活
+			唯新主义
 		</desc>
 	</farlands>
 	<mudhint>
